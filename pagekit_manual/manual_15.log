@@ -1,0 +1,236 @@
+Iterations:  15
+Port app: 3001
+Port db: 3307
+Production: yes
+Container name: pagekitAdaptiveSequence
+34ce7b134f7dcf447e7a8ef26c65511ff9bd280e92ae9545e14dc076fdddf64f
+Waiting for application servers to start...
+Start testing
+Project name:  pagekitAdaptiveSequence
+Database port for remote connection:  3307
+Application port for remote connection:  3001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+54127
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  pagekitAdaptiveSequence
+Database port for remote connection:  3307
+Application port for remote connection:  3001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+54219
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  pagekitAdaptiveSequence
+Database port for remote connection:  3307
+Application port for remote connection:  3001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+54340
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  pagekitAdaptiveSequence
+Database port for remote connection:  3307
+Application port for remote connection:  3001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+54427
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  pagekitAdaptiveSequence
+Database port for remote connection:  3307
+Application port for remote connection:  3001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+54516
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  pagekitAdaptiveSequence
+Database port for remote connection:  3307
+Application port for remote connection:  3001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+54617
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  pagekitAdaptiveSequence
+Database port for remote connection:  3307
+Application port for remote connection:  3001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+54742
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  pagekitAdaptiveSequence
+Database port for remote connection:  3307
+Application port for remote connection:  3001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+54829
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  pagekitAdaptiveSequence
+Database port for remote connection:  3307
+Application port for remote connection:  3001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+54922
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  pagekitAdaptiveSequence
+Database port for remote connection:  3307
+Application port for remote connection:  3001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+55011
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  pagekitAdaptiveSequence
+Database port for remote connection:  3307
+Application port for remote connection:  3001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+55148
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  pagekitAdaptiveSequence
+Database port for remote connection:  3307
+Application port for remote connection:  3001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+55236
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  pagekitAdaptiveSequence
+Database port for remote connection:  3307
+Application port for remote connection:  3001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+55325
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  pagekitAdaptiveSequence
+Database port for remote connection:  3307
+Application port for remote connection:  3001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+55451
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  pagekitAdaptiveSequence
+Database port for remote connection:  3307
+Application port for remote connection:  3001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+55540
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Stopping containers
+pagekitAdaptiveSequence
+pagekitAdaptiveSequence
