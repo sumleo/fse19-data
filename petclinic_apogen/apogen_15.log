@@ -1,0 +1,258 @@
+Iterations:  15
+Port app: 3001
+Port db: 3307
+Production: yes
+Container name: petclinicAdaptiveSequence
+2bebf50bc252d5473efa1183940516dd4af0fcb53c037447b5672af3aecff844
+Waiting for application servers to start...
+Start testing
+
+Project name:  petclinicAdaptiveSequence
+Database port for remote connection:  3307
+Application port for remote connection:  3001
+Chromedriver port:  9516
+
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+55583
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+
+Project name:  petclinicAdaptiveSequence
+Database port for remote connection:  3307
+Application port for remote connection:  3001
+Chromedriver port:  9516
+
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+55952
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+
+Project name:  petclinicAdaptiveSequence
+Database port for remote connection:  3307
+Application port for remote connection:  3001
+Chromedriver port:  9516
+
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+56227
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+
+Project name:  petclinicAdaptiveSequence
+Database port for remote connection:  3307
+Application port for remote connection:  3001
+Chromedriver port:  9516
+
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+56477
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+
+Project name:  petclinicAdaptiveSequence
+Database port for remote connection:  3307
+Application port for remote connection:  3001
+Chromedriver port:  9516
+
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+56759
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+
+Project name:  petclinicAdaptiveSequence
+Database port for remote connection:  3307
+Application port for remote connection:  3001
+Chromedriver port:  9516
+
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+57051
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+
+Project name:  petclinicAdaptiveSequence
+Database port for remote connection:  3307
+Application port for remote connection:  3001
+Chromedriver port:  9516
+
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+57337
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+
+Project name:  petclinicAdaptiveSequence
+Database port for remote connection:  3307
+Application port for remote connection:  3001
+Chromedriver port:  9516
+
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+57623
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+
+Project name:  petclinicAdaptiveSequence
+Database port for remote connection:  3307
+Application port for remote connection:  3001
+Chromedriver port:  9516
+
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+57865
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+
+Project name:  petclinicAdaptiveSequence
+Database port for remote connection:  3307
+Application port for remote connection:  3001
+Chromedriver port:  9516
+
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+58152
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+
+Project name:  petclinicAdaptiveSequence
+Database port for remote connection:  3307
+Application port for remote connection:  3001
+Chromedriver port:  9516
+
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+58375
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+
+Project name:  petclinicAdaptiveSequence
+Database port for remote connection:  3307
+Application port for remote connection:  3001
+Chromedriver port:  9516
+
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+58620
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+
+Project name:  petclinicAdaptiveSequence
+Database port for remote connection:  3307
+Application port for remote connection:  3001
+Chromedriver port:  9516
+
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+58871
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+
+Project name:  petclinicAdaptiveSequence
+Database port for remote connection:  3307
+Application port for remote connection:  3001
+Chromedriver port:  9516
+
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+59106
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+
+Project name:  petclinicAdaptiveSequence
+Database port for remote connection:  3307
+Application port for remote connection:  3001
+Chromedriver port:  9516
+
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
