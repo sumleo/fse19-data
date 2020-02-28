@@ -1,0 +1,461 @@
+Iterations:  30
+Port app: 4001
+Port db: 5433
+Production: yes
+Container name: phoenixAdaptiveSequence
+e7de247bbd3969845db0a96e55202bbea1d9f03456711e2f5cfe69c996d23163
+Waiting for application servers to start...
+Start testing
+Project name:  phoenixAdaptiveSequence
+Database port for remote connection:  5433
+Application port for remote connection:  4001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+95414
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  phoenixAdaptiveSequence
+Database port for remote connection:  5433
+Application port for remote connection:  4001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+95454
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  phoenixAdaptiveSequence
+Database port for remote connection:  5433
+Application port for remote connection:  4001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+95494
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  phoenixAdaptiveSequence
+Database port for remote connection:  5433
+Application port for remote connection:  4001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+95535
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  phoenixAdaptiveSequence
+Database port for remote connection:  5433
+Application port for remote connection:  4001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+95575
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  phoenixAdaptiveSequence
+Database port for remote connection:  5433
+Application port for remote connection:  4001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+95615
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  phoenixAdaptiveSequence
+Database port for remote connection:  5433
+Application port for remote connection:  4001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+95655
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  phoenixAdaptiveSequence
+Database port for remote connection:  5433
+Application port for remote connection:  4001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+95695
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  phoenixAdaptiveSequence
+Database port for remote connection:  5433
+Application port for remote connection:  4001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+95735
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  phoenixAdaptiveSequence
+Database port for remote connection:  5433
+Application port for remote connection:  4001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+95775
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  phoenixAdaptiveSequence
+Database port for remote connection:  5433
+Application port for remote connection:  4001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+95815
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  phoenixAdaptiveSequence
+Database port for remote connection:  5433
+Application port for remote connection:  4001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+95855
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  phoenixAdaptiveSequence
+Database port for remote connection:  5433
+Application port for remote connection:  4001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+95895
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  phoenixAdaptiveSequence
+Database port for remote connection:  5433
+Application port for remote connection:  4001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+95935
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  phoenixAdaptiveSequence
+Database port for remote connection:  5433
+Application port for remote connection:  4001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+95975
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  phoenixAdaptiveSequence
+Database port for remote connection:  5433
+Application port for remote connection:  4001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+96015
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  phoenixAdaptiveSequence
+Database port for remote connection:  5433
+Application port for remote connection:  4001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+96055
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  phoenixAdaptiveSequence
+Database port for remote connection:  5433
+Application port for remote connection:  4001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+96096
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  phoenixAdaptiveSequence
+Database port for remote connection:  5433
+Application port for remote connection:  4001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+96136
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  phoenixAdaptiveSequence
+Database port for remote connection:  5433
+Application port for remote connection:  4001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+96176
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  phoenixAdaptiveSequence
+Database port for remote connection:  5433
+Application port for remote connection:  4001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+96216
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  phoenixAdaptiveSequence
+Database port for remote connection:  5433
+Application port for remote connection:  4001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+96256
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  phoenixAdaptiveSequence
+Database port for remote connection:  5433
+Application port for remote connection:  4001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+96296
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  phoenixAdaptiveSequence
+Database port for remote connection:  5433
+Application port for remote connection:  4001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+96336
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  phoenixAdaptiveSequence
+Database port for remote connection:  5433
+Application port for remote connection:  4001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+96376
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  phoenixAdaptiveSequence
+Database port for remote connection:  5433
+Application port for remote connection:  4001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+96416
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  phoenixAdaptiveSequence
+Database port for remote connection:  5433
+Application port for remote connection:  4001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+96456
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  phoenixAdaptiveSequence
+Database port for remote connection:  5433
+Application port for remote connection:  4001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+96496
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  phoenixAdaptiveSequence
+Database port for remote connection:  5433
+Application port for remote connection:  4001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+96536
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Project name:  phoenixAdaptiveSequence
+Database port for remote connection:  5433
+Application port for remote connection:  4001
+Chromedriver port:  9516
+skipping install
+ADAPTIVE RANDOM STRATEGY: sequence only
+Starting chromedriver on port 9516
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Stopping chromedriver process listening on port 9516
+96576
+Finding children processes of chromedriver and killing them
+Removing session file if exists
+YAY! No job has failed.
+Stopping containers
+phoenixAdaptiveSequence
+phoenixAdaptiveSequence
