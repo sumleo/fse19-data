@@ -1,0 +1,137 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-master/1.0.4-SNAPSHOT/evosuite-master-1.0.4-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+[MASTER] 06:16:04.800 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Class path contains multiple SLF4J bindings.
+
+SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[MASTER] 06:16:04.801 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+
+SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-master/1.0.4-SNAPSHOT/evosuite-master-1.0.4-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[MASTER] 06:16:04.802 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-master/1.0.4-SNAPSHOT/evosuite-master-1.0.4-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[MASTER] 06:16:04.803 [Thread-3] ERROR ExternalProcessHandler - SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+[MASTER] 06:16:20.056 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+
+Feb 28, 2020 6:17:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 06:17:09.136 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 6:17:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 06:17:09.137 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 6:18:51 AM po_utils.PageObjectLogging logInfo
+[MASTER] 06:18:51.204 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 6:18:51 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Let's start"]
+[MASTER] 06:18:51.205 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Let's start"]
+
+
+[MASTER] 06:18:51.205 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 06:18:51.205 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 6:18:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 06:18:51.856 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 6:18:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 06:18:51.857 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 6:20:13 AM po_utils.PageObjectLogging logInfo
+[MASTER] 06:20:13.278 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 6:20:13 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Let's start"]
+[MASTER] 06:20:13.279 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Let's start"]
+
+
+[MASTER] 06:20:13.279 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 06:20:13.279 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 6:20:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 06:20:15.159 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 6:20:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 06:20:15.159 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 6:21:36 AM po_utils.PageObjectLogging logInfo
+[MASTER] 06:21:36.480 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 6:21:36 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Let's start"]
+[MASTER] 06:21:36.481 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Let's start"]
+
+
+[MASTER] 06:21:36.481 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 06:21:36.481 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 6:21:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 06:21:40.080 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 6:21:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 06:21:40.081 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 6:23:00 AM po_utils.PageObjectLogging logInfo
+[MASTER] 06:23:00.680 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 6:23:00 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Let's start"]
+[MASTER] 06:23:00.680 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //button[text()="Let's start"]
+
+
+[MASTER] 06:23:00.680 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 06:23:00.680 [Thread-3] ERROR ExternalProcessHandler - 
+
+[MASTER] 06:23:05.727 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:320) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.calculateFitness(AdaptiveRandomSearch.java:312) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.calculateFitness(AdaptiveRandomSearch.java:344) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.createAndMinimizeFirstIndividual(AdaptiveRandomSearch.java:222) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.initializePopulation(AdaptiveRandomSearch.java:206) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.generateSolution(AdaptiveRandomSearch.java:262) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.AdaptiveRandomTestStrategy.generateTests(AdaptiveRandomTestStrategy.java:118) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_212]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_212]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_212]
+[MASTER] 06:23:05.731 [logback-2] ERROR ClientNodeImpl - Error when generating tests for: main.ClassUnderTest with seed 1582870600178. Configuration id : null
+java.lang.Error: java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:336) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.calculateFitness(AdaptiveRandomSearch.java:312) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.calculateFitness(AdaptiveRandomSearch.java:344) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.createAndMinimizeFirstIndividual(AdaptiveRandomSearch.java:222) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.initializePopulation(AdaptiveRandomSearch.java:206) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.generateSolution(AdaptiveRandomSearch.java:262) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.AdaptiveRandomTestStrategy.generateTests(AdaptiveRandomTestStrategy.java:118) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_212]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_212]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_212]
+Caused by: java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:320) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	... 17 common frames omitted
+[MASTER] 06:23:05.844 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 06:23:05.945 [main] ERROR TestGeneration - failed to write statistics data
