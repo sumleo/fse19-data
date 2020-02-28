@@ -1,0 +1,958 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-master/1.0.4-SNAPSHOT/evosuite-master-1.0.4-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+[MASTER] 05:35:51.813 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Class path contains multiple SLF4J bindings.
+
+SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[MASTER] 05:35:51.814 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+
+SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-master/1.0.4-SNAPSHOT/evosuite-master-1.0.4-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[MASTER] 05:35:51.815 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-master/1.0.4-SNAPSHOT/evosuite-master-1.0.4-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[MASTER] 05:35:51.816 [Thread-3] ERROR ExternalProcessHandler - SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+[MASTER] 05:36:07.071 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+
+Feb 28, 2020 5:36:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:36:55.480 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:36:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:36:55.481 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:37:21 AM po_utils.PageObjectLogging logInfo
+[MASTER] 05:37:21.926 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:37:21 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //input[@placeholder="Example: Trip to Barcelona"]
+[MASTER] 05:37:21.926 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //input[@placeholder="Example: Trip to Barcelona"]
+
+
+[MASTER] 05:37:21.926 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 05:37:21.926 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 5:37:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:37:22.159 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:37:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:37:22.159 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:37:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:37:27.443 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:37:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:37:27.444 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Exception in thread "Thread-3" java.lang.ClassCastException: org.evosuite.testcase.TestChromosome cannot be cast to org.evosuite.testsuite.TestSuiteChromosome
+[MASTER] 05:37:27.535 [Thread-3] ERROR ExternalProcessHandler - Exception in thread "Thread-3" java.lang.ClassCastException: org.evosuite.testcase.TestChromosome cannot be cast to org.evosuite.testsuite.TestSuiteChromosome
+
+	at org.evosuite.statistics.SearchStatistics.currentIndividual(SearchStatistics.java:181)
+[MASTER] 05:37:27.536 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.statistics.SearchStatistics.currentIndividual(SearchStatistics.java:181)
+
+	at org.evosuite.rmi.service.MasterNodeImpl.evosuite_collectStatistics(MasterNodeImpl.java:166)
+[MASTER] 05:37:27.536 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.rmi.service.MasterNodeImpl.evosuite_collectStatistics(MasterNodeImpl.java:166)
+
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[MASTER] 05:37:27.536 [Thread-3] ERROR ExternalProcessHandler - 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[MASTER] 05:37:27.536 [Thread-3] ERROR ExternalProcessHandler - 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[MASTER] 05:37:27.537 [Thread-3] ERROR ExternalProcessHandler - 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+	at java.lang.reflect.Method.invoke(Method.java:498)
+[MASTER] 05:37:27.537 [Thread-3] ERROR ExternalProcessHandler - 	at java.lang.reflect.Method.invoke(Method.java:498)
+
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+[MASTER] 05:37:27.537 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+[MASTER] 05:37:27.537 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+[MASTER] 05:37:27.537 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+
+	at java.security.AccessController.doPrivileged(Native Method)
+[MASTER] 05:37:27.537 [Thread-3] ERROR ExternalProcessHandler - 	at java.security.AccessController.doPrivileged(Native Method)
+
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+[MASTER] 05:37:27.538 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573)
+[MASTER] 05:37:27.538 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573)
+
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834)
+[MASTER] 05:37:27.538 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834)
+
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688)
+[MASTER] 05:37:27.538 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688)
+
+	at java.security.AccessController.doPrivileged(Native Method)
+[MASTER] 05:37:27.539 [Thread-3] ERROR ExternalProcessHandler - 	at java.security.AccessController.doPrivileged(Native Method)
+
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687)
+[MASTER] 05:37:27.539 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687)
+
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[MASTER] 05:37:27.540 [Thread-3] ERROR ExternalProcessHandler - 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[MASTER] 05:37:27.540 [Thread-3] ERROR ExternalProcessHandler - 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+
+	at java.lang.Thread.run(Thread.java:748)
+[MASTER] 05:37:27.540 [Thread-3] ERROR ExternalProcessHandler - 	at java.lang.Thread.run(Thread.java:748)
+
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:303)
+[MASTER] 05:37:27.541 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:303)
+
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:279)
+[MASTER] 05:37:27.541 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:279)
+
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:164)
+[MASTER] 05:37:27.541 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:164)
+
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:235)
+[MASTER] 05:37:27.541 [Thread-3] ERROR ExternalProcessHandler - 	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:235)
+
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:180)
+[MASTER] 05:37:27.542 [Thread-3] ERROR ExternalProcessHandler - 	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:180)
+
+	at com.sun.proxy.$Proxy7.evosuite_collectStatistics(Unknown Source)
+[MASTER] 05:37:27.542 [Thread-3] ERROR ExternalProcessHandler - 	at com.sun.proxy.$Proxy7.evosuite_collectStatistics(Unknown Source)
+
+	at org.evosuite.rmi.service.ClientNodeImpl.updateStatistics(ClientNodeImpl.java:237)
+[MASTER] 05:37:27.542 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.rmi.service.ClientNodeImpl.updateStatistics(ClientNodeImpl.java:237)
+
+	at org.evosuite.statistics.StatisticsSender.sendIndividualToMaster(StatisticsSender.java:75)
+[MASTER] 05:37:27.543 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.statistics.StatisticsSender.sendIndividualToMaster(StatisticsSender.java:75)
+
+	at org.evosuite.statistics.StatisticsListener$1.run(StatisticsListener.java:71)
+[MASTER] 05:37:27.543 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.statistics.StatisticsListener$1.run(StatisticsListener.java:71)
+
+Feb 28, 2020 5:37:31 AM po_utils.PageObjectLogging logInfo
+[MASTER] 05:37:31.157 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:37:31 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+[MASTER] 05:37:31.157 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+
+
+[MASTER] 05:37:31.157 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 05:37:31.157 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 5:37:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:37:32.036 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:37:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:37:32.036 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:37:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:37:36.857 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:37:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:37:36.857 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:37:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:37:39.931 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:37:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:37:39.931 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:37:44 AM po_utils.PageObjectLogging logInfo
+[MASTER] 05:37:44.536 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:37:44 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+[MASTER] 05:37:44.537 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+
+
+[MASTER] 05:37:44.537 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 05:37:44.537 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 5:37:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:37:45.905 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:37:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:37:45.905 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:37:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:37:48.753 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:37:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:37:48.754 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:37:53 AM po_utils.PageObjectLogging logInfo
+[MASTER] 05:37:53.957 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:37:53 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+[MASTER] 05:37:53.958 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+
+
+[MASTER] 05:37:53.958 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 05:37:53.958 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 5:37:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:37:55.398 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:37:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:37:55.399 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:37:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:37:58.357 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:37:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:37:58.358 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:38:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:38:01.257 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:38:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:38:01.257 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:38:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:38:04.730 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:38:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:38:04.730 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:38:08 AM po_utils.PageObjectLogging logInfo
+[MASTER] 05:38:08.336 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:38:08 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+[MASTER] 05:38:08.336 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+
+
+[MASTER] 05:38:08.336 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 05:38:08.336 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 5:38:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:38:09.941 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:38:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:38:09.942 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:38:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:38:14.023 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:38:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:38:14.024 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:38:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:38:16.575 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:38:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:38:16.575 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:38:19 AM po_utils.PageObjectLogging logInfo
+[MASTER] 05:38:19.945 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:38:19 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+[MASTER] 05:38:19.945 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+
+
+[MASTER] 05:38:19.945 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 05:38:19.945 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 5:38:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:38:21.819 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:38:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:38:21.819 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:38:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:38:25.933 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:38:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:38:25.933 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:38:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:38:28.966 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:38:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:38:28.966 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:38:31 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:38:31.858 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:38:31 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:38:31.858 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:38:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:38:36.271 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:38:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:38:36.271 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:38:40 AM po_utils.PageObjectLogging logInfo
+[MASTER] 05:38:40.897 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:38:40 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+[MASTER] 05:38:40.897 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+
+
+[MASTER] 05:38:40.897 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 05:38:40.897 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 5:38:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:38:41.671 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:38:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:38:41.671 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:38:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:38:44.320 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:38:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:38:44.321 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:38:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:38:46.877 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:38:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:38:46.877 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:38:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:38:50.747 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:38:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:38:50.747 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:38:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:38:54.572 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:38:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:38:54.572 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:38:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:38:57.648 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:38:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:38:57.648 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:39:00 AM po_utils.PageObjectLogging logInfo
+[MASTER] 05:39:00.850 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:39:00 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+[MASTER] 05:39:00.850 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+
+
+[MASTER] 05:39:00.850 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 05:39:00.850 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 5:39:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:39:02.652 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:39:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:39:02.652 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:39:06 AM po_utils.PageObjectLogging logInfo
+[MASTER] 05:39:06.755 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:39:06 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+[MASTER] 05:39:06.755 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+
+
+[MASTER] 05:39:06.755 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 05:39:06.755 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 5:39:10 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:39:10.405 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:39:10 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:39:10.405 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:39:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:39:11.923 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:39:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:39:11.923 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:39:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:39:16.125 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:39:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:39:16.125 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:39:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:39:19.227 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:39:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:39:19.227 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:39:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:39:22.051 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:39:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:39:22.051 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:39:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:39:25.508 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:39:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:39:25.508 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:39:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:39:29.605 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:39:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:39:29.606 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:39:39 AM po_utils.PageObjectLogging logInfo
+[MASTER] 05:39:39.211 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:39:39 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+[MASTER] 05:39:39.211 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+
+
+[MASTER] 05:39:39.211 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 05:39:39.211 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 5:39:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:39:39.685 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:39:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:39:39.685 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:39:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:39:43.376 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:39:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:39:43.376 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:39:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:39:46.597 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:39:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:39:46.597 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:39:49 AM po_utils.PageObjectLogging logInfo
+[MASTER] 05:39:49.849 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:39:49 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+[MASTER] 05:39:49.850 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+
+
+[MASTER] 05:39:49.850 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 05:39:49.850 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 5:39:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:39:53.396 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:39:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:39:53.396 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:39:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:39:54.851 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:39:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:39:54.851 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:39:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:39:56.176 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:39:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:39:56.176 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:39:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:39:58.979 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:39:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:39:58.979 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:40:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:40:03.570 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:40:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:40:03.570 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:40:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:40:05.151 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:40:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:40:05.151 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:40:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:40:08.787 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:40:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:40:08.787 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:40:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:40:11.557 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:40:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:40:11.557 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:40:18 AM po_utils.PageObjectLogging logInfo
+[MASTER] 05:40:18.030 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:40:18 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //input[@placeholder="Example: Trip to Barcelona"]
+[MASTER] 05:40:18.031 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //input[@placeholder="Example: Trip to Barcelona"]
+
+
+[MASTER] 05:40:18.031 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 05:40:18.031 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 5:40:23 AM po_utils.PageObjectLogging logInfo
+[MASTER] 05:40:23.114 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:40:23 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //input[@placeholder="Example: Trip to Barcelona"]
+[MASTER] 05:40:23.115 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //input[@placeholder="Example: Trip to Barcelona"]
+
+
+[MASTER] 05:40:23.115 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 05:40:23.115 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 5:40:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:40:23.325 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:40:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:40:23.325 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:40:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:40:32.566 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:40:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:40:32.566 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:40:38 AM po_utils.PageObjectLogging logInfo
+[MASTER] 05:40:38.685 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:40:38 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //input[@placeholder="Example: Trip to Barcelona"]
+[MASTER] 05:40:38.686 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //input[@placeholder="Example: Trip to Barcelona"]
+
+
+[MASTER] 05:40:38.686 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 05:40:38.686 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 5:40:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:40:40.082 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:40:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:40:40.082 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:40:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:40:50.134 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:40:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:40:50.134 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:40:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:40:52.884 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:40:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:40:52.884 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:40:55 AM po_utils.PageObjectLogging logInfo
+[MASTER] 05:40:55.980 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:40:55 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+[MASTER] 05:40:55.980 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+
+
+[MASTER] 05:40:55.980 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 05:40:55.980 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 5:40:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:40:57.536 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:40:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:40:57.536 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:41:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:41:01.137 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:41:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:41:01.137 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:41:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:41:05.517 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:41:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:41:05.517 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:41:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:41:08.610 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:41:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:41:08.610 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:41:13 AM po_utils.PageObjectLogging logInfo
+[MASTER] 05:41:13.063 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:41:13 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+[MASTER] 05:41:13.064 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+
+
+[MASTER] 05:41:13.064 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 05:41:13.064 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 5:41:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:41:14.253 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:41:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:41:14.253 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:41:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:41:18.851 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:41:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:41:18.851 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:41:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:41:22.090 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:41:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:41:22.090 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:41:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:41:25.166 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:41:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:41:25.166 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:41:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:41:28.184 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:41:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:41:28.184 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:41:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:41:30.971 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:41:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:41:30.971 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:41:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:41:33.929 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:41:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:41:33.929 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:41:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:41:37.185 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:41:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:41:37.185 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:41:41 AM po_utils.PageObjectLogging logInfo
+[MASTER] 05:41:41.251 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:41:41 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+[MASTER] 05:41:41.252 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+
+
+[MASTER] 05:41:41.252 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 05:41:41.252 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 5:41:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:41:42.997 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:41:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:41:42.997 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:41:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:41:46.333 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:41:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:41:46.334 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:41:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:41:48.905 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:41:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:41:48.905 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:41:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:41:52.295 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:41:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:41:52.295 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:41:55 AM po_utils.PageObjectLogging logInfo
+[MASTER] 05:41:55.621 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:41:55 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+[MASTER] 05:41:55.622 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+
+
+[MASTER] 05:41:55.622 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 05:41:55.622 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 5:41:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:41:57.451 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:41:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:41:57.451 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:42:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:42:00.246 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:42:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:42:00.246 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:42:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:42:01.766 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:42:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:42:01.766 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:42:06 AM po_utils.PageObjectLogging logInfo
+[MASTER] 05:42:06.943 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:42:06 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+[MASTER] 05:42:06.943 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+
+
+[MASTER] 05:42:06.943 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 05:42:06.944 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 5:42:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:42:07.701 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:42:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:42:07.701 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:42:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:42:11.262 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:42:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:42:11.262 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:42:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:42:14.794 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:42:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:42:14.794 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:42:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:42:18.106 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:42:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:42:18.106 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:42:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:42:22.150 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:42:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:42:22.150 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:42:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:42:25.360 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:42:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:42:25.360 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:42:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:42:28.189 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:42:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:42:28.189 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:42:31 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:42:31.013 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:42:31 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:42:31.013 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:42:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:42:33.608 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:42:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:42:33.608 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:42:37 AM po_utils.PageObjectLogging logInfo
+[MASTER] 05:42:37.071 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:42:37 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+[MASTER] 05:42:37.072 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+
+
+[MASTER] 05:42:37.072 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 05:42:37.072 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 5:42:42 AM po_utils.PageObjectLogging logInfo
+[MASTER] 05:42:42.543 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:42:42 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+[MASTER] 05:42:42.544 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+
+
+[MASTER] 05:42:42.544 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 05:42:42.544 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 5:42:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:42:52.852 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:42:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:42:52.852 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:42:56 AM po_utils.PageObjectLogging logInfo
+[MASTER] 05:42:56.697 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:42:56 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+[MASTER] 05:42:56.697 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+
+
+[MASTER] 05:42:56.697 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 05:42:56.697 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 5:43:03 AM po_utils.PageObjectLogging logInfo
+[MASTER] 05:43:03.229 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:43:03 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+[MASTER] 05:43:03.229 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+
+
+[MASTER] 05:43:03.229 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 05:43:03.229 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 5:43:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:43:17.594 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:43:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:43:17.594 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:43:22 AM po_utils.PageObjectLogging logInfo
+[MASTER] 05:43:22.294 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:43:22 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+[MASTER] 05:43:22.294 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+
+
+[MASTER] 05:43:22.294 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 05:43:22.294 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 5:43:29 AM po_utils.PageObjectLogging logInfo
+[MASTER] 05:43:29.843 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:43:29 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+[MASTER] 05:43:29.843 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+
+
+[MASTER] 05:43:29.843 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 05:43:29.843 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 5:43:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 05:43:48.258 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:43:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 05:43:48.258 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 5:43:53 AM po_utils.PageObjectLogging logInfo
+[MASTER] 05:43:53.501 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:43:53 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+[MASTER] 05:43:53.502 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+
+
+[MASTER] 05:43:53.502 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 05:43:53.502 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 5:44:02 AM po_utils.PageObjectLogging logInfo
+[MASTER] 05:44:02.447 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 5:44:02 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+[MASTER] 05:44:02.448 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+
+
+[MASTER] 05:44:02.448 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 05:44:02.448 [Thread-3] ERROR ExternalProcessHandler - 
+
+[MASTER] 05:44:24.859 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:320) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.calculateFitness(AdaptiveRandomSearch.java:312) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.evolve(AdaptiveRandomSearch.java:139) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.generateSolution(AdaptiveRandomSearch.java:270) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.AdaptiveRandomTestStrategy.generateTests(AdaptiveRandomTestStrategy.java:118) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_242]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_242]
+[MASTER] 05:44:24.861 [logback-2] ERROR ClientNodeImpl - Error when generating tests for: main.ClassUnderTest with seed 1582868187201. Configuration id : null
+java.lang.Error: java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:336) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.calculateFitness(AdaptiveRandomSearch.java:312) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.evolve(AdaptiveRandomSearch.java:139) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.generateSolution(AdaptiveRandomSearch.java:270) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.AdaptiveRandomTestStrategy.generateTests(AdaptiveRandomTestStrategy.java:118) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_242]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_242]
+Caused by: java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:320) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	... 15 common frames omitted
+[MASTER] 05:44:24.978 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 05:44:25.078 [main] ERROR TestGeneration - failed to write statistics data
