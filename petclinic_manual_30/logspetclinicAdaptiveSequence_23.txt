@@ -1,0 +1,1149 @@
+* EvoSuite 1.0.4-SNAPSHOT
+* Going to generate test cases for class: main.ClassUnderTest
+[MASTER] 18:39:03.725 [main] WARN  JarPathing - Classpath entry does not exist: /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/../lib/tools.jar
+18:39:03,926 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback-evosuite.xml] at [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-client/1.0.4-SNAPSHOT/evosuite-client-1.0.4-SNAPSHOT.jar!/logback-evosuite.xml]
+18:39:03,926 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback-evosuite.xml] occurs multiple times on the classpath.
+18:39:03,926 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback-evosuite.xml] occurs at [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-master/1.0.4-SNAPSHOT/evosuite-master-1.0.4-SNAPSHOT.jar!/logback-evosuite.xml]
+18:39:03,926 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback-evosuite.xml] occurs at [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-client/1.0.4-SNAPSHOT/evosuite-client-1.0.4-SNAPSHOT.jar!/logback-evosuite.xml]
+18:39:03,935 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@6536e911 - URL [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-client/1.0.4-SNAPSHOT/evosuite-client-1.0.4-SNAPSHOT.jar!/logback-evosuite.xml] is not of type file
+18:39:04,011 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+18:39:19,033 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+18:39:19,036 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT_MASTER]
+18:39:19,056 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+18:39:19,091 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+18:39:19,091 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDERR_MASTER]
+18:39:19,093 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+18:39:19,095 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.classic.net.SocketAppender]
+18:39:19,099 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT_CLIENT]
+18:39:19,118 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.classic.net.SocketAppender]
+18:39:19,118 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDERR_CLIENT]
+18:39:19,118 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+18:39:19,118 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [EVO_LOGGER_MASTER]
+18:39:19,118 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+18:39:19,119 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.classic.net.SocketAppender]
+18:39:19,119 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [EVO_LOGGER_CLIENT]
+18:39:19,119 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [evo_logger] to ALL
+18:39:19,119 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [evo_logger] to false
+18:39:19,120 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [EVO_LOGGER_CLIENT] to Logger[evo_logger]
+18:39:19,120 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.evosuite] to INFO
+18:39:19,120 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT_CLIENT] to Logger[org.evosuite]
+18:39:19,120 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDERR_CLIENT] to Logger[org.evosuite]
+18:39:19,120 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [shaded.org.evosuite] to INFO
+18:39:19,120 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT_CLIENT] to Logger[shaded.org.evosuite]
+18:39:19,120 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDERR_CLIENT] to Logger[shaded.org.evosuite]
+18:39:19,120 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.evosuite.shaded] to OFF
+18:39:19,120 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [all] to ALL
+18:39:19,120 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to OFF
+18:39:19,120 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+18:39:19,121 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@520a3426 - Registering current configuration as safe fallback point
+
+* Starting client
+* Properties loaded from /home/ubuntu/workspace/fse2019/petclinic/evosuite-files/evosuite.properties
+* Connecting to master process on port 4889
+[MASTER] 18:39:39.248 [logback-1] INFO  Randomness - No seed given. Using 1582915179248.
+[MASTER] 18:39:39.365 [logback-1] INFO  ClientNodeImpl - Client changing state from NOT_STARTED to STARTED
+* Analyzing classpath: 
+[MASTER] 18:39:39.381 [logback-1] INFO  ClientNodeImpl - Client changing state from STARTED to INITIALIZATION
+[MASTER] 18:39:39.419 [logback-1] INFO  TestCaseExecutor - No stalled threads
+[MASTER] 18:39:39.482 [logback-1] INFO  BytecodeInstrumentation - Starting transformation of main/ClassUnderTest
+[MASTER] 18:39:39.485 [logback-1] INFO  StringTransformation - Current method: <init>
+[MASTER] 18:39:39.486 [logback-1] INFO  StringTransformation - Current method: goToHomeThroughLogoHomeContainerPage
+[MASTER] 18:39:39.486 [logback-1] INFO  StringTransformation - Current method: goToHomeThroughNavbarHomeContainerPage
+[MASTER] 18:39:39.486 [logback-1] INFO  StringTransformation - Current method: goToOwnersListHomeContainerPage
+[MASTER] 18:39:39.486 [logback-1] INFO  StringTransformation - Current method: goToVeterinariansHomeContainerPage
+[MASTER] 18:39:39.487 [logback-1] INFO  StringTransformation - Current method: registerNewOwnerHomeContainerPage
+[MASTER] 18:39:39.487 [logback-1] INFO  StringTransformation - Current method: addVisitAddEditVisitContainerPage
+[MASTER] 18:39:39.487 [logback-1] INFO  StringTransformation - Current method: goToHomeThroughLogoAddEditVisitContainerPage
+[MASTER] 18:39:39.488 [logback-1] INFO  StringTransformation - Current method: goToHomeThroughNavbarAddEditVisitContainerPage
+[MASTER] 18:39:39.488 [logback-1] INFO  StringTransformation - Current method: goToOwnersListAddEditVisitContainerPage
+[MASTER] 18:39:39.489 [logback-1] INFO  StringTransformation - Current method: goToVeterinariansAddEditVisitContainerPage
+[MASTER] 18:39:39.489 [logback-1] INFO  StringTransformation - Current method: registerNewOwnerAddEditVisitContainerPage
+[MASTER] 18:39:39.489 [logback-1] INFO  StringTransformation - Current method: addNewPetAddEditPetContainerPage
+[MASTER] 18:39:39.489 [logback-1] INFO  StringTransformation - Current method: addNewPetWithLongNameAddEditPetContainerPage
+[MASTER] 18:39:39.489 [logback-1] INFO  StringTransformation - Current method: goToHomeThroughLogoAddEditPetContainerPage
+[MASTER] 18:39:39.490 [logback-1] INFO  StringTransformation - Current method: goToHomeThroughNavbarAddEditPetContainerPage
+[MASTER] 18:39:39.490 [logback-1] INFO  StringTransformation - Current method: goToOwnersListAddEditPetContainerPage
+[MASTER] 18:39:39.490 [logback-1] INFO  StringTransformation - Current method: goToVeterinariansAddEditPetContainerPage
+[MASTER] 18:39:39.490 [logback-1] INFO  StringTransformation - Current method: registerNewOwnerAddEditPetContainerPage
+[MASTER] 18:39:39.490 [logback-1] INFO  StringTransformation - Current method: goToHomeThroughLogoVeterinariansContainerPage
+[MASTER] 18:39:39.490 [logback-1] INFO  StringTransformation - Current method: goToHomeThroughNavbarVeterinariansContainerPage
+[MASTER] 18:39:39.491 [logback-1] INFO  StringTransformation - Current method: goToOwnersListVeterinariansContainerPage
+[MASTER] 18:39:39.491 [logback-1] INFO  StringTransformation - Current method: goToVeterinariansVeterinariansContainerPage
+[MASTER] 18:39:39.491 [logback-1] INFO  StringTransformation - Current method: registerNewOwnerVeterinariansContainerPage
+[MASTER] 18:39:39.491 [logback-1] INFO  StringTransformation - Current method: goToAddNewPetOwnerInformationContainerPage
+[MASTER] 18:39:39.491 [logback-1] INFO  StringTransformation - Current method: goToEditOwnerOwnerInformationContainerPage
+[MASTER] 18:39:39.492 [logback-1] INFO  StringTransformation - Current method: goToEditPetThroghEditLinkOwnerInformationContainerPage
+[MASTER] 18:39:39.492 [logback-1] INFO  StringTransformation - Current method: goToEditPetThroughNameOwnerInformationContainerPage
+[MASTER] 18:39:39.492 [logback-1] INFO  StringTransformation - Current method: goToHomeThroughLogoOwnerInformationContainerPage
+[MASTER] 18:39:39.492 [logback-1] INFO  StringTransformation - Current method: goToHomeThroughNavbarOwnerInformationContainerPage
+[MASTER] 18:39:39.492 [logback-1] INFO  StringTransformation - Current method: goToOwnersListOwnerInformationContainerPage
+[MASTER] 18:39:39.492 [logback-1] INFO  StringTransformation - Current method: goToVeterinariansOwnerInformationContainerPage
+[MASTER] 18:39:39.493 [logback-1] INFO  StringTransformation - Current method: goToVisitsOwnerInformationContainerPage
+[MASTER] 18:39:39.493 [logback-1] INFO  StringTransformation - Current method: registerNewOwnerOwnerInformationContainerPage
+[MASTER] 18:39:39.493 [logback-1] INFO  StringTransformation - Current method: goToHomeThroughLogoAddEditOwnerContainerPage
+[MASTER] 18:39:39.493 [logback-1] INFO  StringTransformation - Current method: goToHomeThroughNavbarAddEditOwnerContainerPage
+[MASTER] 18:39:39.493 [logback-1] INFO  StringTransformation - Current method: goToOwnersListAddEditOwnerContainerPage
+[MASTER] 18:39:39.493 [logback-1] INFO  StringTransformation - Current method: goToVeterinariansAddEditOwnerContainerPage
+[MASTER] 18:39:39.494 [logback-1] INFO  StringTransformation - Current method: registerNewOwnerAddEditOwnerContainerPage
+[MASTER] 18:39:39.494 [logback-1] INFO  StringTransformation - Current method: registerOwnerAddEditOwnerContainerPage
+[MASTER] 18:39:39.494 [logback-1] INFO  StringTransformation - Current method: registerOwnerWithLongFirstNameAddEditOwnerContainerPage
+[MASTER] 18:39:39.494 [logback-1] INFO  StringTransformation - Current method: goToHomeThroughLogoOwnersListContainerPage
+[MASTER] 18:39:39.494 [logback-1] INFO  StringTransformation - Current method: goToHomeThroughNavbarOwnersListContainerPage
+[MASTER] 18:39:39.494 [logback-1] INFO  StringTransformation - Current method: goToOwnerInformationOwnersListContainerPage
+[MASTER] 18:39:39.495 [logback-1] INFO  StringTransformation - Current method: goToOwnersListOwnersListContainerPage
+[MASTER] 18:39:39.495 [logback-1] INFO  StringTransformation - Current method: goToVeterinariansOwnersListContainerPage
+[MASTER] 18:39:39.495 [logback-1] INFO  StringTransformation - Current method: registerNewOwnerOwnersListContainerPage
+[MASTER] 18:39:39.495 [logback-1] INFO  StringTransformation - Current method: searchFilterOwnersListContainerPage
+[MASTER] 18:39:39.505 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.533 [logback-1] INFO  CFGMethodAdapter - Analyzing method <init>()V in class main.ClassUnderTest
+[MASTER] 18:39:39.535 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method <init>()V
+[MASTER] 18:39:39.541 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.<init>()V: 0
+[MASTER] 18:39:39.552 [logback-1] INFO  CFGMethodAdapter - Created CFG for method <init>()V
+[MASTER] 18:39:39.552 [logback-1] INFO  CFGMethodAdapter - Instrumenting method <init>()V in class main.ClassUnderTest
+[MASTER] 18:39:39.554 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.554 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToHomeThroughLogoHomeContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.554 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToHomeThroughLogoHomeContainerPage()V
+[MASTER] 18:39:39.554 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToHomeThroughLogoHomeContainerPage()V: 0
+[MASTER] 18:39:39.555 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 1 IFEQ L24
+[MASTER] 18:39:39.555 [logback-1] INFO  BranchPool - Branch 1 at line 24
+[MASTER] 18:39:39.559 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToHomeThroughLogoHomeContainerPage()V
+[MASTER] 18:39:39.560 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToHomeThroughLogoHomeContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.561 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.561 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToHomeThroughNavbarHomeContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.562 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToHomeThroughNavbarHomeContainerPage()V
+[MASTER] 18:39:39.562 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToHomeThroughNavbarHomeContainerPage()V: 0
+[MASTER] 18:39:39.563 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 2 IFEQ L38
+[MASTER] 18:39:39.563 [logback-1] INFO  BranchPool - Branch 2 at line 38
+[MASTER] 18:39:39.566 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToHomeThroughNavbarHomeContainerPage()V
+[MASTER] 18:39:39.566 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToHomeThroughNavbarHomeContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.567 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.568 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToOwnersListHomeContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.568 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToOwnersListHomeContainerPage()V
+[MASTER] 18:39:39.568 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToOwnersListHomeContainerPage()V: 0
+[MASTER] 18:39:39.568 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 3 IFEQ L52
+[MASTER] 18:39:39.568 [logback-1] INFO  BranchPool - Branch 3 at line 52
+[MASTER] 18:39:39.571 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToOwnersListHomeContainerPage()V
+[MASTER] 18:39:39.571 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToOwnersListHomeContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.572 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.573 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToVeterinariansHomeContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.573 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToVeterinariansHomeContainerPage()V
+[MASTER] 18:39:39.573 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToVeterinariansHomeContainerPage()V: 0
+[MASTER] 18:39:39.573 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 4 IFEQ L66
+[MASTER] 18:39:39.573 [logback-1] INFO  BranchPool - Branch 4 at line 66
+[MASTER] 18:39:39.577 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToVeterinariansHomeContainerPage()V
+[MASTER] 18:39:39.577 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToVeterinariansHomeContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.578 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.578 [logback-1] INFO  CFGMethodAdapter - Analyzing method registerNewOwnerHomeContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.579 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method registerNewOwnerHomeContainerPage()V
+[MASTER] 18:39:39.579 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.registerNewOwnerHomeContainerPage()V: 0
+[MASTER] 18:39:39.579 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 5 IFEQ L80
+[MASTER] 18:39:39.579 [logback-1] INFO  BranchPool - Branch 5 at line 80
+[MASTER] 18:39:39.582 [logback-1] INFO  CFGMethodAdapter - Created CFG for method registerNewOwnerHomeContainerPage()V
+[MASTER] 18:39:39.582 [logback-1] INFO  CFGMethodAdapter - Instrumenting method registerNewOwnerHomeContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.587 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.588 [logback-1] INFO  CFGMethodAdapter - Analyzing method addVisitAddEditVisitContainerPage(Lcustom_classes/Dates;Lcustom_classes/VisitDescriptions;)V in class main.ClassUnderTest
+[MASTER] 18:39:39.588 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method addVisitAddEditVisitContainerPage(Lcustom_classes/Dates;Lcustom_classes/VisitDescriptions;)V
+[MASTER] 18:39:39.588 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.addVisitAddEditVisitContainerPage(Lcustom_classes/Dates;Lcustom_classes/VisitDescriptions;)V: 0
+[MASTER] 18:39:39.588 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 6 IFEQ L95
+[MASTER] 18:39:39.588 [logback-1] INFO  BranchPool - Branch 6 at line 95
+[MASTER] 18:39:39.591 [logback-1] INFO  CFGMethodAdapter - Created CFG for method addVisitAddEditVisitContainerPage(Lcustom_classes/Dates;Lcustom_classes/VisitDescriptions;)V
+[MASTER] 18:39:39.592 [logback-1] INFO  CFGMethodAdapter - Instrumenting method addVisitAddEditVisitContainerPage(Lcustom_classes/Dates;Lcustom_classes/VisitDescriptions;)V in class main.ClassUnderTest
+[MASTER] 18:39:39.594 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.598 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToHomeThroughLogoAddEditVisitContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.598 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToHomeThroughLogoAddEditVisitContainerPage()V
+[MASTER] 18:39:39.598 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToHomeThroughLogoAddEditVisitContainerPage()V: 0
+[MASTER] 18:39:39.598 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 7 IFEQ L109
+[MASTER] 18:39:39.598 [logback-1] INFO  BranchPool - Branch 7 at line 109
+[MASTER] 18:39:39.600 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToHomeThroughLogoAddEditVisitContainerPage()V
+[MASTER] 18:39:39.601 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToHomeThroughLogoAddEditVisitContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.602 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.602 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToHomeThroughNavbarAddEditVisitContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.603 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToHomeThroughNavbarAddEditVisitContainerPage()V
+[MASTER] 18:39:39.603 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToHomeThroughNavbarAddEditVisitContainerPage()V: 0
+[MASTER] 18:39:39.604 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 8 IFEQ L123
+[MASTER] 18:39:39.604 [logback-1] INFO  BranchPool - Branch 8 at line 123
+[MASTER] 18:39:39.606 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToHomeThroughNavbarAddEditVisitContainerPage()V
+[MASTER] 18:39:39.608 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToHomeThroughNavbarAddEditVisitContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.609 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.609 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToOwnersListAddEditVisitContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.609 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToOwnersListAddEditVisitContainerPage()V
+[MASTER] 18:39:39.610 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToOwnersListAddEditVisitContainerPage()V: 0
+[MASTER] 18:39:39.610 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 9 IFEQ L137
+[MASTER] 18:39:39.610 [logback-1] INFO  BranchPool - Branch 9 at line 137
+[MASTER] 18:39:39.617 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToOwnersListAddEditVisitContainerPage()V
+[MASTER] 18:39:39.619 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToOwnersListAddEditVisitContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.619 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.621 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToVeterinariansAddEditVisitContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.621 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToVeterinariansAddEditVisitContainerPage()V
+[MASTER] 18:39:39.621 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToVeterinariansAddEditVisitContainerPage()V: 0
+[MASTER] 18:39:39.621 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 10 IFEQ L151
+[MASTER] 18:39:39.621 [logback-1] INFO  BranchPool - Branch 10 at line 151
+[MASTER] 18:39:39.623 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToVeterinariansAddEditVisitContainerPage()V
+[MASTER] 18:39:39.627 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToVeterinariansAddEditVisitContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.628 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.628 [logback-1] INFO  CFGMethodAdapter - Analyzing method registerNewOwnerAddEditVisitContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.629 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method registerNewOwnerAddEditVisitContainerPage()V
+[MASTER] 18:39:39.629 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.registerNewOwnerAddEditVisitContainerPage()V: 0
+[MASTER] 18:39:39.629 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 11 IFEQ L165
+[MASTER] 18:39:39.629 [logback-1] INFO  BranchPool - Branch 11 at line 165
+[MASTER] 18:39:39.631 [logback-1] INFO  CFGMethodAdapter - Created CFG for method registerNewOwnerAddEditVisitContainerPage()V
+[MASTER] 18:39:39.633 [logback-1] INFO  CFGMethodAdapter - Instrumenting method registerNewOwnerAddEditVisitContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.633 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.634 [logback-1] INFO  CFGMethodAdapter - Analyzing method addNewPetAddEditPetContainerPage(Lcustom_classes/LongPetNames;Lcustom_classes/Dates;Lcustom_classes/PetTypes;)V in class main.ClassUnderTest
+[MASTER] 18:39:39.634 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method addNewPetAddEditPetContainerPage(Lcustom_classes/LongPetNames;Lcustom_classes/Dates;Lcustom_classes/PetTypes;)V
+[MASTER] 18:39:39.634 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.addNewPetAddEditPetContainerPage(Lcustom_classes/LongPetNames;Lcustom_classes/Dates;Lcustom_classes/PetTypes;)V: 0
+[MASTER] 18:39:39.634 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 12 IFEQ L181
+[MASTER] 18:39:39.634 [logback-1] INFO  BranchPool - Branch 12 at line 181
+[MASTER] 18:39:39.635 [logback-1] INFO  BranchPool - Adding to map the branch I18 Branch 13 IF_ICMPGT L183
+[MASTER] 18:39:39.635 [logback-1] INFO  BranchPool - Branch 13 at line 183
+[MASTER] 18:39:39.638 [logback-1] INFO  CFGMethodAdapter - Created CFG for method addNewPetAddEditPetContainerPage(Lcustom_classes/LongPetNames;Lcustom_classes/Dates;Lcustom_classes/PetTypes;)V
+[MASTER] 18:39:39.644 [logback-1] INFO  CFGMethodAdapter - Instrumenting method addNewPetAddEditPetContainerPage(Lcustom_classes/LongPetNames;Lcustom_classes/Dates;Lcustom_classes/PetTypes;)V in class main.ClassUnderTest
+[MASTER] 18:39:39.646 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.646 [logback-1] INFO  CFGMethodAdapter - Analyzing method addNewPetWithLongNameAddEditPetContainerPage(Lcustom_classes/LongPetNames;Lcustom_classes/Dates;Lcustom_classes/PetTypes;)V in class main.ClassUnderTest
+[MASTER] 18:39:39.647 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method addNewPetWithLongNameAddEditPetContainerPage(Lcustom_classes/LongPetNames;Lcustom_classes/Dates;Lcustom_classes/PetTypes;)V
+[MASTER] 18:39:39.647 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.addNewPetWithLongNameAddEditPetContainerPage(Lcustom_classes/LongPetNames;Lcustom_classes/Dates;Lcustom_classes/PetTypes;)V: 0
+[MASTER] 18:39:39.648 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 14 IFEQ L203
+[MASTER] 18:39:39.648 [logback-1] INFO  BranchPool - Branch 14 at line 203
+[MASTER] 18:39:39.648 [logback-1] INFO  BranchPool - Adding to map the branch I18 Branch 15 IF_ICMPLE L205
+[MASTER] 18:39:39.648 [logback-1] INFO  BranchPool - Branch 15 at line 205
+[MASTER] 18:39:39.652 [logback-1] INFO  CFGMethodAdapter - Created CFG for method addNewPetWithLongNameAddEditPetContainerPage(Lcustom_classes/LongPetNames;Lcustom_classes/Dates;Lcustom_classes/PetTypes;)V
+[MASTER] 18:39:39.658 [logback-1] INFO  CFGMethodAdapter - Instrumenting method addNewPetWithLongNameAddEditPetContainerPage(Lcustom_classes/LongPetNames;Lcustom_classes/Dates;Lcustom_classes/PetTypes;)V in class main.ClassUnderTest
+[MASTER] 18:39:39.660 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.661 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToHomeThroughLogoAddEditPetContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.661 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToHomeThroughLogoAddEditPetContainerPage()V
+[MASTER] 18:39:39.661 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToHomeThroughLogoAddEditPetContainerPage()V: 0
+[MASTER] 18:39:39.661 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 16 IFEQ L223
+[MASTER] 18:39:39.662 [logback-1] INFO  BranchPool - Branch 16 at line 223
+[MASTER] 18:39:39.664 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToHomeThroughLogoAddEditPetContainerPage()V
+[MASTER] 18:39:39.667 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToHomeThroughLogoAddEditPetContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.668 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.668 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToHomeThroughNavbarAddEditPetContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.668 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToHomeThroughNavbarAddEditPetContainerPage()V
+[MASTER] 18:39:39.669 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToHomeThroughNavbarAddEditPetContainerPage()V: 0
+[MASTER] 18:39:39.669 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 17 IFEQ L237
+[MASTER] 18:39:39.669 [logback-1] INFO  BranchPool - Branch 17 at line 237
+[MASTER] 18:39:39.671 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToHomeThroughNavbarAddEditPetContainerPage()V
+[MASTER] 18:39:39.673 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToHomeThroughNavbarAddEditPetContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.674 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.675 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToOwnersListAddEditPetContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.675 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToOwnersListAddEditPetContainerPage()V
+[MASTER] 18:39:39.676 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToOwnersListAddEditPetContainerPage()V: 0
+[MASTER] 18:39:39.677 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 18 IFEQ L251
+[MASTER] 18:39:39.677 [logback-1] INFO  BranchPool - Branch 18 at line 251
+[MASTER] 18:39:39.679 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToOwnersListAddEditPetContainerPage()V
+[MASTER] 18:39:39.679 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToOwnersListAddEditPetContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.681 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.682 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToVeterinariansAddEditPetContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.683 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToVeterinariansAddEditPetContainerPage()V
+[MASTER] 18:39:39.683 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToVeterinariansAddEditPetContainerPage()V: 0
+[MASTER] 18:39:39.683 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 19 IFEQ L265
+[MASTER] 18:39:39.683 [logback-1] INFO  BranchPool - Branch 19 at line 265
+[MASTER] 18:39:39.684 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToVeterinariansAddEditPetContainerPage()V
+[MASTER] 18:39:39.686 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToVeterinariansAddEditPetContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.686 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.689 [logback-1] INFO  CFGMethodAdapter - Analyzing method registerNewOwnerAddEditPetContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.690 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method registerNewOwnerAddEditPetContainerPage()V
+[MASTER] 18:39:39.690 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.registerNewOwnerAddEditPetContainerPage()V: 0
+[MASTER] 18:39:39.690 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 20 IFEQ L279
+[MASTER] 18:39:39.690 [logback-1] INFO  BranchPool - Branch 20 at line 279
+[MASTER] 18:39:39.691 [logback-1] INFO  CFGMethodAdapter - Created CFG for method registerNewOwnerAddEditPetContainerPage()V
+[MASTER] 18:39:39.691 [logback-1] INFO  CFGMethodAdapter - Instrumenting method registerNewOwnerAddEditPetContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.692 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.692 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToHomeThroughLogoVeterinariansContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.693 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToHomeThroughLogoVeterinariansContainerPage()V
+[MASTER] 18:39:39.693 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToHomeThroughLogoVeterinariansContainerPage()V: 0
+[MASTER] 18:39:39.693 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 21 IFEQ L293
+[MASTER] 18:39:39.694 [logback-1] INFO  BranchPool - Branch 21 at line 293
+[MASTER] 18:39:39.696 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToHomeThroughLogoVeterinariansContainerPage()V
+[MASTER] 18:39:39.698 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToHomeThroughLogoVeterinariansContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.699 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.701 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToHomeThroughNavbarVeterinariansContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.702 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToHomeThroughNavbarVeterinariansContainerPage()V
+[MASTER] 18:39:39.702 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToHomeThroughNavbarVeterinariansContainerPage()V: 0
+[MASTER] 18:39:39.702 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 22 IFEQ L307
+[MASTER] 18:39:39.702 [logback-1] INFO  BranchPool - Branch 22 at line 307
+[MASTER] 18:39:39.704 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToHomeThroughNavbarVeterinariansContainerPage()V
+[MASTER] 18:39:39.705 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToHomeThroughNavbarVeterinariansContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.706 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.708 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToOwnersListVeterinariansContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.708 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToOwnersListVeterinariansContainerPage()V
+[MASTER] 18:39:39.708 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToOwnersListVeterinariansContainerPage()V: 0
+[MASTER] 18:39:39.708 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 23 IFEQ L321
+[MASTER] 18:39:39.708 [logback-1] INFO  BranchPool - Branch 23 at line 321
+[MASTER] 18:39:39.714 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToOwnersListVeterinariansContainerPage()V
+[MASTER] 18:39:39.717 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToOwnersListVeterinariansContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.717 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.718 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToVeterinariansVeterinariansContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.718 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToVeterinariansVeterinariansContainerPage()V
+[MASTER] 18:39:39.718 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToVeterinariansVeterinariansContainerPage()V: 0
+[MASTER] 18:39:39.718 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 24 IFEQ L335
+[MASTER] 18:39:39.718 [logback-1] INFO  BranchPool - Branch 24 at line 335
+[MASTER] 18:39:39.719 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToVeterinariansVeterinariansContainerPage()V
+[MASTER] 18:39:39.719 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToVeterinariansVeterinariansContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.720 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.720 [logback-1] INFO  CFGMethodAdapter - Analyzing method registerNewOwnerVeterinariansContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.720 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method registerNewOwnerVeterinariansContainerPage()V
+[MASTER] 18:39:39.720 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.registerNewOwnerVeterinariansContainerPage()V: 0
+[MASTER] 18:39:39.720 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 25 IFEQ L349
+[MASTER] 18:39:39.720 [logback-1] INFO  BranchPool - Branch 25 at line 349
+[MASTER] 18:39:39.722 [logback-1] INFO  CFGMethodAdapter - Created CFG for method registerNewOwnerVeterinariansContainerPage()V
+[MASTER] 18:39:39.722 [logback-1] INFO  CFGMethodAdapter - Instrumenting method registerNewOwnerVeterinariansContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.722 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.723 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToAddNewPetOwnerInformationContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.723 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToAddNewPetOwnerInformationContainerPage()V
+[MASTER] 18:39:39.723 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToAddNewPetOwnerInformationContainerPage()V: 0
+[MASTER] 18:39:39.723 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 26 IFEQ L363
+[MASTER] 18:39:39.723 [logback-1] INFO  BranchPool - Branch 26 at line 363
+[MASTER] 18:39:39.724 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToAddNewPetOwnerInformationContainerPage()V
+[MASTER] 18:39:39.724 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToAddNewPetOwnerInformationContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.724 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.724 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToEditOwnerOwnerInformationContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.724 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToEditOwnerOwnerInformationContainerPage()V
+[MASTER] 18:39:39.724 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToEditOwnerOwnerInformationContainerPage()V: 0
+[MASTER] 18:39:39.724 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 27 IFEQ L377
+[MASTER] 18:39:39.724 [logback-1] INFO  BranchPool - Branch 27 at line 377
+[MASTER] 18:39:39.726 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToEditOwnerOwnerInformationContainerPage()V
+[MASTER] 18:39:39.726 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToEditOwnerOwnerInformationContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.726 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.726 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToEditPetThroghEditLinkOwnerInformationContainerPage(Lcustom_classes/PetNames;)V in class main.ClassUnderTest
+[MASTER] 18:39:39.726 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToEditPetThroghEditLinkOwnerInformationContainerPage(Lcustom_classes/PetNames;)V
+[MASTER] 18:39:39.726 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToEditPetThroghEditLinkOwnerInformationContainerPage(Lcustom_classes/PetNames;)V: 0
+[MASTER] 18:39:39.726 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 28 IFEQ L392
+[MASTER] 18:39:39.726 [logback-1] INFO  BranchPool - Branch 28 at line 392
+[MASTER] 18:39:39.726 [logback-1] INFO  BranchPool - Adding to map the branch I18 Branch 29 IFEQ L394
+[MASTER] 18:39:39.726 [logback-1] INFO  BranchPool - Branch 29 at line 394
+[MASTER] 18:39:39.729 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToEditPetThroghEditLinkOwnerInformationContainerPage(Lcustom_classes/PetNames;)V
+[MASTER] 18:39:39.729 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToEditPetThroghEditLinkOwnerInformationContainerPage(Lcustom_classes/PetNames;)V in class main.ClassUnderTest
+[MASTER] 18:39:39.730 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.730 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToEditPetThroughNameOwnerInformationContainerPage(Lcustom_classes/PetNames;)V in class main.ClassUnderTest
+[MASTER] 18:39:39.730 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToEditPetThroughNameOwnerInformationContainerPage(Lcustom_classes/PetNames;)V
+[MASTER] 18:39:39.730 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToEditPetThroughNameOwnerInformationContainerPage(Lcustom_classes/PetNames;)V: 0
+[MASTER] 18:39:39.730 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 30 IFEQ L414
+[MASTER] 18:39:39.730 [logback-1] INFO  BranchPool - Branch 30 at line 414
+[MASTER] 18:39:39.730 [logback-1] INFO  BranchPool - Adding to map the branch I18 Branch 31 IFEQ L416
+[MASTER] 18:39:39.730 [logback-1] INFO  BranchPool - Branch 31 at line 416
+[MASTER] 18:39:39.732 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToEditPetThroughNameOwnerInformationContainerPage(Lcustom_classes/PetNames;)V
+[MASTER] 18:39:39.732 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToEditPetThroughNameOwnerInformationContainerPage(Lcustom_classes/PetNames;)V in class main.ClassUnderTest
+[MASTER] 18:39:39.732 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.732 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToHomeThroughLogoOwnerInformationContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.732 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToHomeThroughLogoOwnerInformationContainerPage()V
+[MASTER] 18:39:39.732 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToHomeThroughLogoOwnerInformationContainerPage()V: 0
+[MASTER] 18:39:39.732 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 32 IFEQ L434
+[MASTER] 18:39:39.732 [logback-1] INFO  BranchPool - Branch 32 at line 434
+[MASTER] 18:39:39.733 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToHomeThroughLogoOwnerInformationContainerPage()V
+[MASTER] 18:39:39.733 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToHomeThroughLogoOwnerInformationContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.734 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.734 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToHomeThroughNavbarOwnerInformationContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.734 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToHomeThroughNavbarOwnerInformationContainerPage()V
+[MASTER] 18:39:39.734 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToHomeThroughNavbarOwnerInformationContainerPage()V: 0
+[MASTER] 18:39:39.734 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 33 IFEQ L448
+[MASTER] 18:39:39.734 [logback-1] INFO  BranchPool - Branch 33 at line 448
+[MASTER] 18:39:39.735 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToHomeThroughNavbarOwnerInformationContainerPage()V
+[MASTER] 18:39:39.735 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToHomeThroughNavbarOwnerInformationContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.735 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.735 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToOwnersListOwnerInformationContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.735 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToOwnersListOwnerInformationContainerPage()V
+[MASTER] 18:39:39.735 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToOwnersListOwnerInformationContainerPage()V: 0
+[MASTER] 18:39:39.735 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 34 IFEQ L462
+[MASTER] 18:39:39.735 [logback-1] INFO  BranchPool - Branch 34 at line 462
+[MASTER] 18:39:39.736 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToOwnersListOwnerInformationContainerPage()V
+[MASTER] 18:39:39.736 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToOwnersListOwnerInformationContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.736 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.737 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToVeterinariansOwnerInformationContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.737 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToVeterinariansOwnerInformationContainerPage()V
+[MASTER] 18:39:39.737 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToVeterinariansOwnerInformationContainerPage()V: 0
+[MASTER] 18:39:39.737 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 35 IFEQ L476
+[MASTER] 18:39:39.737 [logback-1] INFO  BranchPool - Branch 35 at line 476
+[MASTER] 18:39:39.738 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToVeterinariansOwnerInformationContainerPage()V
+[MASTER] 18:39:39.738 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToVeterinariansOwnerInformationContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.738 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.738 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToVisitsOwnerInformationContainerPage(Lcustom_classes/PetNames;)V in class main.ClassUnderTest
+[MASTER] 18:39:39.738 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToVisitsOwnerInformationContainerPage(Lcustom_classes/PetNames;)V
+[MASTER] 18:39:39.738 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToVisitsOwnerInformationContainerPage(Lcustom_classes/PetNames;)V: 0
+[MASTER] 18:39:39.738 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 36 IFEQ L491
+[MASTER] 18:39:39.738 [logback-1] INFO  BranchPool - Branch 36 at line 491
+[MASTER] 18:39:39.738 [logback-1] INFO  BranchPool - Adding to map the branch I18 Branch 37 IFEQ L493
+[MASTER] 18:39:39.738 [logback-1] INFO  BranchPool - Branch 37 at line 493
+[MASTER] 18:39:39.743 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToVisitsOwnerInformationContainerPage(Lcustom_classes/PetNames;)V
+[MASTER] 18:39:39.743 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToVisitsOwnerInformationContainerPage(Lcustom_classes/PetNames;)V in class main.ClassUnderTest
+[MASTER] 18:39:39.743 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.743 [logback-1] INFO  CFGMethodAdapter - Analyzing method registerNewOwnerOwnerInformationContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.743 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method registerNewOwnerOwnerInformationContainerPage()V
+[MASTER] 18:39:39.743 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.registerNewOwnerOwnerInformationContainerPage()V: 0
+[MASTER] 18:39:39.744 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 38 IFEQ L510
+[MASTER] 18:39:39.744 [logback-1] INFO  BranchPool - Branch 38 at line 510
+[MASTER] 18:39:39.745 [logback-1] INFO  CFGMethodAdapter - Created CFG for method registerNewOwnerOwnerInformationContainerPage()V
+[MASTER] 18:39:39.745 [logback-1] INFO  CFGMethodAdapter - Instrumenting method registerNewOwnerOwnerInformationContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.746 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.746 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToHomeThroughLogoAddEditOwnerContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.746 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToHomeThroughLogoAddEditOwnerContainerPage()V
+[MASTER] 18:39:39.746 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToHomeThroughLogoAddEditOwnerContainerPage()V: 0
+[MASTER] 18:39:39.746 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 39 IFEQ L524
+[MASTER] 18:39:39.746 [logback-1] INFO  BranchPool - Branch 39 at line 524
+[MASTER] 18:39:39.747 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToHomeThroughLogoAddEditOwnerContainerPage()V
+[MASTER] 18:39:39.747 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToHomeThroughLogoAddEditOwnerContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.747 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.747 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToHomeThroughNavbarAddEditOwnerContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.747 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToHomeThroughNavbarAddEditOwnerContainerPage()V
+[MASTER] 18:39:39.747 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToHomeThroughNavbarAddEditOwnerContainerPage()V: 0
+[MASTER] 18:39:39.748 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 40 IFEQ L538
+[MASTER] 18:39:39.748 [logback-1] INFO  BranchPool - Branch 40 at line 538
+[MASTER] 18:39:39.749 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToHomeThroughNavbarAddEditOwnerContainerPage()V
+[MASTER] 18:39:39.749 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToHomeThroughNavbarAddEditOwnerContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.750 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.750 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToOwnersListAddEditOwnerContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.750 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToOwnersListAddEditOwnerContainerPage()V
+[MASTER] 18:39:39.750 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToOwnersListAddEditOwnerContainerPage()V: 0
+[MASTER] 18:39:39.750 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 41 IFEQ L552
+[MASTER] 18:39:39.750 [logback-1] INFO  BranchPool - Branch 41 at line 552
+[MASTER] 18:39:39.753 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToOwnersListAddEditOwnerContainerPage()V
+[MASTER] 18:39:39.753 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToOwnersListAddEditOwnerContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.753 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.753 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToVeterinariansAddEditOwnerContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.753 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToVeterinariansAddEditOwnerContainerPage()V
+[MASTER] 18:39:39.753 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToVeterinariansAddEditOwnerContainerPage()V: 0
+[MASTER] 18:39:39.754 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 42 IFEQ L566
+[MASTER] 18:39:39.754 [logback-1] INFO  BranchPool - Branch 42 at line 566
+[MASTER] 18:39:39.755 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToVeterinariansAddEditOwnerContainerPage()V
+[MASTER] 18:39:39.755 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToVeterinariansAddEditOwnerContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.755 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.755 [logback-1] INFO  CFGMethodAdapter - Analyzing method registerNewOwnerAddEditOwnerContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.755 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method registerNewOwnerAddEditOwnerContainerPage()V
+[MASTER] 18:39:39.755 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.registerNewOwnerAddEditOwnerContainerPage()V: 0
+[MASTER] 18:39:39.755 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 43 IFEQ L580
+[MASTER] 18:39:39.755 [logback-1] INFO  BranchPool - Branch 43 at line 580
+[MASTER] 18:39:39.757 [logback-1] INFO  CFGMethodAdapter - Created CFG for method registerNewOwnerAddEditOwnerContainerPage()V
+[MASTER] 18:39:39.757 [logback-1] INFO  CFGMethodAdapter - Instrumenting method registerNewOwnerAddEditOwnerContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.763 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.763 [logback-1] INFO  CFGMethodAdapter - Analyzing method registerOwnerAddEditOwnerContainerPage(Lcustom_classes/LongFirstNames;Lcustom_classes/LastNames;Lcustom_classes/Addresses;Lcustom_classes/Cities;Lcustom_classes/LongTelephones;)V in class main.ClassUnderTest
+[MASTER] 18:39:39.763 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method registerOwnerAddEditOwnerContainerPage(Lcustom_classes/LongFirstNames;Lcustom_classes/LastNames;Lcustom_classes/Addresses;Lcustom_classes/Cities;Lcustom_classes/LongTelephones;)V
+[MASTER] 18:39:39.763 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.registerOwnerAddEditOwnerContainerPage(Lcustom_classes/LongFirstNames;Lcustom_classes/LastNames;Lcustom_classes/Addresses;Lcustom_classes/Cities;Lcustom_classes/LongTelephones;)V: 0
+[MASTER] 18:39:39.764 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 44 IFEQ L598
+[MASTER] 18:39:39.773 [logback-1] INFO  BranchPool - Branch 44 at line 598
+[MASTER] 18:39:39.774 [logback-1] INFO  BranchPool - Adding to map the branch I18 Branch 45 IF_ICMPGT L600
+[MASTER] 18:39:39.775 [logback-1] INFO  BranchPool - Branch 45 at line 600
+[MASTER] 18:39:39.775 [logback-1] INFO  BranchPool - Adding to map the branch I25 Branch 46 IF_ICMPGE L601
+[MASTER] 18:39:39.775 [logback-1] INFO  BranchPool - Branch 46 at line 601
+[MASTER] 18:39:39.780 [logback-1] INFO  CFGMethodAdapter - Created CFG for method registerOwnerAddEditOwnerContainerPage(Lcustom_classes/LongFirstNames;Lcustom_classes/LastNames;Lcustom_classes/Addresses;Lcustom_classes/Cities;Lcustom_classes/LongTelephones;)V
+[MASTER] 18:39:39.780 [logback-1] INFO  CFGMethodAdapter - Instrumenting method registerOwnerAddEditOwnerContainerPage(Lcustom_classes/LongFirstNames;Lcustom_classes/LastNames;Lcustom_classes/Addresses;Lcustom_classes/Cities;Lcustom_classes/LongTelephones;)V in class main.ClassUnderTest
+[MASTER] 18:39:39.782 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.782 [logback-1] INFO  CFGMethodAdapter - Analyzing method registerOwnerWithLongFirstNameAddEditOwnerContainerPage(Lcustom_classes/LongFirstNames;Lcustom_classes/LastNames;Lcustom_classes/Addresses;Lcustom_classes/Cities;Lcustom_classes/LongTelephones;)V in class main.ClassUnderTest
+[MASTER] 18:39:39.782 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method registerOwnerWithLongFirstNameAddEditOwnerContainerPage(Lcustom_classes/LongFirstNames;Lcustom_classes/LastNames;Lcustom_classes/Addresses;Lcustom_classes/Cities;Lcustom_classes/LongTelephones;)V
+[MASTER] 18:39:39.782 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.registerOwnerWithLongFirstNameAddEditOwnerContainerPage(Lcustom_classes/LongFirstNames;Lcustom_classes/LastNames;Lcustom_classes/Addresses;Lcustom_classes/Cities;Lcustom_classes/LongTelephones;)V: 0
+[MASTER] 18:39:39.782 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 47 IFEQ L624
+[MASTER] 18:39:39.782 [logback-1] INFO  BranchPool - Branch 47 at line 624
+[MASTER] 18:39:39.783 [logback-1] INFO  BranchPool - Adding to map the branch I18 Branch 48 IF_ICMPLE L626
+[MASTER] 18:39:39.783 [logback-1] INFO  BranchPool - Branch 48 at line 626
+[MASTER] 18:39:39.783 [logback-1] INFO  BranchPool - Adding to map the branch I25 Branch 49 IF_ICMPGT L627
+[MASTER] 18:39:39.783 [logback-1] INFO  BranchPool - Branch 49 at line 627
+[MASTER] 18:39:39.785 [logback-1] INFO  CFGMethodAdapter - Created CFG for method registerOwnerWithLongFirstNameAddEditOwnerContainerPage(Lcustom_classes/LongFirstNames;Lcustom_classes/LastNames;Lcustom_classes/Addresses;Lcustom_classes/Cities;Lcustom_classes/LongTelephones;)V
+[MASTER] 18:39:39.786 [logback-1] INFO  CFGMethodAdapter - Instrumenting method registerOwnerWithLongFirstNameAddEditOwnerContainerPage(Lcustom_classes/LongFirstNames;Lcustom_classes/LastNames;Lcustom_classes/Addresses;Lcustom_classes/Cities;Lcustom_classes/LongTelephones;)V in class main.ClassUnderTest
+[MASTER] 18:39:39.789 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.789 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToHomeThroughLogoOwnersListContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.790 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToHomeThroughLogoOwnersListContainerPage()V
+[MASTER] 18:39:39.790 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToHomeThroughLogoOwnersListContainerPage()V: 0
+[MASTER] 18:39:39.790 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 50 IFEQ L646
+[MASTER] 18:39:39.791 [logback-1] INFO  BranchPool - Branch 50 at line 646
+[MASTER] 18:39:39.794 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToHomeThroughLogoOwnersListContainerPage()V
+[MASTER] 18:39:39.794 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToHomeThroughLogoOwnersListContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.794 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.795 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToHomeThroughNavbarOwnersListContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.795 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToHomeThroughNavbarOwnersListContainerPage()V
+[MASTER] 18:39:39.795 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToHomeThroughNavbarOwnersListContainerPage()V: 0
+[MASTER] 18:39:39.795 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 51 IFEQ L660
+[MASTER] 18:39:39.795 [logback-1] INFO  BranchPool - Branch 51 at line 660
+[MASTER] 18:39:39.800 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToHomeThroughNavbarOwnersListContainerPage()V
+[MASTER] 18:39:39.800 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToHomeThroughNavbarOwnersListContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.802 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.802 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToOwnerInformationOwnersListContainerPage(Lcustom_classes/FirstNames;Lcustom_classes/LastNames;)V in class main.ClassUnderTest
+[MASTER] 18:39:39.802 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToOwnerInformationOwnersListContainerPage(Lcustom_classes/FirstNames;Lcustom_classes/LastNames;)V
+[MASTER] 18:39:39.802 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToOwnerInformationOwnersListContainerPage(Lcustom_classes/FirstNames;Lcustom_classes/LastNames;)V: 0
+[MASTER] 18:39:39.803 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 52 IFEQ L676
+[MASTER] 18:39:39.803 [logback-1] INFO  BranchPool - Branch 52 at line 676
+[MASTER] 18:39:39.803 [logback-1] INFO  BranchPool - Adding to map the branch I19 Branch 53 IFEQ L678
+[MASTER] 18:39:39.803 [logback-1] INFO  BranchPool - Branch 53 at line 678
+[MASTER] 18:39:39.806 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToOwnerInformationOwnersListContainerPage(Lcustom_classes/FirstNames;Lcustom_classes/LastNames;)V
+[MASTER] 18:39:39.806 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToOwnerInformationOwnersListContainerPage(Lcustom_classes/FirstNames;Lcustom_classes/LastNames;)V in class main.ClassUnderTest
+[MASTER] 18:39:39.808 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.808 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToOwnersListOwnersListContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.808 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToOwnersListOwnersListContainerPage()V
+[MASTER] 18:39:39.808 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToOwnersListOwnersListContainerPage()V: 0
+[MASTER] 18:39:39.808 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 54 IFEQ L697
+[MASTER] 18:39:39.808 [logback-1] INFO  BranchPool - Branch 54 at line 697
+[MASTER] 18:39:39.809 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToOwnersListOwnersListContainerPage()V
+[MASTER] 18:39:39.809 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToOwnersListOwnersListContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.810 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.810 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToVeterinariansOwnersListContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.810 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToVeterinariansOwnersListContainerPage()V
+[MASTER] 18:39:39.810 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.goToVeterinariansOwnersListContainerPage()V: 0
+[MASTER] 18:39:39.810 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 55 IFEQ L711
+[MASTER] 18:39:39.810 [logback-1] INFO  BranchPool - Branch 55 at line 711
+[MASTER] 18:39:39.812 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToVeterinariansOwnersListContainerPage()V
+[MASTER] 18:39:39.812 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToVeterinariansOwnersListContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.813 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.813 [logback-1] INFO  CFGMethodAdapter - Analyzing method registerNewOwnerOwnersListContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.813 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method registerNewOwnerOwnersListContainerPage()V
+[MASTER] 18:39:39.813 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.registerNewOwnerOwnersListContainerPage()V: 0
+[MASTER] 18:39:39.813 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 56 IFEQ L725
+[MASTER] 18:39:39.813 [logback-1] INFO  BranchPool - Branch 56 at line 725
+[MASTER] 18:39:39.814 [logback-1] INFO  CFGMethodAdapter - Created CFG for method registerNewOwnerOwnersListContainerPage()V
+[MASTER] 18:39:39.815 [logback-1] INFO  CFGMethodAdapter - Instrumenting method registerNewOwnerOwnersListContainerPage()V in class main.ClassUnderTest
+[MASTER] 18:39:39.815 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.816 [logback-1] INFO  CFGMethodAdapter - Analyzing method searchFilterOwnersListContainerPage(Lcustom_classes/FirstNames;Lcustom_classes/LastNames;)V in class main.ClassUnderTest
+[MASTER] 18:39:39.816 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method searchFilterOwnersListContainerPage(Lcustom_classes/FirstNames;Lcustom_classes/LastNames;)V
+[MASTER] 18:39:39.816 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTest.searchFilterOwnersListContainerPage(Lcustom_classes/FirstNames;Lcustom_classes/LastNames;)V: 0
+[MASTER] 18:39:39.816 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 57 IFEQ L741
+[MASTER] 18:39:39.816 [logback-1] INFO  BranchPool - Branch 57 at line 741
+[MASTER] 18:39:39.816 [logback-1] INFO  BranchPool - Adding to map the branch I19 Branch 58 IFEQ L743
+[MASTER] 18:39:39.816 [logback-1] INFO  BranchPool - Branch 58 at line 743
+[MASTER] 18:39:39.820 [logback-1] INFO  CFGMethodAdapter - Created CFG for method searchFilterOwnersListContainerPage(Lcustom_classes/FirstNames;Lcustom_classes/LastNames;)V
+[MASTER] 18:39:39.821 [logback-1] INFO  CFGMethodAdapter - Instrumenting method searchFilterOwnersListContainerPage(Lcustom_classes/FirstNames;Lcustom_classes/LastNames;)V in class main.ClassUnderTest
+[MASTER] 18:39:39.822 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTest
+[MASTER] 18:39:39.822 [logback-1] INFO  CFGMethodAdapter - Method has EvoSuite annotation: Lorg/evosuite/runtime/annotation/EvoSuiteExclude;
+  - target/classes
+[MASTER] 18:39:40.633 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/pets/components/AddEditVisitComponent
+[MASTER] 18:39:40.634 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/pets/components/AddEditPetComponent
+[MASTER] 18:39:40.634 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/pets/pages/AddEditPetContainerPage
+[MASTER] 18:39:40.634 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/pets/pages/AddEditVisitContainerPage
+[MASTER] 18:39:40.634 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/home/components/HomeComponent
+[MASTER] 18:39:40.635 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/home/pages/HomeContainerPage
+[MASTER] 18:39:40.635 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/veterinarians/components/VeterinariansComponent
+[MASTER] 18:39:40.635 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/veterinarians/pages/VeterinariansContainerPage
+[MASTER] 18:39:40.635 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/owners/components/AddEditOwnerComponent
+[MASTER] 18:39:40.635 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/owners/components/OwnersListComponent
+[MASTER] 18:39:40.635 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/owners/components/OwnerInformationComponent
+[MASTER] 18:39:40.635 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/owners/pages/OwnersListContainerPage
+[MASTER] 18:39:40.636 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/owners/pages/AddEditOwnerContainerPage
+[MASTER] 18:39:40.636 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/owners/pages/OwnerInformationContainerPage
+[MASTER] 18:39:40.636 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/shared/components/NavbarComponent
+[MASTER] 18:39:40.636 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class main/Main
+[MASTER] 18:39:40.636 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class main/ClassUnderTestApogen
+[MASTER] 18:39:40.636 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class main/ClassUnderTest
+[MASTER] 18:39:40.637 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/WelcomePage
+[MASTER] 18:39:40.637 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/OwnerInformationPage
+[MASTER] 18:39:40.637 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/VisitsComponent
+[MASTER] 18:39:40.637 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/NewPetComponent
+[MASTER] 18:39:40.637 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/WelcomeComponent
+[MASTER] 18:39:40.637 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/VisitsPage
+[MASTER] 18:39:40.637 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/NewOwnerPage
+[MASTER] 18:39:40.637 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/EditOwnerPage
+[MASTER] 18:39:40.637 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/NewPetPage
+[MASTER] 18:39:40.637 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/IndexComponent
+[MASTER] 18:39:40.637 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/VetsPage
+[MASTER] 18:39:40.638 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/OwnerInformationComponent
+[MASTER] 18:39:40.638 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/IndexPage
+[MASTER] 18:39:40.638 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/VetsComponent
+[MASTER] 18:39:40.638 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/OwnersComponent
+[MASTER] 18:39:40.638 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/NewOwnerComponent
+[MASTER] 18:39:40.638 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/OwnersPage
+[MASTER] 18:39:40.638 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/EditOwnerComponent
+[MASTER] 18:39:40.638 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/JavascriptActions
+[MASTER] 18:39:40.638 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/DriverProvider$1
+[MASTER] 18:39:40.638 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/ParametricPageComponent
+[MASTER] 18:39:40.638 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CheckCondition
+[MASTER] 18:39:40.638 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$11
+[MASTER] 18:39:40.639 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/ExpectedConditionElementToBeInvisible
+[MASTER] 18:39:40.639 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/PageObject
+[MASTER] 18:39:40.639 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/ExceptionUtils
+[MASTER] 18:39:40.639 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/PageObjectLogging
+[MASTER] 18:39:40.639 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$7
+[MASTER] 18:39:40.639 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$8
+[MASTER] 18:39:40.639 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/PageComponent
+[MASTER] 18:39:40.639 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/ExpectedConditionTextThatChanges
+[MASTER] 18:39:40.639 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$3
+[MASTER] 18:39:40.639 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/ConstantLocators
+[MASTER] 18:39:40.639 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$9
+[MASTER] 18:39:40.639 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/MySqlConnection
+[MASTER] 18:39:40.639 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$19
+[MASTER] 18:39:40.640 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$17
+[MASTER] 18:39:40.640 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/IntRange
+[MASTER] 18:39:40.640 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/Range
+[MASTER] 18:39:40.640 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/ExpectedConditionPropertyThatDisappears
+[MASTER] 18:39:40.640 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions
+[MASTER] 18:39:40.640 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/NotInTheRightPageObjectException
+[MASTER] 18:39:40.640 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonUtils
+[MASTER] 18:39:40.640 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/SelectorStack
+[MASTER] 18:39:40.640 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/BasePageObject
+[MASTER] 18:39:40.640 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/FormValue
+[MASTER] 18:39:40.640 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$13
+[MASTER] 18:39:40.640 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/NotTheRightInputValuesException
+[MASTER] 18:39:40.641 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/ExpectedConditionPropertyThatChanges
+[MASTER] 18:39:40.641 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/XSSContent
+[MASTER] 18:39:40.641 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/MySqlConnection$1
+[MASTER] 18:39:40.641 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$4
+[MASTER] 18:39:40.641 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/ResetAppState
+[MASTER] 18:39:40.641 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$1
+[MASTER] 18:39:40.641 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/TestData
+[MASTER] 18:39:40.641 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/ExpectedConditionElementToBeClickable
+[MASTER] 18:39:40.641 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$14
+[MASTER] 18:39:40.641 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$10
+[MASTER] 18:39:40.641 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$12
+[MASTER] 18:39:40.641 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$6
+[MASTER] 18:39:40.641 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$15
+[MASTER] 18:39:40.641 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$5
+[MASTER] 18:39:40.641 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$2
+[MASTER] 18:39:40.641 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/MyProperties
+[MASTER] 18:39:40.641 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$18
+[MASTER] 18:39:40.642 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/Wait
+[MASTER] 18:39:40.642 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$16
+[MASTER] 18:39:40.642 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/DriverProvider
+[MASTER] 18:39:40.642 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/Addresses
+[MASTER] 18:39:40.642 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/PetNames
+[MASTER] 18:39:40.642 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/LongTelephones
+[MASTER] 18:39:40.642 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/Cities
+[MASTER] 18:39:40.642 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/Telephones
+[MASTER] 18:39:40.642 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/Dates
+[MASTER] 18:39:40.642 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/LastNames
+[MASTER] 18:39:40.642 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/PetTypes
+[MASTER] 18:39:40.642 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/VisitDescriptions
+[MASTER] 18:39:40.642 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/LongPetNames
+[MASTER] 18:39:40.646 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/FirstNames
+[MASTER] 18:39:40.647 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/LongFirstNames
+[MASTER] 18:39:40.647 [logback-1] INFO  ClientNodeImpl - Sending output variable to master process: Classpath_Classes = 4845
+[MASTER] 18:39:40.655 [logback-1] INFO  DependencyAnalysis - Could not find class file: [Lorg/openqa/selenium/Platform;
+[MASTER] 18:39:40.668 [logback-1] INFO  DependencyAnalysis - Could not find class file: [Ljava/lang/Object;
+[MASTER] 18:39:40.784 [logback-1] INFO  CallGraphGenerator - Updating call tree 
+[MASTER] 18:39:40.787 [logback-1] INFO  TestClusterGenerator - Handling cast classes
+[MASTER] 18:39:40.810 [logback-1] INFO  TestClusterGenerator - Initialising target class
+[MASTER] 18:39:40.810 [logback-1] INFO  TestClusterGenerator - Analyzing target class
+[MASTER] 18:39:40.811 [logback-1] INFO  TestClusterGenerator - Current SUT class: class main.ClassUnderTest
+[MASTER] 18:39:40.811 [logback-1] INFO  TestClusterGenerator - Checking target constructor public main.ClassUnderTest()
+[MASTER] 18:39:40.841 [logback-1] INFO  TestClusterGenerator - Checking target method public static void main.ClassUnderTest.__STATIC_RESET()
+[MASTER] 18:39:40.841 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.addNewPetAddEditPetContainerPage(custom_classes.LongPetNames,custom_classes.Dates,custom_classes.PetTypes)
+[MASTER] 18:39:40.847 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.addNewPetWithLongNameAddEditPetContainerPage(custom_classes.LongPetNames,custom_classes.Dates,custom_classes.PetTypes)
+[MASTER] 18:39:40.847 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.addVisitAddEditVisitContainerPage(custom_classes.Dates,custom_classes.VisitDescriptions)
+[MASTER] 18:39:40.848 [logback-1] INFO  TestClusterGenerator - Checking target method protected native java.lang.Object java.lang.Object.clone() throws java.lang.CloneNotSupportedException
+[MASTER] 18:39:40.848 [logback-1] INFO  TestClusterGenerator - Checking target method public boolean java.lang.Object.equals(java.lang.Object)
+[MASTER] 18:39:40.848 [logback-1] INFO  TestClusterGenerator - Checking target method protected void java.lang.Object.finalize() throws java.lang.Throwable
+[MASTER] 18:39:40.848 [logback-1] INFO  TestClusterGenerator - Checking target method public final native java.lang.Class java.lang.Object.getClass()
+[MASTER] 18:39:40.848 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToAddNewPetOwnerInformationContainerPage()
+[MASTER] 18:39:40.848 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToEditOwnerOwnerInformationContainerPage()
+[MASTER] 18:39:40.848 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToEditPetThroghEditLinkOwnerInformationContainerPage(custom_classes.PetNames)
+[MASTER] 18:39:40.848 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToEditPetThroughNameOwnerInformationContainerPage(custom_classes.PetNames)
+[MASTER] 18:39:40.848 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToHomeThroughLogoAddEditOwnerContainerPage()
+[MASTER] 18:39:40.857 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToHomeThroughLogoAddEditPetContainerPage()
+[MASTER] 18:39:40.857 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToHomeThroughLogoAddEditVisitContainerPage()
+[MASTER] 18:39:40.857 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToHomeThroughLogoHomeContainerPage()
+[MASTER] 18:39:40.857 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToHomeThroughLogoOwnerInformationContainerPage()
+[MASTER] 18:39:40.857 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToHomeThroughLogoOwnersListContainerPage()
+[MASTER] 18:39:40.857 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToHomeThroughLogoVeterinariansContainerPage()
+[MASTER] 18:39:40.857 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToHomeThroughNavbarAddEditOwnerContainerPage()
+[MASTER] 18:39:40.857 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToHomeThroughNavbarAddEditPetContainerPage()
+[MASTER] 18:39:40.857 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToHomeThroughNavbarAddEditVisitContainerPage()
+[MASTER] 18:39:40.857 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToHomeThroughNavbarHomeContainerPage()
+[MASTER] 18:39:40.857 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToHomeThroughNavbarOwnerInformationContainerPage()
+[MASTER] 18:39:40.857 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToHomeThroughNavbarOwnersListContainerPage()
+[MASTER] 18:39:40.857 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToHomeThroughNavbarVeterinariansContainerPage()
+[MASTER] 18:39:40.857 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToOwnerInformationOwnersListContainerPage(custom_classes.FirstNames,custom_classes.LastNames)
+[MASTER] 18:39:40.858 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToOwnersListAddEditOwnerContainerPage()
+[MASTER] 18:39:40.858 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToOwnersListAddEditPetContainerPage()
+[MASTER] 18:39:40.858 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToOwnersListAddEditVisitContainerPage()
+[MASTER] 18:39:40.858 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToOwnersListHomeContainerPage()
+[MASTER] 18:39:40.858 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToOwnersListOwnerInformationContainerPage()
+[MASTER] 18:39:40.858 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToOwnersListOwnersListContainerPage()
+[MASTER] 18:39:40.858 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToOwnersListVeterinariansContainerPage()
+[MASTER] 18:39:40.858 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToVeterinariansAddEditOwnerContainerPage()
+[MASTER] 18:39:40.858 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToVeterinariansAddEditPetContainerPage()
+[MASTER] 18:39:40.858 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToVeterinariansAddEditVisitContainerPage()
+[MASTER] 18:39:40.858 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToVeterinariansHomeContainerPage()
+[MASTER] 18:39:40.858 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToVeterinariansOwnerInformationContainerPage()
+[MASTER] 18:39:40.858 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToVeterinariansOwnersListContainerPage()
+[MASTER] 18:39:40.858 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToVeterinariansVeterinariansContainerPage()
+[MASTER] 18:39:40.858 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.goToVisitsOwnerInformationContainerPage(custom_classes.PetNames)
+[MASTER] 18:39:40.858 [logback-1] INFO  TestClusterGenerator - Checking target method public int main.ClassUnderTest.hashCode()
+[MASTER] 18:39:40.865 [logback-1] INFO  TestClusterGenerator - Checking target method public final native void java.lang.Object.notify()
+[MASTER] 18:39:40.865 [logback-1] INFO  TestClusterGenerator - Checking target method public final native void java.lang.Object.notifyAll()
+[MASTER] 18:39:40.865 [logback-1] INFO  TestClusterGenerator - Checking target method private static native void java.lang.Object.registerNatives()
+[MASTER] 18:39:40.865 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.registerNewOwnerAddEditOwnerContainerPage()
+[MASTER] 18:39:40.865 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.registerNewOwnerAddEditPetContainerPage()
+[MASTER] 18:39:40.865 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.registerNewOwnerAddEditVisitContainerPage()
+[MASTER] 18:39:40.865 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.registerNewOwnerHomeContainerPage()
+[MASTER] 18:39:40.865 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.registerNewOwnerOwnerInformationContainerPage()
+[MASTER] 18:39:40.865 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.registerNewOwnerOwnersListContainerPage()
+[MASTER] 18:39:40.865 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.registerNewOwnerVeterinariansContainerPage()
+[MASTER] 18:39:40.865 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.registerOwnerAddEditOwnerContainerPage(custom_classes.LongFirstNames,custom_classes.LastNames,custom_classes.Addresses,custom_classes.Cities,custom_classes.LongTelephones)
+[MASTER] 18:39:40.866 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.registerOwnerWithLongFirstNameAddEditOwnerContainerPage(custom_classes.LongFirstNames,custom_classes.LastNames,custom_classes.Addresses,custom_classes.Cities,custom_classes.LongTelephones)
+[MASTER] 18:39:40.866 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTest.searchFilterOwnersListContainerPage(custom_classes.FirstNames,custom_classes.LastNames)
+[MASTER] 18:39:40.866 [logback-1] INFO  TestClusterGenerator - Checking target method public java.lang.String java.lang.Object.toString()
+[MASTER] 18:39:40.866 [logback-1] INFO  TestClusterGenerator - Checking target method public final void java.lang.Object.wait() throws java.lang.InterruptedException
+[MASTER] 18:39:40.866 [logback-1] INFO  TestClusterGenerator - Checking target method public final native void java.lang.Object.wait(long) throws java.lang.InterruptedException
+[MASTER] 18:39:40.866 [logback-1] INFO  TestClusterGenerator - Checking target method public final void java.lang.Object.wait(long,int) throws java.lang.InterruptedException
+[MASTER] 18:39:40.866 [logback-1] INFO  TestClusterGenerator - Checking target field private java.lang.Object main.ClassUnderTest.currentPage
+[MASTER] 18:39:40.873 [logback-1] INFO  TestClusterGenerator - Finished analyzing target class
+[MASTER] 18:39:40.873 [logback-1] INFO  TestClusterGenerator - Resolving dependencies
+[MASTER] 18:39:40.877 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: org.openqa.selenium.WebDriver
+[MASTER] 18:39:40.880 [logback-1] INFO  ConcreteClassAnalyzer - Don't know how to instantiate abstract class org.openqa.selenium.WebDriver
+[MASTER] 18:39:40.897 [logback-1] INFO  TestClusterGenerator - Finished analyzing po.owners.pages.OwnersListContainerPage at recursion level 1
+[MASTER] 18:39:40.898 [logback-1] INFO  TestClusterGenerator - Finished analyzing po.home.pages.HomeContainerPage at recursion level 1
+[MASTER] 18:39:40.905 [logback-1] INFO  TestClusterGenerator - Finished analyzing po.owners.pages.OwnerInformationContainerPage at recursion level 1
+[MASTER] 18:39:40.909 [logback-1] INFO  TestClusterGenerator - Finished analyzing po.pets.pages.AddEditVisitContainerPage at recursion level 1
+[MASTER] 18:39:40.910 [logback-1] INFO  TestClusterGenerator - Finished analyzing po.veterinarians.pages.VeterinariansContainerPage at recursion level 1
+[MASTER] 18:39:40.915 [logback-1] INFO  TestClusterGenerator - Finished analyzing po.pets.pages.AddEditPetContainerPage at recursion level 1
+[MASTER] 18:39:40.919 [logback-1] INFO  TestClusterGenerator - Finished analyzing po.owners.pages.AddEditOwnerContainerPage at recursion level 1
+[MASTER] 18:39:40.921 [logback-1] INFO  TestClusterGenerator - Finished analyzing custom_classes.LongPetNames at recursion level 1
+[MASTER] 18:39:40.922 [logback-1] INFO  TestClusterGenerator - Finished analyzing custom_classes.Dates at recursion level 1
+[MASTER] 18:39:40.925 [logback-1] INFO  TestClusterGenerator - Finished analyzing custom_classes.PetTypes at recursion level 1
+[MASTER] 18:39:40.925 [logback-1] INFO  TestClusterGenerator - Finished analyzing custom_classes.VisitDescriptions at recursion level 1
+[MASTER] 18:39:40.929 [logback-1] INFO  TestClusterGenerator - Finished analyzing custom_classes.PetNames at recursion level 1
+[MASTER] 18:39:40.929 [logback-1] INFO  TestClusterGenerator - Finished analyzing custom_classes.FirstNames at recursion level 1
+[MASTER] 18:39:40.930 [logback-1] INFO  TestClusterGenerator - Finished analyzing custom_classes.LastNames at recursion level 1
+[MASTER] 18:39:40.930 [logback-1] INFO  TestClusterGenerator - Finished analyzing custom_classes.LongFirstNames at recursion level 1
+[MASTER] 18:39:40.931 [logback-1] INFO  TestClusterGenerator - Finished analyzing custom_classes.Addresses at recursion level 1
+[MASTER] 18:39:40.933 [logback-1] INFO  TestClusterGenerator - Finished analyzing custom_classes.Cities at recursion level 1
+[MASTER] 18:39:40.935 [logback-1] INFO  TestClusterGenerator - Finished analyzing custom_classes.LongTelephones at recursion level 1
+[MASTER] 18:40:05.965 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.Alert was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 18:40:05.966 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.WebDriver$TargetLocator was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 18:40:05.966 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.WebDriver was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 18:40:05.966 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: org.openqa.selenium.By
+[MASTER] 18:40:05.979 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: org.openqa.selenium.WebElement
+[MASTER] 18:40:05.983 [logback-1] INFO  ConcreteClassAnalyzer - Don't know how to instantiate abstract class org.openqa.selenium.WebElement
+[MASTER] 18:40:05.983 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.WebElement was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 18:40:05.983 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.Alert was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 18:40:05.983 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.WebDriver was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 18:40:05.984 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.WebDriver was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 18:40:05.984 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.WebElement was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 18:40:05.985 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.WebElement was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 18:40:05.990 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.WebElement was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 18:40:05.993 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.WebElement was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 18:40:05.994 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.WebElement was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 18:40:06.020 [logback-1] INFO  TestClusterGenerator - Finished analyzing po.owners.components.OwnersListComponent at recursion level 2
+[MASTER] 18:40:06.022 [logback-1] INFO  TestClusterGenerator - Finished analyzing po.shared.components.NavbarComponent at recursion level 2
+[MASTER] 18:40:06.023 [logback-1] INFO  TestClusterGenerator - Finished analyzing po.home.components.HomeComponent at recursion level 2
+[MASTER] 18:40:06.024 [logback-1] INFO  TestClusterGenerator - Finished analyzing po.owners.components.OwnerInformationComponent at recursion level 2
+[MASTER] 18:40:06.026 [logback-1] INFO  TestClusterGenerator - Finished analyzing po.pets.components.AddEditVisitComponent at recursion level 2
+[MASTER] 18:40:06.031 [logback-1] INFO  TestClusterGenerator - Finished analyzing po.veterinarians.components.VeterinariansComponent at recursion level 2
+[MASTER] 18:40:06.032 [logback-1] INFO  TestClusterGenerator - Finished analyzing po.pets.components.AddEditPetComponent at recursion level 2
+[MASTER] 18:40:06.036 [logback-1] INFO  TestClusterGenerator - Finished analyzing po.owners.components.AddEditOwnerComponent at recursion level 2
+[MASTER] 18:40:06.036 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.By was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 18:40:06.036 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.By was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 18:40:06.036 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: org.openqa.selenium.SearchContext
+[MASTER] 18:40:06.036 [logback-1] INFO  ConcreteClassAnalyzer - Don't know how to instantiate abstract class org.openqa.selenium.SearchContext
+[MASTER] 18:40:06.036 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.By was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 18:40:06.037 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.openqa.selenium.By at recursion level 3
+[MASTER] 18:40:06.038 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.util.concurrent.TimeUnit at recursion level 3
+[MASTER] 18:40:06.052 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.interactions.ClickAndHoldAction was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 18:40:06.052 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: org.openqa.selenium.interactions.ClickAndHoldAction
+[MASTER] 18:40:06.056 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.interactions.MoveMouseAction was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 18:40:06.056 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: org.openqa.selenium.interactions.MoveMouseAction
+[MASTER] 18:40:06.057 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.interactions.KeyDownAction was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 18:40:06.057 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: org.openqa.selenium.interactions.KeyDownAction
+[MASTER] 18:40:06.057 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.interactions.MoveToOffsetAction was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 18:40:06.057 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: org.openqa.selenium.interactions.MoveToOffsetAction
+[MASTER] 18:40:06.058 [logback-1] WARN  CheapPurityAnalyzer - com.google.common.base.Preconditions was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 18:40:06.058 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: com.google.common.base.Preconditions
+[MASTER] 18:40:06.058 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.interactions.ButtonReleaseAction was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 18:40:06.058 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: org.openqa.selenium.interactions.ButtonReleaseAction
+[MASTER] 18:40:06.058 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.interactions.SendKeysAction was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 18:40:06.059 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: org.openqa.selenium.interactions.SendKeysAction
+[MASTER] 18:40:06.059 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: org.openqa.selenium.interactions.Action
+[MASTER] 18:40:06.059 [logback-1] INFO  ConcreteClassAnalyzer - Don't know how to instantiate abstract class org.openqa.selenium.interactions.Action
+[MASTER] 18:40:06.059 [logback-1] WARN  CheapPurityAnalyzer - com.google.common.base.Preconditions was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 18:40:06.059 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: org.openqa.selenium.interactions.Interaction
+[MASTER] 18:40:06.059 [logback-1] INFO  ConcreteClassAnalyzer - Don't know how to instantiate abstract class org.openqa.selenium.interactions.Interaction
+[MASTER] 18:40:06.062 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.openqa.selenium.interactions.Actions at recursion level 3
+[MASTER] 18:40:06.064 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: org.openqa.selenium.support.ui.Clock
+[MASTER] 18:40:06.064 [logback-1] INFO  ConcreteClassAnalyzer - Don't know how to instantiate abstract class org.openqa.selenium.support.ui.Clock
+[MASTER] 18:40:06.064 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: org.openqa.selenium.support.ui.Sleeper
+[MASTER] 18:40:06.065 [logback-1] INFO  ConcreteClassAnalyzer - Don't know how to instantiate abstract class org.openqa.selenium.support.ui.Sleeper
+[MASTER] 18:40:06.067 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public org.openqa.selenium.support.ui.FluentWait org.openqa.selenium.support.ui.FluentWait.ignoreAll(java.util.Collection)
+[MASTER] 18:40:06.067 [logback-1] WARN  CheapPurityAnalyzer - com.google.common.collect.ImmutableList was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 18:40:06.067 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: com.google.common.collect.ImmutableList
+[MASTER] 18:40:06.067 [logback-1] WARN  CheapPurityAnalyzer - com.google.common.collect.ImmutableList was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 18:40:06.068 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public java.lang.Object org.openqa.selenium.support.ui.FluentWait.until(java.util.function.Function)
+[MASTER] 18:40:06.068 [logback-1] INFO  ConcreteClassAnalyzer - Don't know how to instantiate abstract class java.util.function.Supplier
+[MASTER] 18:40:06.069 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.openqa.selenium.support.ui.WebDriverWait at recursion level 3
+[MASTER] 18:40:06.069 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.support.ui.ExpectedConditions was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 18:40:06.069 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: org.openqa.selenium.support.ui.ExpectedConditions
+[MASTER] 18:40:06.070 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.support.ui.SystemClock was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 18:40:06.070 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: org.openqa.selenium.support.ui.SystemClock
+[MASTER] 18:40:06.070 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.support.ui.ExpectedConditions was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 18:40:06.070 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.support.ui.ExpectedConditions was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 18:40:06.071 [logback-1] INFO  TestClusterGenerator - Finished analyzing po_utils.Wait at recursion level 3
+[MASTER] 18:40:06.071 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.lang.Object at recursion level 4
+[MASTER] 18:40:06.075 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.lang.MockThread at recursion level 4
+[MASTER] 18:40:06.080 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.nio.CharBuffer at recursion level 4
+[MASTER] 18:40:06.087 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.Duration at recursion level 4
+[MASTER] 18:40:06.087 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.support.ui.Duration was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 18:40:06.087 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.openqa.selenium.support.ui.Duration at recursion level 4
+[MASTER] 18:40:06.089 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.lang.ThreadGroup at recursion level 5
+[MASTER] 18:40:06.093 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.lang.ClassLoader at recursion level 5
+[MASTER] 18:40:06.095 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public static java.lang.Object org.evosuite.runtime.mock.java.time.MockInstant.query(java.time.Instant,java.time.temporal.TemporalQuery)
+[MASTER] 18:40:06.102 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.MockInstant at recursion level 5
+[MASTER] 18:40:06.102 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.MockLocalDate at recursion level 5
+[MASTER] 18:40:06.103 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.MockLocalDateTime at recursion level 5
+[MASTER] 18:40:06.104 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.MockLocalTime at recursion level 5
+[MASTER] 18:40:06.107 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.MockOffsetDateTime at recursion level 5
+[MASTER] 18:40:06.109 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.MockOffsetTime at recursion level 5
+[MASTER] 18:40:06.109 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.MockYear at recursion level 5
+[MASTER] 18:40:06.110 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.MockYearMonth at recursion level 5
+[MASTER] 18:40:06.112 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.MockZonedDateTime at recursion level 5
+[MASTER] 18:40:06.114 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.Period at recursion level 5
+[MASTER] 18:40:06.114 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public java.time.temporal.Temporal java.time.temporal.ChronoUnit.addTo(java.time.temporal.Temporal,long)
+[MASTER] 18:40:06.115 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.temporal.ChronoUnit at recursion level 5
+[MASTER] 18:40:06.118 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.lang.MockThrowable at recursion level 6
+[MASTER] 18:40:06.120 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public java.lang.Object java.time.ZoneOffset.query(java.time.temporal.TemporalQuery)
+[MASTER] 18:40:06.120 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.ZoneOffset at recursion level 6
+[MASTER] 18:40:06.121 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.ZoneId at recursion level 6
+[MASTER] 18:40:06.121 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public java.lang.Object java.time.DayOfWeek.query(java.time.temporal.TemporalQuery)
+[MASTER] 18:40:06.122 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.DayOfWeek at recursion level 6
+[MASTER] 18:40:06.122 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public java.lang.Object java.time.Month.query(java.time.temporal.TemporalQuery)
+[MASTER] 18:40:06.122 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.Month at recursion level 6
+[MASTER] 18:40:06.123 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.MockMonthDay at recursion level 6
+[MASTER] 18:40:06.124 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public java.time.temporal.Temporal java.time.temporal.ChronoField.adjustInto(java.time.temporal.Temporal,long)
+[MASTER] 18:40:06.126 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.temporal.ChronoField at recursion level 6
+[MASTER] 18:40:06.126 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.MockClock at recursion level 6
+[MASTER] 18:40:06.132 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public java.lang.Object java.time.format.DateTimeFormatter.parse(java.lang.CharSequence,java.time.temporal.TemporalQuery)
+[MASTER] 18:40:06.133 [logback-1] INFO  ConcreteClassAnalyzer - Don't know how to instantiate abstract class java.time.temporal.TemporalQuery
+[MASTER] 18:40:06.135 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.format.DateTimeFormatter at recursion level 6
+[MASTER] 18:40:06.136 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.chrono.MockHijrahDate at recursion level 6
+[MASTER] 18:40:06.137 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.chrono.MockJapaneseDate at recursion level 6
+[MASTER] 18:40:06.137 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.chrono.MockMinguoDate at recursion level 6
+[MASTER] 18:40:06.137 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.chrono.MockThaiBuddhistDate at recursion level 6
+[MASTER] 18:40:06.138 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public default java.lang.Object java.time.chrono.ChronoLocalDate.query(java.time.temporal.TemporalQuery)
+[MASTER] 18:40:06.139 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.chrono.ChronoLocalDate at recursion level 6
+[MASTER] 18:40:06.169 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.PrintStream at recursion level 7
+[MASTER] 18:40:06.171 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.PrintWriter at recursion level 7
+[MASTER] 18:40:06.172 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.lang.StackTraceElement at recursion level 7
+[MASTER] 18:40:06.172 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.format.TextStyle at recursion level 7
+[MASTER] 18:40:06.175 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.util.Locale at recursion level 7
+[MASTER] 18:40:06.176 [logback-1] INFO  ConcreteClassAnalyzer - Don't know how to instantiate abstract class java.util.function.BiFunction
+[MASTER] 18:40:06.176 [logback-1] INFO  ConcreteClassAnalyzer - Don't know how to instantiate abstract class java.util.function.BiConsumer
+[MASTER] 18:40:06.182 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.util.HashMap<K, V> at recursion level 7
+[MASTER] 18:40:06.182 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.format.ResolverStyle at recursion level 7
+[MASTER] 18:40:06.185 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.CharArrayWriter at recursion level 7
+[MASTER] 18:40:06.185 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.PipedWriter at recursion level 7
+[MASTER] 18:40:06.186 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.StringWriter at recursion level 7
+[MASTER] 18:40:06.187 [logback-1] INFO  ConcreteClassAnalyzer - Don't know how to instantiate abstract class java.nio.charset.CharsetEncoder
+[MASTER] 18:40:06.187 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.OutputStreamWriter at recursion level 7
+[MASTER] 18:40:06.188 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.BufferedWriter at recursion level 7
+[MASTER] 18:40:06.188 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.FileWriter at recursion level 7
+[MASTER] 18:40:06.189 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.format.FormatStyle at recursion level 7
+[MASTER] 18:40:06.189 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.text.ParsePosition at recursion level 7
+[MASTER] 18:40:06.189 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.chrono.MockHijrahChronology at recursion level 7
+[MASTER] 18:40:06.190 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.chrono.MockIsoChronology at recursion level 7
+[MASTER] 18:40:06.190 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.chrono.MockJapaneseChronology at recursion level 7
+[MASTER] 18:40:06.190 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.chrono.MockMinguoChronology at recursion level 7
+[MASTER] 18:40:06.190 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.chrono.MockThaiBuddhistChronology at recursion level 7
+[MASTER] 18:40:06.192 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.chrono.Chronology at recursion level 7
+[MASTER] 18:40:06.193 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.format.DecimalStyle at recursion level 7
+[MASTER] 18:40:06.195 [logback-1] INFO  ConcreteClassAnalyzer - Don't know how to instantiate abstract class java.util.function.Consumer
+[MASTER] 18:40:06.196 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public abstract java.lang.Object[] java.util.Set.toArray(java.lang.Object[])
+[MASTER] 18:40:06.196 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.util.LinkedHashSet<E> at recursion level 7
+[MASTER] 18:40:06.196 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public default java.lang.Object java.time.chrono.Era.query(java.time.temporal.TemporalQuery)
+[MASTER] 18:40:06.197 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.chrono.JapaneseEra at recursion level 7
+[MASTER] 18:40:06.198 [logback-1] INFO  ConcreteClassAnalyzer - Don't know how to instantiate abstract class java.io.FilenameFilter
+[MASTER] 18:40:06.199 [logback-1] INFO  ConcreteClassAnalyzer - Don't know how to instantiate abstract class java.io.FileFilter
+[MASTER] 18:40:06.199 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.File at recursion level 8
+[MASTER] 18:40:06.200 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.PipedOutputStream at recursion level 8
+[MASTER] 18:40:06.203 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.ObjectOutputStream at recursion level 8
+[MASTER] 18:40:06.206 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.FilterOutputStream at recursion level 8
+[MASTER] 18:40:06.206 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.FileOutputStream at recursion level 8
+[MASTER] 18:40:06.207 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.ByteArrayOutputStream at recursion level 8
+[MASTER] 18:40:06.207 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.DataOutputStream at recursion level 8
+[MASTER] 18:40:06.207 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.BufferedOutputStream at recursion level 8
+[MASTER] 18:40:06.210 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public java.lang.Object[] java.util.LinkedList.toArray(java.lang.Object[])
+[MASTER] 18:40:06.210 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.util.LinkedList<E> at recursion level 8
+[MASTER] 18:40:06.210 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.util.Locale$FilteringMode at recursion level 8
+[MASTER] 18:40:06.211 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.util.Locale$Category at recursion level 8
+[MASTER] 18:40:06.211 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public default java.util.function.Function java.util.function.Function.andThen(java.util.function.Function)
+[MASTER] 18:40:06.211 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public default java.util.function.Function java.util.function.Function.compose(java.util.function.Function)
+[MASTER] 18:40:06.211 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public static java.util.function.Function java.util.function.Function.identity()
+[MASTER] 18:40:06.211 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.util.function.Function<T, R> at recursion level 8
+[MASTER] 18:40:06.213 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.PipedReader at recursion level 8
+[MASTER] 18:40:06.214 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.nio.charset.Charset at recursion level 8
+[MASTER] 18:40:06.215 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.FileDescriptor at recursion level 8
+[MASTER] 18:40:06.215 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public default java.lang.Object java.time.chrono.Era.query(java.time.temporal.TemporalQuery)
+[MASTER] 18:40:06.215 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.chrono.HijrahEra at recursion level 8
+[MASTER] 18:40:06.216 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public default java.lang.Object java.time.chrono.Era.query(java.time.temporal.TemporalQuery)
+[MASTER] 18:40:06.216 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.chrono.IsoEra at recursion level 8
+[MASTER] 18:40:06.216 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public default java.lang.Object java.time.chrono.Era.query(java.time.temporal.TemporalQuery)
+[MASTER] 18:40:06.216 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.chrono.MinguoEra at recursion level 8
+[MASTER] 18:40:06.216 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public default java.lang.Object java.time.chrono.Era.query(java.time.temporal.TemporalQuery)
+[MASTER] 18:40:06.217 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.chrono.ThaiBuddhistEra at recursion level 8
+[MASTER] 18:40:06.217 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public static java.util.function.Predicate java.util.function.Predicate.isEqual(java.lang.Object)
+[MASTER] 18:40:06.217 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.util.function.Predicate<T> at recursion level 8
+[MASTER] 18:40:06.218 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.net.URI at recursion level 9
+[MASTER] 18:40:06.219 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.PipedInputStream at recursion level 9
+[MASTER] 18:40:06.219 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public default java.util.function.Function java.util.function.Function.andThen(java.util.function.Function)
+[MASTER] 18:40:06.219 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public default java.util.function.Function java.util.function.Function.compose(java.util.function.Function)
+[MASTER] 18:40:06.219 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public static java.util.function.Function java.util.function.Function.identity()
+[MASTER] 18:40:06.219 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public static java.util.function.UnaryOperator java.util.function.UnaryOperator.identity()
+[MASTER] 18:40:06.219 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.util.function.UnaryOperator<T> at recursion level 9
+[MASTER] 18:40:06.225 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.nio.ByteBuffer at recursion level 9
+[MASTER] 18:40:06.225 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.nio.ByteOrder at recursion level 10
+[MASTER] 18:40:06.225 [logback-1] INFO  TestClusterGenerator - Removing unusable generators
+[MASTER] 18:40:06.288 [logback-1] INFO  ClientNodeImpl - Sending output variable to master process: Analyzed_Classes = 113
+[MASTER] 18:40:06.288 [logback-1] INFO  ClientNodeImpl - Sending output variable to master process: Generators = 1003
+[MASTER] 18:40:06.289 [logback-1] INFO  ClientNodeImpl - Sending output variable to master process: Modifiers = 1236
+[MASTER] 18:40:06.289 [logback-1] INFO  ClientNodeImpl - Sending output variable to master process: Predicates = 58
+[MASTER] 18:40:06.289 [logback-1] INFO  ClientNodeImpl - Sending output variable to master process: Instrumented_Predicates = 0
+[MASTER] 18:40:06.289 [logback-1] INFO  ClientNodeImpl - Sending output variable to master process: Total_Branches = 116
+[MASTER] 18:40:06.289 [logback-1] INFO  ClientNodeImpl - Sending output variable to master process: Total_Branches_Real = 29
+[MASTER] 18:40:06.289 [logback-1] INFO  ClientNodeImpl - Sending output variable to master process: Total_Branches_Instrumented = 0
+[MASTER] 18:40:06.289 [logback-1] INFO  ClientNodeImpl - Sending output variable to master process: Branchless_Methods = 1
+[MASTER] 18:40:06.289 [logback-1] INFO  ClientNodeImpl - Sending output variable to master process: Total_Methods = 48
+[MASTER] 18:40:06.289 [logback-1] INFO  ClientNodeImpl - Sending output variable to master process: Lines = 48
+* Finished analyzing classpath
+* Generating tests for class main.ClassUnderTest
+* Test criterion:
+  - Line Coverage
+[MASTER] 18:40:06.318 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####constructor: main.ClassUnderTest
+[MASTER] 18:40:06.318 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: addNewPetAddEditPetContainerPage
+[MASTER] 18:40:06.318 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: addNewPetWithLongNameAddEditPetContainerPage
+[MASTER] 18:40:06.318 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: addVisitAddEditVisitContainerPage
+[MASTER] 18:40:06.318 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToAddNewPetOwnerInformationContainerPage
+[MASTER] 18:40:06.318 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToEditOwnerOwnerInformationContainerPage
+[MASTER] 18:40:06.318 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToEditPetThroghEditLinkOwnerInformationContainerPage
+[MASTER] 18:40:06.318 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToEditPetThroughNameOwnerInformationContainerPage
+[MASTER] 18:40:06.319 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughLogoAddEditOwnerContainerPage
+[MASTER] 18:40:06.319 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughLogoAddEditPetContainerPage
+[MASTER] 18:40:06.319 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughLogoAddEditVisitContainerPage
+[MASTER] 18:40:06.319 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughLogoHomeContainerPage
+[MASTER] 18:40:06.320 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughLogoOwnerInformationContainerPage
+[MASTER] 18:40:06.320 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughLogoOwnersListContainerPage
+[MASTER] 18:40:06.320 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughLogoVeterinariansContainerPage
+[MASTER] 18:40:06.320 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughNavbarAddEditOwnerContainerPage
+[MASTER] 18:40:06.322 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughNavbarAddEditPetContainerPage
+[MASTER] 18:40:06.322 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughNavbarAddEditVisitContainerPage
+[MASTER] 18:40:06.322 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughNavbarHomeContainerPage
+[MASTER] 18:40:06.322 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughNavbarOwnerInformationContainerPage
+[MASTER] 18:40:06.322 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughNavbarOwnersListContainerPage
+[MASTER] 18:40:06.322 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughNavbarVeterinariansContainerPage
+[MASTER] 18:40:06.322 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToOwnerInformationOwnersListContainerPage
+[MASTER] 18:40:06.323 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToOwnersListAddEditOwnerContainerPage
+[MASTER] 18:40:06.323 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToOwnersListAddEditPetContainerPage
+[MASTER] 18:40:06.323 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToOwnersListAddEditVisitContainerPage
+[MASTER] 18:40:06.323 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToOwnersListHomeContainerPage
+[MASTER] 18:40:06.323 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToOwnersListOwnerInformationContainerPage
+[MASTER] 18:40:06.323 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToOwnersListOwnersListContainerPage
+[MASTER] 18:40:06.323 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToOwnersListVeterinariansContainerPage
+[MASTER] 18:40:06.323 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToVeterinariansAddEditOwnerContainerPage
+[MASTER] 18:40:06.323 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToVeterinariansAddEditPetContainerPage
+[MASTER] 18:40:06.323 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToVeterinariansAddEditVisitContainerPage
+[MASTER] 18:40:06.323 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToVeterinariansHomeContainerPage
+[MASTER] 18:40:06.323 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToVeterinariansOwnerInformationContainerPage
+[MASTER] 18:40:06.323 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToVeterinariansOwnersListContainerPage
+[MASTER] 18:40:06.323 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToVeterinariansVeterinariansContainerPage
+[MASTER] 18:40:06.323 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToVisitsOwnerInformationContainerPage
+[MASTER] 18:40:06.324 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: registerNewOwnerAddEditOwnerContainerPage
+[MASTER] 18:40:06.324 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: registerNewOwnerAddEditPetContainerPage
+[MASTER] 18:40:06.324 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: registerNewOwnerAddEditVisitContainerPage
+[MASTER] 18:40:06.324 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: registerNewOwnerHomeContainerPage
+[MASTER] 18:40:06.324 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: registerNewOwnerOwnerInformationContainerPage
+[MASTER] 18:40:06.324 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: registerNewOwnerOwnersListContainerPage
+[MASTER] 18:40:06.324 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: registerNewOwnerVeterinariansContainerPage
+[MASTER] 18:40:06.325 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: registerOwnerAddEditOwnerContainerPage
+[MASTER] 18:40:06.325 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: registerOwnerWithLongFirstNameAddEditOwnerContainerPage
+[MASTER] 18:40:06.325 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: searchFilterOwnersListContainerPage
+[MASTER] 18:40:06.325 [logback-1] INFO  PropertiesSearchAlgorithmFactory - Chosen search algorithm: ADAPTIVE
+[MASTER] 18:40:06.345 [logback-1] INFO  TestSuiteFitnessFunction - Total line coverage goals: [12, 15, 17, 19, 20, 24, 25, 26, 27, 28, 29, 30, 32, 34, 38, 39, 40, 41, 42, 43, 44, 46, 48, 52, 53, 54, 55, 56, 57, 58, 60, 62, 66, 67, 68, 69, 70, 71, 72, 74, 76, 80, 81, 82, 83, 84, 85, 86, 88, 90, 95, 96, 97, 98, 99, 100, 101, 103, 105, 109, 110, 111, 112, 113, 114, 115, 117, 119, 123, 124, 125, 126, 127, 128, 129, 131, 133, 137, 138, 139, 140, 141, 142, 143, 145, 147, 151, 152, 153, 154, 155, 156, 157, 159, 161, 165, 166, 167, 168, 169, 170, 171, 173, 175, 181, 182, 183, 184, 185, 186, 187, 189, 192, 193, 195, 197, 203, 204, 205, 206, 207, 208, 209, 211, 214, 215, 217, 219, 223, 224, 225, 226, 227, 228, 229, 231, 233, 237, 238, 239, 240, 241, 242, 243, 245, 247, 251, 252, 253, 254, 255, 256, 257, 259, 261, 265, 266, 267, 268, 269, 270, 271, 273, 275, 279, 280, 281, 282, 283, 284, 285, 287, 289, 293, 294, 295, 296, 297, 298, 299, 301, 303, 307, 308, 309, 310, 311, 312, 313, 315, 317, 321, 322, 323, 324, 325, 326, 327, 329, 331, 335, 336, 337, 338, 339, 340, 341, 343, 345, 349, 350, 351, 352, 353, 354, 355, 357, 359, 363, 364, 365, 366, 367, 368, 369, 371, 373, 377, 378, 379, 380, 381, 382, 383, 385, 387, 392, 393, 394, 395, 396, 397, 398, 400, 402, 404, 405, 407, 409, 414, 415, 416, 417, 418, 419, 421, 423, 425, 426, 428, 430, 434, 435, 436, 437, 438, 439, 440, 442, 444, 448, 449, 450, 451, 452, 453, 454, 456, 458, 462, 463, 464, 465, 466, 467, 468, 470, 472, 476, 477, 478, 479, 480, 481, 482, 484, 486, 491, 492, 493, 494, 495, 496, 498, 499, 501, 502, 504, 506, 510, 511, 512, 513, 514, 515, 516, 518, 520, 524, 525, 526, 527, 528, 529, 530, 532, 534, 538, 539, 540, 541, 542, 543, 544, 546, 548, 552, 553, 554, 555, 556, 557, 558, 560, 562, 566, 567, 568, 569, 570, 571, 572, 574, 576, 580, 581, 582, 583, 584, 585, 586, 588, 590, 598, 599, 600, 601, 602, 603, 604, 605, 606, 608, 611, 612, 614, 616, 624, 625, 626, 627, 628, 629, 630, 631, 632, 634, 637, 638, 640, 642, 646, 647, 648, 649, 650, 651, 652, 654, 656, 660, 661, 662, 663, 664, 665, 666, 668, 670, 676, 677, 678, 679, 681, 682, 684, 685, 686, 688, 689, 691, 693, 697, 698, 699, 700, 701, 702, 703, 705, 707, 711, 712, 713, 714, 715, 716, 717, 719, 721, 725, 726, 727, 728, 729, 730, 731, 733, 735, 741, 742, 743, 744, 745, 746, 748, 749, 750, 752, 753, 755, 757]
+[MASTER] 18:40:06.354 [logback-1] INFO  LineCoverageFactory - Lines to cover list size: 47
+[MASTER] 18:40:06.354 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToHomeThroughLogoHomeContainerPage()V, Line 27.
+[MASTER] 18:40:06.362 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToHomeThroughNavbarHomeContainerPage()V, Line 41.
+[MASTER] 18:40:06.362 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToOwnersListHomeContainerPage()V, Line 55.
+[MASTER] 18:40:06.362 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToVeterinariansHomeContainerPage()V, Line 69.
+[MASTER] 18:40:06.362 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.registerNewOwnerHomeContainerPage()V, Line 83.
+[MASTER] 18:40:06.362 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.addVisitAddEditVisitContainerPage(Lcustom_classes/Dates;Lcustom_classes/VisitDescriptions;)V, Line 98.
+[MASTER] 18:40:06.362 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToHomeThroughLogoAddEditVisitContainerPage()V, Line 112.
+[MASTER] 18:40:06.362 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToHomeThroughNavbarAddEditVisitContainerPage()V, Line 126.
+[MASTER] 18:40:06.363 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToOwnersListAddEditVisitContainerPage()V, Line 140.
+[MASTER] 18:40:06.363 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToVeterinariansAddEditVisitContainerPage()V, Line 154.
+[MASTER] 18:40:06.363 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.registerNewOwnerAddEditVisitContainerPage()V, Line 168.
+[MASTER] 18:40:06.363 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.addNewPetAddEditPetContainerPage(Lcustom_classes/LongPetNames;Lcustom_classes/Dates;Lcustom_classes/PetTypes;)V, Line 186.
+[MASTER] 18:40:06.363 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.addNewPetWithLongNameAddEditPetContainerPage(Lcustom_classes/LongPetNames;Lcustom_classes/Dates;Lcustom_classes/PetTypes;)V, Line 208.
+[MASTER] 18:40:06.363 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToHomeThroughLogoAddEditPetContainerPage()V, Line 226.
+[MASTER] 18:40:06.363 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToHomeThroughNavbarAddEditPetContainerPage()V, Line 240.
+[MASTER] 18:40:06.363 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToOwnersListAddEditPetContainerPage()V, Line 254.
+[MASTER] 18:40:06.363 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToVeterinariansAddEditPetContainerPage()V, Line 268.
+[MASTER] 18:40:06.364 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.registerNewOwnerAddEditPetContainerPage()V, Line 282.
+[MASTER] 18:40:06.364 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToHomeThroughLogoVeterinariansContainerPage()V, Line 296.
+[MASTER] 18:40:06.364 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToHomeThroughNavbarVeterinariansContainerPage()V, Line 310.
+[MASTER] 18:40:06.364 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToOwnersListVeterinariansContainerPage()V, Line 324.
+[MASTER] 18:40:06.364 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToVeterinariansVeterinariansContainerPage()V, Line 338.
+[MASTER] 18:40:06.364 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.registerNewOwnerVeterinariansContainerPage()V, Line 352.
+[MASTER] 18:40:06.364 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToAddNewPetOwnerInformationContainerPage()V, Line 366.
+[MASTER] 18:40:06.365 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToEditOwnerOwnerInformationContainerPage()V, Line 380.
+[MASTER] 18:40:06.365 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToEditPetThroghEditLinkOwnerInformationContainerPage(Lcustom_classes/PetNames;)V, Line 397.
+[MASTER] 18:40:06.365 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToEditPetThroughNameOwnerInformationContainerPage(Lcustom_classes/PetNames;)V, Line 418.
+[MASTER] 18:40:06.365 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToHomeThroughLogoOwnerInformationContainerPage()V, Line 437.
+[MASTER] 18:40:06.365 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToHomeThroughNavbarOwnerInformationContainerPage()V, Line 451.
+[MASTER] 18:40:06.365 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToOwnersListOwnerInformationContainerPage()V, Line 465.
+[MASTER] 18:40:06.365 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToVeterinariansOwnerInformationContainerPage()V, Line 479.
+[MASTER] 18:40:06.365 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToVisitsOwnerInformationContainerPage(Lcustom_classes/PetNames;)V, Line 495.
+[MASTER] 18:40:06.365 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.registerNewOwnerOwnerInformationContainerPage()V, Line 513.
+[MASTER] 18:40:06.365 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToHomeThroughLogoAddEditOwnerContainerPage()V, Line 527.
+[MASTER] 18:40:06.365 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToHomeThroughNavbarAddEditOwnerContainerPage()V, Line 541.
+[MASTER] 18:40:06.366 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToOwnersListAddEditOwnerContainerPage()V, Line 555.
+[MASTER] 18:40:06.366 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToVeterinariansAddEditOwnerContainerPage()V, Line 569.
+[MASTER] 18:40:06.366 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.registerNewOwnerAddEditOwnerContainerPage()V, Line 583.
+[MASTER] 18:40:06.366 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.registerOwnerAddEditOwnerContainerPage(Lcustom_classes/LongFirstNames;Lcustom_classes/LastNames;Lcustom_classes/Addresses;Lcustom_classes/Cities;Lcustom_classes/LongTelephones;)V, Line 605.
+[MASTER] 18:40:06.366 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.registerOwnerWithLongFirstNameAddEditOwnerContainerPage(Lcustom_classes/LongFirstNames;Lcustom_classes/LastNames;Lcustom_classes/Addresses;Lcustom_classes/Cities;Lcustom_classes/LongTelephones;)V, Line 631.
+[MASTER] 18:40:06.366 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToHomeThroughLogoOwnersListContainerPage()V, Line 649.
+[MASTER] 18:40:06.366 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToHomeThroughNavbarOwnersListContainerPage()V, Line 663.
+[MASTER] 18:40:06.366 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToOwnerInformationOwnersListContainerPage(Lcustom_classes/FirstNames;Lcustom_classes/LastNames;)V, Line 681.
+[MASTER] 18:40:06.366 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToOwnersListOwnersListContainerPage()V, Line 700.
+[MASTER] 18:40:06.367 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToVeterinariansOwnersListContainerPage()V, Line 714.
+[MASTER] 18:40:06.367 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.registerNewOwnerOwnersListContainerPage()V, Line 728.
+[MASTER] 18:40:06.367 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.searchFilterOwnersListContainerPage(Lcustom_classes/FirstNames;Lcustom_classes/LastNames;)V, Line 745.
+[MASTER] 18:40:06.370 [logback-1] INFO  TestSuiteFitnessFunction - Covering branches true: []
+[MASTER] 18:40:06.371 [logback-1] INFO  TestSuiteFitnessFunction - Covering branches false: []
+[MASTER] 18:40:06.371 [logback-1] INFO  TestSuiteFitnessFunction - Covering branches both: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58]
+[MASTER] 18:40:06.371 [logback-1] INFO  AdaptiveRandomSearch - SuiteFitness AdaptiveRandomSearch: class org.evosuite.coverage.line.LineCoverageSuiteFitness
+[MASTER] 18:40:06.373 [logback-1] INFO  PropertiesSearchAlgorithmFactory - Setting stopping condition: MAXTIME
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToVeterinariansOwnersListContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToEditPetThroghEditLinkOwnerInformationContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughNavbarVeterinariansContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToOwnersListAddEditOwnerContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughLogoAddEditVisitContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToEditPetThroughNameOwnerInformationContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: registerNewOwnerOwnerInformationContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughNavbarOwnersListContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToVeterinariansAddEditVisitContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToOwnersListOwnerInformationContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughLogoOwnersListContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToOwnersListAddEditVisitContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughNavbarHomeContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: addNewPetWithLongNameAddEditPetContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughLogoAddEditPetContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: addVisitAddEditVisitContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: registerNewOwnerVeterinariansContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughNavbarOwnerInformationContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: registerNewOwnerOwnersListContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToVeterinariansAddEditOwnerContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughLogoAddEditOwnerContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: registerOwnerAddEditOwnerContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToOwnersListAddEditPetContainerPage
+* Total number of test goals for Adaptive: 47
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: registerNewOwnerAddEditVisitContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToVeterinariansHomeContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: registerOwnerWithLongFirstNameAddEditOwnerContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughLogoVeterinariansContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToOwnersListHomeContainerPage
+* Using seed 1582915179248
+* Starting evolution
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughNavbarAddEditVisitContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: registerNewOwnerHomeContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToAddNewPetOwnerInformationContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: registerNewOwnerAddEditPetContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughLogoHomeContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: registerNewOwnerAddEditOwnerContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToVisitsOwnerInformationContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToEditOwnerOwnerInformationContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: searchFilterOwnersListContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughNavbarAddEditOwnerContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToVeterinariansVeterinariansContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToOwnerInformationOwnersListContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughNavbarAddEditPetContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToVeterinariansOwnerInformationContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughLogoOwnerInformationContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToOwnersListVeterinariansContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToOwnersListOwnersListContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToVeterinariansAddEditPetContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: addNewPetAddEditPetContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####constructor: main.ClassUnderTest
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: addNewPetAddEditPetContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: addNewPetWithLongNameAddEditPetContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: addVisitAddEditVisitContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToAddNewPetOwnerInformationContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToEditOwnerOwnerInformationContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToEditPetThroghEditLinkOwnerInformationContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToEditPetThroughNameOwnerInformationContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughLogoAddEditOwnerContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughLogoAddEditPetContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughLogoAddEditVisitContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughLogoHomeContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughLogoOwnerInformationContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughLogoOwnersListContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughLogoVeterinariansContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughNavbarAddEditOwnerContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughNavbarAddEditPetContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughNavbarAddEditVisitContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughNavbarHomeContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughNavbarOwnerInformationContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughNavbarOwnersListContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeThroughNavbarVeterinariansContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToOwnerInformationOwnersListContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToOwnersListAddEditOwnerContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToOwnersListAddEditPetContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToOwnersListAddEditVisitContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToOwnersListHomeContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToOwnersListOwnerInformationContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToOwnersListOwnersListContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToOwnersListVeterinariansContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToVeterinariansAddEditOwnerContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToVeterinariansAddEditPetContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToVeterinariansAddEditVisitContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToVeterinariansHomeContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToVeterinariansOwnerInformationContainerPage
+[Progress:>                             0%] [Cov:>                                  0%][MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToVeterinariansOwnersListContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToVeterinariansVeterinariansContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToVisitsOwnerInformationContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: registerNewOwnerAddEditOwnerContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: registerNewOwnerAddEditPetContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: registerNewOwnerAddEditVisitContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: registerNewOwnerHomeContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: registerNewOwnerOwnerInformationContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: registerNewOwnerOwnersListContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: registerNewOwnerVeterinariansContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: registerOwnerAddEditOwnerContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: registerOwnerWithLongFirstNameAddEditOwnerContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: searchFilterOwnersListContainerPage
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Lines to cover list size: 47
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToHomeThroughLogoHomeContainerPage()V, Line 27.
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToHomeThroughNavbarHomeContainerPage()V, Line 41.
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToOwnersListHomeContainerPage()V, Line 55.
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToVeterinariansHomeContainerPage()V, Line 69.
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.registerNewOwnerHomeContainerPage()V, Line 83.
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.addVisitAddEditVisitContainerPage(Lcustom_classes/Dates;Lcustom_classes/VisitDescriptions;)V, Line 98.
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToHomeThroughLogoAddEditVisitContainerPage()V, Line 112.
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToHomeThroughNavbarAddEditVisitContainerPage()V, Line 126.
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToOwnersListAddEditVisitContainerPage()V, Line 140.
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToVeterinariansAddEditVisitContainerPage()V, Line 154.
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.registerNewOwnerAddEditVisitContainerPage()V, Line 168.
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.addNewPetAddEditPetContainerPage(Lcustom_classes/LongPetNames;Lcustom_classes/Dates;Lcustom_classes/PetTypes;)V, Line 186.
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.addNewPetWithLongNameAddEditPetContainerPage(Lcustom_classes/LongPetNames;Lcustom_classes/Dates;Lcustom_classes/PetTypes;)V, Line 208.
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToHomeThroughLogoAddEditPetContainerPage()V, Line 226.
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToHomeThroughNavbarAddEditPetContainerPage()V, Line 240.
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToOwnersListAddEditPetContainerPage()V, Line 254.
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToVeterinariansAddEditPetContainerPage()V, Line 268.
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.registerNewOwnerAddEditPetContainerPage()V, Line 282.
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToHomeThroughLogoVeterinariansContainerPage()V, Line 296.
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToHomeThroughNavbarVeterinariansContainerPage()V, Line 310.
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToOwnersListVeterinariansContainerPage()V, Line 324.
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToVeterinariansVeterinariansContainerPage()V, Line 338.
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.registerNewOwnerVeterinariansContainerPage()V, Line 352.
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToAddNewPetOwnerInformationContainerPage()V, Line 366.
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToEditOwnerOwnerInformationContainerPage()V, Line 380.
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToEditPetThroghEditLinkOwnerInformationContainerPage(Lcustom_classes/PetNames;)V, Line 397.
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToEditPetThroughNameOwnerInformationContainerPage(Lcustom_classes/PetNames;)V, Line 418.
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToHomeThroughLogoOwnerInformationContainerPage()V, Line 437.
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToHomeThroughNavbarOwnerInformationContainerPage()V, Line 451.
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToOwnersListOwnerInformationContainerPage()V, Line 465.
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToVeterinariansOwnerInformationContainerPage()V, Line 479.
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToVisitsOwnerInformationContainerPage(Lcustom_classes/PetNames;)V, Line 495.
+[MASTER] 18:40:06.377 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.registerNewOwnerOwnerInformationContainerPage()V, Line 513.
+[MASTER] 18:40:06.379 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToHomeThroughLogoAddEditOwnerContainerPage()V, Line 527.
+[MASTER] 18:40:06.379 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToHomeThroughNavbarAddEditOwnerContainerPage()V, Line 541.
+[MASTER] 18:40:06.379 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToOwnersListAddEditOwnerContainerPage()V, Line 555.
+[MASTER] 18:40:06.379 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToVeterinariansAddEditOwnerContainerPage()V, Line 569.
+[MASTER] 18:40:06.379 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.registerNewOwnerAddEditOwnerContainerPage()V, Line 583.
+[MASTER] 18:40:06.379 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.registerOwnerAddEditOwnerContainerPage(Lcustom_classes/LongFirstNames;Lcustom_classes/LastNames;Lcustom_classes/Addresses;Lcustom_classes/Cities;Lcustom_classes/LongTelephones;)V, Line 605.
+[MASTER] 18:40:06.379 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.registerOwnerWithLongFirstNameAddEditOwnerContainerPage(Lcustom_classes/LongFirstNames;Lcustom_classes/LastNames;Lcustom_classes/Addresses;Lcustom_classes/Cities;Lcustom_classes/LongTelephones;)V, Line 631.
+[MASTER] 18:40:06.379 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToHomeThroughLogoOwnersListContainerPage()V, Line 649.
+[MASTER] 18:40:06.379 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToHomeThroughNavbarOwnersListContainerPage()V, Line 663.
+[MASTER] 18:40:06.379 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToOwnerInformationOwnersListContainerPage(Lcustom_classes/FirstNames;Lcustom_classes/LastNames;)V, Line 681.
+[MASTER] 18:40:06.379 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToOwnersListOwnersListContainerPage()V, Line 700.
+[MASTER] 18:40:06.379 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.goToVeterinariansOwnersListContainerPage()V, Line 714.
+[MASTER] 18:40:06.379 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.registerNewOwnerOwnersListContainerPage()V, Line 728.
+[MASTER] 18:40:06.379 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTest.searchFilterOwnersListContainerPage(Lcustom_classes/FirstNames;Lcustom_classes/LastNames;)V, Line 745.
+[MASTER] 18:40:06.380 [logback-1] INFO  ClientNodeImpl - Sending output variable to master process: Total_Goals = 47
+[MASTER] 18:40:06.380 [logback-1] INFO  ClientNodeImpl - Client changing state from INITIALIZATION to SEARCH
+[MASTER] 18:40:06.384 [logback-1] INFO  AdaptiveRandomSearch - executing generateSolution function
+[MASTER] 18:40:06.384 [logback-1] INFO  AdaptiveRandomSearch - executing initializePopulation function
+[MASTER] 18:40:06.385 [logback-1] INFO  AllMethodsTestChromosomeFactory - MethodToAdd: goToHomeThroughNavbarAddEditOwnerContainerPage, edge to add goToHomeThroughNavbarAddEditOwnerContainerPage-AddEditOwnerContainerPage-HomeContainerPage
+[MASTER] 18:40:06.398 [logback-1] INFO  TestCaseExecutor - Executing test
+[MASTER] 18:40:06.399 [logback-1] INFO  TestCaseExecutor - Executing test. Id: 2 (Client state: Search)
+[MASTER] 18:40:06.399 [logback-1] INFO  TestCaseExecutor - Reset application state
+[MASTER] 18:42:16.893 [logback-1] INFO  ClientNodeImpl - Client changing state from SEARCH to DONE
+[MASTER] 18:42:16.903 [logback-1] INFO  ClientNodeImpl - Client changing state from DONE to FINISHED
+* Computation finished
