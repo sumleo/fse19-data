@@ -1,0 +1,1069 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-master/1.0.4-SNAPSHOT/evosuite-master-1.0.4-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+[MASTER] 08:33:41.733 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Class path contains multiple SLF4J bindings.
+
+SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[MASTER] 08:33:41.735 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+
+SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-master/1.0.4-SNAPSHOT/evosuite-master-1.0.4-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[MASTER] 08:33:41.737 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-master/1.0.4-SNAPSHOT/evosuite-master-1.0.4-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[MASTER] 08:33:41.737 [Thread-3] ERROR ExternalProcessHandler - SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+[MASTER] 08:33:57.025 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+
+Sat Feb 29 08:34:46 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:34:46.512 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:34:46 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 29, 2020 8:34:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 08:34:49.540 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:34:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 08:34:49.540 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 29, 2020 8:35:20 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:35:20.797 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:35:20 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //ul[@class="uk-nav uk-nav-side"]/li/a[text()="Not Linked"]
+[MASTER] 08:35:20.797 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //ul[@class="uk-nav uk-nav-side"]/li/a[text()="Not Linked"]
+
+
+[MASTER] 08:35:20.797 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:35:20.797 [Thread-3] ERROR ExternalProcessHandler - 
+
+Sat Feb 29 08:35:20 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:35:20.815 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:35:20 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:35:34 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:35:34.360 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:35:34 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Exception in thread "Thread-3" java.lang.ClassCastException: org.evosuite.testcase.TestChromosome cannot be cast to org.evosuite.testsuite.TestSuiteChromosome
+[MASTER] 08:35:35.808 [Thread-3] ERROR ExternalProcessHandler - Exception in thread "Thread-3" java.lang.ClassCastException: org.evosuite.testcase.TestChromosome cannot be cast to org.evosuite.testsuite.TestSuiteChromosome
+
+	at org.evosuite.statistics.SearchStatistics.currentIndividual(SearchStatistics.java:181)
+[MASTER] 08:35:35.809 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.statistics.SearchStatistics.currentIndividual(SearchStatistics.java:181)
+
+	at org.evosuite.rmi.service.MasterNodeImpl.evosuite_collectStatistics(MasterNodeImpl.java:166)
+[MASTER] 08:35:35.809 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.rmi.service.MasterNodeImpl.evosuite_collectStatistics(MasterNodeImpl.java:166)
+
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[MASTER] 08:35:35.809 [Thread-3] ERROR ExternalProcessHandler - 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[MASTER] 08:35:35.809 [Thread-3] ERROR ExternalProcessHandler - 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[MASTER] 08:35:35.810 [Thread-3] ERROR ExternalProcessHandler - 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+	at java.lang.reflect.Method.invoke(Method.java:498)
+[MASTER] 08:35:35.817 [Thread-3] ERROR ExternalProcessHandler - 	at java.lang.reflect.Method.invoke(Method.java:498)
+
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+[MASTER] 08:35:35.817 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+[MASTER] 08:35:35.817 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+[MASTER] 08:35:35.818 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+
+	at java.security.AccessController.doPrivileged(Native Method)
+[MASTER] 08:35:35.818 [Thread-3] ERROR ExternalProcessHandler - 	at java.security.AccessController.doPrivileged(Native Method)
+
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+[MASTER] 08:35:35.818 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573)
+[MASTER] 08:35:35.818 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573)
+
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834)
+[MASTER] 08:35:35.818 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834)
+
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688)
+[MASTER] 08:35:35.819 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688)
+
+	at java.security.AccessController.doPrivileged(Native Method)
+[MASTER] 08:35:35.819 [Thread-3] ERROR ExternalProcessHandler - 	at java.security.AccessController.doPrivileged(Native Method)
+
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687)
+[MASTER] 08:35:35.819 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687)
+
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[MASTER] 08:35:35.819 [Thread-3] ERROR ExternalProcessHandler - 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[MASTER] 08:35:35.819 [Thread-3] ERROR ExternalProcessHandler - 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+
+	at java.lang.Thread.run(Thread.java:748)
+[MASTER] 08:35:35.820 [Thread-3] ERROR ExternalProcessHandler - 	at java.lang.Thread.run(Thread.java:748)
+
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:303)
+[MASTER] 08:35:35.820 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:303)
+
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:279)
+[MASTER] 08:35:35.820 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:279)
+
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:164)
+[MASTER] 08:35:35.820 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:164)
+
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:235)
+[MASTER] 08:35:35.823 [Thread-3] ERROR ExternalProcessHandler - 	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:235)
+
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:180)
+[MASTER] 08:35:35.823 [Thread-3] ERROR ExternalProcessHandler - 	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:180)
+
+	at com.sun.proxy.$Proxy7.evosuite_collectStatistics(Unknown Source)
+[MASTER] 08:35:35.823 [Thread-3] ERROR ExternalProcessHandler - 	at com.sun.proxy.$Proxy7.evosuite_collectStatistics(Unknown Source)
+
+	at org.evosuite.rmi.service.ClientNodeImpl.updateStatistics(ClientNodeImpl.java:237)
+[MASTER] 08:35:35.824 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.rmi.service.ClientNodeImpl.updateStatistics(ClientNodeImpl.java:237)
+
+	at org.evosuite.statistics.StatisticsSender.sendIndividualToMaster(StatisticsSender.java:75)
+[MASTER] 08:35:35.824 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.statistics.StatisticsSender.sendIndividualToMaster(StatisticsSender.java:75)
+
+	at org.evosuite.statistics.StatisticsListener$1.run(StatisticsListener.java:71)
+[MASTER] 08:35:35.824 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.statistics.StatisticsListener$1.run(StatisticsListener.java:71)
+
+Feb 29, 2020 8:35:59 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:35:59.102 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:35:59 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:35:59.103 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:35:59.103 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:35:59.103 [Thread-3] ERROR ExternalProcessHandler - 
+
+Sat Feb 29 08:36:17 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:36:17.598 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:36:17 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 29, 2020 8:36:23 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:36:23.852 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:36:23 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:36:23.853 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:36:23.853 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:36:23.853 [Thread-3] ERROR ExternalProcessHandler - 
+
+Sat Feb 29 08:36:24 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:36:24.555 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:36:24 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 29, 2020 8:36:29 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:36:29.012 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:36:29 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:36:29.013 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:36:29.013 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:36:29.013 [Thread-3] ERROR ExternalProcessHandler - 
+
+Sat Feb 29 08:36:29 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:36:29.937 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:36:29 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:36:43 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:36:43.680 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:36:43 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:37:06 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:37:06.437 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:37:06 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:37:19 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:37:19.219 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:37:19 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:37:23 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:37:23.961 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:37:23 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:37:39 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:37:39.782 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:37:39 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:37:48 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:37:48.724 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:37:48 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 29, 2020 8:37:55 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:37:55.037 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:37:55 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:37:55.037 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:37:55.037 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:37:55.037 [Thread-3] ERROR ExternalProcessHandler - 
+
+Sat Feb 29 08:37:57 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:37:57.754 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:37:57 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 29, 2020 8:38:17 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:38:17.013 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:38:17 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:38:17.014 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:38:17.014 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:38:17.014 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 29, 2020 8:38:19 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:38:19.129 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:38:19 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:38:19.130 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:38:19.130 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:38:19.130 [Thread-3] ERROR ExternalProcessHandler - 
+
+Sat Feb 29 08:38:26 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:38:26.049 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:38:26 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:38:34 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:38:34.234 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:38:34 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:38:37 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:38:37.262 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:38:37 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:38:44 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:38:44.972 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:38:44 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:38:55 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:38:55.763 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:38:55 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 29, 2020 8:39:00 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:39:00.974 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:39:00 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:39:00.975 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:39:00.975 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:39:00.975 [Thread-3] ERROR ExternalProcessHandler - 
+
+Sat Feb 29 08:39:04 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:39:04.584 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:39:04 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:39:16 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:39:16.585 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:39:16 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 29, 2020 8:39:19 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:39:19.679 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:39:19 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:39:19.680 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:39:19.680 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:39:19.680 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 29, 2020 8:39:21 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:39:21.779 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:39:21 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:39:21.779 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:39:21.779 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:39:21.779 [Thread-3] ERROR ExternalProcessHandler - 
+
+Sat Feb 29 08:39:27 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:39:27.857 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:39:27 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:39:37 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:39:37.135 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:39:37 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:39:45 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:39:45.979 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:39:45 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 29, 2020 8:40:37 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:40:37.567 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:40:37 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:40:37.569 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:40:37.569 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:40:37.569 [Thread-3] ERROR ExternalProcessHandler - 
+
+Sat Feb 29 08:40:48 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:40:48.434 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:40:48 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:40:57 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:40:57.181 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:40:57 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 29, 2020 8:41:01 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:41:01.836 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:41:01 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:41:01.836 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:41:01.836 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:41:01.836 [Thread-3] ERROR ExternalProcessHandler - 
+
+Sat Feb 29 08:41:06 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:41:06.207 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:41:06 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:41:10 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:41:10.215 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:41:10 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 29, 2020 8:41:17 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:41:17.043 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:41:17 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:41:17.044 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:41:17.044 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:41:17.044 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 29, 2020 8:41:22 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:41:22.487 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:41:22 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:41:22.488 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:41:22.488 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:41:22.488 [Thread-3] ERROR ExternalProcessHandler - 
+
+Sat Feb 29 08:41:24 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:41:24.627 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:41:24 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 29, 2020 8:41:37 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:41:37.583 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:41:37 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:41:37.584 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:41:37.584 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:41:37.584 [Thread-3] ERROR ExternalProcessHandler - 
+
+Sat Feb 29 08:41:40 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:41:40.458 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:41:40 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 29, 2020 8:41:51 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:41:51.508 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:41:51 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:41:51.509 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:41:51.509 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:41:51.509 [Thread-3] ERROR ExternalProcessHandler - 
+
+Sat Feb 29 08:41:57 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:41:57.271 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:41:57 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:42:00 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:42:00.137 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:42:00 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 29, 2020 8:42:10 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:42:10.279 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:42:10 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:42:10.280 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:42:10.280 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:42:10.280 [Thread-3] ERROR ExternalProcessHandler - 
+
+Sat Feb 29 08:42:20 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:42:20.756 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:42:20 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 29, 2020 8:42:28 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:42:28.999 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:42:28 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:42:29.005 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:42:29.005 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:42:29.005 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 29, 2020 8:42:32 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:42:32.043 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:42:32 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:42:32.043 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:42:32.043 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:42:32.043 [Thread-3] ERROR ExternalProcessHandler - 
+
+Sat Feb 29 08:42:48 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:42:48.002 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:42:48 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 29, 2020 8:42:51 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:42:51.739 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:42:51 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:42:51.740 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:42:51.740 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:42:51.740 [Thread-3] ERROR ExternalProcessHandler - 
+
+Sat Feb 29 08:42:59 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:42:59.380 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:42:59 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:43:07 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:43:07.890 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:43:07 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:43:28 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:43:28.303 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:43:28 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:47:01 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:47:01.990 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:47:01 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 29, 2020 8:47:08 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:47:08.940 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:47:08 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:47:08.941 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:47:08.941 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:47:08.941 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 29, 2020 8:47:12 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:47:12.717 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:47:12 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:47:12.718 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:47:12.718 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:47:12.718 [Thread-3] ERROR ExternalProcessHandler - 
+
+Sat Feb 29 08:47:16 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:47:16.032 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:47:16 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:47:20 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:47:20.908 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:47:20 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:47:30 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:47:30.357 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:47:30 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:47:39 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:47:39.972 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:47:39 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:47:42 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:47:42.549 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:47:42 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 29, 2020 8:47:49 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:47:49.307 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:47:49 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:47:49.307 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:47:49.307 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:47:49.307 [Thread-3] ERROR ExternalProcessHandler - 
+
+Sat Feb 29 08:47:50 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:47:50.802 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:47:50 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:48:00 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:48:00.932 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:48:00 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:48:38 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:48:38.381 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:48:38 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:48:46 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:48:46.432 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:48:46 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:48:50 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:48:50.213 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:48:50 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 29, 2020 8:48:54 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:48:54.047 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:48:54 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:48:54.047 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:48:54.047 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:48:54.047 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 29, 2020 8:48:56 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:48:56.176 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:48:56 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:48:56.177 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:48:56.177 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:48:56.177 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 29, 2020 8:48:58 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:48:58.682 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:48:58 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:48:58.682 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:48:58.682 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:48:58.682 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 29, 2020 8:49:01 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:49:01.868 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:49:01 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:49:01.869 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:49:01.869 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:49:01.869 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 29, 2020 8:49:03 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:49:04.000 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:49:03 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:49:04.000 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:49:04.000 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:49:04.000 [Thread-3] ERROR ExternalProcessHandler - 
+
+Sat Feb 29 08:49:09 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:49:09.296 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:49:09 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 29, 2020 8:49:16 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:49:16.549 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:49:16 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:49:16.550 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:49:16.550 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:49:16.550 [Thread-3] ERROR ExternalProcessHandler - 
+
+Sat Feb 29 08:49:22 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:49:22.934 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:49:22 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:49:28 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:49:28.650 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:49:28 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 29, 2020 8:49:35 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:49:35.332 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:49:35 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:49:35.333 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:49:35.333 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:49:35.333 [Thread-3] ERROR ExternalProcessHandler - 
+
+Sat Feb 29 08:49:36 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:49:36.633 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:49:36 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:49:46 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:49:46.729 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:49:46 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:49:50 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:49:50.631 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:49:50 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 29, 2020 8:49:58 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:49:58.061 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:49:58 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:49:58.062 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:49:58.062 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:49:58.062 [Thread-3] ERROR ExternalProcessHandler - 
+
+Sat Feb 29 08:50:37 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:50:37.437 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:50:37 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:50:50 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:50:50.240 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:50:50 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 29, 2020 8:50:54 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:50:54.589 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:50:54 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:50:54.590 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:50:54.590 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:50:54.590 [Thread-3] ERROR ExternalProcessHandler - 
+
+Sat Feb 29 08:51:02 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:51:02.058 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:51:02 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 29, 2020 8:51:05 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:51:05.743 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:51:05 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:51:05.744 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:51:05.744 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:51:05.744 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 29, 2020 8:51:08 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:51:08.559 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:51:08 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:51:08.560 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:51:08.560 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:51:08.560 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 29, 2020 8:51:10 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:51:10.680 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:51:10 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:51:10.681 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:51:10.681 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:51:10.681 [Thread-3] ERROR ExternalProcessHandler - 
+
+Sat Feb 29 08:51:16 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:51:16.481 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:51:16 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:51:21 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:51:21.057 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:51:21 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:51:25 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:51:25.917 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:51:25 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:51:31 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:51:31.181 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:51:31 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:51:36 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:51:36.875 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:51:36 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:51:42 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:51:42.621 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:51:42 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:51:54 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:51:54.520 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:51:54 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:52:05 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:52:05.871 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:52:05 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:52:13 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:52:13.550 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:52:13 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:52:29 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:52:29.981 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:52:29 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:52:32 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:52:32.726 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:52:32 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:52:36 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:52:36.346 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:52:36 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 29, 2020 8:52:41 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:52:41.527 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:52:41 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:52:41.529 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:52:41.529 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:52:41.529 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 29, 2020 8:52:43 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:52:43.665 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:52:43 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:52:43.666 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:52:43.666 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:52:43.666 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 29, 2020 8:52:49 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:52:49.641 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:52:49 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:52:49.641 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:52:49.641 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:52:49.641 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 29, 2020 8:52:51 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:52:51.758 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:52:51 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:52:51.758 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:52:51.758 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:52:51.758 [Thread-3] ERROR ExternalProcessHandler - 
+
+Sat Feb 29 08:52:55 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:52:55.833 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:52:55 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 29, 2020 8:53:02 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:53:02.865 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:53:02 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:53:02.866 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:53:02.866 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:53:02.866 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 29, 2020 8:53:06 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:53:06.364 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:53:06 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:53:06.365 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:53:06.365 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:53:06.365 [Thread-3] ERROR ExternalProcessHandler - 
+
+Sat Feb 29 08:53:12 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:53:12.766 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:53:12 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:53:19 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:53:19.959 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:53:19 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:53:37 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:53:37.340 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:53:37 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:53:40 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:53:40.231 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:53:40 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:53:51 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:53:51.386 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:53:51 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:53:58 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:53:58.943 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:53:58 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 29, 2020 8:54:02 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:54:02.703 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:54:02 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:54:02.704 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:54:02.704 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:54:02.704 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 29, 2020 8:54:04 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:54:04.842 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:54:04 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:54:04.842 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:54:04.842 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:54:04.842 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 29, 2020 8:54:15 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:54:15.419 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:54:15 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[@class="uk-notify uk-notify-top-center"]/div[@class="uk-notify-message uk-notify-message-danger"]
+[MASTER] 08:54:15.420 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[@class="uk-notify uk-notify-top-center"]/div[@class="uk-notify-message uk-notify-message-danger"]
+
+
+[MASTER] 08:54:15.420 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:54:15.420 [Thread-3] ERROR ExternalProcessHandler - 
+
+Sat Feb 29 08:54:36 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:54:36.425 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:54:36 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:54:41 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:54:41.288 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:54:41 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:54:57 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:54:57.558 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:54:57 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 29, 2020 8:55:04 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:55:04.269 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:55:04 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:55:04.270 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:55:04.270 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:55:04.270 [Thread-3] ERROR ExternalProcessHandler - 
+
+Sat Feb 29 08:55:12 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:55:12.114 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:55:12 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 29, 2020 8:55:17 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:55:17.372 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:55:17 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:55:17.372 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:55:17.372 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:55:17.372 [Thread-3] ERROR ExternalProcessHandler - 
+
+Sat Feb 29 08:56:40 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:56:40.046 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:56:40 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:56:55 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:56:55.046 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:56:55 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Sat Feb 29 08:57:04 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:57:04.456 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:57:04 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 29, 2020 8:57:11 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:57:11.666 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:57:11 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:57:11.667 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:57:11.667 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:57:11.667 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 29, 2020 8:57:13 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:57:13.761 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:57:13 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:57:13.762 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:57:13.762 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:57:13.762 [Thread-3] ERROR ExternalProcessHandler - 
+
+Sat Feb 29 08:57:16 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:57:16.551 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:57:16 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 29, 2020 8:57:23 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:57:23.907 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:57:23 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:57:23.907 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:57:23.907 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:57:23.907 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 29, 2020 8:57:28 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:57:28.430 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:57:28 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:57:28.431 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:57:28.431 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:57:28.431 [Thread-3] ERROR ExternalProcessHandler - 
+
+Sat Feb 29 08:57:33 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:57:33.803 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:57:33 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 29, 2020 8:57:44 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:57:44.891 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:57:44 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:57:44.891 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:57:44.891 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:57:44.891 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 29, 2020 8:57:47 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:57:47.028 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:57:47 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:57:47.028 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:57:47.028 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:57:47.028 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 29, 2020 8:57:53 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:57:53.535 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:57:53 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:57:53.536 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:57:53.536 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:57:53.536 [Thread-3] ERROR ExternalProcessHandler - 
+
+Sat Feb 29 08:58:00 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 08:58:00.464 [Thread-3] ERROR ExternalProcessHandler - Sat Feb 29 08:58:00 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 29, 2020 8:58:13 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:58:13.987 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:58:13 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:58:13.988 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:58:13.988 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:58:13.988 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 29, 2020 8:58:19 AM po_utils.PageObjectLogging logInfo
+[MASTER] 08:58:19.364 [Thread-3] ERROR ExternalProcessHandler - Feb 29, 2020 8:58:19 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 08:58:19.365 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 08:58:19.365 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 08:58:19.365 [Thread-3] ERROR ExternalProcessHandler - 
+
+[MASTER] 08:58:29.418 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:320) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.calculateFitness(AdaptiveRandomSearch.java:312) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.evolve(AdaptiveRandomSearch.java:139) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.generateSolution(AdaptiveRandomSearch.java:270) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.AdaptiveRandomTestStrategy.generateTests(AdaptiveRandomTestStrategy.java:118) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_242]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_242]
+[MASTER] 08:58:29.418 [logback-2] ERROR ClientNodeImpl - Error when generating tests for: main.ClassUnderTest with seed 1582965257135. Configuration id : null
+java.lang.Error: java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:336) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.calculateFitness(AdaptiveRandomSearch.java:312) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.evolve(AdaptiveRandomSearch.java:139) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.generateSolution(AdaptiveRandomSearch.java:270) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.AdaptiveRandomTestStrategy.generateTests(AdaptiveRandomTestStrategy.java:118) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_242]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_242]
+Caused by: java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:320) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	... 15 common frames omitted
+[MASTER] 08:58:29.530 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 08:58:29.631 [main] ERROR TestGeneration - failed to write statistics data

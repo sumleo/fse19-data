@@ -1,0 +1,227 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-master/1.0.4-SNAPSHOT/evosuite-master-1.0.4-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+[MASTER] 23:28:52.540 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Class path contains multiple SLF4J bindings.
+
+SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[MASTER] 23:28:52.542 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+
+SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-master/1.0.4-SNAPSHOT/evosuite-master-1.0.4-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[MASTER] 23:28:52.543 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-master/1.0.4-SNAPSHOT/evosuite-master-1.0.4-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[MASTER] 23:28:52.544 [Thread-3] ERROR ExternalProcessHandler - SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+[MASTER] 23:29:02.780 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+
+Fri Feb 28 23:29:46 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 23:29:46.033 [Thread-3] ERROR ExternalProcessHandler - Fri Feb 28 23:29:46 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 28, 2020 11:29:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 23:29:48.432 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 11:29:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 23:29:48.432 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Feb 28, 2020 11:32:55 PM po_utils.PageObjectLogging logInfo
+[MASTER] 23:32:55.235 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 11:32:55 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 23:32:55.236 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 23:32:55.236 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 23:32:55.236 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 11:32:57 PM po_utils.PageObjectLogging logInfo
+[MASTER] 23:32:57.356 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 11:32:57 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 23:32:57.357 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 23:32:57.357 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 23:32:57.357 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 11:33:01 PM po_utils.PageObjectLogging logInfo
+[MASTER] 23:33:01.492 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 11:33:01 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 23:33:01.493 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 23:33:01.493 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 23:33:01.493 [Thread-3] ERROR ExternalProcessHandler - 
+
+Fri Feb 28 23:35:05 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 23:35:05.203 [Thread-3] ERROR ExternalProcessHandler - Fri Feb 28 23:35:05 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 28, 2020 11:37:57 PM po_utils.PageObjectLogging logInfo
+[MASTER] 23:37:57.008 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 11:37:57 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 23:37:57.008 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 23:37:57.008 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 23:37:57.008 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 11:37:59 PM po_utils.PageObjectLogging logInfo
+[MASTER] 23:37:59.097 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 11:37:59 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 23:37:59.098 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 23:37:59.098 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 23:37:59.098 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 11:38:03 PM po_utils.PageObjectLogging logInfo
+[MASTER] 23:38:03.210 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 11:38:03 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 23:38:03.210 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 23:38:03.210 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 23:38:03.210 [Thread-3] ERROR ExternalProcessHandler - 
+
+Fri Feb 28 23:40:07 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 23:40:07.716 [Thread-3] ERROR ExternalProcessHandler - Fri Feb 28 23:40:07 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 28, 2020 11:43:03 PM po_utils.PageObjectLogging logInfo
+[MASTER] 23:43:03.810 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 11:43:03 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 23:43:03.811 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 23:43:03.811 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 23:43:03.811 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 11:43:05 PM po_utils.PageObjectLogging logInfo
+[MASTER] 23:43:05.926 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 11:43:05 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 23:43:05.927 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 23:43:05.927 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 23:43:05.927 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 11:43:10 PM po_utils.PageObjectLogging logInfo
+[MASTER] 23:43:10.048 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 11:43:10 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 23:43:10.048 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 23:43:10.048 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 23:43:10.049 [Thread-3] ERROR ExternalProcessHandler - 
+
+Fri Feb 28 23:45:15 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 23:45:15.266 [Thread-3] ERROR ExternalProcessHandler - Fri Feb 28 23:45:15 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Feb 28, 2020 11:48:15 PM po_utils.PageObjectLogging logInfo
+[MASTER] 23:48:15.673 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 11:48:15 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 23:48:15.674 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 23:48:15.674 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 23:48:15.674 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 11:48:17 PM po_utils.PageObjectLogging logInfo
+[MASTER] 23:48:17.773 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 11:48:17 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 23:48:17.774 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 23:48:17.774 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 23:48:17.774 [Thread-3] ERROR ExternalProcessHandler - 
+
+Feb 28, 2020 11:48:21 PM po_utils.PageObjectLogging logInfo
+[MASTER] 23:48:21.883 [Thread-3] ERROR ExternalProcessHandler - Feb 28, 2020 11:48:21 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+[MASTER] 23:48:21.884 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+[MASTER] 23:48:21.884 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 23:48:21.884 [Thread-3] ERROR ExternalProcessHandler - 
+
+[MASTER] 23:50:28.067 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:320) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.calculateFitness(AdaptiveRandomSearch.java:312) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.calculateFitness(AdaptiveRandomSearch.java:344) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.createAndMinimizeFirstIndividual(AdaptiveRandomSearch.java:222) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.initializePopulation(AdaptiveRandomSearch.java:206) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.generateSolution(AdaptiveRandomSearch.java:262) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.AdaptiveRandomTestStrategy.generateTests(AdaptiveRandomTestStrategy.java:118) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_242]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_242]
+[MASTER] 23:50:28.071 [logback-2] ERROR ClientNodeImpl - Error when generating tests for: main.ClassUnderTest with seed 1582932562896. Configuration id : null
+java.lang.Error: java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:336) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.calculateFitness(AdaptiveRandomSearch.java:312) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.calculateFitness(AdaptiveRandomSearch.java:344) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.createAndMinimizeFirstIndividual(AdaptiveRandomSearch.java:222) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.initializePopulation(AdaptiveRandomSearch.java:206) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.generateSolution(AdaptiveRandomSearch.java:262) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.AdaptiveRandomTestStrategy.generateTests(AdaptiveRandomTestStrategy.java:118) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_242]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_242]
+Caused by: java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:320) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	... 17 common frames omitted
+[MASTER] 23:50:28.191 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 23:50:28.292 [main] ERROR TestGeneration - failed to write statistics data
