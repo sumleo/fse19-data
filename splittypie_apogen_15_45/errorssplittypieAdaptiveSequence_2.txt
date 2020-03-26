@@ -4,93 +4,93 @@ SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosu
 SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
 SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
 SLF4J: Class path contains multiple SLF4J bindings.
-[MASTER] 16:32:28.398 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Class path contains multiple SLF4J bindings.
+[MASTER] 03:01:47.577 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Class path contains multiple SLF4J bindings.
 
 SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
-[MASTER] 16:32:28.400 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[MASTER] 03:01:47.578 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 
 SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-master/1.0.4-SNAPSHOT/evosuite-master-1.0.4-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
-[MASTER] 16:32:28.401 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-master/1.0.4-SNAPSHOT/evosuite-master-1.0.4-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[MASTER] 03:01:47.581 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-master/1.0.4-SNAPSHOT/evosuite-master-1.0.4-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 
 SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
-[MASTER] 16:32:28.402 [Thread-3] ERROR ExternalProcessHandler - SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[MASTER] 03:01:47.581 [Thread-3] ERROR ExternalProcessHandler - SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
 
 SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
-[MASTER] 16:32:43.668 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+[MASTER] 03:02:02.816 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
 
-Mar 25, 2020 4:33:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-[MASTER] 16:33:32.251 [Thread-3] ERROR ExternalProcessHandler - Mar 25, 2020 4:33:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-
-INFO: Detected dialect: OSS
-[MASTER] 16:33:32.252 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
-
-Mar 25, 2020 4:36:06 PM po_utils.PageObjectLogging logInfo
-[MASTER] 16:36:06.803 [Thread-3] ERROR ExternalProcessHandler - Mar 25, 2020 4:36:06 PM po_utils.PageObjectLogging logInfo
-
-INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //section[@id="features"]
-[MASTER] 16:36:06.803 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //section[@id="features"]
-
-
-[MASTER] 16:36:06.803 [Thread-3] ERROR ExternalProcessHandler - 
-
-
-[MASTER] 16:36:06.803 [Thread-3] ERROR ExternalProcessHandler - 
-
-Mar 25, 2020 4:36:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-[MASTER] 16:36:06.968 [Thread-3] ERROR ExternalProcessHandler - Mar 25, 2020 4:36:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 26, 2020 3:02:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 03:02:51.876 [Thread-3] ERROR ExternalProcessHandler - Mar 26, 2020 3:02:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 
 INFO: Detected dialect: OSS
-[MASTER] 16:36:06.968 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+[MASTER] 03:02:51.876 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
 
-Mar 25, 2020 4:38:22 PM po_utils.PageObjectLogging logInfo
-[MASTER] 16:38:22.395 [Thread-3] ERROR ExternalProcessHandler - Mar 25, 2020 4:38:22 PM po_utils.PageObjectLogging logInfo
+Mar 26, 2020 3:04:32 AM po_utils.PageObjectLogging logInfo
+[MASTER] 03:04:32.892 [Thread-3] ERROR ExternalProcessHandler - Mar 26, 2020 3:04:32 AM po_utils.PageObjectLogging logInfo
 
 INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //section[@id="features"]
-[MASTER] 16:38:22.395 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //section[@id="features"]
+[MASTER] 03:04:32.892 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //section[@id="features"]
 
 
-[MASTER] 16:38:22.395 [Thread-3] ERROR ExternalProcessHandler - 
+[MASTER] 03:04:32.892 [Thread-3] ERROR ExternalProcessHandler - 
 
 
-[MASTER] 16:38:22.395 [Thread-3] ERROR ExternalProcessHandler - 
+[MASTER] 03:04:32.892 [Thread-3] ERROR ExternalProcessHandler - 
 
-Mar 25, 2020 4:38:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-[MASTER] 16:38:23.297 [Thread-3] ERROR ExternalProcessHandler - Mar 25, 2020 4:38:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 26, 2020 3:04:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 03:04:33.061 [Thread-3] ERROR ExternalProcessHandler - Mar 26, 2020 3:04:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 
 INFO: Detected dialect: OSS
-[MASTER] 16:38:23.297 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+[MASTER] 03:04:33.061 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
 
-Mar 25, 2020 4:40:39 PM po_utils.PageObjectLogging logInfo
-[MASTER] 16:40:39.647 [Thread-3] ERROR ExternalProcessHandler - Mar 25, 2020 4:40:39 PM po_utils.PageObjectLogging logInfo
+Mar 26, 2020 3:05:55 AM po_utils.PageObjectLogging logInfo
+[MASTER] 03:05:55.856 [Thread-3] ERROR ExternalProcessHandler - Mar 26, 2020 3:05:55 AM po_utils.PageObjectLogging logInfo
 
 INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //section[@id="features"]
-[MASTER] 16:40:39.647 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //section[@id="features"]
+[MASTER] 03:05:55.857 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //section[@id="features"]
 
 
-[MASTER] 16:40:39.647 [Thread-3] ERROR ExternalProcessHandler - 
+[MASTER] 03:05:55.857 [Thread-3] ERROR ExternalProcessHandler - 
 
 
-[MASTER] 16:40:39.647 [Thread-3] ERROR ExternalProcessHandler - 
+[MASTER] 03:05:55.857 [Thread-3] ERROR ExternalProcessHandler - 
 
-Mar 25, 2020 4:40:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-[MASTER] 16:40:41.300 [Thread-3] ERROR ExternalProcessHandler - Mar 25, 2020 4:40:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 26, 2020 3:06:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 03:06:02.060 [Thread-3] ERROR ExternalProcessHandler - Mar 26, 2020 3:06:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 
 INFO: Detected dialect: OSS
-[MASTER] 16:40:41.300 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+[MASTER] 03:06:02.060 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
 
-Mar 25, 2020 4:42:56 PM po_utils.PageObjectLogging logInfo
-[MASTER] 16:42:56.849 [Thread-3] ERROR ExternalProcessHandler - Mar 25, 2020 4:42:56 PM po_utils.PageObjectLogging logInfo
+Mar 26, 2020 3:07:23 AM po_utils.PageObjectLogging logInfo
+[MASTER] 03:07:23.249 [Thread-3] ERROR ExternalProcessHandler - Mar 26, 2020 3:07:23 AM po_utils.PageObjectLogging logInfo
 
 INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //section[@id="features"]
-[MASTER] 16:42:56.849 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //section[@id="features"]
+[MASTER] 03:07:23.249 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //section[@id="features"]
 
 
-[MASTER] 16:42:56.849 [Thread-3] ERROR ExternalProcessHandler - 
+[MASTER] 03:07:23.249 [Thread-3] ERROR ExternalProcessHandler - 
 
 
-[MASTER] 16:42:56.849 [Thread-3] ERROR ExternalProcessHandler - 
+[MASTER] 03:07:23.249 [Thread-3] ERROR ExternalProcessHandler - 
 
-[MASTER] 16:42:59.140 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+Mar 26, 2020 3:07:35 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 03:07:35.459 [Thread-3] ERROR ExternalProcessHandler - Mar 26, 2020 3:07:35 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 03:07:35.459 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+Mar 26, 2020 3:08:57 AM po_utils.PageObjectLogging logInfo
+[MASTER] 03:08:57.616 [Thread-3] ERROR ExternalProcessHandler - Mar 26, 2020 3:08:57 AM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //section[@id="features"]
+[MASTER] 03:08:57.617 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //section[@id="features"]
+
+
+[MASTER] 03:08:57.617 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 03:08:57.617 [Thread-3] ERROR ExternalProcessHandler - 
+
+[MASTER] 03:09:15.981 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
 java.lang.IllegalStateException: Test generation failed: page object bug.
 	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:320) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
 	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
@@ -110,7 +110,7 @@ java.lang.IllegalStateException: Test generation failed: page object bug.
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_242]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_242]
 	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_242]
-[MASTER] 16:42:59.140 [logback-2] ERROR ClientNodeImpl - Error when generating tests for: main.ClassUnderTest with seed 1585153983796. Configuration id : null
+[MASTER] 03:09:15.983 [logback-2] ERROR ClientNodeImpl - Error when generating tests for: main.ClassUnderTestApogen with seed 1585191742940. Configuration id : null
 java.lang.Error: java.lang.IllegalStateException: Test generation failed: page object bug.
 	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:336) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
 	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
@@ -133,5 +133,5 @@ java.lang.Error: java.lang.IllegalStateException: Test generation failed: page o
 Caused by: java.lang.IllegalStateException: Test generation failed: page object bug.
 	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:320) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
 	... 17 common frames omitted
-[MASTER] 16:42:59.251 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
-[MASTER] 16:42:59.353 [main] ERROR TestGeneration - failed to write statistics data
+[MASTER] 03:09:16.094 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 03:09:16.196 [main] ERROR TestGeneration - failed to write statistics data
