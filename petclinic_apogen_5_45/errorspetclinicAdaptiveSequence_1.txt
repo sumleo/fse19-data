@@ -1,0 +1,258 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-master/1.0.4-SNAPSHOT/evosuite-master-1.0.4-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+[MASTER] 15:43:45.466 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Class path contains multiple SLF4J bindings.
+
+SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[MASTER] 15:43:45.467 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+
+SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-master/1.0.4-SNAPSHOT/evosuite-master-1.0.4-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[MASTER] 15:43:45.468 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-master/1.0.4-SNAPSHOT/evosuite-master-1.0.4-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[MASTER] 15:43:45.469 [Thread-3] ERROR ExternalProcessHandler - SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+[MASTER] 15:44:00.745 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+[MASTER] 15:46:04.523 [Thread-3] ERROR ExternalProcessHandler - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+
+[MASTER] 15:46:04.524 [Thread-3] ERROR ExternalProcessHandler - 
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[MASTER] 15:46:04.524 [Thread-3] ERROR ExternalProcessHandler - The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:590)
+[MASTER] 15:46:04.525 [Thread-3] ERROR ExternalProcessHandler - 	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:590)
+
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:57)
+[MASTER] 15:46:04.526 [Thread-3] ERROR ExternalProcessHandler - 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:57)
+
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:1606)
+[MASTER] 15:46:04.526 [Thread-3] ERROR ExternalProcessHandler - 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:1606)
+
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:633)
+[MASTER] 15:46:04.527 [Thread-3] ERROR ExternalProcessHandler - 	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:633)
+
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:347)
+[MASTER] 15:46:04.527 [Thread-3] ERROR ExternalProcessHandler - 	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:347)
+
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:219)
+[MASTER] 15:46:04.528 [Thread-3] ERROR ExternalProcessHandler - 	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:219)
+
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+[MASTER] 15:46:04.529 [Thread-3] ERROR ExternalProcessHandler - 	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+[MASTER] 15:46:04.530 [Thread-3] ERROR ExternalProcessHandler - 	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+
+	at po_utils.MySqlConnection.establishDBConnection(MySqlConnection.java:35)
+[MASTER] 15:46:04.530 [Thread-3] ERROR ExternalProcessHandler - 	at po_utils.MySqlConnection.establishDBConnection(MySqlConnection.java:35)
+
+	at po_utils.ResetAppState.resetDB(ResetAppState.java:21)
+[MASTER] 15:46:04.530 [Thread-3] ERROR ExternalProcessHandler - 	at po_utils.ResetAppState.resetDB(ResetAppState.java:21)
+
+	at po_utils.ResetAppState.reset(ResetAppState.java:15)
+[MASTER] 15:46:04.531 [Thread-3] ERROR ExternalProcessHandler - 	at po_utils.ResetAppState.reset(ResetAppState.java:15)
+
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[MASTER] 15:46:04.532 [Thread-3] ERROR ExternalProcessHandler - 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[MASTER] 15:46:04.532 [Thread-3] ERROR ExternalProcessHandler - 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[MASTER] 15:46:04.533 [Thread-3] ERROR ExternalProcessHandler - 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+	at java.lang.reflect.Method.invoke(Method.java:498)
+[MASTER] 15:46:04.534 [Thread-3] ERROR ExternalProcessHandler - 	at java.lang.reflect.Method.invoke(Method.java:498)
+
+	at org.evosuite.selenium.state.ResetAppState.reset(ResetAppState.java:39)
+[MASTER] 15:46:04.534 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.selenium.state.ResetAppState.reset(ResetAppState.java:39)
+
+	at org.evosuite.selenium.state.ResetAppState.resetViaReflection(ResetAppState.java:20)
+[MASTER] 15:46:04.535 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.selenium.state.ResetAppState.resetViaReflection(ResetAppState.java:20)
+
+	at org.evosuite.testcase.execution.TestCaseExecutor.executeSelenium(TestCaseExecutor.java:459)
+[MASTER] 15:46:04.535 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.testcase.execution.TestCaseExecutor.executeSelenium(TestCaseExecutor.java:459)
+
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:187)
+[MASTER] 15:46:04.541 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:187)
+
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91)
+[MASTER] 15:46:04.541 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91)
+
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60)
+[MASTER] 15:46:04.542 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60)
+
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34)
+[MASTER] 15:46:04.542 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34)
+
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.calculateFitness(AdaptiveRandomSearch.java:312)
+[MASTER] 15:46:04.542 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.calculateFitness(AdaptiveRandomSearch.java:312)
+
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.calculateFitness(AdaptiveRandomSearch.java:344)
+[MASTER] 15:46:04.543 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.calculateFitness(AdaptiveRandomSearch.java:344)
+
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.createAndMinimizeFirstIndividual(AdaptiveRandomSearch.java:222)
+[MASTER] 15:46:04.543 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.createAndMinimizeFirstIndividual(AdaptiveRandomSearch.java:222)
+
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.initializePopulation(AdaptiveRandomSearch.java:206)
+[MASTER] 15:46:04.543 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.initializePopulation(AdaptiveRandomSearch.java:206)
+
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.generateSolution(AdaptiveRandomSearch.java:262)
+[MASTER] 15:46:04.544 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.generateSolution(AdaptiveRandomSearch.java:262)
+
+	at org.evosuite.strategy.AdaptiveRandomTestStrategy.generateTests(AdaptiveRandomTestStrategy.java:118)
+[MASTER] 15:46:04.544 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.strategy.AdaptiveRandomTestStrategy.generateTests(AdaptiveRandomTestStrategy.java:118)
+
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654)
+[MASTER] 15:46:04.545 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654)
+
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213)
+[MASTER] 15:46:04.567 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213)
+
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145)
+[MASTER] 15:46:04.567 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145)
+
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[MASTER] 15:46:04.567 [Thread-3] ERROR ExternalProcessHandler - 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[MASTER] 15:46:04.568 [Thread-3] ERROR ExternalProcessHandler - 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[MASTER] 15:46:04.568 [Thread-3] ERROR ExternalProcessHandler - 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[MASTER] 15:46:04.568 [Thread-3] ERROR ExternalProcessHandler - 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+
+	at java.lang.Thread.run(Thread.java:748)
+[MASTER] 15:46:04.568 [Thread-3] ERROR ExternalProcessHandler - 	at java.lang.Thread.run(Thread.java:748)
+
+Caused by: com.mysql.cj.core.exceptions.CJCommunicationsException: Communications link failure
+[MASTER] 15:46:04.568 [Thread-3] ERROR ExternalProcessHandler - Caused by: com.mysql.cj.core.exceptions.CJCommunicationsException: Communications link failure
+
+
+[MASTER] 15:46:04.568 [Thread-3] ERROR ExternalProcessHandler - 
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[MASTER] 15:46:04.569 [Thread-3] ERROR ExternalProcessHandler - The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[MASTER] 15:46:04.569 [Thread-3] ERROR ExternalProcessHandler - 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+[MASTER] 15:46:04.569 [Thread-3] ERROR ExternalProcessHandler - 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[MASTER] 15:46:04.574 [Thread-3] ERROR ExternalProcessHandler - 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+[MASTER] 15:46:04.575 [Thread-3] ERROR ExternalProcessHandler - 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+	at com.mysql.cj.core.exceptions.ExceptionFactory.createException(ExceptionFactory.java:54)
+[MASTER] 15:46:04.575 [Thread-3] ERROR ExternalProcessHandler - 	at com.mysql.cj.core.exceptions.ExceptionFactory.createException(ExceptionFactory.java:54)
+
+	at com.mysql.cj.core.exceptions.ExceptionFactory.createException(ExceptionFactory.java:93)
+[MASTER] 15:46:04.575 [Thread-3] ERROR ExternalProcessHandler - 	at com.mysql.cj.core.exceptions.ExceptionFactory.createException(ExceptionFactory.java:93)
+
+	at com.mysql.cj.core.exceptions.ExceptionFactory.createException(ExceptionFactory.java:133)
+[MASTER] 15:46:04.576 [Thread-3] ERROR ExternalProcessHandler - 	at com.mysql.cj.core.exceptions.ExceptionFactory.createException(ExceptionFactory.java:133)
+
+	at com.mysql.cj.core.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:149)
+[MASTER] 15:46:04.576 [Thread-3] ERROR ExternalProcessHandler - 	at com.mysql.cj.core.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:149)
+
+	at com.mysql.cj.mysqla.io.MysqlaProtocol.readPacket(MysqlaProtocol.java:527)
+[MASTER] 15:46:04.576 [Thread-3] ERROR ExternalProcessHandler - 	at com.mysql.cj.mysqla.io.MysqlaProtocol.readPacket(MysqlaProtocol.java:527)
+
+	at com.mysql.cj.mysqla.io.MysqlaProtocol.readServerCapabilities(MysqlaProtocol.java:480)
+[MASTER] 15:46:04.576 [Thread-3] ERROR ExternalProcessHandler - 	at com.mysql.cj.mysqla.io.MysqlaProtocol.readServerCapabilities(MysqlaProtocol.java:480)
+
+	at com.mysql.cj.mysqla.io.MysqlaProtocol.beforeHandshake(MysqlaProtocol.java:367)
+[MASTER] 15:46:04.576 [Thread-3] ERROR ExternalProcessHandler - 	at com.mysql.cj.mysqla.io.MysqlaProtocol.beforeHandshake(MysqlaProtocol.java:367)
+
+	at com.mysql.cj.mysqla.io.MysqlaProtocol.connect(MysqlaProtocol.java:1412)
+[MASTER] 15:46:04.577 [Thread-3] ERROR ExternalProcessHandler - 	at com.mysql.cj.mysqla.io.MysqlaProtocol.connect(MysqlaProtocol.java:1412)
+
+	at com.mysql.cj.mysqla.MysqlaSession.connect(MysqlaSession.java:132)
+[MASTER] 15:46:04.577 [Thread-3] ERROR ExternalProcessHandler - 	at com.mysql.cj.mysqla.MysqlaSession.connect(MysqlaSession.java:132)
+
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:1726)
+[MASTER] 15:46:04.577 [Thread-3] ERROR ExternalProcessHandler - 	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:1726)
+
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:1596)
+[MASTER] 15:46:04.577 [Thread-3] ERROR ExternalProcessHandler - 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:1596)
+
+	... 33 more
+[MASTER] 15:46:04.577 [Thread-3] ERROR ExternalProcessHandler - 	... 33 more
+
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+[MASTER] 15:46:04.578 [Thread-3] ERROR ExternalProcessHandler - Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+
+	at com.mysql.cj.core.io.FullReadInputStream.readFully(FullReadInputStream.java:61)
+[MASTER] 15:46:04.578 [Thread-3] ERROR ExternalProcessHandler - 	at com.mysql.cj.core.io.FullReadInputStream.readFully(FullReadInputStream.java:61)
+
+	at com.mysql.cj.mysqla.io.SimplePacketReader.readHeader(SimplePacketReader.java:60)
+[MASTER] 15:46:04.578 [Thread-3] ERROR ExternalProcessHandler - 	at com.mysql.cj.mysqla.io.SimplePacketReader.readHeader(SimplePacketReader.java:60)
+
+	at com.mysql.cj.mysqla.io.MysqlaProtocol.readPacket(MysqlaProtocol.java:521)
+[MASTER] 15:46:04.579 [Thread-3] ERROR ExternalProcessHandler - 	at com.mysql.cj.mysqla.io.MysqlaProtocol.readPacket(MysqlaProtocol.java:521)
+
+	... 39 more
+[MASTER] 15:46:04.579 [Thread-3] ERROR ExternalProcessHandler - 	... 39 more
+
+[MASTER] 15:46:04.541 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: resetViaReflection: stop execution failed to reset state. Runtime exception: java.lang.IllegalStateException: po_utils.ResetAppState: connection to remote mysql server failed.
+	at org.evosuite.selenium.state.ResetAppState.resetViaReflection(ResetAppState.java:21) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.execution.TestCaseExecutor.executeSelenium(TestCaseExecutor.java:459) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:187) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.calculateFitness(AdaptiveRandomSearch.java:312) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.calculateFitness(AdaptiveRandomSearch.java:344) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.createAndMinimizeFirstIndividual(AdaptiveRandomSearch.java:222) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.initializePopulation(AdaptiveRandomSearch.java:206) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.generateSolution(AdaptiveRandomSearch.java:262) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.AdaptiveRandomTestStrategy.generateTests(AdaptiveRandomTestStrategy.java:118) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_242]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_242]
+[MASTER] 15:46:04.561 [logback-2] ERROR ClientNodeImpl - Error when generating tests for: main.ClassUnderTestApogen with seed 1585151060866. Configuration id : null
+java.lang.Error: java.lang.IllegalStateException: resetViaReflection: stop execution failed to reset state. Runtime exception: java.lang.IllegalStateException: po_utils.ResetAppState: connection to remote mysql server failed.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:336) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.calculateFitness(AdaptiveRandomSearch.java:312) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.calculateFitness(AdaptiveRandomSearch.java:344) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.createAndMinimizeFirstIndividual(AdaptiveRandomSearch.java:222) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.initializePopulation(AdaptiveRandomSearch.java:206) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.art.AdaptiveRandomSearch.generateSolution(AdaptiveRandomSearch.java:262) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.AdaptiveRandomTestStrategy.generateTests(AdaptiveRandomTestStrategy.java:118) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_242]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_242]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_242]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_242]
+Caused by: java.lang.IllegalStateException: resetViaReflection: stop execution failed to reset state. Runtime exception: java.lang.IllegalStateException: po_utils.ResetAppState: connection to remote mysql server failed.
+	at org.evosuite.selenium.state.ResetAppState.resetViaReflection(ResetAppState.java:21) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.execution.TestCaseExecutor.executeSelenium(TestCaseExecutor.java:459) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:187) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	... 17 common frames omitted
+[MASTER] 15:46:04.684 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 15:46:04.786 [main] ERROR TestGeneration - failed to write statistics data
