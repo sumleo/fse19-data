@@ -1,0 +1,1184 @@
+* EvoSuite 1.0.4-SNAPSHOT
+* Going to generate test cases for class: main.ClassUnderTestApogen
+[MASTER] 06:03:52.464 [main] WARN  JarPathing - Classpath entry does not exist: /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/../lib/tools.jar
+06:03:52,644 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback-evosuite.xml] at [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-client/1.0.4-SNAPSHOT/evosuite-client-1.0.4-SNAPSHOT.jar!/logback-evosuite.xml]
+06:03:52,644 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback-evosuite.xml] occurs multiple times on the classpath.
+06:03:52,645 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback-evosuite.xml] occurs at [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-master/1.0.4-SNAPSHOT/evosuite-master-1.0.4-SNAPSHOT.jar!/logback-evosuite.xml]
+06:03:52,645 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback-evosuite.xml] occurs at [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-client/1.0.4-SNAPSHOT/evosuite-client-1.0.4-SNAPSHOT.jar!/logback-evosuite.xml]
+06:03:52,653 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@6536e911 - URL [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-client/1.0.4-SNAPSHOT/evosuite-client-1.0.4-SNAPSHOT.jar!/logback-evosuite.xml] is not of type file
+06:03:52,714 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+06:04:07,729 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+06:04:07,734 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT_MASTER]
+06:04:07,757 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+06:04:07,792 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+06:04:07,792 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDERR_MASTER]
+06:04:07,793 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+06:04:07,793 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.classic.net.SocketAppender]
+06:04:07,796 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT_CLIENT]
+06:04:07,806 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.classic.net.SocketAppender]
+06:04:07,806 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDERR_CLIENT]
+06:04:07,809 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+06:04:07,809 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [EVO_LOGGER_MASTER]
+06:04:07,809 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+06:04:07,809 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.classic.net.SocketAppender]
+06:04:07,809 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [EVO_LOGGER_CLIENT]
+06:04:07,812 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [evo_logger] to ALL
+06:04:07,812 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [evo_logger] to false
+06:04:07,812 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [EVO_LOGGER_CLIENT] to Logger[evo_logger]
+06:04:07,812 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.evosuite] to INFO
+06:04:07,814 |-INFO in ch.qos.logback.classic.net.SocketAppender[STDOUT_CLIENT] - remote peer localhost:43953: connection established
+06:04:07,816 |-INFO in ch.qos.logback.classic.net.SocketAppender[STDERR_CLIENT] - remote peer localhost:43953: connection established
+06:04:07,816 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT_CLIENT] to Logger[org.evosuite]
+06:04:07,816 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDERR_CLIENT] to Logger[org.evosuite]
+06:04:07,816 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [shaded.org.evosuite] to INFO
+06:04:07,816 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT_CLIENT] to Logger[shaded.org.evosuite]
+06:04:07,816 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDERR_CLIENT] to Logger[shaded.org.evosuite]
+06:04:07,816 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.evosuite.shaded] to OFF
+06:04:07,816 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [all] to ALL
+06:04:07,816 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to OFF
+06:04:07,816 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+06:04:07,816 |-INFO in ch.qos.logback.classic.net.SocketAppender[EVO_LOGGER_CLIENT] - remote peer localhost:43953: connection established
+06:04:07,817 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@520a3426 - Registering current configuration as safe fallback point
+
+* Starting client
+* Properties loaded from /home/ubuntu/workspace/fse2019/pagekit/evosuite-files/evosuite.properties
+* Connecting to master process on port 18161
+[MASTER] 06:04:27.961 [logback-1] INFO  Randomness - No seed given. Using 1585289067961.
+[MASTER] 06:04:28.093 [logback-1] INFO  ClientNodeImpl - Client changing state from NOT_STARTED to STARTED
+* Analyzing classpath: 
+[MASTER] 06:04:28.107 [logback-1] INFO  ClientNodeImpl - Client changing state from STARTED to INITIALIZATION
+[MASTER] 06:04:28.143 [logback-1] INFO  TestCaseExecutor - No stalled threads
+[MASTER] 06:04:28.210 [logback-1] INFO  BytecodeInstrumentation - Starting transformation of main/ClassUnderTestApogen
+[MASTER] 06:04:28.212 [logback-1] INFO  StringTransformation - Current method: <init>
+[MASTER] 06:04:28.213 [logback-1] INFO  StringTransformation - Current method: goToPermissionsEditUserPage
+[MASTER] 06:04:28.213 [logback-1] INFO  StringTransformation - Current method: goToRolesEditUserPage
+[MASTER] 06:04:28.213 [logback-1] INFO  StringTransformation - Current method: goToUserEditUserPage
+[MASTER] 06:04:28.213 [logback-1] INFO  StringTransformation - Current method: goToUsersEditUserPage
+[MASTER] 06:04:28.213 [logback-1] INFO  StringTransformation - Current method: user_editEditUserPage
+[MASTER] 06:04:28.214 [logback-1] INFO  StringTransformation - Current method: deletePagekitDashboardPage
+[MASTER] 06:04:28.214 [logback-1] INFO  StringTransformation - Current method: goToDashBoardMenuDashboardPage
+[MASTER] 06:04:28.214 [logback-1] INFO  StringTransformation - Current method: goToEditComponentLocationDashboardPage
+[MASTER] 06:04:28.215 [logback-1] INFO  StringTransformation - Current method: goToEditRegisteredUserDashboardPage
+[MASTER] 06:04:28.215 [logback-1] INFO  StringTransformation - Current method: goToEditUserDashboardPage
+[MASTER] 06:04:28.215 [logback-1] INFO  StringTransformation - Current method: addUserAddUserPage
+[MASTER] 06:04:28.216 [logback-1] INFO  StringTransformation - Current method: goToPermissionsAddUserPage
+[MASTER] 06:04:28.216 [logback-1] INFO  StringTransformation - Current method: goToRolesAddUserPage
+[MASTER] 06:04:28.216 [logback-1] INFO  StringTransformation - Current method: goToUserAddUserPage
+[MASTER] 06:04:28.216 [logback-1] INFO  StringTransformation - Current method: goToUsersAddUserPage
+[MASTER] 06:04:28.216 [logback-1] INFO  StringTransformation - Current method: goToAnonymousPermissionsPage
+[MASTER] 06:04:28.216 [logback-1] INFO  StringTransformation - Current method: goToPermissionsPermissionsPage
+[MASTER] 06:04:28.217 [logback-1] INFO  StringTransformation - Current method: goToUsersPermissionsPage
+[MASTER] 06:04:28.217 [logback-1] INFO  StringTransformation - Current method: goToDashboardDashBoardMenuPage
+[MASTER] 06:04:28.217 [logback-1] INFO  StringTransformation - Current method: goToUsersDashBoardMenuPage
+[MASTER] 06:04:28.217 [logback-1] INFO  StringTransformation - Current method: deleteUserRoleAnonymousPage
+[MASTER] 06:04:28.217 [logback-1] INFO  StringTransformation - Current method: goToAddRoleAnonymousPage
+[MASTER] 06:04:28.217 [logback-1] INFO  StringTransformation - Current method: goToAdministratorAnonymousPage
+[MASTER] 06:04:28.217 [logback-1] INFO  StringTransformation - Current method: goToEditRoleAnonymousPage
+[MASTER] 06:04:28.218 [logback-1] INFO  StringTransformation - Current method: goToHomeAnonymousPage
+[MASTER] 06:04:28.218 [logback-1] INFO  StringTransformation - Current method: formEditRegisteredUserPage
+[MASTER] 06:04:28.218 [logback-1] INFO  StringTransformation - Current method: goToAdministratorAdministratorPage
+[MASTER] 06:04:28.218 [logback-1] INFO  StringTransformation - Current method: goToAnonymousAdministratorPage
+[MASTER] 06:04:28.218 [logback-1] INFO  StringTransformation - Current method: editRoleEditRolePage
+[MASTER] 06:04:28.219 [logback-1] INFO  StringTransformation - Current method: goToAnonymousEditRolePage
+[MASTER] 06:04:28.219 [logback-1] INFO  StringTransformation - Current method: cancelDeleteWidgetPage
+[MASTER] 06:04:28.219 [logback-1] INFO  StringTransformation - Current method: okDeleteWidgetPage
+[MASTER] 06:04:28.219 [logback-1] INFO  StringTransformation - Current method: add_userUsersPage
+[MASTER] 06:04:28.219 [logback-1] INFO  StringTransformation - Current method: goToAnonymousUsersPage
+[MASTER] 06:04:28.219 [logback-1] INFO  StringTransformation - Current method: goToEditUsersPage
+[MASTER] 06:04:28.219 [logback-1] INFO  StringTransformation - Current method: goToPermissionsUsersPage
+[MASTER] 06:04:28.220 [logback-1] INFO  StringTransformation - Current method: deleteRoleDeleteRolePage
+[MASTER] 06:04:28.220 [logback-1] INFO  StringTransformation - Current method: goToAnonymousDeleteRolePage
+[MASTER] 06:04:28.220 [logback-1] INFO  StringTransformation - Current method: addRoleAddRolePage
+[MASTER] 06:04:28.220 [logback-1] INFO  StringTransformation - Current method: cancelAddRolePage
+[MASTER] 06:04:28.220 [logback-1] INFO  StringTransformation - Current method: formEditLocationPage
+[MASTER] 06:04:28.230 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.258 [logback-1] INFO  CFGMethodAdapter - Analyzing method <init>()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.259 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method <init>()V
+[MASTER] 06:04:28.264 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.<init>()V: 0
+[MASTER] 06:04:28.275 [logback-1] INFO  CFGMethodAdapter - Created CFG for method <init>()V
+[MASTER] 06:04:28.275 [logback-1] INFO  CFGMethodAdapter - Instrumenting method <init>()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.276 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.276 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToPermissionsEditUserPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.276 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToPermissionsEditUserPage()V
+[MASTER] 06:04:28.276 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.goToPermissionsEditUserPage()V: 0
+[MASTER] 06:04:28.276 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 1 IFEQ L25
+[MASTER] 06:04:28.277 [logback-1] INFO  BranchPool - Branch 1 at line 25
+[MASTER] 06:04:28.281 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToPermissionsEditUserPage()V
+[MASTER] 06:04:28.281 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToPermissionsEditUserPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.282 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.282 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToRolesEditUserPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.282 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToRolesEditUserPage()V
+[MASTER] 06:04:28.282 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.goToRolesEditUserPage()V: 0
+[MASTER] 06:04:28.283 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 2 IFEQ L39
+[MASTER] 06:04:28.283 [logback-1] INFO  BranchPool - Branch 2 at line 39
+[MASTER] 06:04:28.285 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToRolesEditUserPage()V
+[MASTER] 06:04:28.285 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToRolesEditUserPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.287 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.287 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToUserEditUserPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.287 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToUserEditUserPage()V
+[MASTER] 06:04:28.287 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.goToUserEditUserPage()V: 0
+[MASTER] 06:04:28.287 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 3 IFEQ L53
+[MASTER] 06:04:28.287 [logback-1] INFO  BranchPool - Branch 3 at line 53
+[MASTER] 06:04:28.290 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToUserEditUserPage()V
+[MASTER] 06:04:28.290 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToUserEditUserPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.294 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.294 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToUsersEditUserPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.294 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToUsersEditUserPage()V
+[MASTER] 06:04:28.294 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.goToUsersEditUserPage()V: 0
+[MASTER] 06:04:28.294 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 4 IFEQ L67
+[MASTER] 06:04:28.294 [logback-1] INFO  BranchPool - Branch 4 at line 67
+[MASTER] 06:04:28.297 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToUsersEditUserPage()V
+[MASTER] 06:04:28.297 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToUsersEditUserPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.298 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.298 [logback-1] INFO  CFGMethodAdapter - Analyzing method user_editEditUserPage(Lcustom_classes/Username;Lcustom_classes/Name;Lcustom_classes/Email;Lcustom_classes/UserPassword;)V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.298 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method user_editEditUserPage(Lcustom_classes/Username;Lcustom_classes/Name;Lcustom_classes/Email;Lcustom_classes/UserPassword;)V
+[MASTER] 06:04:28.298 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.user_editEditUserPage(Lcustom_classes/Username;Lcustom_classes/Name;Lcustom_classes/Email;Lcustom_classes/UserPassword;)V: 0
+[MASTER] 06:04:28.298 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 5 IFEQ L83
+[MASTER] 06:04:28.298 [logback-1] INFO  BranchPool - Branch 5 at line 83
+[MASTER] 06:04:28.299 [logback-1] INFO  BranchPool - Adding to map the branch I17 Branch 6 IFEQ L85
+[MASTER] 06:04:28.299 [logback-1] INFO  BranchPool - Branch 6 at line 85
+[MASTER] 06:04:28.301 [logback-1] INFO  CFGMethodAdapter - Created CFG for method user_editEditUserPage(Lcustom_classes/Username;Lcustom_classes/Name;Lcustom_classes/Email;Lcustom_classes/UserPassword;)V
+[MASTER] 06:04:28.301 [logback-1] INFO  CFGMethodAdapter - Instrumenting method user_editEditUserPage(Lcustom_classes/Username;Lcustom_classes/Name;Lcustom_classes/Email;Lcustom_classes/UserPassword;)V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.302 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.302 [logback-1] INFO  CFGMethodAdapter - Analyzing method deletePagekitDashboardPage(Lcustom_classes/Id;)V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.302 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method deletePagekitDashboardPage(Lcustom_classes/Id;)V
+[MASTER] 06:04:28.302 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.deletePagekitDashboardPage(Lcustom_classes/Id;)V: 0
+[MASTER] 06:04:28.302 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 7 IFEQ L103
+[MASTER] 06:04:28.302 [logback-1] INFO  BranchPool - Branch 7 at line 103
+[MASTER] 06:04:28.303 [logback-1] INFO  BranchPool - Adding to map the branch I28 Branch 8 IF_ICMPGE L107
+[MASTER] 06:04:28.303 [logback-1] INFO  BranchPool - Branch 8 at line 107
+[MASTER] 06:04:28.303 [logback-1] INFO  BranchPool - Adding to map the branch I41 Branch 9 IFEQ L108
+[MASTER] 06:04:28.303 [logback-1] INFO  BranchPool - Branch 9 at line 108
+[MASTER] 06:04:28.303 [logback-1] INFO  BranchPool - Adding to map the branch I54 Branch 10 IFNE L110
+[MASTER] 06:04:28.303 [logback-1] INFO  BranchPool - Branch 10 at line 110
+[MASTER] 06:04:28.306 [logback-1] INFO  CFGMethodAdapter - Created CFG for method deletePagekitDashboardPage(Lcustom_classes/Id;)V
+[MASTER] 06:04:28.307 [logback-1] INFO  CFGMethodAdapter - Instrumenting method deletePagekitDashboardPage(Lcustom_classes/Id;)V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.309 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.309 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToDashBoardMenuDashboardPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.309 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToDashBoardMenuDashboardPage()V
+[MASTER] 06:04:28.309 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.goToDashBoardMenuDashboardPage()V: 0
+[MASTER] 06:04:28.309 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 11 IFEQ L128
+[MASTER] 06:04:28.309 [logback-1] INFO  BranchPool - Branch 11 at line 128
+[MASTER] 06:04:28.313 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToDashBoardMenuDashboardPage()V
+[MASTER] 06:04:28.313 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToDashBoardMenuDashboardPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.314 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.314 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToEditComponentLocationDashboardPage(Lcustom_classes/Id;)V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.314 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToEditComponentLocationDashboardPage(Lcustom_classes/Id;)V
+[MASTER] 06:04:28.314 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.goToEditComponentLocationDashboardPage(Lcustom_classes/Id;)V: 0
+[MASTER] 06:04:28.314 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 12 IFEQ L142
+[MASTER] 06:04:28.314 [logback-1] INFO  BranchPool - Branch 12 at line 142
+[MASTER] 06:04:28.314 [logback-1] INFO  BranchPool - Adding to map the branch I28 Branch 13 IF_ICMPGE L146
+[MASTER] 06:04:28.314 [logback-1] INFO  BranchPool - Branch 13 at line 146
+[MASTER] 06:04:28.314 [logback-1] INFO  BranchPool - Adding to map the branch I41 Branch 14 IFEQ L147
+[MASTER] 06:04:28.314 [logback-1] INFO  BranchPool - Branch 14 at line 147
+[MASTER] 06:04:28.314 [logback-1] INFO  BranchPool - Adding to map the branch I54 Branch 15 IFNE L149
+[MASTER] 06:04:28.315 [logback-1] INFO  BranchPool - Branch 15 at line 149
+[MASTER] 06:04:28.322 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToEditComponentLocationDashboardPage(Lcustom_classes/Id;)V
+[MASTER] 06:04:28.322 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToEditComponentLocationDashboardPage(Lcustom_classes/Id;)V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.324 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.324 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToEditRegisteredUserDashboardPage(Lcustom_classes/Id;)V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.324 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToEditRegisteredUserDashboardPage(Lcustom_classes/Id;)V
+[MASTER] 06:04:28.324 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.goToEditRegisteredUserDashboardPage(Lcustom_classes/Id;)V: 0
+[MASTER] 06:04:28.325 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 16 IFEQ L167
+[MASTER] 06:04:28.325 [logback-1] INFO  BranchPool - Branch 16 at line 167
+[MASTER] 06:04:28.325 [logback-1] INFO  BranchPool - Adding to map the branch I28 Branch 17 IF_ICMPGE L171
+[MASTER] 06:04:28.325 [logback-1] INFO  BranchPool - Branch 17 at line 171
+[MASTER] 06:04:28.325 [logback-1] INFO  BranchPool - Adding to map the branch I41 Branch 18 IFEQ L172
+[MASTER] 06:04:28.325 [logback-1] INFO  BranchPool - Branch 18 at line 172
+[MASTER] 06:04:28.326 [logback-1] INFO  BranchPool - Adding to map the branch I54 Branch 19 IFNE L174
+[MASTER] 06:04:28.326 [logback-1] INFO  BranchPool - Branch 19 at line 174
+[MASTER] 06:04:28.331 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToEditRegisteredUserDashboardPage(Lcustom_classes/Id;)V
+[MASTER] 06:04:28.331 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToEditRegisteredUserDashboardPage(Lcustom_classes/Id;)V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.335 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.335 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToEditUserDashboardPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.335 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToEditUserDashboardPage()V
+[MASTER] 06:04:28.336 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.goToEditUserDashboardPage()V: 0
+[MASTER] 06:04:28.336 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 20 IFEQ L192
+[MASTER] 06:04:28.336 [logback-1] INFO  BranchPool - Branch 20 at line 192
+[MASTER] 06:04:28.338 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToEditUserDashboardPage()V
+[MASTER] 06:04:28.338 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToEditUserDashboardPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.339 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.339 [logback-1] INFO  CFGMethodAdapter - Analyzing method addUserAddUserPage(Lcustom_classes/Username;Lcustom_classes/Name;Lcustom_classes/Email;Lcustom_classes/UserPassword;Lcustom_classes/UserStatus;)V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.339 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method addUserAddUserPage(Lcustom_classes/Username;Lcustom_classes/Name;Lcustom_classes/Email;Lcustom_classes/UserPassword;Lcustom_classes/UserStatus;)V
+[MASTER] 06:04:28.339 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.addUserAddUserPage(Lcustom_classes/Username;Lcustom_classes/Name;Lcustom_classes/Email;Lcustom_classes/UserPassword;Lcustom_classes/UserStatus;)V: 0
+[MASTER] 06:04:28.339 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 21 IFEQ L209
+[MASTER] 06:04:28.339 [logback-1] INFO  BranchPool - Branch 21 at line 209
+[MASTER] 06:04:28.340 [logback-1] INFO  BranchPool - Adding to map the branch I17 Branch 22 IFNE L211
+[MASTER] 06:04:28.340 [logback-1] INFO  BranchPool - Branch 22 at line 211
+[MASTER] 06:04:28.340 [logback-1] INFO  BranchPool - Adding to map the branch I39 Branch 23 IFEQ L215
+[MASTER] 06:04:28.340 [logback-1] INFO  BranchPool - Branch 23 at line 215
+[MASTER] 06:04:28.345 [logback-1] INFO  CFGMethodAdapter - Created CFG for method addUserAddUserPage(Lcustom_classes/Username;Lcustom_classes/Name;Lcustom_classes/Email;Lcustom_classes/UserPassword;Lcustom_classes/UserStatus;)V
+[MASTER] 06:04:28.345 [logback-1] INFO  CFGMethodAdapter - Instrumenting method addUserAddUserPage(Lcustom_classes/Username;Lcustom_classes/Name;Lcustom_classes/Email;Lcustom_classes/UserPassword;Lcustom_classes/UserStatus;)V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.347 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.347 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToPermissionsAddUserPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.348 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToPermissionsAddUserPage()V
+[MASTER] 06:04:28.348 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.goToPermissionsAddUserPage()V: 0
+[MASTER] 06:04:28.348 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 24 IFEQ L236
+[MASTER] 06:04:28.348 [logback-1] INFO  BranchPool - Branch 24 at line 236
+[MASTER] 06:04:28.350 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToPermissionsAddUserPage()V
+[MASTER] 06:04:28.350 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToPermissionsAddUserPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.351 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.351 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToRolesAddUserPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.351 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToRolesAddUserPage()V
+[MASTER] 06:04:28.351 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.goToRolesAddUserPage()V: 0
+[MASTER] 06:04:28.352 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 25 IFEQ L250
+[MASTER] 06:04:28.352 [logback-1] INFO  BranchPool - Branch 25 at line 250
+[MASTER] 06:04:28.353 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToRolesAddUserPage()V
+[MASTER] 06:04:28.353 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToRolesAddUserPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.354 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.354 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToUserAddUserPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.354 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToUserAddUserPage()V
+[MASTER] 06:04:28.354 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.goToUserAddUserPage()V: 0
+[MASTER] 06:04:28.354 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 26 IFEQ L264
+[MASTER] 06:04:28.354 [logback-1] INFO  BranchPool - Branch 26 at line 264
+[MASTER] 06:04:28.355 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToUserAddUserPage()V
+[MASTER] 06:04:28.355 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToUserAddUserPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.356 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.356 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToUsersAddUserPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.356 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToUsersAddUserPage()V
+[MASTER] 06:04:28.356 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.goToUsersAddUserPage()V: 0
+[MASTER] 06:04:28.356 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 27 IFEQ L278
+[MASTER] 06:04:28.356 [logback-1] INFO  BranchPool - Branch 27 at line 278
+[MASTER] 06:04:28.360 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToUsersAddUserPage()V
+[MASTER] 06:04:28.360 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToUsersAddUserPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.360 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.361 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToAnonymousPermissionsPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.361 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToAnonymousPermissionsPage()V
+[MASTER] 06:04:28.361 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.goToAnonymousPermissionsPage()V: 0
+[MASTER] 06:04:28.361 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 28 IFEQ L292
+[MASTER] 06:04:28.361 [logback-1] INFO  BranchPool - Branch 28 at line 292
+[MASTER] 06:04:28.362 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToAnonymousPermissionsPage()V
+[MASTER] 06:04:28.362 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToAnonymousPermissionsPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.366 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.366 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToPermissionsPermissionsPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.366 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToPermissionsPermissionsPage()V
+[MASTER] 06:04:28.366 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.goToPermissionsPermissionsPage()V: 0
+[MASTER] 06:04:28.366 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 29 IFEQ L306
+[MASTER] 06:04:28.366 [logback-1] INFO  BranchPool - Branch 29 at line 306
+[MASTER] 06:04:28.368 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToPermissionsPermissionsPage()V
+[MASTER] 06:04:28.368 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToPermissionsPermissionsPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.368 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.368 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToUsersPermissionsPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.368 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToUsersPermissionsPage()V
+[MASTER] 06:04:28.368 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.goToUsersPermissionsPage()V: 0
+[MASTER] 06:04:28.369 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 30 IFEQ L320
+[MASTER] 06:04:28.369 [logback-1] INFO  BranchPool - Branch 30 at line 320
+[MASTER] 06:04:28.369 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToUsersPermissionsPage()V
+[MASTER] 06:04:28.370 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToUsersPermissionsPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.370 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.370 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToDashboardDashBoardMenuPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.370 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToDashboardDashBoardMenuPage()V
+[MASTER] 06:04:28.370 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.goToDashboardDashBoardMenuPage()V: 0
+[MASTER] 06:04:28.370 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 31 IFEQ L334
+[MASTER] 06:04:28.370 [logback-1] INFO  BranchPool - Branch 31 at line 334
+[MASTER] 06:04:28.371 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToDashboardDashBoardMenuPage()V
+[MASTER] 06:04:28.371 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToDashboardDashBoardMenuPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.372 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.372 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToUsersDashBoardMenuPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.372 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToUsersDashBoardMenuPage()V
+[MASTER] 06:04:28.372 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.goToUsersDashBoardMenuPage()V: 0
+[MASTER] 06:04:28.372 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 32 IFEQ L348
+[MASTER] 06:04:28.372 [logback-1] INFO  BranchPool - Branch 32 at line 348
+[MASTER] 06:04:28.373 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToUsersDashBoardMenuPage()V
+[MASTER] 06:04:28.373 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToUsersDashBoardMenuPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.374 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.374 [logback-1] INFO  CFGMethodAdapter - Analyzing method deleteUserRoleAnonymousPage(Lcustom_classes/UserRoles;)V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.374 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method deleteUserRoleAnonymousPage(Lcustom_classes/UserRoles;)V
+[MASTER] 06:04:28.374 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.deleteUserRoleAnonymousPage(Lcustom_classes/UserRoles;)V: 0
+[MASTER] 06:04:28.374 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 33 IFEQ L363
+[MASTER] 06:04:28.374 [logback-1] INFO  BranchPool - Branch 33 at line 363
+[MASTER] 06:04:28.374 [logback-1] INFO  BranchPool - Adding to map the branch I18 Branch 34 IFEQ L365
+[MASTER] 06:04:28.374 [logback-1] INFO  BranchPool - Branch 34 at line 365
+[MASTER] 06:04:28.374 [logback-1] INFO  BranchPool - Adding to map the branch I25 Branch 35 IFEQ L367
+[MASTER] 06:04:28.374 [logback-1] INFO  BranchPool - Branch 35 at line 367
+[MASTER] 06:04:28.376 [logback-1] INFO  CFGMethodAdapter - Created CFG for method deleteUserRoleAnonymousPage(Lcustom_classes/UserRoles;)V
+[MASTER] 06:04:28.376 [logback-1] INFO  CFGMethodAdapter - Instrumenting method deleteUserRoleAnonymousPage(Lcustom_classes/UserRoles;)V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.377 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.377 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToAddRoleAnonymousPage(Lcustom_classes/UserRoles;)V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.377 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToAddRoleAnonymousPage(Lcustom_classes/UserRoles;)V
+[MASTER] 06:04:28.377 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.goToAddRoleAnonymousPage(Lcustom_classes/UserRoles;)V: 0
+[MASTER] 06:04:28.377 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 36 IFEQ L385
+[MASTER] 06:04:28.377 [logback-1] INFO  BranchPool - Branch 36 at line 385
+[MASTER] 06:04:28.377 [logback-1] INFO  BranchPool - Adding to map the branch I18 Branch 37 IFNE L387
+[MASTER] 06:04:28.377 [logback-1] INFO  BranchPool - Branch 37 at line 387
+[MASTER] 06:04:28.379 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToAddRoleAnonymousPage(Lcustom_classes/UserRoles;)V
+[MASTER] 06:04:28.379 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToAddRoleAnonymousPage(Lcustom_classes/UserRoles;)V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.380 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.380 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToAdministratorAnonymousPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.380 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToAdministratorAnonymousPage()V
+[MASTER] 06:04:28.380 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.goToAdministratorAnonymousPage()V: 0
+[MASTER] 06:04:28.380 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 38 IFEQ L404
+[MASTER] 06:04:28.380 [logback-1] INFO  BranchPool - Branch 38 at line 404
+[MASTER] 06:04:28.381 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToAdministratorAnonymousPage()V
+[MASTER] 06:04:28.381 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToAdministratorAnonymousPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.382 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.382 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToEditRoleAnonymousPage(Lcustom_classes/UserRoles;Lcustom_classes/UserRoles;)V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.382 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToEditRoleAnonymousPage(Lcustom_classes/UserRoles;Lcustom_classes/UserRoles;)V
+[MASTER] 06:04:28.382 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.goToEditRoleAnonymousPage(Lcustom_classes/UserRoles;Lcustom_classes/UserRoles;)V: 0
+[MASTER] 06:04:28.382 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 39 IFEQ L420
+[MASTER] 06:04:28.382 [logback-1] INFO  BranchPool - Branch 39 at line 420
+[MASTER] 06:04:28.382 [logback-1] INFO  BranchPool - Adding to map the branch I18 Branch 40 IFEQ L422
+[MASTER] 06:04:28.382 [logback-1] INFO  BranchPool - Branch 40 at line 422
+[MASTER] 06:04:28.382 [logback-1] INFO  BranchPool - Adding to map the branch I25 Branch 41 IFEQ L423
+[MASTER] 06:04:28.383 [logback-1] INFO  BranchPool - Branch 41 at line 423
+[MASTER] 06:04:28.383 [logback-1] INFO  BranchPool - Adding to map the branch I32 Branch 42 IFNE L424
+[MASTER] 06:04:28.383 [logback-1] INFO  BranchPool - Branch 42 at line 424
+[MASTER] 06:04:28.384 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToEditRoleAnonymousPage(Lcustom_classes/UserRoles;Lcustom_classes/UserRoles;)V
+[MASTER] 06:04:28.385 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToEditRoleAnonymousPage(Lcustom_classes/UserRoles;Lcustom_classes/UserRoles;)V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.386 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.386 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToHomeAnonymousPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.386 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToHomeAnonymousPage()V
+[MASTER] 06:04:28.386 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.goToHomeAnonymousPage()V: 0
+[MASTER] 06:04:28.386 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 43 IFEQ L443
+[MASTER] 06:04:28.386 [logback-1] INFO  BranchPool - Branch 43 at line 443
+[MASTER] 06:04:28.387 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToHomeAnonymousPage()V
+[MASTER] 06:04:28.387 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToHomeAnonymousPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.388 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.388 [logback-1] INFO  CFGMethodAdapter - Analyzing method formEditRegisteredUserPage(Lcustom_classes/WidgetUserType;Lcustom_classes/WidgetUserDisplay;Lcustom_classes/WidgetTotalUser;Lcustom_classes/WidgetNumberOfUsers;)V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.388 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method formEditRegisteredUserPage(Lcustom_classes/WidgetUserType;Lcustom_classes/WidgetUserDisplay;Lcustom_classes/WidgetTotalUser;Lcustom_classes/WidgetNumberOfUsers;)V
+[MASTER] 06:04:28.388 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.formEditRegisteredUserPage(Lcustom_classes/WidgetUserType;Lcustom_classes/WidgetUserDisplay;Lcustom_classes/WidgetTotalUser;Lcustom_classes/WidgetNumberOfUsers;)V: 0
+[MASTER] 06:04:28.388 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 44 IFEQ L464
+[MASTER] 06:04:28.388 [logback-1] INFO  BranchPool - Branch 44 at line 464
+[MASTER] 06:04:28.389 [logback-1] INFO  CFGMethodAdapter - Created CFG for method formEditRegisteredUserPage(Lcustom_classes/WidgetUserType;Lcustom_classes/WidgetUserDisplay;Lcustom_classes/WidgetTotalUser;Lcustom_classes/WidgetNumberOfUsers;)V
+[MASTER] 06:04:28.389 [logback-1] INFO  CFGMethodAdapter - Instrumenting method formEditRegisteredUserPage(Lcustom_classes/WidgetUserType;Lcustom_classes/WidgetUserDisplay;Lcustom_classes/WidgetTotalUser;Lcustom_classes/WidgetNumberOfUsers;)V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.390 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.390 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToAdministratorAdministratorPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.390 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToAdministratorAdministratorPage()V
+[MASTER] 06:04:28.390 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.goToAdministratorAdministratorPage()V: 0
+[MASTER] 06:04:28.390 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 45 IFEQ L479
+[MASTER] 06:04:28.390 [logback-1] INFO  BranchPool - Branch 45 at line 479
+[MASTER] 06:04:28.391 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToAdministratorAdministratorPage()V
+[MASTER] 06:04:28.391 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToAdministratorAdministratorPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.392 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.392 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToAnonymousAdministratorPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.392 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToAnonymousAdministratorPage()V
+[MASTER] 06:04:28.392 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.goToAnonymousAdministratorPage()V: 0
+[MASTER] 06:04:28.392 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 46 IFEQ L493
+[MASTER] 06:04:28.392 [logback-1] INFO  BranchPool - Branch 46 at line 493
+[MASTER] 06:04:28.393 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToAnonymousAdministratorPage()V
+[MASTER] 06:04:28.393 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToAnonymousAdministratorPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.394 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.394 [logback-1] INFO  CFGMethodAdapter - Analyzing method editRoleEditRolePage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.394 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method editRoleEditRolePage()V
+[MASTER] 06:04:28.394 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.editRoleEditRolePage()V: 0
+[MASTER] 06:04:28.394 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 47 IFEQ L507
+[MASTER] 06:04:28.394 [logback-1] INFO  BranchPool - Branch 47 at line 507
+[MASTER] 06:04:28.396 [logback-1] INFO  CFGMethodAdapter - Created CFG for method editRoleEditRolePage()V
+[MASTER] 06:04:28.396 [logback-1] INFO  CFGMethodAdapter - Instrumenting method editRoleEditRolePage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.397 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.397 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToAnonymousEditRolePage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.397 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToAnonymousEditRolePage()V
+[MASTER] 06:04:28.397 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.goToAnonymousEditRolePage()V: 0
+[MASTER] 06:04:28.397 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 48 IFEQ L524
+[MASTER] 06:04:28.397 [logback-1] INFO  BranchPool - Branch 48 at line 524
+[MASTER] 06:04:28.399 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToAnonymousEditRolePage()V
+[MASTER] 06:04:28.399 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToAnonymousEditRolePage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.400 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.400 [logback-1] INFO  CFGMethodAdapter - Analyzing method cancelDeleteWidgetPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.400 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method cancelDeleteWidgetPage()V
+[MASTER] 06:04:28.400 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.cancelDeleteWidgetPage()V: 0
+[MASTER] 06:04:28.400 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 49 IFEQ L538
+[MASTER] 06:04:28.400 [logback-1] INFO  BranchPool - Branch 49 at line 538
+[MASTER] 06:04:28.401 [logback-1] INFO  CFGMethodAdapter - Created CFG for method cancelDeleteWidgetPage()V
+[MASTER] 06:04:28.401 [logback-1] INFO  CFGMethodAdapter - Instrumenting method cancelDeleteWidgetPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.402 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.402 [logback-1] INFO  CFGMethodAdapter - Analyzing method okDeleteWidgetPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.402 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method okDeleteWidgetPage()V
+[MASTER] 06:04:28.402 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.okDeleteWidgetPage()V: 0
+[MASTER] 06:04:28.402 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 50 IFEQ L552
+[MASTER] 06:04:28.402 [logback-1] INFO  BranchPool - Branch 50 at line 552
+[MASTER] 06:04:28.404 [logback-1] INFO  CFGMethodAdapter - Created CFG for method okDeleteWidgetPage()V
+[MASTER] 06:04:28.404 [logback-1] INFO  CFGMethodAdapter - Instrumenting method okDeleteWidgetPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.404 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.404 [logback-1] INFO  CFGMethodAdapter - Analyzing method add_userUsersPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.404 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method add_userUsersPage()V
+[MASTER] 06:04:28.404 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.add_userUsersPage()V: 0
+[MASTER] 06:04:28.404 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 51 IFEQ L566
+[MASTER] 06:04:28.404 [logback-1] INFO  BranchPool - Branch 51 at line 566
+[MASTER] 06:04:28.406 [logback-1] INFO  CFGMethodAdapter - Created CFG for method add_userUsersPage()V
+[MASTER] 06:04:28.406 [logback-1] INFO  CFGMethodAdapter - Instrumenting method add_userUsersPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.406 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.408 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToAnonymousUsersPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.408 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToAnonymousUsersPage()V
+[MASTER] 06:04:28.408 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.goToAnonymousUsersPage()V: 0
+[MASTER] 06:04:28.408 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 52 IFEQ L580
+[MASTER] 06:04:28.408 [logback-1] INFO  BranchPool - Branch 52 at line 580
+[MASTER] 06:04:28.413 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToAnonymousUsersPage()V
+[MASTER] 06:04:28.414 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToAnonymousUsersPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.414 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.414 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToEditUsersPage(Lcustom_classes/Id;)V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.414 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToEditUsersPage(Lcustom_classes/Id;)V
+[MASTER] 06:04:28.414 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.goToEditUsersPage(Lcustom_classes/Id;)V: 0
+[MASTER] 06:04:28.414 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 53 IFEQ L594
+[MASTER] 06:04:28.414 [logback-1] INFO  BranchPool - Branch 53 at line 594
+[MASTER] 06:04:28.414 [logback-1] INFO  BranchPool - Adding to map the branch I28 Branch 54 IF_ICMPGE L598
+[MASTER] 06:04:28.414 [logback-1] INFO  BranchPool - Branch 54 at line 598
+[MASTER] 06:04:28.416 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToEditUsersPage(Lcustom_classes/Id;)V
+[MASTER] 06:04:28.416 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToEditUsersPage(Lcustom_classes/Id;)V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.417 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.417 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToPermissionsUsersPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.417 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToPermissionsUsersPage()V
+[MASTER] 06:04:28.417 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.goToPermissionsUsersPage()V: 0
+[MASTER] 06:04:28.417 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 55 IFEQ L615
+[MASTER] 06:04:28.417 [logback-1] INFO  BranchPool - Branch 55 at line 615
+[MASTER] 06:04:28.422 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToPermissionsUsersPage()V
+[MASTER] 06:04:28.422 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToPermissionsUsersPage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.422 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.422 [logback-1] INFO  CFGMethodAdapter - Analyzing method deleteRoleDeleteRolePage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.422 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method deleteRoleDeleteRolePage()V
+[MASTER] 06:04:28.422 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.deleteRoleDeleteRolePage()V: 0
+[MASTER] 06:04:28.422 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 56 IFEQ L629
+[MASTER] 06:04:28.422 [logback-1] INFO  BranchPool - Branch 56 at line 629
+[MASTER] 06:04:28.423 [logback-1] INFO  CFGMethodAdapter - Created CFG for method deleteRoleDeleteRolePage()V
+[MASTER] 06:04:28.423 [logback-1] INFO  CFGMethodAdapter - Instrumenting method deleteRoleDeleteRolePage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.424 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.424 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToAnonymousDeleteRolePage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.424 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToAnonymousDeleteRolePage()V
+[MASTER] 06:04:28.424 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.goToAnonymousDeleteRolePage()V: 0
+[MASTER] 06:04:28.424 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 57 IFEQ L644
+[MASTER] 06:04:28.424 [logback-1] INFO  BranchPool - Branch 57 at line 644
+[MASTER] 06:04:28.425 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToAnonymousDeleteRolePage()V
+[MASTER] 06:04:28.425 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToAnonymousDeleteRolePage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.425 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.425 [logback-1] INFO  CFGMethodAdapter - Analyzing method addRoleAddRolePage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.425 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method addRoleAddRolePage()V
+[MASTER] 06:04:28.425 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.addRoleAddRolePage()V: 0
+[MASTER] 06:04:28.425 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 58 IFEQ L658
+[MASTER] 06:04:28.425 [logback-1] INFO  BranchPool - Branch 58 at line 658
+[MASTER] 06:04:28.427 [logback-1] INFO  CFGMethodAdapter - Created CFG for method addRoleAddRolePage()V
+[MASTER] 06:04:28.427 [logback-1] INFO  CFGMethodAdapter - Instrumenting method addRoleAddRolePage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.427 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.428 [logback-1] INFO  CFGMethodAdapter - Analyzing method cancelAddRolePage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.428 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method cancelAddRolePage()V
+[MASTER] 06:04:28.428 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.cancelAddRolePage()V: 0
+[MASTER] 06:04:28.428 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 59 IFEQ L676
+[MASTER] 06:04:28.428 [logback-1] INFO  BranchPool - Branch 59 at line 676
+[MASTER] 06:04:28.429 [logback-1] INFO  CFGMethodAdapter - Created CFG for method cancelAddRolePage()V
+[MASTER] 06:04:28.429 [logback-1] INFO  CFGMethodAdapter - Instrumenting method cancelAddRolePage()V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.429 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.429 [logback-1] INFO  CFGMethodAdapter - Analyzing method formEditLocationPage(Lcustom_classes/WidgetLocation;Lcustom_classes/WidgetUnit;)V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.429 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method formEditLocationPage(Lcustom_classes/WidgetLocation;Lcustom_classes/WidgetUnit;)V
+[MASTER] 06:04:28.429 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.formEditLocationPage(Lcustom_classes/WidgetLocation;Lcustom_classes/WidgetUnit;)V: 0
+[MASTER] 06:04:28.429 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 60 IFEQ L692
+[MASTER] 06:04:28.429 [logback-1] INFO  BranchPool - Branch 60 at line 692
+[MASTER] 06:04:28.430 [logback-1] INFO  CFGMethodAdapter - Created CFG for method formEditLocationPage(Lcustom_classes/WidgetLocation;Lcustom_classes/WidgetUnit;)V
+[MASTER] 06:04:28.430 [logback-1] INFO  CFGMethodAdapter - Instrumenting method formEditLocationPage(Lcustom_classes/WidgetLocation;Lcustom_classes/WidgetUnit;)V in class main.ClassUnderTestApogen
+[MASTER] 06:04:28.431 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 06:04:28.431 [logback-1] INFO  CFGMethodAdapter - Method has EvoSuite annotation: Lorg/evosuite/runtime/annotation/EvoSuiteExclude;
+  - target/classes
+[MASTER] 06:04:29.132 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/signin/SignIn
+[MASTER] 06:04:29.132 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/site/components/PagesSidebarComponent
+[MASTER] 06:04:29.132 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/site/components/WidgetsListComponent
+[MASTER] 06:04:29.133 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/site/components/AddEditLinkFormComponent
+[MASTER] 06:04:29.133 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/site/components/AddEditMenuWidgetComponent
+[MASTER] 06:04:29.133 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/site/components/WidgetsSidebarComponent
+[MASTER] 06:04:29.133 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/site/components/PagesListComponent
+[MASTER] 06:04:29.134 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/site/components/AddEditLoginWidgetComponent
+[MASTER] 06:04:29.134 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/site/pages/AddEditLoginWidgetContainerPage
+[MASTER] 06:04:29.134 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/site/pages/AddEditTextWidgetContainerPage
+[MASTER] 06:04:29.135 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/site/pages/PagesContainerPage
+[MASTER] 06:04:29.135 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/site/pages/AddEditPageContainerPage
+[MASTER] 06:04:29.135 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/site/pages/AddEditMenuWidgetContainerPage
+[MASTER] 06:04:29.136 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/site/pages/WidgetsContainerPage
+[MASTER] 06:04:29.136 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/site/pages/AddEditLinkContainerPage
+[MASTER] 06:04:29.136 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/dashboard/components/WidgetComponent
+[MASTER] 06:04:29.137 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/dashboard/components/WidgetsListComponent
+[MASTER] 06:04:29.137 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/dashboard/pages/DashboardContainerPage
+[MASTER] 06:04:29.137 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/users/components/PermissionsComponent
+[MASTER] 06:04:29.137 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/users/components/RolesMainComponent
+[MASTER] 06:04:29.137 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/users/components/UserListComponent
+[MASTER] 06:04:29.138 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/users/components/UserSettingsComponent
+[MASTER] 06:04:29.138 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/users/components/AddEditUserComponent
+[MASTER] 06:04:29.138 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/users/components/RolesSidebarComponent
+[MASTER] 06:04:29.138 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/users/pages/UserListContainerPage
+[MASTER] 06:04:29.139 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/users/pages/RolesContainerPage
+[MASTER] 06:04:29.139 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/users/pages/PermissionsContainerPage
+[MASTER] 06:04:29.139 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/users/pages/AddEditUserContainerPage
+[MASTER] 06:04:29.139 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/users/pages/UserSettingsContainerPage
+[MASTER] 06:04:29.139 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/shared/components/VisibilityComponent
+[MASTER] 06:04:29.140 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/shared/components/MetaComponent
+[MASTER] 06:04:29.140 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/shared/components/HTMLFormComponent
+[MASTER] 06:04:29.140 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/shared/components/PageLinkDetailsComponent
+[MASTER] 06:04:29.140 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/shared/pages/AddEditNavbarComponent
+[MASTER] 06:04:29.141 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/shared/pages/modals/SelectLinkPage
+[MASTER] 06:04:29.141 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/shared/pages/modals/SelectImagePage
+[MASTER] 06:04:29.141 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/shared/pages/modals/AddEditItemPage
+[MASTER] 06:04:29.141 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/shared/pages/modals/DeleteItemPage
+[MASTER] 06:04:29.141 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/shared/pages/NavbarComponent
+[MASTER] 06:04:29.142 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po/shared/pages/MenuComponent
+[MASTER] 06:04:29.142 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class main/Main
+[MASTER] 06:04:29.142 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class main/ClassUnderTestApogen
+[MASTER] 06:04:29.143 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class main/ClassUnderTest
+[MASTER] 06:04:29.143 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/PermissionsComponent
+[MASTER] 06:04:29.144 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/AdministratorPage
+[MASTER] 06:04:29.144 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/AnonymousPage
+[MASTER] 06:04:29.144 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/AddUserPage
+[MASTER] 06:04:29.144 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/AddUserComponent
+[MASTER] 06:04:29.144 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/DashBoardMenuComponent
+[MASTER] 06:04:29.145 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/EditUserPage
+[MASTER] 06:04:29.145 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/PermissionsPage
+[MASTER] 06:04:29.145 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/EditRegisteredUserPage
+[MASTER] 06:04:29.145 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/DashboardComponent
+[MASTER] 06:04:29.146 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/EditLocationPage
+[MASTER] 06:04:29.146 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/UsersComponent
+[MASTER] 06:04:29.146 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/EditRegisteredUserComponent
+[MASTER] 06:04:29.146 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/UsersPage
+[MASTER] 06:04:29.146 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/AdministratorComponent
+[MASTER] 06:04:29.147 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/AnonymousComponent
+[MASTER] 06:04:29.147 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/AddRolePage
+[MASTER] 06:04:29.147 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/DashboardPage
+[MASTER] 06:04:29.147 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/DashBoardMenuPage
+[MASTER] 06:04:29.148 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/EditUserComponent
+[MASTER] 06:04:29.148 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/EditLocationComponent
+[MASTER] 06:04:29.148 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/EditRolePage
+[MASTER] 06:04:29.148 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/DeleteRolePage
+[MASTER] 06:04:29.148 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_apogen/DeleteWidgetPage
+[MASTER] 06:04:29.149 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/JavascriptActions
+[MASTER] 06:04:29.149 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/DriverProvider$1
+[MASTER] 06:04:29.149 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/ParametricPageComponent
+[MASTER] 06:04:29.150 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CheckCondition
+[MASTER] 06:04:29.150 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$11
+[MASTER] 06:04:29.150 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/ExpectedConditionElementToBeInvisible
+[MASTER] 06:04:29.150 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/PageObject
+[MASTER] 06:04:29.151 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/ExceptionUtils
+[MASTER] 06:04:29.151 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/PageObjectLogging
+[MASTER] 06:04:29.151 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$7
+[MASTER] 06:04:29.151 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$8
+[MASTER] 06:04:29.151 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/PageComponent
+[MASTER] 06:04:29.151 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/ExpectedConditionTextThatChanges
+[MASTER] 06:04:29.152 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$3
+[MASTER] 06:04:29.152 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/ConstantLocators
+[MASTER] 06:04:29.152 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$9
+[MASTER] 06:04:29.152 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/MySqlConnection
+[MASTER] 06:04:29.152 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$19
+[MASTER] 06:04:29.153 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$17
+[MASTER] 06:04:29.153 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/IntRange
+[MASTER] 06:04:29.153 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/Range
+[MASTER] 06:04:29.153 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/ExpectedConditionPropertyThatDisappears
+[MASTER] 06:04:29.153 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions
+[MASTER] 06:04:29.154 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/ScriptRunner
+[MASTER] 06:04:29.154 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/NotInTheRightPageObjectException
+[MASTER] 06:04:29.154 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonUtils
+[MASTER] 06:04:29.154 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/SelectorStack
+[MASTER] 06:04:29.154 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/BasePageObject
+[MASTER] 06:04:29.154 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/FormValue
+[MASTER] 06:04:29.155 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$13
+[MASTER] 06:04:29.155 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/NotTheRightInputValuesException
+[MASTER] 06:04:29.155 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/ExpectedConditionPropertyThatChanges
+[MASTER] 06:04:29.155 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/XSSContent
+[MASTER] 06:04:29.155 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$4
+[MASTER] 06:04:29.156 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/RuntimeSqlException
+[MASTER] 06:04:29.156 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/ResetAppState
+[MASTER] 06:04:29.156 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$1
+[MASTER] 06:04:29.156 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/TestData
+[MASTER] 06:04:29.156 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/ExpectedConditionElementToBeClickable
+[MASTER] 06:04:29.156 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$14
+[MASTER] 06:04:29.156 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$10
+[MASTER] 06:04:29.157 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$12
+[MASTER] 06:04:29.157 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$6
+[MASTER] 06:04:29.157 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$15
+[MASTER] 06:04:29.157 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$5
+[MASTER] 06:04:29.157 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$2
+[MASTER] 06:04:29.157 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/MyProperties
+[MASTER] 06:04:29.158 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$18
+[MASTER] 06:04:29.158 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/Wait
+[MASTER] 06:04:29.158 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/CommonExpectedConditions$16
+[MASTER] 06:04:29.158 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class po_utils/DriverProvider
+[MASTER] 06:04:29.158 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/WidgetFeedNumberOfPosts
+[MASTER] 06:04:29.159 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/WidgetMenus
+[MASTER] 06:04:29.159 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/UserPassword
+[MASTER] 06:04:29.159 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/Username
+[MASTER] 06:04:29.159 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/NavbarActions
+[MASTER] 06:04:29.159 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/WidgetUnit
+[MASTER] 06:04:29.159 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/Depth
+[MASTER] 06:04:29.160 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/MenuSubItems
+[MASTER] 06:04:29.160 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/WidgetMenuTitles
+[MASTER] 06:04:29.160 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/MenuActions
+[MASTER] 06:04:29.160 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/FileNames
+[MASTER] 06:04:29.160 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/Widget
+[MASTER] 06:04:29.160 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/WidgetUserDisplay
+[MASTER] 06:04:29.161 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/SiteMenus
+[MASTER] 06:04:29.161 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/UserStatus
+[MASTER] 06:04:29.161 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/StartLevel
+[MASTER] 06:04:29.161 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/Id
+[MASTER] 06:04:29.161 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/Email
+[MASTER] 06:04:29.161 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/SiteAddWidget
+[MASTER] 06:04:29.162 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/HTMLSnippets
+[MASTER] 06:04:29.162 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/WidgetUserType
+[MASTER] 06:04:29.162 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/WidgetFeedUrl
+[MASTER] 06:04:29.162 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/RegistrationUserSettings
+[MASTER] 06:04:29.163 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/WidgetLocation
+[MASTER] 06:04:29.163 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/UserRoles
+[MASTER] 06:04:29.163 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/WidgetLoginTitles
+[MASTER] 06:04:29.163 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/SiteAddPage
+[MASTER] 06:04:29.163 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/LinkTypes
+[MASTER] 06:04:29.163 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/WidgetNumberOfUsers
+[MASTER] 06:04:29.164 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/PageLinkStatus
+[MASTER] 06:04:29.164 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/Widgets
+[MASTER] 06:04:29.164 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/AddEditNavbarPoCallees
+[MASTER] 06:04:29.164 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/HideInMenu
+[MASTER] 06:04:29.164 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/SitePages
+[MASTER] 06:04:29.164 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/AddEditNavbarActions
+[MASTER] 06:04:29.165 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/SiteLinks
+[MASTER] 06:04:29.165 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/SiteLinkOrPage
+[MASTER] 06:04:29.165 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/Extension
+[MASTER] 06:04:29.165 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/WidgetTotalUser
+[MASTER] 06:04:29.165 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/WidgetTextTitles
+[MASTER] 06:04:29.165 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/View
+[MASTER] 06:04:29.166 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/Name
+[MASTER] 06:04:29.166 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/MetaDescriptions
+[MASTER] 06:04:29.166 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/WidgetFeedTitle
+[MASTER] 06:04:29.166 [logback-1] INFO  InheritanceTreeGenerator - Analyzing class custom_classes/WidgetFeedPostContent
+[MASTER] 06:04:29.166 [logback-1] INFO  ClientNodeImpl - Sending output variable to master process: Classpath_Classes = 4910
+[MASTER] 06:04:29.186 [logback-1] INFO  DependencyAnalysis - Could not find class file: [Lorg/openqa/selenium/Platform;
+[MASTER] 06:04:29.193 [logback-1] INFO  DependencyAnalysis - Could not find class file: [Ljava/lang/Object;
+[MASTER] 06:04:29.267 [logback-1] INFO  CallGraphGenerator - Updating call tree 
+[MASTER] 06:04:29.271 [logback-1] INFO  TestClusterGenerator - Handling cast classes
+[MASTER] 06:04:29.322 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: org.openqa.selenium.WebElement
+[MASTER] 06:04:54.362 [logback-1] INFO  ConcreteClassAnalyzer - Don't know how to instantiate abstract class org.openqa.selenium.WebElement
+[MASTER] 06:04:54.385 [logback-1] INFO  TestClusterGenerator - Initialising target class
+[MASTER] 06:04:54.385 [logback-1] INFO  TestClusterGenerator - Analyzing target class
+[MASTER] 06:04:54.385 [logback-1] INFO  TestClusterGenerator - Current SUT class: class main.ClassUnderTestApogen
+[MASTER] 06:04:54.386 [logback-1] INFO  TestClusterGenerator - Checking target constructor public main.ClassUnderTestApogen()
+[MASTER] 06:04:54.407 [logback-1] INFO  TestClusterGenerator - Checking target method public static void main.ClassUnderTestApogen.__STATIC_RESET()
+[MASTER] 06:04:54.407 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.addRoleAddRolePage()
+[MASTER] 06:04:54.413 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.addUserAddUserPage(custom_classes.Username,custom_classes.Name,custom_classes.Email,custom_classes.UserPassword,custom_classes.UserStatus)
+[MASTER] 06:04:54.414 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.add_userUsersPage()
+[MASTER] 06:04:54.414 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.cancelAddRolePage()
+[MASTER] 06:04:54.414 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.cancelDeleteWidgetPage()
+[MASTER] 06:04:54.414 [logback-1] INFO  TestClusterGenerator - Checking target method protected native java.lang.Object java.lang.Object.clone() throws java.lang.CloneNotSupportedException
+[MASTER] 06:04:54.414 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.deletePagekitDashboardPage(custom_classes.Id)
+[MASTER] 06:04:54.414 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.deleteRoleDeleteRolePage()
+[MASTER] 06:04:54.414 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.deleteUserRoleAnonymousPage(custom_classes.UserRoles)
+[MASTER] 06:04:54.415 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.editRoleEditRolePage()
+[MASTER] 06:04:54.415 [logback-1] INFO  TestClusterGenerator - Checking target method public boolean java.lang.Object.equals(java.lang.Object)
+[MASTER] 06:04:54.415 [logback-1] INFO  TestClusterGenerator - Checking target method protected void java.lang.Object.finalize() throws java.lang.Throwable
+[MASTER] 06:04:54.415 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.formEditLocationPage(custom_classes.WidgetLocation,custom_classes.WidgetUnit)
+[MASTER] 06:04:54.415 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.formEditRegisteredUserPage(custom_classes.WidgetUserType,custom_classes.WidgetUserDisplay,custom_classes.WidgetTotalUser,custom_classes.WidgetNumberOfUsers)
+[MASTER] 06:04:54.416 [logback-1] INFO  TestClusterGenerator - Checking target method public final native java.lang.Class java.lang.Object.getClass()
+[MASTER] 06:04:54.416 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.goToAddRoleAnonymousPage(custom_classes.UserRoles)
+[MASTER] 06:04:54.416 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.goToAdministratorAdministratorPage()
+[MASTER] 06:04:54.416 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.goToAdministratorAnonymousPage()
+[MASTER] 06:04:54.416 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.goToAnonymousAdministratorPage()
+[MASTER] 06:04:54.416 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.goToAnonymousDeleteRolePage()
+[MASTER] 06:04:54.416 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.goToAnonymousEditRolePage()
+[MASTER] 06:04:54.417 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.goToAnonymousPermissionsPage()
+[MASTER] 06:04:54.419 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.goToAnonymousUsersPage()
+[MASTER] 06:04:54.419 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.goToDashBoardMenuDashboardPage()
+[MASTER] 06:04:54.419 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.goToDashboardDashBoardMenuPage()
+[MASTER] 06:04:54.419 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.goToEditComponentLocationDashboardPage(custom_classes.Id)
+[MASTER] 06:04:54.420 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.goToEditRegisteredUserDashboardPage(custom_classes.Id)
+[MASTER] 06:04:54.420 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.goToEditRoleAnonymousPage(custom_classes.UserRoles,custom_classes.UserRoles)
+[MASTER] 06:04:54.420 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.goToEditUserDashboardPage()
+[MASTER] 06:04:54.420 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.goToEditUsersPage(custom_classes.Id)
+[MASTER] 06:04:54.421 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.goToHomeAnonymousPage()
+[MASTER] 06:04:54.423 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.goToPermissionsAddUserPage()
+[MASTER] 06:04:54.424 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.goToPermissionsEditUserPage()
+[MASTER] 06:04:54.424 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.goToPermissionsPermissionsPage()
+[MASTER] 06:04:54.424 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.goToPermissionsUsersPage()
+[MASTER] 06:04:54.424 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.goToRolesAddUserPage()
+[MASTER] 06:04:54.424 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.goToRolesEditUserPage()
+[MASTER] 06:04:54.424 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.goToUserAddUserPage()
+[MASTER] 06:04:54.425 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.goToUserEditUserPage()
+[MASTER] 06:04:54.425 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.goToUsersAddUserPage()
+[MASTER] 06:04:54.425 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.goToUsersDashBoardMenuPage()
+[MASTER] 06:04:54.425 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.goToUsersEditUserPage()
+[MASTER] 06:04:54.426 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.goToUsersPermissionsPage()
+[MASTER] 06:04:54.426 [logback-1] INFO  TestClusterGenerator - Checking target method public int main.ClassUnderTestApogen.hashCode()
+[MASTER] 06:04:54.426 [logback-1] INFO  TestClusterGenerator - Checking target method public final native void java.lang.Object.notify()
+[MASTER] 06:04:54.426 [logback-1] INFO  TestClusterGenerator - Checking target method public final native void java.lang.Object.notifyAll()
+[MASTER] 06:04:54.426 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.okDeleteWidgetPage()
+[MASTER] 06:04:54.426 [logback-1] INFO  TestClusterGenerator - Checking target method private static native void java.lang.Object.registerNatives()
+[MASTER] 06:04:54.427 [logback-1] INFO  TestClusterGenerator - Checking target method public java.lang.String java.lang.Object.toString()
+[MASTER] 06:04:54.427 [logback-1] INFO  TestClusterGenerator - Checking target method public void main.ClassUnderTestApogen.user_editEditUserPage(custom_classes.Username,custom_classes.Name,custom_classes.Email,custom_classes.UserPassword)
+[MASTER] 06:04:54.427 [logback-1] INFO  TestClusterGenerator - Checking target method public final void java.lang.Object.wait() throws java.lang.InterruptedException
+[MASTER] 06:04:54.428 [logback-1] INFO  TestClusterGenerator - Checking target method public final native void java.lang.Object.wait(long) throws java.lang.InterruptedException
+[MASTER] 06:04:54.428 [logback-1] INFO  TestClusterGenerator - Checking target method public final void java.lang.Object.wait(long,int) throws java.lang.InterruptedException
+[MASTER] 06:04:54.428 [logback-1] INFO  TestClusterGenerator - Checking target field private java.lang.Object main.ClassUnderTestApogen.currentPage
+[MASTER] 06:04:54.429 [logback-1] INFO  GetStaticGraph - Adding new static method call: main/ClassUnderTestApogen.<init>()V -> custom_classes/Username.<clinit>()V
+[MASTER] 06:04:54.429 [logback-1] INFO  GetStaticGraph - Adding new static method call: custom_classes/Username.<clinit>()V -> custom_classes/Username.<clinit>()V
+[MASTER] 06:04:54.429 [logback-1] INFO  GetStaticGraph - Adding new static field read: custom_classes/Username.<clinit>()V -> custom_classes/Username.ADMIN
+[MASTER] 06:04:54.434 [logback-1] INFO  GetStaticGraph - Adding new static field read: custom_classes/Username.<clinit>()V -> custom_classes/Username.FOO
+[MASTER] 06:04:54.438 [logback-1] INFO  GetStaticGraph - Adding new static field read: custom_classes/Username.<clinit>()V -> custom_classes/Username.ADMIN
+[MASTER] 06:04:54.442 [logback-1] INFO  GetStaticGraph - Adding new static field read: main/ClassUnderTestApogen.<init>()V -> custom_classes/Username.ADMIN
+[MASTER] 06:04:54.443 [logback-1] INFO  GetStaticGraph - Adding new static method call: main/ClassUnderTestApogen.<init>()V -> custom_classes/UserPassword.<clinit>()V
+[MASTER] 06:04:54.443 [logback-1] INFO  GetStaticGraph - Adding new static method call: custom_classes/UserPassword.<clinit>()V -> custom_classes/UserPassword.<clinit>()V
+[MASTER] 06:04:54.443 [logback-1] INFO  GetStaticGraph - Adding new static field read: custom_classes/UserPassword.<clinit>()V -> custom_classes/UserPassword.ADMIN
+[MASTER] 06:04:54.443 [logback-1] INFO  GetStaticGraph - Adding new static field read: custom_classes/UserPassword.<clinit>()V -> custom_classes/UserPassword.FOO
+[MASTER] 06:04:54.443 [logback-1] INFO  GetStaticGraph - Adding new static field read: custom_classes/UserPassword.<clinit>()V -> custom_classes/UserPassword.ADMIN
+[MASTER] 06:04:54.443 [logback-1] INFO  GetStaticGraph - Adding new static field read: main/ClassUnderTestApogen.<init>()V -> custom_classes/UserPassword.ADMIN
+[MASTER] 06:04:54.443 [logback-1] INFO  GetStaticGraph - Adding new static method call: main/ClassUnderTestApogen.addUserAddUserPage(Lcustom_classes/Username;Lcustom_classes/Name;Lcustom_classes/Email;Lcustom_classes/UserPassword;Lcustom_classes/UserStatus;)V -> org/openqa/selenium/By.<clinit>()V
+[MASTER] 06:04:54.443 [logback-1] INFO  GetStaticGraph - Adding new static method call: main/ClassUnderTestApogen.addUserAddUserPage(Lcustom_classes/Username;Lcustom_classes/Name;Lcustom_classes/Email;Lcustom_classes/UserPassword;Lcustom_classes/UserStatus;)V -> org/openqa/selenium/By.xpath(Ljava/lang/String;)Lorg/openqa/selenium/By;
+[MASTER] 06:04:54.444 [logback-1] INFO  GetStaticGraph - Adding new static method call: main/ClassUnderTestApogen.goToHomeAnonymousPage()V -> org/openqa/selenium/By.<clinit>()V
+[MASTER] 06:04:54.444 [logback-1] INFO  GetStaticGraph - Adding new static method call: main/ClassUnderTestApogen.goToHomeAnonymousPage()V -> org/openqa/selenium/By.xpath(Ljava/lang/String;)Lorg/openqa/selenium/By;
+[MASTER] 06:04:54.444 [logback-1] INFO  GetStaticGraph - Adding new static method call: main/ClassUnderTestApogen.editRoleEditRolePage()V -> org/openqa/selenium/By.<clinit>()V
+[MASTER] 06:04:54.445 [logback-1] INFO  GetStaticGraph - Adding new static method call: main/ClassUnderTestApogen.editRoleEditRolePage()V -> org/openqa/selenium/By.xpath(Ljava/lang/String;)Lorg/openqa/selenium/By;
+[MASTER] 06:04:54.445 [logback-1] INFO  GetStaticGraph - Adding new static method call: main/ClassUnderTestApogen.goToAnonymousEditRolePage()V -> org/openqa/selenium/By.<clinit>()V
+[MASTER] 06:04:54.445 [logback-1] INFO  GetStaticGraph - Adding new static method call: main/ClassUnderTestApogen.goToAnonymousEditRolePage()V -> org/openqa/selenium/By.xpath(Ljava/lang/String;)Lorg/openqa/selenium/By;
+[MASTER] 06:04:54.445 [logback-1] INFO  GetStaticGraph - Adding new static method call: main/ClassUnderTestApogen.cancelDeleteWidgetPage()V -> org/openqa/selenium/By.<clinit>()V
+[MASTER] 06:04:54.445 [logback-1] INFO  GetStaticGraph - Adding new static method call: main/ClassUnderTestApogen.cancelDeleteWidgetPage()V -> org/openqa/selenium/By.xpath(Ljava/lang/String;)Lorg/openqa/selenium/By;
+[MASTER] 06:04:54.445 [logback-1] INFO  GetStaticGraph - Adding new static method call: main/ClassUnderTestApogen.okDeleteWidgetPage()V -> org/openqa/selenium/By.<clinit>()V
+[MASTER] 06:04:54.446 [logback-1] INFO  GetStaticGraph - Adding new static method call: main/ClassUnderTestApogen.okDeleteWidgetPage()V -> org/openqa/selenium/By.xpath(Ljava/lang/String;)Lorg/openqa/selenium/By;
+[MASTER] 06:04:54.446 [logback-1] INFO  GetStaticGraph - Adding new static method call: main/ClassUnderTestApogen.deleteRoleDeleteRolePage()V -> org/openqa/selenium/By.<clinit>()V
+[MASTER] 06:04:54.446 [logback-1] INFO  GetStaticGraph - Adding new static method call: main/ClassUnderTestApogen.deleteRoleDeleteRolePage()V -> org/openqa/selenium/By.xpath(Ljava/lang/String;)Lorg/openqa/selenium/By;
+[MASTER] 06:04:54.446 [logback-1] INFO  GetStaticGraph - Adding new static method call: main/ClassUnderTestApogen.goToAnonymousDeleteRolePage()V -> org/openqa/selenium/By.<clinit>()V
+[MASTER] 06:04:54.446 [logback-1] INFO  GetStaticGraph - Adding new static method call: main/ClassUnderTestApogen.goToAnonymousDeleteRolePage()V -> org/openqa/selenium/By.xpath(Ljava/lang/String;)Lorg/openqa/selenium/By;
+[MASTER] 06:04:54.446 [logback-1] INFO  GetStaticGraph - Adding new static method call: main/ClassUnderTestApogen.addRoleAddRolePage()V -> org/openqa/selenium/By.<clinit>()V
+[MASTER] 06:04:54.446 [logback-1] INFO  GetStaticGraph - Adding new static method call: main/ClassUnderTestApogen.addRoleAddRolePage()V -> org/openqa/selenium/By.xpath(Ljava/lang/String;)Lorg/openqa/selenium/By;
+[MASTER] 06:04:54.446 [logback-1] INFO  GetStaticGraph - Adding new static method call: main/ClassUnderTestApogen.cancelAddRolePage()V -> org/openqa/selenium/By.<clinit>()V
+[MASTER] 06:04:54.446 [logback-1] INFO  GetStaticGraph - Adding new static method call: main/ClassUnderTestApogen.cancelAddRolePage()V -> org/openqa/selenium/By.xpath(Ljava/lang/String;)Lorg/openqa/selenium/By;
+[MASTER] 06:04:54.454 [logback-1] INFO  TestClusterGenerator - >>>>>Adding static fields to cluster for class custom_classes.UserPassword
+[MASTER] 06:04:54.454 [logback-1] INFO  TestClusterGenerator - Adding static fields to cluster for class custom_classes.UserPassword
+[MASTER] 06:04:54.455 [logback-1] INFO  TestClusterGenerator - >>>>>Adding static fields to cluster for class custom_classes.Username
+[MASTER] 06:04:54.455 [logback-1] INFO  TestClusterGenerator - Adding static fields to cluster for class custom_classes.Username
+[MASTER] 06:04:54.456 [logback-1] INFO  TestClusterGenerator - Finished analyzing target class
+[MASTER] 06:04:54.456 [logback-1] INFO  TestClusterGenerator - Resolving dependencies
+[MASTER] 06:04:54.456 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: org.openqa.selenium.WebDriver
+[MASTER] 06:04:54.457 [logback-1] INFO  ConcreteClassAnalyzer - Don't know how to instantiate abstract class org.openqa.selenium.WebDriver
+[MASTER] 06:04:54.460 [logback-1] INFO  TestClusterGenerator - Finished analyzing po_apogen.EditUserPage at recursion level 1
+[MASTER] 06:04:54.481 [logback-1] INFO  TestClusterGenerator - Finished analyzing po_apogen.AnonymousPage at recursion level 1
+[MASTER] 06:04:54.484 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: org.openqa.selenium.By
+[MASTER] 06:04:54.512 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.WebElement was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 06:04:54.513 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.WebDriver was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 06:04:54.513 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.WebDriver was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 06:04:54.514 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.WebElement was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 06:04:54.515 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.WebElement was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 06:04:54.536 [logback-1] INFO  TestClusterGenerator - Finished analyzing po_apogen.AddRolePage at recursion level 1
+[MASTER] 06:04:54.546 [logback-1] INFO  TestClusterGenerator - Finished analyzing po_apogen.DashboardPage at recursion level 1
+[MASTER] 06:04:54.556 [logback-1] INFO  TestClusterGenerator - Finished analyzing po_apogen.DeleteWidgetPage at recursion level 1
+[MASTER] 06:04:54.557 [logback-1] INFO  TestClusterGenerator - Finished analyzing po_apogen.PermissionsPage at recursion level 1
+[MASTER] 06:04:54.559 [logback-1] INFO  TestClusterGenerator - Finished analyzing po_apogen.EditLocationPage at recursion level 1
+[MASTER] 06:04:54.561 [logback-1] INFO  TestClusterGenerator - Finished analyzing po_apogen.DeleteRolePage at recursion level 1
+[MASTER] 06:04:54.571 [logback-1] INFO  TestClusterGenerator - Finished analyzing po_apogen.EditRegisteredUserPage at recursion level 1
+[MASTER] 06:04:54.574 [logback-1] INFO  TestClusterGenerator - Finished analyzing po_apogen.AdministratorPage at recursion level 1
+[MASTER] 06:04:54.575 [logback-1] INFO  TestClusterGenerator - Finished analyzing po_apogen.DashBoardMenuPage at recursion level 1
+[MASTER] 06:04:54.576 [logback-1] INFO  TestClusterGenerator - Finished analyzing po_apogen.AddUserPage at recursion level 1
+[MASTER] 06:04:54.587 [logback-1] INFO  TestClusterGenerator - Finished analyzing po_apogen.EditRolePage at recursion level 1
+[MASTER] 06:04:54.588 [logback-1] INFO  TestClusterGenerator - Finished analyzing po_apogen.UsersPage at recursion level 1
+[MASTER] 06:04:54.590 [logback-1] INFO  TestClusterGenerator - Finished analyzing custom_classes.Username at recursion level 1
+[MASTER] 06:04:54.590 [logback-1] INFO  TestClusterGenerator - Finished analyzing custom_classes.Name at recursion level 1
+[MASTER] 06:04:54.591 [logback-1] INFO  TestClusterGenerator - Finished analyzing custom_classes.Email at recursion level 1
+[MASTER] 06:04:54.591 [logback-1] INFO  TestClusterGenerator - Finished analyzing custom_classes.UserPassword at recursion level 1
+[MASTER] 06:04:54.591 [logback-1] INFO  TestClusterGenerator - Finished analyzing custom_classes.UserStatus at recursion level 1
+[MASTER] 06:04:54.592 [logback-1] INFO  TestClusterGenerator - Finished analyzing custom_classes.Id at recursion level 1
+[MASTER] 06:04:54.592 [logback-1] INFO  TestClusterGenerator - Finished analyzing custom_classes.UserRoles at recursion level 1
+[MASTER] 06:04:54.593 [logback-1] INFO  TestClusterGenerator - Finished analyzing custom_classes.WidgetLocation at recursion level 1
+[MASTER] 06:04:54.593 [logback-1] INFO  TestClusterGenerator - Finished analyzing custom_classes.WidgetUnit at recursion level 1
+[MASTER] 06:04:54.594 [logback-1] INFO  TestClusterGenerator - Finished analyzing custom_classes.WidgetUserType at recursion level 1
+[MASTER] 06:04:54.594 [logback-1] INFO  TestClusterGenerator - Finished analyzing custom_classes.WidgetUserDisplay at recursion level 1
+[MASTER] 06:04:54.595 [logback-1] INFO  TestClusterGenerator - Finished analyzing custom_classes.WidgetTotalUser at recursion level 1
+[MASTER] 06:04:54.603 [logback-1] INFO  TestClusterGenerator - Finished analyzing custom_classes.WidgetNumberOfUsers at recursion level 1
+[MASTER] 06:04:54.605 [logback-1] INFO  TestClusterGenerator - Finished analyzing po_apogen.EditUserComponent at recursion level 2
+[MASTER] 06:04:54.611 [logback-1] INFO  TestClusterGenerator - Finished analyzing po_apogen.AnonymousComponent at recursion level 2
+[MASTER] 06:04:54.619 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.By was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 06:04:54.619 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.By was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 06:04:54.619 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: org.openqa.selenium.SearchContext
+[MASTER] 06:04:54.619 [logback-1] INFO  ConcreteClassAnalyzer - Don't know how to instantiate abstract class org.openqa.selenium.SearchContext
+[MASTER] 06:04:54.619 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.By was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 06:04:54.620 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.openqa.selenium.By at recursion level 2
+[MASTER] 06:04:54.630 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.interactions.ClickAndHoldAction was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 06:04:54.638 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: org.openqa.selenium.interactions.ClickAndHoldAction
+[MASTER] 06:04:54.641 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.interactions.MoveMouseAction was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 06:04:54.641 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: org.openqa.selenium.interactions.MoveMouseAction
+[MASTER] 06:04:54.647 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.interactions.KeyDownAction was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 06:04:54.647 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: org.openqa.selenium.interactions.KeyDownAction
+[MASTER] 06:04:54.649 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.interactions.MoveToOffsetAction was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 06:04:54.649 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: org.openqa.selenium.interactions.MoveToOffsetAction
+[MASTER] 06:04:54.650 [logback-1] WARN  CheapPurityAnalyzer - com.google.common.base.Preconditions was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 06:04:54.650 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: com.google.common.base.Preconditions
+[MASTER] 06:04:54.651 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.interactions.ButtonReleaseAction was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 06:04:54.651 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: org.openqa.selenium.interactions.ButtonReleaseAction
+[MASTER] 06:04:54.653 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.interactions.SendKeysAction was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 06:04:54.653 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: org.openqa.selenium.interactions.SendKeysAction
+[MASTER] 06:04:54.653 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: org.openqa.selenium.interactions.Action
+[MASTER] 06:04:54.653 [logback-1] INFO  ConcreteClassAnalyzer - Don't know how to instantiate abstract class org.openqa.selenium.interactions.Action
+[MASTER] 06:04:54.654 [logback-1] WARN  CheapPurityAnalyzer - com.google.common.base.Preconditions was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 06:04:54.654 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: org.openqa.selenium.interactions.Interaction
+[MASTER] 06:04:54.654 [logback-1] INFO  ConcreteClassAnalyzer - Don't know how to instantiate abstract class org.openqa.selenium.interactions.Interaction
+[MASTER] 06:04:54.658 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.openqa.selenium.interactions.Actions at recursion level 2
+[MASTER] 06:04:54.660 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: org.openqa.selenium.support.ui.Clock
+[MASTER] 06:04:54.660 [logback-1] INFO  ConcreteClassAnalyzer - Don't know how to instantiate abstract class org.openqa.selenium.support.ui.Clock
+[MASTER] 06:04:54.661 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: org.openqa.selenium.support.ui.Sleeper
+[MASTER] 06:04:54.662 [logback-1] INFO  ConcreteClassAnalyzer - Don't know how to instantiate abstract class org.openqa.selenium.support.ui.Sleeper
+[MASTER] 06:04:54.663 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public org.openqa.selenium.support.ui.FluentWait org.openqa.selenium.support.ui.FluentWait.ignoreAll(java.util.Collection)
+[MASTER] 06:04:54.664 [logback-1] WARN  CheapPurityAnalyzer - com.google.common.collect.ImmutableList was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 06:04:54.664 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: com.google.common.collect.ImmutableList
+[MASTER] 06:04:54.666 [logback-1] WARN  CheapPurityAnalyzer - com.google.common.collect.ImmutableList was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 06:04:54.667 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public java.lang.Object org.openqa.selenium.support.ui.FluentWait.until(java.util.function.Function)
+[MASTER] 06:04:54.668 [logback-1] INFO  ConcreteClassAnalyzer - Don't know how to instantiate abstract class java.util.function.Supplier
+[MASTER] 06:04:54.669 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.openqa.selenium.support.ui.WebDriverWait at recursion level 2
+[MASTER] 06:04:54.669 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.support.ui.ExpectedConditions was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 06:04:54.671 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: org.openqa.selenium.support.ui.ExpectedConditions
+[MASTER] 06:04:54.674 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.support.ui.ExpectedConditions was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 06:04:54.674 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.support.ui.SystemClock was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 06:04:54.674 [logback-1] WARN  InheritanceTree - Class not in inheritance graph: org.openqa.selenium.support.ui.SystemClock
+[MASTER] 06:04:54.675 [logback-1] INFO  TestClusterGenerator - Finished analyzing po_utils.Wait at recursion level 2
+[MASTER] 06:04:54.677 [logback-1] INFO  TestClusterGenerator - Finished analyzing po_apogen.DashboardComponent at recursion level 2
+[MASTER] 06:04:54.680 [logback-1] INFO  TestClusterGenerator - Finished analyzing po_apogen.PermissionsComponent at recursion level 2
+[MASTER] 06:04:54.685 [logback-1] INFO  TestClusterGenerator - Finished analyzing po_apogen.EditLocationComponent at recursion level 2
+[MASTER] 06:04:54.688 [logback-1] INFO  TestClusterGenerator - Finished analyzing po_apogen.EditRegisteredUserComponent at recursion level 2
+[MASTER] 06:04:54.689 [logback-1] INFO  TestClusterGenerator - Finished analyzing po_apogen.AdministratorComponent at recursion level 2
+[MASTER] 06:04:54.690 [logback-1] INFO  TestClusterGenerator - Finished analyzing po_apogen.DashBoardMenuComponent at recursion level 2
+[MASTER] 06:04:54.691 [logback-1] INFO  TestClusterGenerator - Finished analyzing po_apogen.AddUserComponent at recursion level 2
+[MASTER] 06:04:54.693 [logback-1] INFO  TestClusterGenerator - Finished analyzing po_apogen.UsersComponent at recursion level 2
+[MASTER] 06:04:54.701 [logback-1] INFO  ConcreteClassAnalyzer - Don't know how to instantiate abstract class java.util.function.Consumer
+[MASTER] 06:04:54.708 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public java.lang.Object[] java.util.LinkedList.toArray(java.lang.Object[])
+[MASTER] 06:04:54.711 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.util.LinkedList<E> at recursion level 3
+[MASTER] 06:04:54.718 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.lang.Object at recursion level 3
+[MASTER] 06:04:54.754 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.nio.CharBuffer at recursion level 3
+[MASTER] 06:04:54.758 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.Duration at recursion level 3
+[MASTER] 06:04:54.762 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.util.concurrent.TimeUnit at recursion level 3
+[MASTER] 06:04:54.762 [logback-1] WARN  CheapPurityAnalyzer - org.openqa.selenium.support.ui.Duration was not found in the inheritance tree. Using DEFAULT value for cheap-purity analysis
+[MASTER] 06:04:54.762 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.openqa.selenium.support.ui.Duration at recursion level 3
+[MASTER] 06:04:54.762 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public static java.util.function.Predicate java.util.function.Predicate.isEqual(java.lang.Object)
+[MASTER] 06:04:54.763 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.util.function.Predicate<T> at recursion level 4
+[MASTER] 06:04:54.763 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public default java.util.function.Function java.util.function.Function.andThen(java.util.function.Function)
+[MASTER] 06:04:54.763 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public default java.util.function.Function java.util.function.Function.compose(java.util.function.Function)
+[MASTER] 06:04:54.763 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public static java.util.function.Function java.util.function.Function.identity()
+[MASTER] 06:04:54.763 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public static java.util.function.UnaryOperator java.util.function.UnaryOperator.identity()
+[MASTER] 06:04:54.763 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.util.function.UnaryOperator<T> at recursion level 4
+[MASTER] 06:04:54.765 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public static java.lang.Object org.evosuite.runtime.mock.java.time.MockInstant.query(java.time.Instant,java.time.temporal.TemporalQuery)
+[MASTER] 06:04:54.766 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.MockInstant at recursion level 4
+[MASTER] 06:04:54.767 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.MockLocalDate at recursion level 4
+[MASTER] 06:04:54.769 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.MockLocalDateTime at recursion level 4
+[MASTER] 06:04:54.772 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.MockLocalTime at recursion level 4
+[MASTER] 06:04:54.773 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.MockOffsetDateTime at recursion level 4
+[MASTER] 06:04:54.774 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.MockOffsetTime at recursion level 4
+[MASTER] 06:04:54.775 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.MockYear at recursion level 4
+[MASTER] 06:04:54.776 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.MockYearMonth at recursion level 4
+[MASTER] 06:04:54.777 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.MockZonedDateTime at recursion level 4
+[MASTER] 06:04:54.779 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.Period at recursion level 4
+[MASTER] 06:04:54.779 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public java.time.temporal.Temporal java.time.temporal.ChronoUnit.addTo(java.time.temporal.Temporal,long)
+[MASTER] 06:04:54.780 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.temporal.ChronoUnit at recursion level 4
+[MASTER] 06:04:54.783 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.lang.MockThread at recursion level 4
+[MASTER] 06:04:54.784 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public java.lang.Object java.time.ZoneOffset.query(java.time.temporal.TemporalQuery)
+[MASTER] 06:04:54.784 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.ZoneOffset at recursion level 5
+[MASTER] 06:04:54.784 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.ZoneId at recursion level 5
+[MASTER] 06:04:54.785 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public java.lang.Object java.time.DayOfWeek.query(java.time.temporal.TemporalQuery)
+[MASTER] 06:04:54.785 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.DayOfWeek at recursion level 5
+[MASTER] 06:04:54.786 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public java.lang.Object java.time.Month.query(java.time.temporal.TemporalQuery)
+[MASTER] 06:04:54.786 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.Month at recursion level 5
+[MASTER] 06:04:54.786 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.MockMonthDay at recursion level 5
+[MASTER] 06:04:54.786 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public java.time.temporal.Temporal java.time.temporal.ChronoField.adjustInto(java.time.temporal.Temporal,long)
+[MASTER] 06:04:54.787 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.temporal.ChronoField at recursion level 5
+[MASTER] 06:04:54.787 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.MockClock at recursion level 5
+[MASTER] 06:04:54.790 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public java.lang.Object java.time.format.DateTimeFormatter.parse(java.lang.CharSequence,java.time.temporal.TemporalQuery)
+[MASTER] 06:04:54.790 [logback-1] INFO  ConcreteClassAnalyzer - Don't know how to instantiate abstract class java.time.temporal.TemporalQuery
+[MASTER] 06:04:54.795 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.format.DateTimeFormatter at recursion level 5
+[MASTER] 06:04:54.795 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.chrono.MockHijrahDate at recursion level 5
+[MASTER] 06:04:54.795 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.chrono.MockJapaneseDate at recursion level 5
+[MASTER] 06:04:54.796 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.chrono.MockMinguoDate at recursion level 5
+[MASTER] 06:04:54.796 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.chrono.MockThaiBuddhistDate at recursion level 5
+[MASTER] 06:04:54.797 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public default java.lang.Object java.time.chrono.ChronoLocalDate.query(java.time.temporal.TemporalQuery)
+[MASTER] 06:04:54.797 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.chrono.ChronoLocalDate at recursion level 5
+[MASTER] 06:04:54.797 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.lang.ThreadGroup at recursion level 5
+[MASTER] 06:04:54.799 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.lang.ClassLoader at recursion level 5
+[MASTER] 06:04:54.799 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.format.TextStyle at recursion level 6
+[MASTER] 06:04:54.801 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.util.Locale at recursion level 6
+[MASTER] 06:04:54.802 [logback-1] INFO  ConcreteClassAnalyzer - Don't know how to instantiate abstract class java.util.function.BiFunction
+[MASTER] 06:04:54.803 [logback-1] INFO  ConcreteClassAnalyzer - Don't know how to instantiate abstract class java.util.function.BiConsumer
+[MASTER] 06:04:54.804 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.util.HashMap<K, V> at recursion level 6
+[MASTER] 06:04:54.804 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.format.ResolverStyle at recursion level 6
+[MASTER] 06:04:54.808 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.PrintStream at recursion level 6
+[MASTER] 06:04:54.809 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.CharArrayWriter at recursion level 6
+[MASTER] 06:04:54.809 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.PipedWriter at recursion level 6
+[MASTER] 06:04:54.810 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.PrintWriter at recursion level 6
+[MASTER] 06:04:54.811 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.StringWriter at recursion level 6
+[MASTER] 06:04:54.811 [logback-1] INFO  ConcreteClassAnalyzer - Don't know how to instantiate abstract class java.nio.charset.CharsetEncoder
+[MASTER] 06:04:54.812 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.OutputStreamWriter at recursion level 6
+[MASTER] 06:04:54.814 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.BufferedWriter at recursion level 6
+[MASTER] 06:04:54.814 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.FileWriter at recursion level 6
+[MASTER] 06:04:54.814 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.format.FormatStyle at recursion level 6
+[MASTER] 06:04:54.815 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.text.ParsePosition at recursion level 6
+[MASTER] 06:04:54.815 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.chrono.MockHijrahChronology at recursion level 6
+[MASTER] 06:04:54.815 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.chrono.MockIsoChronology at recursion level 6
+[MASTER] 06:04:54.815 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.chrono.MockJapaneseChronology at recursion level 6
+[MASTER] 06:04:54.815 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.chrono.MockMinguoChronology at recursion level 6
+[MASTER] 06:04:54.815 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.time.chrono.MockThaiBuddhistChronology at recursion level 6
+[MASTER] 06:04:54.817 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.chrono.Chronology at recursion level 6
+[MASTER] 06:04:54.817 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.format.DecimalStyle at recursion level 6
+[MASTER] 06:04:54.818 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public abstract java.lang.Object[] java.util.Set.toArray(java.lang.Object[])
+[MASTER] 06:04:54.818 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.util.LinkedHashSet<E> at recursion level 6
+[MASTER] 06:04:54.818 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public default java.lang.Object java.time.chrono.Era.query(java.time.temporal.TemporalQuery)
+[MASTER] 06:04:54.819 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.chrono.JapaneseEra at recursion level 6
+[MASTER] 06:04:54.819 [logback-1] INFO  TestClusterGenerator - Finished analyzing org.evosuite.runtime.mock.java.lang.MockThrowable at recursion level 6
+[MASTER] 06:04:54.820 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.util.Locale$FilteringMode at recursion level 7
+[MASTER] 06:04:54.820 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.util.Locale$Category at recursion level 7
+[MASTER] 06:04:54.820 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public default java.util.function.Function java.util.function.Function.andThen(java.util.function.Function)
+[MASTER] 06:04:54.820 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public default java.util.function.Function java.util.function.Function.compose(java.util.function.Function)
+[MASTER] 06:04:54.820 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public static java.util.function.Function java.util.function.Function.identity()
+[MASTER] 06:04:54.820 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.util.function.Function<T, R> at recursion level 7
+[MASTER] 06:04:54.821 [logback-1] INFO  ConcreteClassAnalyzer - Don't know how to instantiate abstract class java.io.FilenameFilter
+[MASTER] 06:04:54.822 [logback-1] INFO  ConcreteClassAnalyzer - Don't know how to instantiate abstract class java.io.FileFilter
+[MASTER] 06:04:54.823 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.File at recursion level 7
+[MASTER] 06:04:54.823 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.PipedOutputStream at recursion level 7
+[MASTER] 06:04:54.825 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.ObjectOutputStream at recursion level 7
+[MASTER] 06:04:54.825 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.FilterOutputStream at recursion level 7
+[MASTER] 06:04:54.826 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.FileOutputStream at recursion level 7
+[MASTER] 06:04:54.826 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.ByteArrayOutputStream at recursion level 7
+[MASTER] 06:04:54.827 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.DataOutputStream at recursion level 7
+[MASTER] 06:04:54.827 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.BufferedOutputStream at recursion level 7
+[MASTER] 06:04:54.828 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.PipedReader at recursion level 7
+[MASTER] 06:04:54.829 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.nio.charset.Charset at recursion level 7
+[MASTER] 06:04:54.829 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.FileDescriptor at recursion level 7
+[MASTER] 06:04:54.829 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public default java.lang.Object java.time.chrono.Era.query(java.time.temporal.TemporalQuery)
+[MASTER] 06:04:54.829 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.chrono.HijrahEra at recursion level 7
+[MASTER] 06:04:54.830 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public default java.lang.Object java.time.chrono.Era.query(java.time.temporal.TemporalQuery)
+[MASTER] 06:04:54.830 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.chrono.IsoEra at recursion level 7
+[MASTER] 06:04:54.830 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public default java.lang.Object java.time.chrono.Era.query(java.time.temporal.TemporalQuery)
+[MASTER] 06:04:54.830 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.chrono.MinguoEra at recursion level 7
+[MASTER] 06:04:54.830 [logback-1] INFO  TestClusterGenerator - Type parameters in methods are not handled yet, skipping public default java.lang.Object java.time.chrono.Era.query(java.time.temporal.TemporalQuery)
+[MASTER] 06:04:54.830 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.time.chrono.ThaiBuddhistEra at recursion level 7
+[MASTER] 06:04:54.831 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.lang.StackTraceElement at recursion level 7
+[MASTER] 06:04:54.832 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.net.URI at recursion level 8
+[MASTER] 06:04:54.832 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.io.PipedInputStream at recursion level 8
+[MASTER] 06:04:54.834 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.nio.ByteBuffer at recursion level 8
+[MASTER] 06:04:54.834 [logback-1] INFO  TestClusterGenerator - Finished analyzing java.nio.ByteOrder at recursion level 9
+[MASTER] 06:04:54.834 [logback-1] INFO  TestClusterGenerator - Removing unusable generators
+[MASTER] 06:04:54.896 [logback-1] INFO  ClientNodeImpl - Sending output variable to master process: Analyzed_Classes = 124
+[MASTER] 06:04:54.897 [logback-1] INFO  ClientNodeImpl - Sending output variable to master process: Generators = 996
+[MASTER] 06:04:54.898 [logback-1] INFO  ClientNodeImpl - Sending output variable to master process: Modifiers = 1255
+[MASTER] 06:04:54.898 [logback-1] INFO  ClientNodeImpl - Sending output variable to master process: Predicates = 60
+[MASTER] 06:04:54.898 [logback-1] INFO  ClientNodeImpl - Sending output variable to master process: Instrumented_Predicates = 0
+[MASTER] 06:04:54.899 [logback-1] INFO  ClientNodeImpl - Sending output variable to master process: Total_Branches = 120
+[MASTER] 06:04:54.899 [logback-1] INFO  ClientNodeImpl - Sending output variable to master process: Total_Branches_Real = 30
+[MASTER] 06:04:54.899 [logback-1] INFO  ClientNodeImpl - Sending output variable to master process: Total_Branches_Instrumented = 0
+[MASTER] 06:04:54.899 [logback-1] INFO  ClientNodeImpl - Sending output variable to master process: Branchless_Methods = 1
+[MASTER] 06:04:54.900 [logback-1] INFO  ClientNodeImpl - Sending output variable to master process: Total_Methods = 42
+[MASTER] 06:04:54.900 [logback-1] INFO  ClientNodeImpl - Sending output variable to master process: Lines = 42
+* Finished analyzing classpath
+* Generating tests for class main.ClassUnderTestApogen
+* Test criterion:
+  - Line Coverage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####constructor: main.ClassUnderTestApogen
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: addRoleAddRolePage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: addUserAddUserPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: add_userUsersPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: cancelAddRolePage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: cancelDeleteWidgetPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: deletePagekitDashboardPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: deleteRoleDeleteRolePage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: deleteUserRoleAnonymousPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: editRoleEditRolePage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: formEditLocationPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: formEditRegisteredUserPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToAddRoleAnonymousPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToAdministratorAdministratorPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToAdministratorAnonymousPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToAnonymousAdministratorPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToAnonymousDeleteRolePage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToAnonymousEditRolePage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToAnonymousPermissionsPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToAnonymousUsersPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToDashBoardMenuDashboardPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToDashboardDashBoardMenuPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToEditComponentLocationDashboardPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToEditRegisteredUserDashboardPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToEditRoleAnonymousPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToEditUserDashboardPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToEditUsersPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeAnonymousPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToPermissionsAddUserPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToPermissionsEditUserPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToPermissionsPermissionsPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToPermissionsUsersPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToRolesAddUserPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToRolesEditUserPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToUserAddUserPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToUserEditUserPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToUsersAddUserPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToUsersDashBoardMenuPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToUsersEditUserPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToUsersPermissionsPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: okDeleteWidgetPage
+[MASTER] 06:04:54.918 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: user_editEditUserPage
+[MASTER] 06:04:54.918 [logback-1] INFO  PropertiesSearchAlgorithmFactory - Chosen search algorithm: ADAPTIVE
+[MASTER] 06:04:54.932 [logback-1] INFO  TestSuiteFitnessFunction - Total line coverage goals: [12, 15, 17, 18, 19, 20, 21, 25, 26, 27, 28, 29, 30, 31, 33, 35, 39, 40, 41, 42, 43, 44, 45, 47, 49, 53, 54, 55, 56, 57, 58, 59, 61, 63, 67, 68, 69, 70, 71, 72, 73, 75, 77, 83, 84, 85, 86, 88, 89, 91, 94, 95, 97, 99, 103, 104, 105, 106, 107, 108, 110, 111, 112, 113, 114, 116, 119, 120, 122, 124, 128, 129, 130, 131, 132, 133, 134, 136, 138, 142, 143, 144, 145, 146, 147, 149, 150, 151, 152, 153, 155, 158, 159, 161, 163, 167, 168, 169, 170, 171, 172, 174, 175, 176, 177, 178, 180, 183, 184, 186, 188, 192, 193, 194, 195, 196, 197, 198, 200, 202, 209, 210, 211, 212, 214, 215, 216, 217, 218, 220, 221, 224, 227, 228, 230, 232, 236, 237, 238, 239, 240, 241, 242, 244, 246, 250, 251, 252, 253, 254, 255, 256, 258, 260, 264, 265, 266, 267, 268, 269, 270, 272, 274, 278, 279, 280, 281, 282, 283, 284, 286, 288, 292, 293, 294, 295, 296, 297, 298, 300, 302, 306, 307, 308, 309, 310, 311, 312, 314, 316, 320, 321, 322, 323, 324, 325, 326, 328, 330, 334, 335, 336, 337, 338, 339, 340, 342, 344, 348, 349, 350, 351, 352, 353, 354, 356, 358, 363, 364, 365, 367, 368, 369, 370, 372, 374, 376, 377, 379, 381, 385, 386, 387, 388, 389, 390, 392, 393, 395, 396, 398, 400, 404, 405, 406, 407, 408, 409, 410, 412, 414, 420, 421, 422, 423, 424, 425, 426, 427, 429, 431, 432, 434, 435, 437, 439, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 454, 456, 464, 465, 466, 468, 469, 470, 471, 473, 475, 479, 480, 481, 482, 483, 484, 485, 487, 489, 493, 494, 495, 496, 497, 498, 499, 501, 503, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516, 518, 520, 524, 525, 526, 527, 528, 529, 530, 532, 534, 538, 539, 540, 541, 542, 543, 544, 546, 548, 552, 553, 554, 555, 556, 557, 558, 560, 562, 566, 567, 568, 569, 570, 571, 572, 574, 576, 580, 581, 582, 583, 584, 585, 586, 588, 590, 594, 595, 596, 597, 598, 599, 600, 601, 603, 606, 607, 609, 611, 615, 616, 617, 618, 619, 620, 621, 623, 625, 629, 630, 631, 632, 633, 635, 636, 638, 640, 644, 645, 646, 647, 648, 649, 650, 652, 654, 658, 659, 660, 661, 662, 663, 664, 665, 667, 668, 670, 672, 676, 677, 678, 679, 680, 681, 682, 684, 686, 692, 693, 694, 695, 696, 697, 698, 700, 702]
+[MASTER] 06:04:54.936 [logback-1] INFO  LineCoverageFactory - Lines to cover list size: 42
+[MASTER] 06:04:54.936 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToPermissionsEditUserPage()V, Line 28.
+[MASTER] 06:04:54.937 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToRolesEditUserPage()V, Line 42.
+[MASTER] 06:04:54.937 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToUserEditUserPage()V, Line 56.
+[MASTER] 06:04:54.937 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToUsersEditUserPage()V, Line 70.
+[MASTER] 06:04:54.937 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.user_editEditUserPage(Lcustom_classes/Username;Lcustom_classes/Name;Lcustom_classes/Email;Lcustom_classes/UserPassword;)V, Line 88.
+[MASTER] 06:04:54.937 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.deletePagekitDashboardPage(Lcustom_classes/Id;)V, Line 113.
+[MASTER] 06:04:54.937 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToDashBoardMenuDashboardPage()V, Line 131.
+[MASTER] 06:04:54.937 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToEditComponentLocationDashboardPage(Lcustom_classes/Id;)V, Line 152.
+[MASTER] 06:04:54.937 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToEditRegisteredUserDashboardPage(Lcustom_classes/Id;)V, Line 177.
+[MASTER] 06:04:54.937 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToEditUserDashboardPage()V, Line 195.
+[MASTER] 06:04:54.937 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.addUserAddUserPage(Lcustom_classes/Username;Lcustom_classes/Name;Lcustom_classes/Email;Lcustom_classes/UserPassword;Lcustom_classes/UserStatus;)V, Line 217.
+[MASTER] 06:04:54.937 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.addUserAddUserPage(Lcustom_classes/Username;Lcustom_classes/Name;Lcustom_classes/Email;Lcustom_classes/UserPassword;Lcustom_classes/UserStatus;)V, Line 220.
+[MASTER] 06:04:54.937 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToPermissionsAddUserPage()V, Line 239.
+[MASTER] 06:04:54.937 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToRolesAddUserPage()V, Line 253.
+[MASTER] 06:04:54.937 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToUserAddUserPage()V, Line 267.
+[MASTER] 06:04:54.937 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToUsersAddUserPage()V, Line 281.
+[MASTER] 06:04:54.937 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToAnonymousPermissionsPage()V, Line 295.
+[MASTER] 06:04:54.937 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToPermissionsPermissionsPage()V, Line 309.
+[MASTER] 06:04:54.937 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToUsersPermissionsPage()V, Line 323.
+[MASTER] 06:04:54.937 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToDashboardDashBoardMenuPage()V, Line 337.
+[MASTER] 06:04:54.937 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToUsersDashBoardMenuPage()V, Line 351.
+[MASTER] 06:04:54.937 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.deleteUserRoleAnonymousPage(Lcustom_classes/UserRoles;)V, Line 369.
+[MASTER] 06:04:54.937 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToAddRoleAnonymousPage(Lcustom_classes/UserRoles;)V, Line 389.
+[MASTER] 06:04:54.937 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToAdministratorAnonymousPage()V, Line 407.
+[MASTER] 06:04:54.937 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToEditRoleAnonymousPage(Lcustom_classes/UserRoles;Lcustom_classes/UserRoles;)V, Line 426.
+[MASTER] 06:04:54.937 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToHomeAnonymousPage()V, Line 449.
+[MASTER] 06:04:54.937 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.formEditRegisteredUserPage(Lcustom_classes/WidgetUserType;Lcustom_classes/WidgetUserDisplay;Lcustom_classes/WidgetTotalUser;Lcustom_classes/WidgetNumberOfUsers;)V, Line 468.
+[MASTER] 06:04:54.937 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToAdministratorAdministratorPage()V, Line 482.
+[MASTER] 06:04:54.937 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToAnonymousAdministratorPage()V, Line 496.
+[MASTER] 06:04:54.938 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.editRoleEditRolePage()V, Line 514.
+[MASTER] 06:04:54.938 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToAnonymousEditRolePage()V, Line 528.
+[MASTER] 06:04:54.938 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.cancelDeleteWidgetPage()V, Line 542.
+[MASTER] 06:04:54.938 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.okDeleteWidgetPage()V, Line 556.
+[MASTER] 06:04:54.938 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.add_userUsersPage()V, Line 569.
+[MASTER] 06:04:54.938 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToAnonymousUsersPage()V, Line 583.
+[MASTER] 06:04:54.938 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToEditUsersPage(Lcustom_classes/Id;)V, Line 600.
+[MASTER] 06:04:54.938 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToPermissionsUsersPage()V, Line 618.
+[MASTER] 06:04:54.938 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.deleteRoleDeleteRolePage()V, Line 633.
+[MASTER] 06:04:54.938 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToAnonymousDeleteRolePage()V, Line 648.
+[MASTER] 06:04:54.938 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.addRoleAddRolePage()V, Line 665.
+[MASTER] 06:04:54.938 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.cancelAddRolePage()V, Line 680.
+[MASTER] 06:04:54.938 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.formEditLocationPage(Lcustom_classes/WidgetLocation;Lcustom_classes/WidgetUnit;)V, Line 695.
+[MASTER] 06:04:54.941 [logback-1] INFO  TestSuiteFitnessFunction - Covering branches true: []
+[MASTER] 06:04:54.941 [logback-1] INFO  TestSuiteFitnessFunction - Covering branches false: []
+[MASTER] 06:04:54.941 [logback-1] INFO  TestSuiteFitnessFunction - Covering branches both: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+[MASTER] 06:04:54.941 [logback-1] INFO  AdaptiveRandomSearch - SuiteFitness AdaptiveRandomSearch: class org.evosuite.coverage.line.LineCoverageSuiteFitness
+[MASTER] 06:04:54.942 [logback-1] INFO  PropertiesSearchAlgorithmFactory - Setting stopping condition: MAXTIME
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: cancelDeleteWidgetPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToAnonymousDeleteRolePage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToRolesEditUserPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToPermissionsPermissionsPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: user_editEditUserPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToDashBoardMenuDashboardPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToUsersPermissionsPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: formEditRegisteredUserPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: addUserAddUserPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToUserEditUserPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToAnonymousUsersPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToEditUsersPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToUsersEditUserPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToAnonymousEditRolePage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToEditUserDashboardPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeAnonymousPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToEditRoleAnonymousPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToRolesAddUserPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToPermissionsAddUserPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToUsersDashBoardMenuPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: okDeleteWidgetPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToAnonymousPermissionsPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToAdministratorAdministratorPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToUserAddUserPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: deleteUserRoleAnonymousPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: add_userUsersPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: editRoleEditRolePage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: cancelAddRolePage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToAdministratorAnonymousPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToAddRoleAnonymousPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: addRoleAddRolePage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToUsersAddUserPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToPermissionsUsersPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: deleteRoleDeleteRolePage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: deletePagekitDashboardPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToPermissionsEditUserPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: formEditLocationPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToEditComponentLocationDashboardPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToDashboardDashBoardMenuPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToEditRegisteredUserDashboardPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToAnonymousAdministratorPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####constructor: main.ClassUnderTestApogen
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: addRoleAddRolePage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: addUserAddUserPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: add_userUsersPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: cancelAddRolePage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: cancelDeleteWidgetPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: deletePagekitDashboardPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: deleteRoleDeleteRolePage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: deleteUserRoleAnonymousPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: editRoleEditRolePage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: formEditLocationPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: formEditRegisteredUserPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToAddRoleAnonymousPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToAdministratorAdministratorPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToAdministratorAnonymousPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToAnonymousAdministratorPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToAnonymousDeleteRolePage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToAnonymousEditRolePage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToAnonymousPermissionsPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToAnonymousUsersPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToDashBoardMenuDashboardPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToDashboardDashBoardMenuPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToEditComponentLocationDashboardPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToEditRegisteredUserDashboardPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToEditRoleAnonymousPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToEditUserDashboardPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToEditUsersPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToHomeAnonymousPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToPermissionsAddUserPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToPermissionsEditUserPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToPermissionsPermissionsPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToPermissionsUsersPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToRolesAddUserPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToRolesEditUserPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToUserAddUserPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToUserEditUserPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToUsersAddUserPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToUsersDashBoardMenuPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToUsersEditUserPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: goToUsersPermissionsPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: okDeleteWidgetPage
+[MASTER] 06:04:54.944 [logback-1] INFO  AllMethodsTestChromosomeFactory - ####method: user_editEditUserPage
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Lines to cover list size: 42
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToPermissionsEditUserPage()V, Line 28.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToRolesEditUserPage()V, Line 42.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToUserEditUserPage()V, Line 56.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToUsersEditUserPage()V, Line 70.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.user_editEditUserPage(Lcustom_classes/Username;Lcustom_classes/Name;Lcustom_classes/Email;Lcustom_classes/UserPassword;)V, Line 88.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.deletePagekitDashboardPage(Lcustom_classes/Id;)V, Line 113.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToDashBoardMenuDashboardPage()V, Line 131.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToEditComponentLocationDashboardPage(Lcustom_classes/Id;)V, Line 152.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToEditRegisteredUserDashboardPage(Lcustom_classes/Id;)V, Line 177.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToEditUserDashboardPage()V, Line 195.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.addUserAddUserPage(Lcustom_classes/Username;Lcustom_classes/Name;Lcustom_classes/Email;Lcustom_classes/UserPassword;Lcustom_classes/UserStatus;)V, Line 217.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.addUserAddUserPage(Lcustom_classes/Username;Lcustom_classes/Name;Lcustom_classes/Email;Lcustom_classes/UserPassword;Lcustom_classes/UserStatus;)V, Line 220.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToPermissionsAddUserPage()V, Line 239.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToRolesAddUserPage()V, Line 253.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToUserAddUserPage()V, Line 267.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToUsersAddUserPage()V, Line 281.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToAnonymousPermissionsPage()V, Line 295.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToPermissionsPermissionsPage()V, Line 309.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToUsersPermissionsPage()V, Line 323.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToDashboardDashBoardMenuPage()V, Line 337.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToUsersDashBoardMenuPage()V, Line 351.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.deleteUserRoleAnonymousPage(Lcustom_classes/UserRoles;)V, Line 369.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToAddRoleAnonymousPage(Lcustom_classes/UserRoles;)V, Line 389.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToAdministratorAnonymousPage()V, Line 407.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToEditRoleAnonymousPage(Lcustom_classes/UserRoles;Lcustom_classes/UserRoles;)V, Line 426.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToHomeAnonymousPage()V, Line 449.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.formEditRegisteredUserPage(Lcustom_classes/WidgetUserType;Lcustom_classes/WidgetUserDisplay;Lcustom_classes/WidgetTotalUser;Lcustom_classes/WidgetNumberOfUsers;)V, Line 468.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToAdministratorAdministratorPage()V, Line 482.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToAnonymousAdministratorPage()V, Line 496.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.editRoleEditRolePage()V, Line 514.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToAnonymousEditRolePage()V, Line 528.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.cancelDeleteWidgetPage()V, Line 542.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.okDeleteWidgetPage()V, Line 556.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.add_userUsersPage()V, Line 569.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToAnonymousUsersPage()V, Line 583.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToEditUsersPage(Lcustom_classes/Id;)V, Line 600.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToPermissionsUsersPage()V, Line 618.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.deleteRoleDeleteRolePage()V, Line 633.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.goToAnonymousDeleteRolePage()V, Line 648.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.addRoleAddRolePage()V, Line 665.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.cancelAddRolePage()V, Line 680.
+[MASTER] 06:04:54.944 [logback-1] INFO  LineCoverageFactory - Adding goal for method main.ClassUnderTestApogen.formEditLocationPage(Lcustom_classes/WidgetLocation;Lcustom_classes/WidgetUnit;)V, Line 695.
+[MASTER] 06:04:54.946 [logback-1] INFO  ClientNodeImpl - Sending output variable to master process: Total_Goals = 42
+[MASTER] 06:04:54.946 [logback-1] INFO  ClientNodeImpl - Client changing state from INITIALIZATION to SEARCH
+* Total number of test goals for Adaptive: 42
+* Using seed 1585289067961
+* Starting evolution
+[Progress:>                             0%] [Cov:>                                  0%][MASTER] 06:04:54.953 [logback-1] INFO  AdaptiveRandomSearch - executing generateSolution function
+[MASTER] 06:04:54.953 [logback-1] INFO  AdaptiveRandomSearch - executing initializePopulation function
+[MASTER] 06:04:54.954 [logback-1] INFO  AllMethodsTestChromosomeFactory - MethodToAdd: goToEditRegisteredUserDashboardPage, edge to add goToEditRegisteredUserDashboardPage-DashboardPage-EditRegisteredUserPage
+[MASTER] 06:04:54.975 [logback-1] INFO  TestCaseExecutor - Executing test
+[MASTER] 06:04:54.976 [logback-1] INFO  TestCaseExecutor - Executing test. Id: 2 (Client state: Search)
+[MASTER] 06:04:54.976 [logback-1] INFO  TestCaseExecutor - Reset application state
+[MASTER] 06:06:10.438 [logback-1] INFO  ClientNodeImpl - Client changing state from SEARCH to DONE
+[MASTER] 06:06:10.451 [logback-1] INFO  ClientNodeImpl - Client changing state from DONE to FINISHED
+* Computation finished
