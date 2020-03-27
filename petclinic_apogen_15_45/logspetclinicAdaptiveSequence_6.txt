@@ -1,0 +1,100 @@
+* EvoSuite 1.0.4-SNAPSHOT
+* Going to generate test cases for class: main.ClassUnderTestApogen
+[MASTER] 14:21:50.152 [main] WARN  JarPathing - Classpath entry does not exist: /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/../lib/tools.jar
+14:21:50,424 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback-evosuite.xml] at [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-client/1.0.4-SNAPSHOT/evosuite-client-1.0.4-SNAPSHOT.jar!/logback-evosuite.xml]
+14:21:50,425 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback-evosuite.xml] occurs multiple times on the classpath.
+14:21:50,425 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback-evosuite.xml] occurs at [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-master/1.0.4-SNAPSHOT/evosuite-master-1.0.4-SNAPSHOT.jar!/logback-evosuite.xml]
+14:21:50,425 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback-evosuite.xml] occurs at [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-client/1.0.4-SNAPSHOT/evosuite-client-1.0.4-SNAPSHOT.jar!/logback-evosuite.xml]
+14:21:50,437 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@6536e911 - URL [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-client/1.0.4-SNAPSHOT/evosuite-client-1.0.4-SNAPSHOT.jar!/logback-evosuite.xml] is not of type file
+14:21:50,538 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+14:22:05,556 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+14:22:05,560 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT_MASTER]
+14:22:05,586 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+14:22:05,625 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+14:22:05,625 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDERR_MASTER]
+14:22:05,625 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+14:22:05,626 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.classic.net.SocketAppender]
+14:22:05,629 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT_CLIENT]
+14:22:05,645 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.classic.net.SocketAppender]
+14:22:05,645 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDERR_CLIENT]
+14:22:05,646 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+14:22:05,646 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [EVO_LOGGER_MASTER]
+14:22:05,646 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+14:22:05,647 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.classic.net.SocketAppender]
+14:22:05,647 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [EVO_LOGGER_CLIENT]
+14:22:05,648 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [evo_logger] to ALL
+14:22:05,648 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [evo_logger] to false
+14:22:05,648 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [EVO_LOGGER_CLIENT] to Logger[evo_logger]
+14:22:05,648 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.evosuite] to INFO
+14:22:05,648 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT_CLIENT] to Logger[org.evosuite]
+14:22:05,648 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDERR_CLIENT] to Logger[org.evosuite]
+14:22:05,648 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [shaded.org.evosuite] to INFO
+14:22:05,648 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT_CLIENT] to Logger[shaded.org.evosuite]
+14:22:05,648 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDERR_CLIENT] to Logger[shaded.org.evosuite]
+14:22:05,648 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.evosuite.shaded] to OFF
+14:22:05,648 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [all] to ALL
+14:22:05,648 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to OFF
+14:22:05,649 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+14:22:05,649 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@520a3426 - Registering current configuration as safe fallback point
+
+* Starting client
+* Properties loaded from /home/ubuntu/workspace/fse2019/petclinic/evosuite-files/evosuite.properties
+* Connecting to master process on port 10291
+[MASTER] 14:22:25.797 [logback-1] INFO  Randomness - No seed given. Using 1585232545797.
+[MASTER] 14:22:25.965 [logback-1] INFO  ClientNodeImpl - Client changing state from NOT_STARTED to STARTED
+[MASTER] 14:22:25.982 [logback-1] INFO  ClientNodeImpl - Client changing state from STARTED to INITIALIZATION
+* Analyzing classpath: 
+[MASTER] 14:22:26.040 [logback-1] INFO  TestCaseExecutor - No stalled threads
+[MASTER] 14:22:26.127 [logback-1] INFO  BytecodeInstrumentation - Starting transformation of main/ClassUnderTestApogen
+[MASTER] 14:22:26.130 [logback-1] INFO  StringTransformation - Current method: <init>
+[MASTER] 14:22:26.131 [logback-1] INFO  StringTransformation - Current method: goToIndexVetsPage
+[MASTER] 14:22:26.131 [logback-1] INFO  StringTransformation - Current method: submitNewPetPage
+[MASTER] 14:22:26.132 [logback-1] INFO  StringTransformation - Current method: formVisitsPage
+[MASTER] 14:22:26.132 [logback-1] INFO  StringTransformation - Current method: goToOwnerInformationOwnersPage
+[MASTER] 14:22:26.132 [logback-1] INFO  StringTransformation - Current method: searchFilterOwnersPage
+[MASTER] 14:22:26.133 [logback-1] INFO  StringTransformation - Current method: goToAddNewPetOwnerInformationPage
+[MASTER] 14:22:26.134 [logback-1] INFO  StringTransformation - Current method: goToEditOwnerOwnerInformationPage
+[MASTER] 14:22:26.134 [logback-1] INFO  StringTransformation - Current method: goToEditPetThroghEditLinkOwnerInformationPage
+[MASTER] 14:22:26.134 [logback-1] INFO  StringTransformation - Current method: goToEditPetThroughNameOwnerInformationPage
+[MASTER] 14:22:26.134 [logback-1] INFO  StringTransformation - Current method: goToIndexOwnerInformationPage
+[MASTER] 14:22:26.134 [logback-1] INFO  StringTransformation - Current method: goToVisitsOwnerInformationPage
+[MASTER] 14:22:26.134 [logback-1] INFO  StringTransformation - Current method: goToNewOwnerIndexPage
+[MASTER] 14:22:26.134 [logback-1] INFO  StringTransformation - Current method: goToOwnersIndexPage
+[MASTER] 14:22:26.134 [logback-1] INFO  StringTransformation - Current method: goToVetsIndexPage
+[MASTER] 14:22:26.134 [logback-1] INFO  StringTransformation - Current method: goToWelcomeIndexPage
+[MASTER] 14:22:26.134 [logback-1] INFO  StringTransformation - Current method: submitOwnerFormNewOwnerPage
+[MASTER] 14:22:26.134 [logback-1] INFO  StringTransformation - Current method: editOwnerEditOwnerPage
+[MASTER] 14:22:26.134 [logback-1] INFO  StringTransformation - Current method: goToIndexWelcomePage
+[MASTER] 14:22:26.134 [logback-1] INFO  StringTransformation - Current method: goToNewOwnerWelcomePage
+[MASTER] 14:22:26.134 [logback-1] INFO  StringTransformation - Current method: goToOwnersWelcomePage
+[MASTER] 14:22:26.156 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 14:22:26.219 [logback-1] INFO  CFGMethodAdapter - Analyzing method <init>()V in class main.ClassUnderTestApogen
+[MASTER] 14:22:26.221 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method <init>()V
+[MASTER] 14:22:26.235 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.<init>()V: 0
+[MASTER] 14:22:26.259 [logback-1] INFO  CFGMethodAdapter - Created CFG for method <init>()V
+[MASTER] 14:22:26.260 [logback-1] INFO  CFGMethodAdapter - Instrumenting method <init>()V in class main.ClassUnderTestApogen
+[MASTER] 14:22:26.262 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 14:22:26.263 [logback-1] INFO  CFGMethodAdapter - Analyzing method goToIndexVetsPage()V in class main.ClassUnderTestApogen
+[MASTER] 14:22:26.263 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method goToIndexVetsPage()V
+[MASTER] 14:22:26.263 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.goToIndexVetsPage()V: 0
+[MASTER] 14:22:26.264 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 1 IFEQ L24
+[MASTER] 14:22:26.265 [logback-1] INFO  BranchPool - Branch 1 at line 24
+[MASTER] 14:22:26.274 [logback-1] INFO  CFGMethodAdapter - Created CFG for method goToIndexVetsPage()V
+[MASTER] 14:22:26.275 [logback-1] INFO  CFGMethodAdapter - Instrumenting method goToIndexVetsPage()V in class main.ClassUnderTestApogen
+[MASTER] 14:22:26.277 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 14:22:26.277 [logback-1] INFO  CFGMethodAdapter - Analyzing method submitNewPetPage(Lcustom_classes/PetNames;Lcustom_classes/Dates;Lcustom_classes/PetTypes;)V in class main.ClassUnderTestApogen
+[MASTER] 14:22:26.278 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method submitNewPetPage(Lcustom_classes/PetNames;Lcustom_classes/Dates;Lcustom_classes/PetTypes;)V
+[MASTER] 14:22:26.278 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.submitNewPetPage(Lcustom_classes/PetNames;Lcustom_classes/Dates;Lcustom_classes/PetTypes;)V: 0
+[MASTER] 14:22:26.279 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 2 IFEQ L39
+[MASTER] 14:22:26.279 [logback-1] INFO  BranchPool - Branch 2 at line 39
+[MASTER] 14:22:26.288 [logback-1] INFO  CFGMethodAdapter - Created CFG for method submitNewPetPage(Lcustom_classes/PetNames;Lcustom_classes/Dates;Lcustom_classes/PetTypes;)V
+[MASTER] 14:22:26.288 [logback-1] INFO  CFGMethodAdapter - Instrumenting method submitNewPetPage(Lcustom_classes/PetNames;Lcustom_classes/Dates;Lcustom_classes/PetTypes;)V in class main.ClassUnderTestApogen
+[MASTER] 14:22:26.292 [logback-1] INFO  CFGClassAdapter - Analyzing CFG of main/ClassUnderTestApogen
+[MASTER] 14:22:26.293 [logback-1] INFO  CFGMethodAdapter - Analyzing method formVisitsPage(Lcustom_classes/Dates;Lcustom_classes/VisitDescriptions;)V in class main.ClassUnderTestApogen
+[MASTER] 14:22:26.293 [logback-1] INFO  CFGMethodAdapter - Generating CFG for method formVisitsPage(Lcustom_classes/Dates;Lcustom_classes/VisitDescriptions;)V
+[MASTER] 14:22:26.293 [logback-1] INFO  RawControlFlowGraph - Creating new RawCFG for main.ClassUnderTestApogen.formVisitsPage(Lcustom_classes/Dates;Lcustom_classes/VisitDescriptions;)V: 0
+[MASTER] 14:22:26.293 [logback-1] INFO  BranchPool - Adding to map the branch I5 Branch 3 IFEQ L54
+[MASTER] 14:22:26.293 [logback-1] INFO  BranchPool - Branch 3 at line 54
+[MASTER] 14:22:26.300 [logback-1] INFO  CFGMethodAdapter - Created CFG for method formVisitsPage(Lcustom_classes/Dates;Lcustom_classes/VisitDescriptions;)V
+[MASTER] 14:22:26.300 [logback-1] INFO  CFGMethodAdapter - Instrumenting method formVisitsPage(Lcustom_classes/Dates;Lcustom_classes/VisitDescriptions;)V in class main.ClassUnderTestApogen
+[MASTER] 14:22:26.303 [logback-1] INFO
