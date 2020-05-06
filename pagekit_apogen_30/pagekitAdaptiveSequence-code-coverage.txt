@@ -1,0 +1,645 @@
+Port app: 3004
+Port db: 3310
+Production: yes
+Container name: pagekitAdaptiveSequence
+f19db29fc9bdea572f9d8e9dc14f1615df3141bce04f5cfe5315d52a11d8d8c4
+The script starts the chromedriver process on port 9519 and the express server for collecting coverage reports on port 7003
+Waiting for application server to start...
+Starting chromedriver on port 9519
+Starting express server on port 7003
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/apogen_30.log
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 0
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/errorspagekitAdaptiveSequence_10.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 1
+
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9519
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/errorspagekitAdaptiveSequence_11.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 2
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/errorspagekitAdaptiveSequence_12.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 3
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/errorspagekitAdaptiveSequence_13.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 4
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/errorspagekitAdaptiveSequence_15.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 5
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/errorspagekitAdaptiveSequence_16.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 6
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/errorspagekitAdaptiveSequence_17.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 7
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/errorspagekitAdaptiveSequence_18.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 8
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/errorspagekitAdaptiveSequence_19.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 9
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/errorspagekitAdaptiveSequence_1.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 10
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/errorspagekitAdaptiveSequence_20.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 11
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/errorspagekitAdaptiveSequence_21.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 12
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/errorspagekitAdaptiveSequence_22.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 13
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/errorspagekitAdaptiveSequence_24.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 14
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/errorspagekitAdaptiveSequence_27.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 15
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/errorspagekitAdaptiveSequence_28.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 16
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/errorspagekitAdaptiveSequence_29.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 17
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/errorspagekitAdaptiveSequence_3.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 18
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/errorspagekitAdaptiveSequence_5.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 19
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/errorspagekitAdaptiveSequence_6.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 20
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/errorspagekitAdaptiveSequence_9.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 21
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/logspagekitAdaptiveSequence_10.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 22
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/logspagekitAdaptiveSequence_11.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 23
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/logspagekitAdaptiveSequence_12.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 24
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 1 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/logspagekitAdaptiveSequence_13.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 25
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/logspagekitAdaptiveSequence_15.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 26
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/logspagekitAdaptiveSequence_16.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 27
+
+Express server listening on port 7003
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/logspagekitAdaptiveSequence_17.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 28
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/logspagekitAdaptiveSequence_18.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 29
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/logspagekitAdaptiveSequence_19.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 30
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/logspagekitAdaptiveSequence_1.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 31
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/logspagekitAdaptiveSequence_20.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 32
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/logspagekitAdaptiveSequence_21.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 33
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/logspagekitAdaptiveSequence_22.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 34
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/logspagekitAdaptiveSequence_24.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 35
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/logspagekitAdaptiveSequence_27.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 36
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/logspagekitAdaptiveSequence_28.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 37
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/logspagekitAdaptiveSequence_29.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 38
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/logspagekitAdaptiveSequence_3.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 39
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/logspagekitAdaptiveSequence_5.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 40
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/logspagekitAdaptiveSequence_6.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 41
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/logspagekitAdaptiveSequence_9.txt
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 42
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/testpagekitAdaptiveSequence_0
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 43
+
+Total time to run code coverage for test suite: 		0 hours, 4 minutes and 42 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/testpagekitAdaptiveSequence_14
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 44
+
+Total time to run code coverage for test suite: 		0 hours, 4 minutes and 32 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/testpagekitAdaptiveSequence_2
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 45
+
+Total time to run code coverage for test suite: 		0 hours, 1 minutes and 40 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/testpagekitAdaptiveSequence_23
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 46
+
+Total time to run code coverage for test suite: 		0 hours, 1 minutes and 47 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/testpagekitAdaptiveSequence_25
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 47
+
+Total time to run code coverage for test suite: 		0 hours, 1 minutes and 37 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/testpagekitAdaptiveSequence_26
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 48
+
+Total time to run code coverage for test suite: 		0 hours, 3 minutes and 37 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/testpagekitAdaptiveSequence_4
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 49
+
+Total time to run code coverage for test suite: 		0 hours, 16 minutes and 51 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/testpagekitAdaptiveSequence_7
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 50
+
+Total time to run code coverage for test suite: 		0 hours, 3 minutes and 48 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/pagekit_apogen_30/testpagekitAdaptiveSequence_8
+
+Project name: pagekit
+Session file name: pagekitAdaptiveSequence
+Database port for remote connection: 3310
+Application port for remote connection: 3004
+Chromedriver port: 9519
+Project folder: /home/ubuntu/workspace/fse2019/pagekit
+Express server port: 7003
+Test suite counter: 51
+
+Total time to run code coverage for test suite: 		0 hours, 1 minutes and 10 seconds elapsed.
+Stopping container
+pagekitAdaptiveSequence
+pagekitAdaptiveSequence
+Stopping chromedriver process listening on port 9519
+Finding children processes of chromedriver and killing them
+Stopping express server listening on port 7003
+Finding children processes of express and killing them
+Total time to run code coverage for all test suites: 0 hours, 41 minutes and 59 seconds elapsed.
