@@ -1,0 +1,212 @@
+Port app: 4003
+Production: yes
+Container name: retroboardAdaptiveSequence
+411af3063848923aa32bbc17e39278105c2b1197b97c62bce91d02abac06b977
+The script starts the chromedriver process on port 9527 and the express server for collecting coverage reports on port 7011
+Waiting for application server to start...
+Starting chromedriver on port 9527
+Starting express server on port 7011
+* Current directory:  /home/ubuntu/fse19-data/retroboard_apogen//apogen_15.log
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9527
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+
+Project name: retroboard
+Session file name: retroboardAdaptiveSequence
+Database port for remote connection: 0
+Application port for remote connection: 4003
+Chromedriver port: 9527
+Project folder: /home/ubuntu/workspace/fse2019/retroboard
+Express server port: 7011
+Test suite counter: 0
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/retroboard_apogen//testretroboardAdaptiveSequence_0
+
+Project name: retroboard
+Session file name: retroboardAdaptiveSequence
+Database port for remote connection: 0
+Application port for remote connection: 4003
+Chromedriver port: 9527
+Project folder: /home/ubuntu/workspace/fse2019/retroboard
+Express server port: 7011
+Test suite counter: 1
+
+Express server listening on port 7011
+Total time to run code coverage for test suite: 		0 hours, 1 minutes and 18 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/retroboard_apogen//testretroboardAdaptiveSequence_1
+
+Project name: retroboard
+Session file name: retroboardAdaptiveSequence
+Database port for remote connection: 0
+Application port for remote connection: 4003
+Chromedriver port: 9527
+Project folder: /home/ubuntu/workspace/fse2019/retroboard
+Express server port: 7011
+Test suite counter: 2
+
+Total time to run code coverage for test suite: 		0 hours, 1 minutes and 11 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/retroboard_apogen//testretroboardAdaptiveSequence_10
+
+Project name: retroboard
+Session file name: retroboardAdaptiveSequence
+Database port for remote connection: 0
+Application port for remote connection: 4003
+Chromedriver port: 9527
+Project folder: /home/ubuntu/workspace/fse2019/retroboard
+Express server port: 7011
+Test suite counter: 3
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 58 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/retroboard_apogen//testretroboardAdaptiveSequence_11
+
+Project name: retroboard
+Session file name: retroboardAdaptiveSequence
+Database port for remote connection: 0
+Application port for remote connection: 4003
+Chromedriver port: 9527
+Project folder: /home/ubuntu/workspace/fse2019/retroboard
+Express server port: 7011
+Test suite counter: 4
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 59 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/retroboard_apogen//testretroboardAdaptiveSequence_12
+
+Project name: retroboard
+Session file name: retroboardAdaptiveSequence
+Database port for remote connection: 0
+Application port for remote connection: 4003
+Chromedriver port: 9527
+Project folder: /home/ubuntu/workspace/fse2019/retroboard
+Express server port: 7011
+Test suite counter: 5
+
+Total time to run code coverage for test suite: 		0 hours, 1 minutes and 9 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/retroboard_apogen//testretroboardAdaptiveSequence_13
+
+Project name: retroboard
+Session file name: retroboardAdaptiveSequence
+Database port for remote connection: 0
+Application port for remote connection: 4003
+Chromedriver port: 9527
+Project folder: /home/ubuntu/workspace/fse2019/retroboard
+Express server port: 7011
+Test suite counter: 6
+
+Total time to run code coverage for test suite: 		0 hours, 1 minutes and 7 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/retroboard_apogen//testretroboardAdaptiveSequence_14
+
+Project name: retroboard
+Session file name: retroboardAdaptiveSequence
+Database port for remote connection: 0
+Application port for remote connection: 4003
+Chromedriver port: 9527
+Project folder: /home/ubuntu/workspace/fse2019/retroboard
+Express server port: 7011
+Test suite counter: 7
+
+Total time to run code coverage for test suite: 		0 hours, 1 minutes and 11 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/retroboard_apogen//testretroboardAdaptiveSequence_2
+
+Project name: retroboard
+Session file name: retroboardAdaptiveSequence
+Database port for remote connection: 0
+Application port for remote connection: 4003
+Chromedriver port: 9527
+Project folder: /home/ubuntu/workspace/fse2019/retroboard
+Express server port: 7011
+Test suite counter: 8
+
+Total time to run code coverage for test suite: 		0 hours, 1 minutes and 3 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/retroboard_apogen//testretroboardAdaptiveSequence_3
+
+Project name: retroboard
+Session file name: retroboardAdaptiveSequence
+Database port for remote connection: 0
+Application port for remote connection: 4003
+Chromedriver port: 9527
+Project folder: /home/ubuntu/workspace/fse2019/retroboard
+Express server port: 7011
+Test suite counter: 9
+
+Total time to run code coverage for test suite: 		0 hours, 1 minutes and 27 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/retroboard_apogen//testretroboardAdaptiveSequence_4
+
+Project name: retroboard
+Session file name: retroboardAdaptiveSequence
+Database port for remote connection: 0
+Application port for remote connection: 4003
+Chromedriver port: 9527
+Project folder: /home/ubuntu/workspace/fse2019/retroboard
+Express server port: 7011
+Test suite counter: 10
+
+Total time to run code coverage for test suite: 		0 hours, 1 minutes and 19 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/retroboard_apogen//testretroboardAdaptiveSequence_5
+
+Project name: retroboard
+Session file name: retroboardAdaptiveSequence
+Database port for remote connection: 0
+Application port for remote connection: 4003
+Chromedriver port: 9527
+Project folder: /home/ubuntu/workspace/fse2019/retroboard
+Express server port: 7011
+Test suite counter: 11
+
+Total time to run code coverage for test suite: 		0 hours, 1 minutes and 1 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/retroboard_apogen//testretroboardAdaptiveSequence_6
+
+Project name: retroboard
+Session file name: retroboardAdaptiveSequence
+Database port for remote connection: 0
+Application port for remote connection: 4003
+Chromedriver port: 9527
+Project folder: /home/ubuntu/workspace/fse2019/retroboard
+Express server port: 7011
+Test suite counter: 12
+
+Total time to run code coverage for test suite: 		0 hours, 1 minutes and 13 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/retroboard_apogen//testretroboardAdaptiveSequence_7
+
+Project name: retroboard
+Session file name: retroboardAdaptiveSequence
+Database port for remote connection: 0
+Application port for remote connection: 4003
+Chromedriver port: 9527
+Project folder: /home/ubuntu/workspace/fse2019/retroboard
+Express server port: 7011
+Test suite counter: 13
+
+Total time to run code coverage for test suite: 		0 hours, 1 minutes and 22 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/retroboard_apogen//testretroboardAdaptiveSequence_8
+
+Project name: retroboard
+Session file name: retroboardAdaptiveSequence
+Database port for remote connection: 0
+Application port for remote connection: 4003
+Chromedriver port: 9527
+Project folder: /home/ubuntu/workspace/fse2019/retroboard
+Express server port: 7011
+Test suite counter: 14
+
+Total time to run code coverage for test suite: 		0 hours, 1 minutes and 13 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/retroboard_apogen//testretroboardAdaptiveSequence_9
+
+Project name: retroboard
+Session file name: retroboardAdaptiveSequence
+Database port for remote connection: 0
+Application port for remote connection: 4003
+Chromedriver port: 9527
+Project folder: /home/ubuntu/workspace/fse2019/retroboard
+Express server port: 7011
+Test suite counter: 15
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 59 seconds elapsed.
+Stopping container
+retroboardAdaptiveSequence
+retroboardAdaptiveSequence
+Stopping chromedriver process listening on port 9527
+Finding children processes of chromedriver and killing them
+Stopping express server listening on port 7011
+Finding children processes of express and killing them
+Total time to run code coverage for all test suites: 0 hours, 19 minutes and 44 seconds elapsed.
