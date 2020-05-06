@@ -1,0 +1,183 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-master/1.0.4-SNAPSHOT/evosuite-master-1.0.4-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+[MASTER] 19:57:58.150 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Class path contains multiple SLF4J bindings.
+
+SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[MASTER] 19:57:58.152 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+
+SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-master/1.0.4-SNAPSHOT/evosuite-master-1.0.4-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[MASTER] 19:57:58.162 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-master/1.0.4-SNAPSHOT/evosuite-master-1.0.4-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[MASTER] 19:57:58.162 [Thread-3] ERROR ExternalProcessHandler - SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+[MASTER] 19:58:13.503 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+
+May 05, 2020 7:59:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 19:59:04.074 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:59:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 19:59:04.074 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+May 05, 2020 7:59:32 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:59:32.083 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:59:32 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+[MASTER] 19:59:32.084 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+
+
+[MASTER] 19:59:32.084 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:59:32.084 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:59:38 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:59:38.468 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:59:38 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+[MASTER] 19:59:38.469 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+
+
+[MASTER] 19:59:38.469 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:59:38.469 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:59:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 19:59:53.901 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:59:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 19:59:53.901 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+May 05, 2020 7:59:58 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:59:58.465 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:59:58 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+[MASTER] 19:59:58.465 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+
+
+[MASTER] 19:59:58.465 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:59:58.465 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 8:00:04 PM po_utils.PageObjectLogging logInfo
+[MASTER] 20:00:04.921 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 8:00:04 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+[MASTER] 20:00:04.921 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+
+
+[MASTER] 20:00:04.921 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 20:00:04.921 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 8:00:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 20:00:23.425 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 8:00:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 20:00:23.426 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+May 05, 2020 8:00:29 PM po_utils.PageObjectLogging logInfo
+[MASTER] 20:00:29.674 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 8:00:29 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+[MASTER] 20:00:29.675 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+
+
+[MASTER] 20:00:29.675 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 20:00:29.675 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 8:00:36 PM po_utils.PageObjectLogging logInfo
+[MASTER] 20:00:36.404 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 8:00:36 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+[MASTER] 20:00:36.404 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+
+
+[MASTER] 20:00:36.404 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 20:00:36.404 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 8:00:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 20:00:58.087 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 8:00:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 20:00:58.087 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+May 05, 2020 8:01:06 PM po_utils.PageObjectLogging logInfo
+[MASTER] 20:01:06.022 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 8:01:06 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+[MASTER] 20:01:06.022 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+
+
+[MASTER] 20:01:06.022 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 20:01:06.022 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 8:01:12 PM po_utils.PageObjectLogging logInfo
+[MASTER] 20:01:12.932 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 8:01:12 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+[MASTER] 20:01:12.932 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //div[contains(@class,"liquid-child")]
+
+
+[MASTER] 20:01:12.932 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 20:01:12.932 [Thread-3] ERROR ExternalProcessHandler - 
+
+[MASTER] 20:01:37.882 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:320) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.calculateFitness(AbstractMOSA.java:327) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.initializePopulation(AbstractMOSA.java:437) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:194) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_212]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_212]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_212]
+[MASTER] 20:01:37.882 [logback-2] ERROR ClientNodeImpl - Error when generating tests for: main.ClassUnderTestApogen with seed 1588708713666. Configuration id : null
+java.lang.Error: java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:336) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.calculateFitness(AbstractMOSA.java:327) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.initializePopulation(AbstractMOSA.java:437) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:194) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_212]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_212]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_212]
+Caused by: java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:320) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	... 16 common frames omitted
+[MASTER] 20:01:37.997 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 20:01:38.098 [main] ERROR TestGeneration - failed to write statistics data

@@ -1,0 +1,1296 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-master/1.0.4-SNAPSHOT/evosuite-master-1.0.4-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+SLF4J: Class path contains multiple SLF4J bindings.
+[MASTER] 19:20:22.035 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Class path contains multiple SLF4J bindings.
+
+SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[MASTER] 19:20:22.037 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+
+SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-master/1.0.4-SNAPSHOT/evosuite-master-1.0.4-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[MASTER] 19:20:22.040 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Found binding in [jar:file:/home/ubuntu/.m2/repository/org/evosuite/evosuite-master/1.0.4-SNAPSHOT/evosuite-master-1.0.4-SNAPSHOT.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+[MASTER] 19:20:22.040 [Thread-3] ERROR ExternalProcessHandler - SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+[MASTER] 19:20:37.437 [Thread-3] ERROR ExternalProcessHandler - SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+
+Tue May 05 19:21:28 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:21:28.451 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:21:28 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:21:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[MASTER] 19:21:35.437 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:21:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+
+INFO: Detected dialect: OSS
+[MASTER] 19:21:35.437 [Thread-3] ERROR ExternalProcessHandler - INFO: Detected dialect: OSS
+
+May 05, 2020 7:22:01 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:22:01.588 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:22:01 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+[MASTER] 19:22:01.589 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+
+
+[MASTER] 19:22:01.589 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:22:01.589 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:22:01 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:22:01.717 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:22:01 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Exception in thread "Thread-3" java.lang.ClassCastException: org.evosuite.testcase.TestChromosome cannot be cast to org.evosuite.testsuite.TestSuiteChromosome
+[MASTER] 19:22:02.583 [Thread-3] ERROR ExternalProcessHandler - Exception in thread "Thread-3" java.lang.ClassCastException: org.evosuite.testcase.TestChromosome cannot be cast to org.evosuite.testsuite.TestSuiteChromosome
+
+	at org.evosuite.statistics.SearchStatistics.currentIndividual(SearchStatistics.java:181)
+[MASTER] 19:22:02.584 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.statistics.SearchStatistics.currentIndividual(SearchStatistics.java:181)
+
+	at org.evosuite.rmi.service.MasterNodeImpl.evosuite_collectStatistics(MasterNodeImpl.java:166)
+[MASTER] 19:22:02.585 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.rmi.service.MasterNodeImpl.evosuite_collectStatistics(MasterNodeImpl.java:166)
+
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[MASTER] 19:22:02.586 [Thread-3] ERROR ExternalProcessHandler - 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[MASTER] 19:22:02.586 [Thread-3] ERROR ExternalProcessHandler - 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[MASTER] 19:22:02.587 [Thread-3] ERROR ExternalProcessHandler - 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+	at java.lang.reflect.Method.invoke(Method.java:498)
+[MASTER] 19:22:02.587 [Thread-3] ERROR ExternalProcessHandler - 	at java.lang.reflect.Method.invoke(Method.java:498)
+
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+[MASTER] 19:22:02.587 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+[MASTER] 19:22:02.587 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+[MASTER] 19:22:02.587 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+
+	at java.security.AccessController.doPrivileged(Native Method)
+[MASTER] 19:22:02.588 [Thread-3] ERROR ExternalProcessHandler - 	at java.security.AccessController.doPrivileged(Native Method)
+
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+[MASTER] 19:22:02.588 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573)
+[MASTER] 19:22:02.588 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573)
+
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834)
+[MASTER] 19:22:02.588 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834)
+
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688)
+[MASTER] 19:22:02.589 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688)
+
+	at java.security.AccessController.doPrivileged(Native Method)
+[MASTER] 19:22:02.589 [Thread-3] ERROR ExternalProcessHandler - 	at java.security.AccessController.doPrivileged(Native Method)
+
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687)
+[MASTER] 19:22:02.589 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687)
+
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[MASTER] 19:22:02.591 [Thread-3] ERROR ExternalProcessHandler - 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[MASTER] 19:22:02.592 [Thread-3] ERROR ExternalProcessHandler - 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+
+	at java.lang.Thread.run(Thread.java:748)
+[MASTER] 19:22:02.592 [Thread-3] ERROR ExternalProcessHandler - 	at java.lang.Thread.run(Thread.java:748)
+
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:283)
+[MASTER] 19:22:02.592 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:283)
+
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:260)
+[MASTER] 19:22:02.592 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:260)
+
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161)
+[MASTER] 19:22:02.593 [Thread-3] ERROR ExternalProcessHandler - 	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161)
+
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+[MASTER] 19:22:02.593 [Thread-3] ERROR ExternalProcessHandler - 	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+[MASTER] 19:22:02.593 [Thread-3] ERROR ExternalProcessHandler - 	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+
+	at com.sun.proxy.$Proxy7.evosuite_collectStatistics(Unknown Source)
+[MASTER] 19:22:02.593 [Thread-3] ERROR ExternalProcessHandler - 	at com.sun.proxy.$Proxy7.evosuite_collectStatistics(Unknown Source)
+
+	at org.evosuite.rmi.service.ClientNodeImpl.updateStatistics(ClientNodeImpl.java:237)
+[MASTER] 19:22:02.594 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.rmi.service.ClientNodeImpl.updateStatistics(ClientNodeImpl.java:237)
+
+	at org.evosuite.statistics.StatisticsSender.sendIndividualToMaster(StatisticsSender.java:75)
+[MASTER] 19:22:02.594 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.statistics.StatisticsSender.sendIndividualToMaster(StatisticsSender.java:75)
+
+	at org.evosuite.statistics.StatisticsListener$1.run(StatisticsListener.java:71)
+[MASTER] 19:22:02.594 [Thread-3] ERROR ExternalProcessHandler - 	at org.evosuite.statistics.StatisticsListener$1.run(StatisticsListener.java:71)
+
+May 05, 2020 7:22:03 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:22:03.352 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:22:03 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+[MASTER] 19:22:03.352 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+
+
+[MASTER] 19:22:03.352 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:22:03.352 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:22:03 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:22:03.540 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:22:03 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Tue May 05 19:22:03 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:22:04.000 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:22:03 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:22:06 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:22:06.696 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:22:06 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:22:06.697 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:22:06.697 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:22:06.697 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:22:06 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:22:06.792 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:22:06 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Tue May 05 19:22:08 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:22:08.815 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:22:08 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Tue May 05 19:22:09 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:22:09.148 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:22:09 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Tue May 05 19:22:10 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:22:10.786 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:22:10 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:22:12 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:22:12.297 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:22:12 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+[MASTER] 19:22:12.298 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+
+
+[MASTER] 19:22:12.298 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:22:12.298 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:22:14 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:22:14.167 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:22:14 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:22:18 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:22:18.076 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:22:18 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+[MASTER] 19:22:18.077 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+
+
+[MASTER] 19:22:18.077 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:22:18.077 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:22:18 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:22:18.640 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:22:18 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Tue May 05 19:22:21 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:22:21.036 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:22:21 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:22:22 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:22:22.676 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:22:22 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+[MASTER] 19:22:22.677 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+
+
+[MASTER] 19:22:22.677 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:22:22.677 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:22:22 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:22:22.719 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:22:22 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Tue May 05 19:22:23 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:22:23.169 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:22:23 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:22:24 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:22:24.624 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:22:24 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+[MASTER] 19:22:24.624 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+
+
+[MASTER] 19:22:24.624 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:22:24.624 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:22:25 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:22:25.297 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:22:25 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Tue May 05 19:22:27 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:22:27.011 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:22:27 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:22:28 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:22:28.507 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:22:28 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+[MASTER] 19:22:28.507 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+
+
+[MASTER] 19:22:28.507 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:22:28.507 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:22:28 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:22:28.570 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:22:28 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:22:29 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:22:29.887 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:22:29 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+[MASTER] 19:22:29.888 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+
+
+[MASTER] 19:22:29.888 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:22:29.888 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:22:29 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:22:29.921 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:22:29 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:22:31 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:22:31.255 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:22:31 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+[MASTER] 19:22:31.256 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+
+
+[MASTER] 19:22:31.256 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:22:31.256 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:22:31 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:22:31.297 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:22:31 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Tue May 05 19:22:32 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:22:32.465 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:22:32 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:22:35 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:22:35.327 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:22:35 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:22:35.328 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:22:35.328 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:22:35.328 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:22:37 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:22:37.220 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:22:37 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:22:37.221 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:22:37.221 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:22:37.221 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:22:39 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:22:39.207 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:22:39 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:22:39.208 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:22:39.208 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:22:39.208 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:22:40 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:22:40.984 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:22:40 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:22:40.984 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:22:40.984 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:22:40.984 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:22:41 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:22:41.031 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:22:41 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Tue May 05 19:22:42 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:22:42.109 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:22:42 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:22:44 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:22:44.587 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:22:44 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:22:44.588 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:22:44.588 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:22:44.588 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:22:46 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:22:46.389 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:22:46 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:22:46.389 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:22:46.390 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:22:46.390 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:22:48 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:22:48.330 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:22:48 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:22:48.330 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:22:48.330 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:22:48.330 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:22:50 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:22:50.233 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:22:50 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:22:50.234 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:22:50.234 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:22:50.234 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:22:52 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:22:52.088 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:22:52 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:22:52.088 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:22:52.088 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:22:52.088 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:22:52 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:22:52.421 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:22:52 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Tue May 05 19:22:54 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:22:54.364 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:22:54 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:22:57 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:22:57.414 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:22:57 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:22:57.414 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:22:57.414 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:22:57.414 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:22:57 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:22:57.466 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:22:57 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Tue May 05 19:23:00 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:23:00.411 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:23:00 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:23:02 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:23:02.976 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:23:02 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:23:02.977 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:23:02.977 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:23:02.977 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:23:04 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:23:04.805 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:23:04 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:23:04.805 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:23:04.805 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:23:04.805 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:23:05 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:23:05.628 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:23:05 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:23:06 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:23:06.992 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:23:06 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+[MASTER] 19:23:06.993 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+
+
+[MASTER] 19:23:06.993 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:23:06.993 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:23:07 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:23:07.128 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:23:07 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:23:08 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:23:08.532 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:23:08 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+[MASTER] 19:23:08.533 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+
+
+[MASTER] 19:23:08.533 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:23:08.533 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:23:08 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:23:08.636 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:23:08 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:23:10 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:23:10.057 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:23:10 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+[MASTER] 19:23:10.057 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+
+
+[MASTER] 19:23:10.057 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:23:10.057 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:23:10 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:23:10.192 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:23:10 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:23:11 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:23:11.550 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:23:11 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+[MASTER] 19:23:11.551 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+
+
+[MASTER] 19:23:11.551 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:23:11.551 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:23:11 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:23:11.591 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:23:11 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Tue May 05 19:23:12 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:23:12.958 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:23:12 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Tue May 05 19:23:14 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:23:14.422 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:23:14 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:23:15 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:23:15.678 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:23:15 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+[MASTER] 19:23:15.679 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+
+
+[MASTER] 19:23:15.679 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:23:15.679 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:23:15 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:23:15.748 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:23:15 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:23:17 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:23:17.359 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:23:17 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+[MASTER] 19:23:17.359 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+
+
+[MASTER] 19:23:17.359 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:23:17.359 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:23:17 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:23:17.499 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:23:17 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Tue May 05 19:23:18 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:23:18.960 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:23:18 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Tue May 05 19:23:20 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:23:20.096 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:23:20 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Tue May 05 19:23:21 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:23:21.352 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:23:21 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Tue May 05 19:23:22 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:23:22.768 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:23:22 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:23:24 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:23:24.251 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:23:24 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+[MASTER] 19:23:24.251 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+
+
+[MASTER] 19:23:24.251 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:23:24.251 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:23:24 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:23:24.360 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:23:24 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Tue May 05 19:23:25 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:23:25.824 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:23:25 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Tue May 05 19:23:27 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:23:27.104 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:23:27 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:23:28 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:23:28.439 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:23:28 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+[MASTER] 19:23:28.439 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+
+
+[MASTER] 19:23:28.439 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:23:28.439 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:23:28 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:23:28.510 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:23:28 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:23:31 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:23:31.349 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:23:31 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:23:31.350 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:23:31.350 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:23:31.350 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:23:33 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:23:33.227 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:23:33 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:23:33.228 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:23:33.228 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:23:33.228 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:23:35 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:23:35.109 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:23:35 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:23:35.110 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:23:35.110 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:23:35.110 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:23:35 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:23:35.194 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:23:35 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:23:36 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:23:36.589 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:23:36 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+[MASTER] 19:23:36.590 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+
+
+[MASTER] 19:23:36.590 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:23:36.590 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:23:36 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:23:36.621 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:23:36 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:23:39 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:23:39.315 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:23:39 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:23:39.316 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:23:39.316 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:23:39.316 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:23:39 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:23:39.593 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:23:39 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Tue May 05 19:23:39 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:23:39.906 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:23:39 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Tue May 05 19:23:41 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:23:41.257 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:23:41 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:23:43 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:23:43.544 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:23:43 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:23:43.544 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:23:43.544 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:23:43.544 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:23:43 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:23:43.777 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:23:43 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Tue May 05 19:23:44 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:23:44.114 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:23:44 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Tue May 05 19:23:46 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:23:46.018 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:23:46 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Tue May 05 19:23:47 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:23:47.686 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:23:47 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Tue May 05 19:23:49 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:23:49.369 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:23:49 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:23:50 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:23:50.800 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:23:50 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+[MASTER] 19:23:50.800 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+
+
+[MASTER] 19:23:50.800 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:23:50.800 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:23:50 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:23:50.881 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:23:50 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:23:53 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:23:53.543 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:23:53 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:23:53.544 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:23:53.544 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:23:53.544 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:23:55 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:23:55.704 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:23:55 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:23:55.705 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:23:55.705 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:23:55.705 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:23:57 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:23:57.688 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:23:57 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:23:57.688 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:23:57.689 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:23:57.689 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:23:57 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:23:57.756 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:23:57 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:24:00 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:24:00.105 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:24:00 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:24:00.105 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:24:00.105 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:24:00.105 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:24:01 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:24:01.167 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:24:01 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:24:02 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:24:02.501 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:24:02 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+[MASTER] 19:24:02.501 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+
+
+[MASTER] 19:24:02.501 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:24:02.501 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:24:02 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:24:02.564 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:24:02 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Tue May 05 19:24:03 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:24:03.962 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:24:03 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:24:05 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:24:05.338 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:24:05 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+[MASTER] 19:24:05.338 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+
+
+[MASTER] 19:24:05.338 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:24:05.338 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:24:05 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:24:05.425 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:24:05 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Tue May 05 19:24:06 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:24:06.627 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:24:06 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:24:09 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:24:09.063 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:24:09 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:24:09.063 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:24:09.063 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:24:09.063 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:24:10 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:24:10.762 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:24:10 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:24:10.762 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:24:10.762 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:24:10.762 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:24:12 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:24:12.749 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:24:12 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:24:12.749 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:24:12.749 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:24:12.749 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:24:15 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:24:15.005 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:24:15 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:24:15.006 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:24:15.006 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:24:15.006 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:24:15 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:24:15.111 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:24:15 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:24:16 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:24:16.466 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:24:16 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+[MASTER] 19:24:16.467 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+
+
+[MASTER] 19:24:16.467 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:24:16.467 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:24:16 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:24:16.666 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:24:16 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:24:17 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:24:17.949 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:24:17 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+[MASTER] 19:24:17.950 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+
+
+[MASTER] 19:24:17.950 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:24:17.950 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:24:18 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:24:18.180 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:24:18 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:24:19 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:24:19.471 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:24:19 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+[MASTER] 19:24:19.472 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+
+
+[MASTER] 19:24:19.472 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:24:19.472 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:24:19 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:24:19.882 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:24:19 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:24:21 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:24:21.171 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:24:21 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+[MASTER] 19:24:21.171 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+
+
+[MASTER] 19:24:21.171 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:24:21.171 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:24:21 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:24:21.441 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:24:21 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:24:22 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:24:22.789 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:24:22 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+[MASTER] 19:24:22.789 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+
+
+[MASTER] 19:24:22.789 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:24:22.789 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:24:23 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:24:23.060 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:24:23 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:24:25 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:24:25.168 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:24:25 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:24:25.169 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:24:25.169 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:24:25.169 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:24:25 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:24:25.459 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:24:25 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:24:27 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:24:27.582 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:24:27 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:24:27.582 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:24:27.582 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:24:27.582 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:24:27 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:24:27.820 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:24:27 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:24:29 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:24:29.129 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:24:29 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+[MASTER] 19:24:29.130 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+
+
+[MASTER] 19:24:29.130 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:24:29.130 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:24:29 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:24:29.279 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:24:29 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:24:30 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:24:30.909 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:24:30 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+[MASTER] 19:24:30.909 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+
+
+[MASTER] 19:24:30.909 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:24:30.909 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:24:30 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:24:30.969 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:24:30 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:24:33 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:24:33.102 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:24:33 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:24:33.103 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:24:33.103 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:24:33.103 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:24:34 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:24:34.800 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:24:34 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:24:34.800 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:24:34.800 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:24:34.800 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:24:39 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:24:39.832 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:24:39 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //tbody/tr/td/a[text()="Edit Owner"]
+[MASTER] 19:24:39.845 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //tbody/tr/td/a[text()="Edit Owner"]
+
+
+[MASTER] 19:24:39.845 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:24:39.845 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:24:43 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:24:43.776 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:24:43 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:24:43.776 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:24:43.776 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:24:43.777 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:24:48 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:24:48.809 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:24:48 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //tbody/tr/td/a[text()="Edit Owner"]
+[MASTER] 19:24:48.810 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //tbody/tr/td/a[text()="Edit Owner"]
+
+
+[MASTER] 19:24:48.810 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:24:48.810 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:24:51 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:24:51.202 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:24:51 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:24:53 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:24:53.750 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:24:53 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:24:53.751 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:24:53.751 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:24:53.751 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:24:57 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:24:57.391 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:24:57 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:24:57.392 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:24:57.392 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:24:57.392 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:25:02 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:25:02.400 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:25:02 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //tbody/tr/td/a[text()="Edit Owner"]
+[MASTER] 19:25:02.400 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //tbody/tr/td/a[text()="Edit Owner"]
+
+
+[MASTER] 19:25:02.400 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:25:02.400 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:25:07 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:25:07.351 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:25:07 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:25:07.351 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:25:07.351 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:25:07.351 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:25:12 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:25:12.396 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:25:12 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //tbody/tr/td/a[text()="Edit Owner"]
+[MASTER] 19:25:12.397 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //tbody/tr/td/a[text()="Edit Owner"]
+
+
+[MASTER] 19:25:12.397 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:25:12.397 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:25:17 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:25:17.646 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:25:17 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:25:20 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:25:20.678 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:25:20 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:25:20.678 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:25:20.678 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:25:20.678 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:25:26 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:25:26.434 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:25:26 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:25:26.435 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:25:26.435 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:25:26.435 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:25:31 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:25:31.438 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:25:31 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //tbody/tr/td/a[text()="Edit Owner"]
+[MASTER] 19:25:31.438 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //tbody/tr/td/a[text()="Edit Owner"]
+
+
+[MASTER] 19:25:31.438 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:25:31.438 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:25:38 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:25:38.064 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:25:38 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:25:38.065 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:25:38.065 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:25:38.065 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:25:43 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:25:43.087 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:25:43 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //tbody/tr/td/a[text()="Edit Owner"]
+[MASTER] 19:25:43.087 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //tbody/tr/td/a[text()="Edit Owner"]
+
+
+[MASTER] 19:25:43.087 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:25:43.087 [Thread-3] ERROR ExternalProcessHandler - 
+
+Tue May 05 19:25:51 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+[MASTER] 19:25:51.432 [Thread-3] ERROR ExternalProcessHandler - Tue May 05 19:25:51 GMT 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+May 05, 2020 7:25:55 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:25:55.201 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:25:55 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:25:55.201 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:25:55.201 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:25:55.201 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:26:03 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:26:03.022 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:26:03 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:26:03.022 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:26:03.022 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:26:03.022 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:26:08 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:26:08.036 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:26:08 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //tbody/tr/td/a[text()="Edit Owner"]
+[MASTER] 19:26:08.036 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //tbody/tr/td/a[text()="Edit Owner"]
+
+
+[MASTER] 19:26:08.036 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:26:08.036 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:26:16 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:26:16.849 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:26:16 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+[MASTER] 19:26:16.849 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: (//table)[2]/tbody/tr
+
+
+[MASTER] 19:26:16.849 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:26:16.849 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:26:21 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:26:21.863 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:26:21 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //tbody/tr/td/a[text()="Edit Owner"]
+[MASTER] 19:26:21.863 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //tbody/tr/td/a[text()="Edit Owner"]
+
+
+[MASTER] 19:26:21.863 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:26:21.863 [Thread-3] ERROR ExternalProcessHandler - 
+
+May 05, 2020 7:26:33 PM po_utils.PageObjectLogging logInfo
+[MASTER] 19:26:33.730 [Thread-3] ERROR ExternalProcessHandler - May 05, 2020 7:26:33 PM po_utils.PageObjectLogging logInfo
+
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+[MASTER] 19:26:33.731 [Thread-3] ERROR ExternalProcessHandler - INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //table/tbody/tr
+
+
+[MASTER] 19:26:33.731 [Thread-3] ERROR ExternalProcessHandler - 
+
+
+[MASTER] 19:26:33.731 [Thread-3] ERROR ExternalProcessHandler - 
+
+[MASTER] 19:26:39.390 [logback-2] ERROR TestCaseExecutor - TG: Exception caught: 
+java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:320) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:144) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) [evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_212]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_212]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_212]
+[MASTER] 19:26:39.406 [logback-2] ERROR ClientNodeImpl - Error when generating tests for: main.ClassUnderTestApogen with seed 1588706457637. Configuration id : null
+java.lang.Error: java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:336) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:91) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:60) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.getFitness(TestFitnessFunction.java:34) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.calculateFitness(MOSA.java:155) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.AbstractMOSA.breedNextGeneration(AbstractMOSA.java:144) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.evolve(MOSA.java:89) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.ga.metaheuristics.mosa.MOSA.generateSolution(MOSA.java:205) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.strategy.MOSuiteStrategy.generateTests(MOSuiteStrategy.java:127) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:654) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:213) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:145) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_212]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_212]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_212]
+Caused by: java.lang.IllegalStateException: Test generation failed: page object bug.
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:320) ~[evosuite-client-1.0.4-SNAPSHOT.jar:na]
+	... 16 common frames omitted
+[MASTER] 19:26:39.576 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 19:26:39.688 [main] ERROR TestGeneration - failed to write statistics data
