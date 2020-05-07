@@ -1,0 +1,250 @@
+Port app: 3006
+Port db: 3312
+Production: yes
+Container name: petclinicAdaptiveSequence
+74dc0b79e3eb04e09bfe0633785f4c0fd9df6039574231401645683bd18893ea
+The script starts the chromedriver process on port 9521 and the express server for collecting coverage reports on port 7005
+Waiting for application server to start...
+Starting chromedriver on port 9521
+Starting express server on port 7005
+* Current directory:  /home/ubuntu/fse19-data/petclinic_mpo/errorspetclinicAdaptiveSequence_10.txt
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9521
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+
+Project name: petclinic
+Session file name: petclinicAdaptiveSequence
+Database port for remote connection: 3312
+Application port for remote connection: 3006
+Chromedriver port: 9521
+Project folder: /home/ubuntu/workspace/fse2019/petclinic
+Express server port: 7005
+Test suite counter: 0
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/petclinic_mpo/errorspetclinicAdaptiveSequence_12.txt
+
+Project name: petclinic
+Session file name: petclinicAdaptiveSequence
+Database port for remote connection: 3312
+Application port for remote connection: 3006
+Chromedriver port: 9521
+Project folder: /home/ubuntu/workspace/fse2019/petclinic
+Express server port: 7005
+Test suite counter: 1
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/petclinic_mpo/logspetclinicAdaptiveSequence_10.txt
+
+Project name: petclinic
+Session file name: petclinicAdaptiveSequence
+Database port for remote connection: 3312
+Application port for remote connection: 3006
+Chromedriver port: 9521
+Project folder: /home/ubuntu/workspace/fse2019/petclinic
+Express server port: 7005
+Test suite counter: 2
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/petclinic_mpo/logspetclinicAdaptiveSequence_12.txt
+
+Project name: petclinic
+Session file name: petclinicAdaptiveSequence
+Database port for remote connection: 3312
+Application port for remote connection: 3006
+Chromedriver port: 9521
+Project folder: /home/ubuntu/workspace/fse2019/petclinic
+Express server port: 7005
+Test suite counter: 3
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/petclinic_mpo/manual.log
+
+Project name: petclinic
+Session file name: petclinicAdaptiveSequence
+Database port for remote connection: 3312
+Application port for remote connection: 3006
+Chromedriver port: 9521
+Project folder: /home/ubuntu/workspace/fse2019/petclinic
+Express server port: 7005
+Test suite counter: 4
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/petclinic_mpo/testpetclinicAdaptiveSequence_0
+
+Project name: petclinic
+Session file name: petclinicAdaptiveSequence
+Database port for remote connection: 3312
+Application port for remote connection: 3006
+Chromedriver port: 9521
+Project folder: /home/ubuntu/workspace/fse2019/petclinic
+Express server port: 7005
+Test suite counter: 5
+
+Express server listening on port 7005
+Build failure. Check modify_test_suite 	    (/home/ubuntu/fse19-data/petclinic_mpo/testpetclinicAdaptiveSequence_0/compile-test-suite-petclinicAdaptiveSequence-5.txt) state to see what is wrong!
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 12 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/petclinic_mpo/testpetclinicAdaptiveSequence_1
+
+Project name: petclinic
+Session file name: petclinicAdaptiveSequence
+Database port for remote connection: 3312
+Application port for remote connection: 3006
+Chromedriver port: 9521
+Project folder: /home/ubuntu/workspace/fse2019/petclinic
+Express server port: 7005
+Test suite counter: 6
+
+Build failure. Check modify_test_suite 	    (/home/ubuntu/fse19-data/petclinic_mpo/testpetclinicAdaptiveSequence_1/compile-test-suite-petclinicAdaptiveSequence-6.txt) state to see what is wrong!
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 6 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/petclinic_mpo/testpetclinicAdaptiveSequence_11
+
+Project name: petclinic
+Session file name: petclinicAdaptiveSequence
+Database port for remote connection: 3312
+Application port for remote connection: 3006
+Chromedriver port: 9521
+Project folder: /home/ubuntu/workspace/fse2019/petclinic
+Express server port: 7005
+Test suite counter: 7
+
+Build failure. Check modify_test_suite 	    (/home/ubuntu/fse19-data/petclinic_mpo/testpetclinicAdaptiveSequence_11/compile-test-suite-petclinicAdaptiveSequence-7.txt) state to see what is wrong!
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 6 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/petclinic_mpo/testpetclinicAdaptiveSequence_13
+
+Project name: petclinic
+Session file name: petclinicAdaptiveSequence
+Database port for remote connection: 3312
+Application port for remote connection: 3006
+Chromedriver port: 9521
+Project folder: /home/ubuntu/workspace/fse2019/petclinic
+Express server port: 7005
+Test suite counter: 8
+
+Build failure. Check modify_test_suite 	    (/home/ubuntu/fse19-data/petclinic_mpo/testpetclinicAdaptiveSequence_13/compile-test-suite-petclinicAdaptiveSequence-8.txt) state to see what is wrong!
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 6 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/petclinic_mpo/testpetclinicAdaptiveSequence_14
+
+Project name: petclinic
+Session file name: petclinicAdaptiveSequence
+Database port for remote connection: 3312
+Application port for remote connection: 3006
+Chromedriver port: 9521
+Project folder: /home/ubuntu/workspace/fse2019/petclinic
+Express server port: 7005
+Test suite counter: 9
+
+Build failure. Check modify_test_suite 	    (/home/ubuntu/fse19-data/petclinic_mpo/testpetclinicAdaptiveSequence_14/compile-test-suite-petclinicAdaptiveSequence-9.txt) state to see what is wrong!
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 6 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/petclinic_mpo/testpetclinicAdaptiveSequence_2
+
+Project name: petclinic
+Session file name: petclinicAdaptiveSequence
+Database port for remote connection: 3312
+Application port for remote connection: 3006
+Chromedriver port: 9521
+Project folder: /home/ubuntu/workspace/fse2019/petclinic
+Express server port: 7005
+Test suite counter: 10
+
+Build failure. Check modify_test_suite 	    (/home/ubuntu/fse19-data/petclinic_mpo/testpetclinicAdaptiveSequence_2/compile-test-suite-petclinicAdaptiveSequence-10.txt) state to see what is wrong!
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 7 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/petclinic_mpo/testpetclinicAdaptiveSequence_3
+
+Project name: petclinic
+Session file name: petclinicAdaptiveSequence
+Database port for remote connection: 3312
+Application port for remote connection: 3006
+Chromedriver port: 9521
+Project folder: /home/ubuntu/workspace/fse2019/petclinic
+Express server port: 7005
+Test suite counter: 11
+
+Build failure. Check modify_test_suite 	    (/home/ubuntu/fse19-data/petclinic_mpo/testpetclinicAdaptiveSequence_3/compile-test-suite-petclinicAdaptiveSequence-11.txt) state to see what is wrong!
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 6 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/petclinic_mpo/testpetclinicAdaptiveSequence_4
+
+Project name: petclinic
+Session file name: petclinicAdaptiveSequence
+Database port for remote connection: 3312
+Application port for remote connection: 3006
+Chromedriver port: 9521
+Project folder: /home/ubuntu/workspace/fse2019/petclinic
+Express server port: 7005
+Test suite counter: 12
+
+Build failure. Check modify_test_suite 	    (/home/ubuntu/fse19-data/petclinic_mpo/testpetclinicAdaptiveSequence_4/compile-test-suite-petclinicAdaptiveSequence-12.txt) state to see what is wrong!
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 6 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/petclinic_mpo/testpetclinicAdaptiveSequence_5
+
+Project name: petclinic
+Session file name: petclinicAdaptiveSequence
+Database port for remote connection: 3312
+Application port for remote connection: 3006
+Chromedriver port: 9521
+Project folder: /home/ubuntu/workspace/fse2019/petclinic
+Express server port: 7005
+Test suite counter: 13
+
+Build failure. Check modify_test_suite 	    (/home/ubuntu/fse19-data/petclinic_mpo/testpetclinicAdaptiveSequence_5/compile-test-suite-petclinicAdaptiveSequence-13.txt) state to see what is wrong!
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 6 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/petclinic_mpo/testpetclinicAdaptiveSequence_6
+
+Project name: petclinic
+Session file name: petclinicAdaptiveSequence
+Database port for remote connection: 3312
+Application port for remote connection: 3006
+Chromedriver port: 9521
+Project folder: /home/ubuntu/workspace/fse2019/petclinic
+Express server port: 7005
+Test suite counter: 14
+
+Build failure. Check modify_test_suite 	    (/home/ubuntu/fse19-data/petclinic_mpo/testpetclinicAdaptiveSequence_6/compile-test-suite-petclinicAdaptiveSequence-14.txt) state to see what is wrong!
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 6 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/petclinic_mpo/testpetclinicAdaptiveSequence_7
+
+Project name: petclinic
+Session file name: petclinicAdaptiveSequence
+Database port for remote connection: 3312
+Application port for remote connection: 3006
+Chromedriver port: 9521
+Project folder: /home/ubuntu/workspace/fse2019/petclinic
+Express server port: 7005
+Test suite counter: 15
+
+Build failure. Check modify_test_suite 	    (/home/ubuntu/fse19-data/petclinic_mpo/testpetclinicAdaptiveSequence_7/compile-test-suite-petclinicAdaptiveSequence-15.txt) state to see what is wrong!
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 7 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/petclinic_mpo/testpetclinicAdaptiveSequence_8
+
+Project name: petclinic
+Session file name: petclinicAdaptiveSequence
+Database port for remote connection: 3312
+Application port for remote connection: 3006
+Chromedriver port: 9521
+Project folder: /home/ubuntu/workspace/fse2019/petclinic
+Express server port: 7005
+Test suite counter: 16
+
+Build failure. Check modify_test_suite 	    (/home/ubuntu/fse19-data/petclinic_mpo/testpetclinicAdaptiveSequence_8/compile-test-suite-petclinicAdaptiveSequence-16.txt) state to see what is wrong!
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 5 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/petclinic_mpo/testpetclinicAdaptiveSequence_9
+
+Project name: petclinic
+Session file name: petclinicAdaptiveSequence
+Database port for remote connection: 3312
+Application port for remote connection: 3006
+Chromedriver port: 9521
+Project folder: /home/ubuntu/workspace/fse2019/petclinic
+Express server port: 7005
+Test suite counter: 17
+
+Build failure. Check modify_test_suite 	    (/home/ubuntu/fse19-data/petclinic_mpo/testpetclinicAdaptiveSequence_9/compile-test-suite-petclinicAdaptiveSequence-17.txt) state to see what is wrong!
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 6 seconds elapsed.
+Stopping container
+petclinicAdaptiveSequence
+petclinicAdaptiveSequence
+Stopping chromedriver process listening on port 9521
+Finding children processes of chromedriver and killing them
+Stopping express server listening on port 7005
+Finding children processes of express and killing them
+Total time to run code coverage for all test suites: 0 hours, 3 minutes and 39 seconds elapsed.

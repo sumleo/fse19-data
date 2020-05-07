@@ -1,0 +1,77 @@
+cp: cannot stat '/home/ubuntu/fse19-data/petclinic_mpo/errorspetclinicAdaptiveSequence_10.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/petclinic_mpo/errorspetclinicAdaptiveSequence_10.txt/modify-test-suite-petclinicAdaptiveSequence-0.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/petclinic_mpo/errorspetclinicAdaptiveSequence_10.txt/compile-test-suite-petclinicAdaptiveSequence-0.txt: Not a directory
+grep: /home/ubuntu/fse19-data/petclinic_mpo/errorspetclinicAdaptiveSequence_10.txt/compile-test-suite-petclinicAdaptiveSequence-0.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/petclinic_mpo/errorspetclinicAdaptiveSequence_10.txt/code-coverage-petclinicAdaptiveSequence-0.txt: Not a directory
+grep: /home/ubuntu/fse19-data/petclinic_mpo/errorspetclinicAdaptiveSequence_10.txt/code-coverage-petclinicAdaptiveSequence-0.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/petclinic_mpo/errorspetclinicAdaptiveSequence_10.txt/complete-petclinicAdaptiveSequence-0.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/petclinic_mpo/errorspetclinicAdaptiveSequence_12.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/petclinic_mpo/errorspetclinicAdaptiveSequence_12.txt/modify-test-suite-petclinicAdaptiveSequence-1.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/petclinic_mpo/errorspetclinicAdaptiveSequence_12.txt/compile-test-suite-petclinicAdaptiveSequence-1.txt: Not a directory
+grep: /home/ubuntu/fse19-data/petclinic_mpo/errorspetclinicAdaptiveSequence_12.txt/compile-test-suite-petclinicAdaptiveSequence-1.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/petclinic_mpo/errorspetclinicAdaptiveSequence_12.txt/code-coverage-petclinicAdaptiveSequence-1.txt: Not a directory
+grep: /home/ubuntu/fse19-data/petclinic_mpo/errorspetclinicAdaptiveSequence_12.txt/code-coverage-petclinicAdaptiveSequence-1.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/petclinic_mpo/errorspetclinicAdaptiveSequence_12.txt/complete-petclinicAdaptiveSequence-1.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/petclinic_mpo/logspetclinicAdaptiveSequence_10.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/petclinic_mpo/logspetclinicAdaptiveSequence_10.txt/modify-test-suite-petclinicAdaptiveSequence-2.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/petclinic_mpo/logspetclinicAdaptiveSequence_10.txt/compile-test-suite-petclinicAdaptiveSequence-2.txt: Not a directory
+grep: /home/ubuntu/fse19-data/petclinic_mpo/logspetclinicAdaptiveSequence_10.txt/compile-test-suite-petclinicAdaptiveSequence-2.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/petclinic_mpo/logspetclinicAdaptiveSequence_10.txt/code-coverage-petclinicAdaptiveSequence-2.txt: Not a directory
+grep: /home/ubuntu/fse19-data/petclinic_mpo/logspetclinicAdaptiveSequence_10.txt/code-coverage-petclinicAdaptiveSequence-2.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/petclinic_mpo/logspetclinicAdaptiveSequence_10.txt/complete-petclinicAdaptiveSequence-2.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/petclinic_mpo/logspetclinicAdaptiveSequence_12.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/petclinic_mpo/logspetclinicAdaptiveSequence_12.txt/modify-test-suite-petclinicAdaptiveSequence-3.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/petclinic_mpo/logspetclinicAdaptiveSequence_12.txt/compile-test-suite-petclinicAdaptiveSequence-3.txt: Not a directory
+grep: /home/ubuntu/fse19-data/petclinic_mpo/logspetclinicAdaptiveSequence_12.txt/compile-test-suite-petclinicAdaptiveSequence-3.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/petclinic_mpo/logspetclinicAdaptiveSequence_12.txt/code-coverage-petclinicAdaptiveSequence-3.txt: Not a directory
+grep: /home/ubuntu/fse19-data/petclinic_mpo/logspetclinicAdaptiveSequence_12.txt/code-coverage-petclinicAdaptiveSequence-3.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/petclinic_mpo/logspetclinicAdaptiveSequence_12.txt/complete-petclinicAdaptiveSequence-3.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/petclinic_mpo/manual.log/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/petclinic_mpo/manual.log/modify-test-suite-petclinicAdaptiveSequence-4.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/petclinic_mpo/manual.log/compile-test-suite-petclinicAdaptiveSequence-4.txt: Not a directory
+grep: /home/ubuntu/fse19-data/petclinic_mpo/manual.log/compile-test-suite-petclinicAdaptiveSequence-4.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/petclinic_mpo/manual.log/code-coverage-petclinicAdaptiveSequence-4.txt: Not a directory
+grep: /home/ubuntu/fse19-data/petclinic_mpo/manual.log/code-coverage-petclinicAdaptiveSequence-4.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/petclinic_mpo/manual.log/complete-petclinicAdaptiveSequence-4.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+
+Usage:
+ kill [options] <pid> [...]
+
+Options:
+ <pid> [...]            send signal to every <pid> listed
+ -<signal>, -s, --signal <signal>
+                        specify the <signal> to be sent
+ -l, --list=[<signal>]  list all signal names, or convert one to a name
+ -L, --table            list all signal names in a nice table
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see kill(1).
+
+Usage:
+ kill [options] <pid> [...]
+
+Options:
+ <pid> [...]            send signal to every <pid> listed
+ -<signal>, -s, --signal <signal>
+                        specify the <signal> to be sent
+ -l, --list=[<signal>]  list all signal names, or convert one to a name
+ -L, --table            list all signal names in a nice table
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see kill(1).
+./run.sh: line 131: 54937 Killed                  chromedriver --port=$chromedriver_port
+./run.sh: line 274: 54939 Killed                  node . $express_server_port  (wd: ~/workspace/code-coverage-server/express-istanbul)

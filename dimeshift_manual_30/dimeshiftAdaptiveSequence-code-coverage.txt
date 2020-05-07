@@ -1,0 +1,717 @@
+Port app: 3001
+Port db: 3307
+Production: yes
+Container name: dimeshiftAdaptiveSequence
+9b47507141e5a0061431d7889e3fbbf5931b568635277c5df4ac304f3ee48895
+The script starts the chromedriver process on port 9516 and the express server for collecting coverage reports on port 7000
+Waiting for application server to start...
+Starting chromedriver on port 9516
+Starting express server on port 7000
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/errorsdimeshiftAdaptiveSequence_0.txt
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9516
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 0
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/errorsdimeshiftAdaptiveSequence_10.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 1
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/errorsdimeshiftAdaptiveSequence_11.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 2
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/errorsdimeshiftAdaptiveSequence_12.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 3
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/errorsdimeshiftAdaptiveSequence_13.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 4
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/errorsdimeshiftAdaptiveSequence_14.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 5
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/errorsdimeshiftAdaptiveSequence_15.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 6
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/errorsdimeshiftAdaptiveSequence_16.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 7
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/errorsdimeshiftAdaptiveSequence_17.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 8
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/errorsdimeshiftAdaptiveSequence_18.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 9
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/errorsdimeshiftAdaptiveSequence_19.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 10
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/errorsdimeshiftAdaptiveSequence_1.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 11
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/errorsdimeshiftAdaptiveSequence_20.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 12
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/errorsdimeshiftAdaptiveSequence_21.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 13
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/errorsdimeshiftAdaptiveSequence_22.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 14
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/errorsdimeshiftAdaptiveSequence_24.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 15
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/errorsdimeshiftAdaptiveSequence_25.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 16
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/errorsdimeshiftAdaptiveSequence_26.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 17
+
+Express server listening on port 7000
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 1 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/errorsdimeshiftAdaptiveSequence_27.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 18
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/errorsdimeshiftAdaptiveSequence_28.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 19
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/errorsdimeshiftAdaptiveSequence_29.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 20
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/errorsdimeshiftAdaptiveSequence_2.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 21
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/errorsdimeshiftAdaptiveSequence_3.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 22
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/errorsdimeshiftAdaptiveSequence_4.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 23
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/errorsdimeshiftAdaptiveSequence_6.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 24
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/errorsdimeshiftAdaptiveSequence_7.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 25
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/errorsdimeshiftAdaptiveSequence_9.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 26
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/logsdimeshiftAdaptiveSequence_0.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 27
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/logsdimeshiftAdaptiveSequence_10.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 28
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/logsdimeshiftAdaptiveSequence_11.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 29
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/logsdimeshiftAdaptiveSequence_12.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 30
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/logsdimeshiftAdaptiveSequence_13.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 31
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/logsdimeshiftAdaptiveSequence_14.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 32
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/logsdimeshiftAdaptiveSequence_15.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 33
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/logsdimeshiftAdaptiveSequence_16.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 34
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/logsdimeshiftAdaptiveSequence_17.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 35
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/logsdimeshiftAdaptiveSequence_18.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 36
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/logsdimeshiftAdaptiveSequence_19.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 37
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/logsdimeshiftAdaptiveSequence_1.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 38
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/logsdimeshiftAdaptiveSequence_20.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 39
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/logsdimeshiftAdaptiveSequence_21.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 40
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/logsdimeshiftAdaptiveSequence_22.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 41
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/logsdimeshiftAdaptiveSequence_24.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 42
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/logsdimeshiftAdaptiveSequence_25.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 43
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/logsdimeshiftAdaptiveSequence_26.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 44
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/logsdimeshiftAdaptiveSequence_27.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 45
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/logsdimeshiftAdaptiveSequence_28.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 46
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/logsdimeshiftAdaptiveSequence_29.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 47
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/logsdimeshiftAdaptiveSequence_2.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 48
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/logsdimeshiftAdaptiveSequence_3.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 49
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/logsdimeshiftAdaptiveSequence_4.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 50
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/logsdimeshiftAdaptiveSequence_6.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 51
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/logsdimeshiftAdaptiveSequence_7.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 52
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/logsdimeshiftAdaptiveSequence_9.txt
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 53
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/manual_30.log
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 54
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/testdimeshiftAdaptiveSequence_23
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 55
+
+Total time to run code coverage for test suite: 		0 hours, 7 minutes and 30 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/testdimeshiftAdaptiveSequence_5
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 56
+
+Total time to run code coverage for test suite: 		0 hours, 5 minutes and 16 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/dimeshift_manual_30/testdimeshiftAdaptiveSequence_8
+
+Project name: dimeshift
+Session file name: dimeshiftAdaptiveSequence
+Database port for remote connection: 3307
+Application port for remote connection: 3001
+Chromedriver port: 9516
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 7000
+Test suite counter: 57
+
+Total time to run code coverage for test suite: 		0 hours, 1 minutes and 0 seconds elapsed.
+Stopping container
+dimeshiftAdaptiveSequence
+dimeshiftAdaptiveSequence
+Stopping chromedriver process listening on port 9516
+Finding children processes of chromedriver and killing them
+Stopping express server listening on port 7000
+Finding children processes of express and killing them
+Total time to run code coverage for all test suites: 0 hours, 16 minutes and 1 seconds elapsed.

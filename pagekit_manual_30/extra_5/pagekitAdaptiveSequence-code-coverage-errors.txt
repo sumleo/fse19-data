@@ -1,0 +1,202 @@
+cp: cannot stat '/home/ubuntu/fse19-data/pagekit_manual_30/extra_5/code-coverage-pagekitAdaptiveSequence-21.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/code-coverage-pagekitAdaptiveSequence-21.txt/modify-test-suite-pagekitAdaptiveSequence-0.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/code-coverage-pagekitAdaptiveSequence-21.txt/compile-test-suite-pagekitAdaptiveSequence-0.txt: Not a directory
+grep: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/code-coverage-pagekitAdaptiveSequence-21.txt/compile-test-suite-pagekitAdaptiveSequence-0.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/code-coverage-pagekitAdaptiveSequence-21.txt/code-coverage-pagekitAdaptiveSequence-0.txt: Not a directory
+grep: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/code-coverage-pagekitAdaptiveSequence-21.txt/code-coverage-pagekitAdaptiveSequence-0.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/code-coverage-pagekitAdaptiveSequence-21.txt/complete-pagekitAdaptiveSequence-0.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/pagekit_manual_30/extra_5/compile-test-suite-pagekitAdaptiveSequence-21.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/compile-test-suite-pagekitAdaptiveSequence-21.txt/modify-test-suite-pagekitAdaptiveSequence-1.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/compile-test-suite-pagekitAdaptiveSequence-21.txt/compile-test-suite-pagekitAdaptiveSequence-1.txt: Not a directory
+grep: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/compile-test-suite-pagekitAdaptiveSequence-21.txt/compile-test-suite-pagekitAdaptiveSequence-1.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/compile-test-suite-pagekitAdaptiveSequence-21.txt/code-coverage-pagekitAdaptiveSequence-1.txt: Not a directory
+grep: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/compile-test-suite-pagekitAdaptiveSequence-21.txt/code-coverage-pagekitAdaptiveSequence-1.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/compile-test-suite-pagekitAdaptiveSequence-21.txt/complete-pagekitAdaptiveSequence-1.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/pagekit_manual_30/extra_5/complete-pagekitAdaptiveSequence-21.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/complete-pagekitAdaptiveSequence-21.txt/modify-test-suite-pagekitAdaptiveSequence-2.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/complete-pagekitAdaptiveSequence-21.txt/compile-test-suite-pagekitAdaptiveSequence-2.txt: Not a directory
+grep: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/complete-pagekitAdaptiveSequence-21.txt/compile-test-suite-pagekitAdaptiveSequence-2.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/complete-pagekitAdaptiveSequence-21.txt/code-coverage-pagekitAdaptiveSequence-2.txt: Not a directory
+grep: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/complete-pagekitAdaptiveSequence-21.txt/code-coverage-pagekitAdaptiveSequence-2.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/complete-pagekitAdaptiveSequence-21.txt/complete-pagekitAdaptiveSequence-2.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/pagekit_manual_30/extra_5/errorspagekitAdaptiveSequence_1.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/errorspagekitAdaptiveSequence_1.txt/modify-test-suite-pagekitAdaptiveSequence-3.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/errorspagekitAdaptiveSequence_1.txt/compile-test-suite-pagekitAdaptiveSequence-3.txt: Not a directory
+grep: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/errorspagekitAdaptiveSequence_1.txt/compile-test-suite-pagekitAdaptiveSequence-3.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/errorspagekitAdaptiveSequence_1.txt/code-coverage-pagekitAdaptiveSequence-3.txt: Not a directory
+grep: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/errorspagekitAdaptiveSequence_1.txt/code-coverage-pagekitAdaptiveSequence-3.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/errorspagekitAdaptiveSequence_1.txt/complete-pagekitAdaptiveSequence-3.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/pagekit_manual_30/extra_5/errorspagekitAdaptiveSequence_2.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/errorspagekitAdaptiveSequence_2.txt/modify-test-suite-pagekitAdaptiveSequence-4.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/errorspagekitAdaptiveSequence_2.txt/compile-test-suite-pagekitAdaptiveSequence-4.txt: Not a directory
+grep: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/errorspagekitAdaptiveSequence_2.txt/compile-test-suite-pagekitAdaptiveSequence-4.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/errorspagekitAdaptiveSequence_2.txt/code-coverage-pagekitAdaptiveSequence-4.txt: Not a directory
+grep: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/errorspagekitAdaptiveSequence_2.txt/code-coverage-pagekitAdaptiveSequence-4.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/errorspagekitAdaptiveSequence_2.txt/complete-pagekitAdaptiveSequence-4.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/pagekit_manual_30/extra_5/errorspagekitAdaptiveSequence_3.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/errorspagekitAdaptiveSequence_3.txt/modify-test-suite-pagekitAdaptiveSequence-5.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/errorspagekitAdaptiveSequence_3.txt/compile-test-suite-pagekitAdaptiveSequence-5.txt: Not a directory
+grep: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/errorspagekitAdaptiveSequence_3.txt/compile-test-suite-pagekitAdaptiveSequence-5.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/errorspagekitAdaptiveSequence_3.txt/code-coverage-pagekitAdaptiveSequence-5.txt: Not a directory
+grep: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/errorspagekitAdaptiveSequence_3.txt/code-coverage-pagekitAdaptiveSequence-5.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/errorspagekitAdaptiveSequence_3.txt/complete-pagekitAdaptiveSequence-5.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/pagekit_manual_30/extra_5/errorspagekitAdaptiveSequence_4.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/errorspagekitAdaptiveSequence_4.txt/modify-test-suite-pagekitAdaptiveSequence-6.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/errorspagekitAdaptiveSequence_4.txt/compile-test-suite-pagekitAdaptiveSequence-6.txt: Not a directory
+grep: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/errorspagekitAdaptiveSequence_4.txt/compile-test-suite-pagekitAdaptiveSequence-6.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/errorspagekitAdaptiveSequence_4.txt/code-coverage-pagekitAdaptiveSequence-6.txt: Not a directory
+grep: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/errorspagekitAdaptiveSequence_4.txt/code-coverage-pagekitAdaptiveSequence-6.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/errorspagekitAdaptiveSequence_4.txt/complete-pagekitAdaptiveSequence-6.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/pagekit_manual_30/extra_5/logspagekitAdaptiveSequence_1.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/logspagekitAdaptiveSequence_1.txt/modify-test-suite-pagekitAdaptiveSequence-7.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/logspagekitAdaptiveSequence_1.txt/compile-test-suite-pagekitAdaptiveSequence-7.txt: Not a directory
+grep: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/logspagekitAdaptiveSequence_1.txt/compile-test-suite-pagekitAdaptiveSequence-7.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/logspagekitAdaptiveSequence_1.txt/code-coverage-pagekitAdaptiveSequence-7.txt: Not a directory
+grep: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/logspagekitAdaptiveSequence_1.txt/code-coverage-pagekitAdaptiveSequence-7.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/logspagekitAdaptiveSequence_1.txt/complete-pagekitAdaptiveSequence-7.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/pagekit_manual_30/extra_5/logspagekitAdaptiveSequence_2.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/logspagekitAdaptiveSequence_2.txt/modify-test-suite-pagekitAdaptiveSequence-8.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/logspagekitAdaptiveSequence_2.txt/compile-test-suite-pagekitAdaptiveSequence-8.txt: Not a directory
+grep: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/logspagekitAdaptiveSequence_2.txt/compile-test-suite-pagekitAdaptiveSequence-8.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/logspagekitAdaptiveSequence_2.txt/code-coverage-pagekitAdaptiveSequence-8.txt: Not a directory
+grep: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/logspagekitAdaptiveSequence_2.txt/code-coverage-pagekitAdaptiveSequence-8.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/logspagekitAdaptiveSequence_2.txt/complete-pagekitAdaptiveSequence-8.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/pagekit_manual_30/extra_5/logspagekitAdaptiveSequence_3.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/logspagekitAdaptiveSequence_3.txt/modify-test-suite-pagekitAdaptiveSequence-9.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/logspagekitAdaptiveSequence_3.txt/compile-test-suite-pagekitAdaptiveSequence-9.txt: Not a directory
+grep: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/logspagekitAdaptiveSequence_3.txt/compile-test-suite-pagekitAdaptiveSequence-9.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/logspagekitAdaptiveSequence_3.txt/code-coverage-pagekitAdaptiveSequence-9.txt: Not a directory
+grep: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/logspagekitAdaptiveSequence_3.txt/code-coverage-pagekitAdaptiveSequence-9.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/logspagekitAdaptiveSequence_3.txt/complete-pagekitAdaptiveSequence-9.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/pagekit_manual_30/extra_5/logspagekitAdaptiveSequence_4.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/logspagekitAdaptiveSequence_4.txt/modify-test-suite-pagekitAdaptiveSequence-10.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/logspagekitAdaptiveSequence_4.txt/compile-test-suite-pagekitAdaptiveSequence-10.txt: Not a directory
+grep: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/logspagekitAdaptiveSequence_4.txt/compile-test-suite-pagekitAdaptiveSequence-10.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/logspagekitAdaptiveSequence_4.txt/code-coverage-pagekitAdaptiveSequence-10.txt: Not a directory
+grep: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/logspagekitAdaptiveSequence_4.txt/code-coverage-pagekitAdaptiveSequence-10.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/logspagekitAdaptiveSequence_4.txt/complete-pagekitAdaptiveSequence-10.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/pagekit_manual_30/extra_5/manual_5.log/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/manual_5.log/modify-test-suite-pagekitAdaptiveSequence-11.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/manual_5.log/compile-test-suite-pagekitAdaptiveSequence-11.txt: Not a directory
+grep: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/manual_5.log/compile-test-suite-pagekitAdaptiveSequence-11.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/manual_5.log/code-coverage-pagekitAdaptiveSequence-11.txt: Not a directory
+grep: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/manual_5.log/code-coverage-pagekitAdaptiveSequence-11.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/manual_5.log/complete-pagekitAdaptiveSequence-11.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/pagekit_manual_30/extra_5/modify-test-suite-pagekitAdaptiveSequence-21.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/modify-test-suite-pagekitAdaptiveSequence-21.txt/modify-test-suite-pagekitAdaptiveSequence-12.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/modify-test-suite-pagekitAdaptiveSequence-21.txt/compile-test-suite-pagekitAdaptiveSequence-12.txt: Not a directory
+grep: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/modify-test-suite-pagekitAdaptiveSequence-21.txt/compile-test-suite-pagekitAdaptiveSequence-12.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/modify-test-suite-pagekitAdaptiveSequence-21.txt/code-coverage-pagekitAdaptiveSequence-12.txt: Not a directory
+grep: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/modify-test-suite-pagekitAdaptiveSequence-21.txt/code-coverage-pagekitAdaptiveSequence-12.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/modify-test-suite-pagekitAdaptiveSequence-21.txt/complete-pagekitAdaptiveSequence-12.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+May 07, 2020 6:58:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Thu May 07 18:58:54 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 07, 2020 7:02:04 PM po_utils.PageObjectLogging logInfo
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+May 07, 2020 7:07:15 PM po_utils.PageObjectLogging logInfo
+INFO: waitForElementThatChangesProperty timeout exception
+
+
+test0: run 1 failed with sleep timeout 0.
+Thu May 07 19:07:16 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 07, 2020 7:08:35 PM po_utils.PageObjectLogging logInfo
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+May 07, 2020 7:11:14 PM po_utils.PageObjectLogging logInfo
+INFO: waitForElementThatChangesProperty timeout exception
+
+
+test0: run 2 failed with sleep timeout 250.
+Thu May 07 19:11:15 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 07, 2020 7:12:21 PM po_utils.PageObjectLogging logInfo
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+Thu May 07 19:12:41 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 07, 2020 7:12:46 PM po_utils.PageObjectLogging logInfo
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+May 07, 2020 7:12:54 PM po_utils.PageObjectLogging logInfo
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+Thu May 07 19:12:58 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+Thu May 07 19:13:03 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+Thu May 07 19:13:09 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 07, 2020 7:13:18 PM po_utils.PageObjectLogging logInfo
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+Thu May 07 19:13:20 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+Thu May 07 19:13:30 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+Thu May 07 19:13:33 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+test7: run 1 failed with sleep timeout 0.
+Thu May 07 19:13:35 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+Thu May 07 19:13:41 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 07, 2020 7:13:44 PM po_utils.PageObjectLogging logInfo
+INFO: waitForElementThatChangesProperty timeout exception: unable to locate the element By.xpath: //form[@class="pk-panel-teaser uk-form uk-form-stacked" and not(@style="display: none;")]//div[contains(@class, "uk-autocomplete uk-width-1-1")]
+
+
+
+Usage:
+ kill [options] <pid> [...]
+
+Options:
+ <pid> [...]            send signal to every <pid> listed
+ -<signal>, -s, --signal <signal>
+                        specify the <signal> to be sent
+ -l, --list=[<signal>]  list all signal names, or convert one to a name
+ -L, --table            list all signal names in a nice table
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see kill(1).
+
+Usage:
+ kill [options] <pid> [...]
+
+Options:
+ <pid> [...]            send signal to every <pid> listed
+ -<signal>, -s, --signal <signal>
+                        specify the <signal> to be sent
+ -l, --list=[<signal>]  list all signal names, or convert one to a name
+ -L, --table            list all signal names in a nice table
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see kill(1).
+./run.sh: line 131: 60800 Killed                  chromedriver --port=$chromedriver_port
+./run.sh: line 274: 60802 Killed                  node . $express_server_port  (wd: ~/workspace/code-coverage-server/express-istanbul)

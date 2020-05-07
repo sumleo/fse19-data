@@ -1,0 +1,566 @@
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_0.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_0.txt/modify-test-suite-dimeshiftAdaptiveSequence-0.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_0.txt/compile-test-suite-dimeshiftAdaptiveSequence-0.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_0.txt/compile-test-suite-dimeshiftAdaptiveSequence-0.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_0.txt/code-coverage-dimeshiftAdaptiveSequence-0.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_0.txt/code-coverage-dimeshiftAdaptiveSequence-0.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_0.txt/complete-dimeshiftAdaptiveSequence-0.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_10.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_10.txt/modify-test-suite-dimeshiftAdaptiveSequence-1.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_10.txt/compile-test-suite-dimeshiftAdaptiveSequence-1.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_10.txt/compile-test-suite-dimeshiftAdaptiveSequence-1.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_10.txt/code-coverage-dimeshiftAdaptiveSequence-1.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_10.txt/code-coverage-dimeshiftAdaptiveSequence-1.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_10.txt/complete-dimeshiftAdaptiveSequence-1.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_11.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_11.txt/modify-test-suite-dimeshiftAdaptiveSequence-2.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_11.txt/compile-test-suite-dimeshiftAdaptiveSequence-2.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_11.txt/compile-test-suite-dimeshiftAdaptiveSequence-2.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_11.txt/code-coverage-dimeshiftAdaptiveSequence-2.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_11.txt/code-coverage-dimeshiftAdaptiveSequence-2.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_11.txt/complete-dimeshiftAdaptiveSequence-2.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_12.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_12.txt/modify-test-suite-dimeshiftAdaptiveSequence-3.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_12.txt/compile-test-suite-dimeshiftAdaptiveSequence-3.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_12.txt/compile-test-suite-dimeshiftAdaptiveSequence-3.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_12.txt/code-coverage-dimeshiftAdaptiveSequence-3.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_12.txt/code-coverage-dimeshiftAdaptiveSequence-3.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_12.txt/complete-dimeshiftAdaptiveSequence-3.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_13.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_13.txt/modify-test-suite-dimeshiftAdaptiveSequence-4.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_13.txt/compile-test-suite-dimeshiftAdaptiveSequence-4.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_13.txt/compile-test-suite-dimeshiftAdaptiveSequence-4.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_13.txt/code-coverage-dimeshiftAdaptiveSequence-4.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_13.txt/code-coverage-dimeshiftAdaptiveSequence-4.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_13.txt/complete-dimeshiftAdaptiveSequence-4.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_14.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_14.txt/modify-test-suite-dimeshiftAdaptiveSequence-5.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_14.txt/compile-test-suite-dimeshiftAdaptiveSequence-5.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_14.txt/compile-test-suite-dimeshiftAdaptiveSequence-5.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_14.txt/code-coverage-dimeshiftAdaptiveSequence-5.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_14.txt/code-coverage-dimeshiftAdaptiveSequence-5.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_14.txt/complete-dimeshiftAdaptiveSequence-5.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_15.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_15.txt/modify-test-suite-dimeshiftAdaptiveSequence-6.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_15.txt/compile-test-suite-dimeshiftAdaptiveSequence-6.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_15.txt/compile-test-suite-dimeshiftAdaptiveSequence-6.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_15.txt/code-coverage-dimeshiftAdaptiveSequence-6.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_15.txt/code-coverage-dimeshiftAdaptiveSequence-6.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_15.txt/complete-dimeshiftAdaptiveSequence-6.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_16.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_16.txt/modify-test-suite-dimeshiftAdaptiveSequence-7.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_16.txt/compile-test-suite-dimeshiftAdaptiveSequence-7.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_16.txt/compile-test-suite-dimeshiftAdaptiveSequence-7.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_16.txt/code-coverage-dimeshiftAdaptiveSequence-7.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_16.txt/code-coverage-dimeshiftAdaptiveSequence-7.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_16.txt/complete-dimeshiftAdaptiveSequence-7.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_17.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_17.txt/modify-test-suite-dimeshiftAdaptiveSequence-8.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_17.txt/compile-test-suite-dimeshiftAdaptiveSequence-8.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_17.txt/compile-test-suite-dimeshiftAdaptiveSequence-8.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_17.txt/code-coverage-dimeshiftAdaptiveSequence-8.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_17.txt/code-coverage-dimeshiftAdaptiveSequence-8.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_17.txt/complete-dimeshiftAdaptiveSequence-8.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_18.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_18.txt/modify-test-suite-dimeshiftAdaptiveSequence-9.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_18.txt/compile-test-suite-dimeshiftAdaptiveSequence-9.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_18.txt/compile-test-suite-dimeshiftAdaptiveSequence-9.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_18.txt/code-coverage-dimeshiftAdaptiveSequence-9.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_18.txt/code-coverage-dimeshiftAdaptiveSequence-9.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_18.txt/complete-dimeshiftAdaptiveSequence-9.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_19.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_19.txt/modify-test-suite-dimeshiftAdaptiveSequence-10.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_19.txt/compile-test-suite-dimeshiftAdaptiveSequence-10.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_19.txt/compile-test-suite-dimeshiftAdaptiveSequence-10.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_19.txt/code-coverage-dimeshiftAdaptiveSequence-10.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_19.txt/code-coverage-dimeshiftAdaptiveSequence-10.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_19.txt/complete-dimeshiftAdaptiveSequence-10.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_1.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_1.txt/modify-test-suite-dimeshiftAdaptiveSequence-11.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_1.txt/compile-test-suite-dimeshiftAdaptiveSequence-11.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_1.txt/compile-test-suite-dimeshiftAdaptiveSequence-11.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_1.txt/code-coverage-dimeshiftAdaptiveSequence-11.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_1.txt/code-coverage-dimeshiftAdaptiveSequence-11.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_1.txt/complete-dimeshiftAdaptiveSequence-11.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_20.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_20.txt/modify-test-suite-dimeshiftAdaptiveSequence-12.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_20.txt/compile-test-suite-dimeshiftAdaptiveSequence-12.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_20.txt/compile-test-suite-dimeshiftAdaptiveSequence-12.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_20.txt/code-coverage-dimeshiftAdaptiveSequence-12.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_20.txt/code-coverage-dimeshiftAdaptiveSequence-12.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_20.txt/complete-dimeshiftAdaptiveSequence-12.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_21.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_21.txt/modify-test-suite-dimeshiftAdaptiveSequence-13.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_21.txt/compile-test-suite-dimeshiftAdaptiveSequence-13.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_21.txt/compile-test-suite-dimeshiftAdaptiveSequence-13.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_21.txt/code-coverage-dimeshiftAdaptiveSequence-13.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_21.txt/code-coverage-dimeshiftAdaptiveSequence-13.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_21.txt/complete-dimeshiftAdaptiveSequence-13.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_22.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_22.txt/modify-test-suite-dimeshiftAdaptiveSequence-14.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_22.txt/compile-test-suite-dimeshiftAdaptiveSequence-14.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_22.txt/compile-test-suite-dimeshiftAdaptiveSequence-14.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_22.txt/code-coverage-dimeshiftAdaptiveSequence-14.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_22.txt/code-coverage-dimeshiftAdaptiveSequence-14.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_22.txt/complete-dimeshiftAdaptiveSequence-14.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_23.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_23.txt/modify-test-suite-dimeshiftAdaptiveSequence-15.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_23.txt/compile-test-suite-dimeshiftAdaptiveSequence-15.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_23.txt/compile-test-suite-dimeshiftAdaptiveSequence-15.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_23.txt/code-coverage-dimeshiftAdaptiveSequence-15.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_23.txt/code-coverage-dimeshiftAdaptiveSequence-15.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_23.txt/complete-dimeshiftAdaptiveSequence-15.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_24.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_24.txt/modify-test-suite-dimeshiftAdaptiveSequence-16.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_24.txt/compile-test-suite-dimeshiftAdaptiveSequence-16.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_24.txt/compile-test-suite-dimeshiftAdaptiveSequence-16.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_24.txt/code-coverage-dimeshiftAdaptiveSequence-16.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_24.txt/code-coverage-dimeshiftAdaptiveSequence-16.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_24.txt/complete-dimeshiftAdaptiveSequence-16.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_25.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_25.txt/modify-test-suite-dimeshiftAdaptiveSequence-17.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_25.txt/compile-test-suite-dimeshiftAdaptiveSequence-17.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_25.txt/compile-test-suite-dimeshiftAdaptiveSequence-17.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_25.txt/code-coverage-dimeshiftAdaptiveSequence-17.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_25.txt/code-coverage-dimeshiftAdaptiveSequence-17.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_25.txt/complete-dimeshiftAdaptiveSequence-17.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_26.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_26.txt/modify-test-suite-dimeshiftAdaptiveSequence-18.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_26.txt/compile-test-suite-dimeshiftAdaptiveSequence-18.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_26.txt/compile-test-suite-dimeshiftAdaptiveSequence-18.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_26.txt/code-coverage-dimeshiftAdaptiveSequence-18.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_26.txt/code-coverage-dimeshiftAdaptiveSequence-18.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_26.txt/complete-dimeshiftAdaptiveSequence-18.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_27.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_27.txt/modify-test-suite-dimeshiftAdaptiveSequence-19.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_27.txt/compile-test-suite-dimeshiftAdaptiveSequence-19.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_27.txt/compile-test-suite-dimeshiftAdaptiveSequence-19.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_27.txt/code-coverage-dimeshiftAdaptiveSequence-19.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_27.txt/code-coverage-dimeshiftAdaptiveSequence-19.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_27.txt/complete-dimeshiftAdaptiveSequence-19.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_29.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_29.txt/modify-test-suite-dimeshiftAdaptiveSequence-20.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_29.txt/compile-test-suite-dimeshiftAdaptiveSequence-20.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_29.txt/compile-test-suite-dimeshiftAdaptiveSequence-20.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_29.txt/code-coverage-dimeshiftAdaptiveSequence-20.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_29.txt/code-coverage-dimeshiftAdaptiveSequence-20.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_29.txt/complete-dimeshiftAdaptiveSequence-20.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_2.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_2.txt/modify-test-suite-dimeshiftAdaptiveSequence-21.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_2.txt/compile-test-suite-dimeshiftAdaptiveSequence-21.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_2.txt/compile-test-suite-dimeshiftAdaptiveSequence-21.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_2.txt/code-coverage-dimeshiftAdaptiveSequence-21.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_2.txt/code-coverage-dimeshiftAdaptiveSequence-21.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_2.txt/complete-dimeshiftAdaptiveSequence-21.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_3.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_3.txt/modify-test-suite-dimeshiftAdaptiveSequence-22.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_3.txt/compile-test-suite-dimeshiftAdaptiveSequence-22.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_3.txt/compile-test-suite-dimeshiftAdaptiveSequence-22.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_3.txt/code-coverage-dimeshiftAdaptiveSequence-22.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_3.txt/code-coverage-dimeshiftAdaptiveSequence-22.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_3.txt/complete-dimeshiftAdaptiveSequence-22.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_4.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_4.txt/modify-test-suite-dimeshiftAdaptiveSequence-23.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_4.txt/compile-test-suite-dimeshiftAdaptiveSequence-23.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_4.txt/compile-test-suite-dimeshiftAdaptiveSequence-23.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_4.txt/code-coverage-dimeshiftAdaptiveSequence-23.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_4.txt/code-coverage-dimeshiftAdaptiveSequence-23.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_4.txt/complete-dimeshiftAdaptiveSequence-23.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_5.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_5.txt/modify-test-suite-dimeshiftAdaptiveSequence-24.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_5.txt/compile-test-suite-dimeshiftAdaptiveSequence-24.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_5.txt/compile-test-suite-dimeshiftAdaptiveSequence-24.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_5.txt/code-coverage-dimeshiftAdaptiveSequence-24.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_5.txt/code-coverage-dimeshiftAdaptiveSequence-24.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_5.txt/complete-dimeshiftAdaptiveSequence-24.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_6.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_6.txt/modify-test-suite-dimeshiftAdaptiveSequence-25.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_6.txt/compile-test-suite-dimeshiftAdaptiveSequence-25.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_6.txt/compile-test-suite-dimeshiftAdaptiveSequence-25.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_6.txt/code-coverage-dimeshiftAdaptiveSequence-25.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_6.txt/code-coverage-dimeshiftAdaptiveSequence-25.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_6.txt/complete-dimeshiftAdaptiveSequence-25.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_7.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_7.txt/modify-test-suite-dimeshiftAdaptiveSequence-26.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_7.txt/compile-test-suite-dimeshiftAdaptiveSequence-26.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_7.txt/compile-test-suite-dimeshiftAdaptiveSequence-26.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_7.txt/code-coverage-dimeshiftAdaptiveSequence-26.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_7.txt/code-coverage-dimeshiftAdaptiveSequence-26.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_7.txt/complete-dimeshiftAdaptiveSequence-26.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_8.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_8.txt/modify-test-suite-dimeshiftAdaptiveSequence-27.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_8.txt/compile-test-suite-dimeshiftAdaptiveSequence-27.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_8.txt/compile-test-suite-dimeshiftAdaptiveSequence-27.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_8.txt/code-coverage-dimeshiftAdaptiveSequence-27.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_8.txt/code-coverage-dimeshiftAdaptiveSequence-27.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_8.txt/complete-dimeshiftAdaptiveSequence-27.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_9.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_9.txt/modify-test-suite-dimeshiftAdaptiveSequence-28.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_9.txt/compile-test-suite-dimeshiftAdaptiveSequence-28.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_9.txt/compile-test-suite-dimeshiftAdaptiveSequence-28.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_9.txt/code-coverage-dimeshiftAdaptiveSequence-28.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_9.txt/code-coverage-dimeshiftAdaptiveSequence-28.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/errorsdimeshiftAdaptiveSequence_9.txt/complete-dimeshiftAdaptiveSequence-28.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_0.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_0.txt/modify-test-suite-dimeshiftAdaptiveSequence-29.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_0.txt/compile-test-suite-dimeshiftAdaptiveSequence-29.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_0.txt/compile-test-suite-dimeshiftAdaptiveSequence-29.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_0.txt/code-coverage-dimeshiftAdaptiveSequence-29.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_0.txt/code-coverage-dimeshiftAdaptiveSequence-29.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_0.txt/complete-dimeshiftAdaptiveSequence-29.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_10.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_10.txt/modify-test-suite-dimeshiftAdaptiveSequence-30.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_10.txt/compile-test-suite-dimeshiftAdaptiveSequence-30.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_10.txt/compile-test-suite-dimeshiftAdaptiveSequence-30.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_10.txt/code-coverage-dimeshiftAdaptiveSequence-30.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_10.txt/code-coverage-dimeshiftAdaptiveSequence-30.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_10.txt/complete-dimeshiftAdaptiveSequence-30.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_11.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_11.txt/modify-test-suite-dimeshiftAdaptiveSequence-31.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_11.txt/compile-test-suite-dimeshiftAdaptiveSequence-31.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_11.txt/compile-test-suite-dimeshiftAdaptiveSequence-31.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_11.txt/code-coverage-dimeshiftAdaptiveSequence-31.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_11.txt/code-coverage-dimeshiftAdaptiveSequence-31.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_11.txt/complete-dimeshiftAdaptiveSequence-31.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_12.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_12.txt/modify-test-suite-dimeshiftAdaptiveSequence-32.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_12.txt/compile-test-suite-dimeshiftAdaptiveSequence-32.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_12.txt/compile-test-suite-dimeshiftAdaptiveSequence-32.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_12.txt/code-coverage-dimeshiftAdaptiveSequence-32.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_12.txt/code-coverage-dimeshiftAdaptiveSequence-32.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_12.txt/complete-dimeshiftAdaptiveSequence-32.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_13.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_13.txt/modify-test-suite-dimeshiftAdaptiveSequence-33.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_13.txt/compile-test-suite-dimeshiftAdaptiveSequence-33.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_13.txt/compile-test-suite-dimeshiftAdaptiveSequence-33.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_13.txt/code-coverage-dimeshiftAdaptiveSequence-33.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_13.txt/code-coverage-dimeshiftAdaptiveSequence-33.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_13.txt/complete-dimeshiftAdaptiveSequence-33.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_14.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_14.txt/modify-test-suite-dimeshiftAdaptiveSequence-34.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_14.txt/compile-test-suite-dimeshiftAdaptiveSequence-34.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_14.txt/compile-test-suite-dimeshiftAdaptiveSequence-34.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_14.txt/code-coverage-dimeshiftAdaptiveSequence-34.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_14.txt/code-coverage-dimeshiftAdaptiveSequence-34.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_14.txt/complete-dimeshiftAdaptiveSequence-34.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_15.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_15.txt/modify-test-suite-dimeshiftAdaptiveSequence-35.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_15.txt/compile-test-suite-dimeshiftAdaptiveSequence-35.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_15.txt/compile-test-suite-dimeshiftAdaptiveSequence-35.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_15.txt/code-coverage-dimeshiftAdaptiveSequence-35.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_15.txt/code-coverage-dimeshiftAdaptiveSequence-35.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_15.txt/complete-dimeshiftAdaptiveSequence-35.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_16.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_16.txt/modify-test-suite-dimeshiftAdaptiveSequence-36.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_16.txt/compile-test-suite-dimeshiftAdaptiveSequence-36.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_16.txt/compile-test-suite-dimeshiftAdaptiveSequence-36.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_16.txt/code-coverage-dimeshiftAdaptiveSequence-36.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_16.txt/code-coverage-dimeshiftAdaptiveSequence-36.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_16.txt/complete-dimeshiftAdaptiveSequence-36.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_17.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_17.txt/modify-test-suite-dimeshiftAdaptiveSequence-37.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_17.txt/compile-test-suite-dimeshiftAdaptiveSequence-37.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_17.txt/compile-test-suite-dimeshiftAdaptiveSequence-37.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_17.txt/code-coverage-dimeshiftAdaptiveSequence-37.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_17.txt/code-coverage-dimeshiftAdaptiveSequence-37.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_17.txt/complete-dimeshiftAdaptiveSequence-37.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_18.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_18.txt/modify-test-suite-dimeshiftAdaptiveSequence-38.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_18.txt/compile-test-suite-dimeshiftAdaptiveSequence-38.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_18.txt/compile-test-suite-dimeshiftAdaptiveSequence-38.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_18.txt/code-coverage-dimeshiftAdaptiveSequence-38.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_18.txt/code-coverage-dimeshiftAdaptiveSequence-38.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_18.txt/complete-dimeshiftAdaptiveSequence-38.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_19.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_19.txt/modify-test-suite-dimeshiftAdaptiveSequence-39.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_19.txt/compile-test-suite-dimeshiftAdaptiveSequence-39.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_19.txt/compile-test-suite-dimeshiftAdaptiveSequence-39.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_19.txt/code-coverage-dimeshiftAdaptiveSequence-39.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_19.txt/code-coverage-dimeshiftAdaptiveSequence-39.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_19.txt/complete-dimeshiftAdaptiveSequence-39.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_1.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_1.txt/modify-test-suite-dimeshiftAdaptiveSequence-40.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_1.txt/compile-test-suite-dimeshiftAdaptiveSequence-40.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_1.txt/compile-test-suite-dimeshiftAdaptiveSequence-40.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_1.txt/code-coverage-dimeshiftAdaptiveSequence-40.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_1.txt/code-coverage-dimeshiftAdaptiveSequence-40.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_1.txt/complete-dimeshiftAdaptiveSequence-40.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_20.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_20.txt/modify-test-suite-dimeshiftAdaptiveSequence-41.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_20.txt/compile-test-suite-dimeshiftAdaptiveSequence-41.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_20.txt/compile-test-suite-dimeshiftAdaptiveSequence-41.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_20.txt/code-coverage-dimeshiftAdaptiveSequence-41.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_20.txt/code-coverage-dimeshiftAdaptiveSequence-41.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_20.txt/complete-dimeshiftAdaptiveSequence-41.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_21.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_21.txt/modify-test-suite-dimeshiftAdaptiveSequence-42.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_21.txt/compile-test-suite-dimeshiftAdaptiveSequence-42.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_21.txt/compile-test-suite-dimeshiftAdaptiveSequence-42.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_21.txt/code-coverage-dimeshiftAdaptiveSequence-42.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_21.txt/code-coverage-dimeshiftAdaptiveSequence-42.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_21.txt/complete-dimeshiftAdaptiveSequence-42.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_22.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_22.txt/modify-test-suite-dimeshiftAdaptiveSequence-43.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_22.txt/compile-test-suite-dimeshiftAdaptiveSequence-43.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_22.txt/compile-test-suite-dimeshiftAdaptiveSequence-43.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_22.txt/code-coverage-dimeshiftAdaptiveSequence-43.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_22.txt/code-coverage-dimeshiftAdaptiveSequence-43.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_22.txt/complete-dimeshiftAdaptiveSequence-43.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_23.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_23.txt/modify-test-suite-dimeshiftAdaptiveSequence-44.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_23.txt/compile-test-suite-dimeshiftAdaptiveSequence-44.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_23.txt/compile-test-suite-dimeshiftAdaptiveSequence-44.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_23.txt/code-coverage-dimeshiftAdaptiveSequence-44.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_23.txt/code-coverage-dimeshiftAdaptiveSequence-44.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_23.txt/complete-dimeshiftAdaptiveSequence-44.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_24.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_24.txt/modify-test-suite-dimeshiftAdaptiveSequence-45.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_24.txt/compile-test-suite-dimeshiftAdaptiveSequence-45.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_24.txt/compile-test-suite-dimeshiftAdaptiveSequence-45.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_24.txt/code-coverage-dimeshiftAdaptiveSequence-45.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_24.txt/code-coverage-dimeshiftAdaptiveSequence-45.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_24.txt/complete-dimeshiftAdaptiveSequence-45.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_25.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_25.txt/modify-test-suite-dimeshiftAdaptiveSequence-46.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_25.txt/compile-test-suite-dimeshiftAdaptiveSequence-46.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_25.txt/compile-test-suite-dimeshiftAdaptiveSequence-46.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_25.txt/code-coverage-dimeshiftAdaptiveSequence-46.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_25.txt/code-coverage-dimeshiftAdaptiveSequence-46.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_25.txt/complete-dimeshiftAdaptiveSequence-46.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_26.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_26.txt/modify-test-suite-dimeshiftAdaptiveSequence-47.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_26.txt/compile-test-suite-dimeshiftAdaptiveSequence-47.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_26.txt/compile-test-suite-dimeshiftAdaptiveSequence-47.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_26.txt/code-coverage-dimeshiftAdaptiveSequence-47.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_26.txt/code-coverage-dimeshiftAdaptiveSequence-47.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_26.txt/complete-dimeshiftAdaptiveSequence-47.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_27.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_27.txt/modify-test-suite-dimeshiftAdaptiveSequence-48.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_27.txt/compile-test-suite-dimeshiftAdaptiveSequence-48.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_27.txt/compile-test-suite-dimeshiftAdaptiveSequence-48.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_27.txt/code-coverage-dimeshiftAdaptiveSequence-48.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_27.txt/code-coverage-dimeshiftAdaptiveSequence-48.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_27.txt/complete-dimeshiftAdaptiveSequence-48.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_29.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_29.txt/modify-test-suite-dimeshiftAdaptiveSequence-49.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_29.txt/compile-test-suite-dimeshiftAdaptiveSequence-49.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_29.txt/compile-test-suite-dimeshiftAdaptiveSequence-49.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_29.txt/code-coverage-dimeshiftAdaptiveSequence-49.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_29.txt/code-coverage-dimeshiftAdaptiveSequence-49.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_29.txt/complete-dimeshiftAdaptiveSequence-49.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_2.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_2.txt/modify-test-suite-dimeshiftAdaptiveSequence-50.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_2.txt/compile-test-suite-dimeshiftAdaptiveSequence-50.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_2.txt/compile-test-suite-dimeshiftAdaptiveSequence-50.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_2.txt/code-coverage-dimeshiftAdaptiveSequence-50.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_2.txt/code-coverage-dimeshiftAdaptiveSequence-50.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_2.txt/complete-dimeshiftAdaptiveSequence-50.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_3.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_3.txt/modify-test-suite-dimeshiftAdaptiveSequence-51.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_3.txt/compile-test-suite-dimeshiftAdaptiveSequence-51.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_3.txt/compile-test-suite-dimeshiftAdaptiveSequence-51.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_3.txt/code-coverage-dimeshiftAdaptiveSequence-51.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_3.txt/code-coverage-dimeshiftAdaptiveSequence-51.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_3.txt/complete-dimeshiftAdaptiveSequence-51.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_4.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_4.txt/modify-test-suite-dimeshiftAdaptiveSequence-52.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_4.txt/compile-test-suite-dimeshiftAdaptiveSequence-52.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_4.txt/compile-test-suite-dimeshiftAdaptiveSequence-52.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_4.txt/code-coverage-dimeshiftAdaptiveSequence-52.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_4.txt/code-coverage-dimeshiftAdaptiveSequence-52.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_4.txt/complete-dimeshiftAdaptiveSequence-52.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_5.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_5.txt/modify-test-suite-dimeshiftAdaptiveSequence-53.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_5.txt/compile-test-suite-dimeshiftAdaptiveSequence-53.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_5.txt/compile-test-suite-dimeshiftAdaptiveSequence-53.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_5.txt/code-coverage-dimeshiftAdaptiveSequence-53.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_5.txt/code-coverage-dimeshiftAdaptiveSequence-53.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_5.txt/complete-dimeshiftAdaptiveSequence-53.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_6.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_6.txt/modify-test-suite-dimeshiftAdaptiveSequence-54.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_6.txt/compile-test-suite-dimeshiftAdaptiveSequence-54.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_6.txt/compile-test-suite-dimeshiftAdaptiveSequence-54.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_6.txt/code-coverage-dimeshiftAdaptiveSequence-54.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_6.txt/code-coverage-dimeshiftAdaptiveSequence-54.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_6.txt/complete-dimeshiftAdaptiveSequence-54.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_7.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_7.txt/modify-test-suite-dimeshiftAdaptiveSequence-55.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_7.txt/compile-test-suite-dimeshiftAdaptiveSequence-55.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_7.txt/compile-test-suite-dimeshiftAdaptiveSequence-55.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_7.txt/code-coverage-dimeshiftAdaptiveSequence-55.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_7.txt/code-coverage-dimeshiftAdaptiveSequence-55.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_7.txt/complete-dimeshiftAdaptiveSequence-55.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_8.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_8.txt/modify-test-suite-dimeshiftAdaptiveSequence-56.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_8.txt/compile-test-suite-dimeshiftAdaptiveSequence-56.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_8.txt/compile-test-suite-dimeshiftAdaptiveSequence-56.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_8.txt/code-coverage-dimeshiftAdaptiveSequence-56.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_8.txt/code-coverage-dimeshiftAdaptiveSequence-56.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_8.txt/complete-dimeshiftAdaptiveSequence-56.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_9.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_9.txt/modify-test-suite-dimeshiftAdaptiveSequence-57.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_9.txt/compile-test-suite-dimeshiftAdaptiveSequence-57.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_9.txt/compile-test-suite-dimeshiftAdaptiveSequence-57.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_9.txt/code-coverage-dimeshiftAdaptiveSequence-57.txt: Not a directory
+grep: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_9.txt/code-coverage-dimeshiftAdaptiveSequence-57.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/dimeshift_apogen_30/logsdimeshiftAdaptiveSequence_9.txt/complete-dimeshiftAdaptiveSequence-57.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+May 06, 2020 8:24:35 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Wed May 06 08:26:08 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 06, 2020 8:27:59 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //*[@class="filter_menu"]
+
+
+test0: run 1 failed with sleep timeout 0.
+Wed May 06 08:28:08 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+Wed May 06 08:29:54 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+Wed May 06 08:31:22 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+Wed May 06 08:32:54 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+
+Usage:
+ kill [options] <pid> [...]
+
+Options:
+ <pid> [...]            send signal to every <pid> listed
+ -<signal>, -s, --signal <signal>
+                        specify the <signal> to be sent
+ -l, --list=[<signal>]  list all signal names, or convert one to a name
+ -L, --table            list all signal names in a nice table
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see kill(1).
+
+Usage:
+ kill [options] <pid> [...]
+
+Options:
+ <pid> [...]            send signal to every <pid> listed
+ -<signal>, -s, --signal <signal>
+                        specify the <signal> to be sent
+ -l, --list=[<signal>]  list all signal names, or convert one to a name
+ -L, --table            list all signal names in a nice table
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see kill(1).
+./run.sh: line 131: 128685 Killed                  chromedriver --port=$chromedriver_port
+./run.sh: line 274: 128687 Killed                  node . $express_server_port  (wd: ~/workspace/code-coverage-server/express-istanbul)

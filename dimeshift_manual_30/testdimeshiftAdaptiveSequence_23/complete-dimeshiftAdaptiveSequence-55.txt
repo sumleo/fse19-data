@@ -1,0 +1,1 @@
+No test suite bug in /home/ubuntu/fse19-data/dimeshift_manual_30/testdimeshiftAdaptiveSequence_23

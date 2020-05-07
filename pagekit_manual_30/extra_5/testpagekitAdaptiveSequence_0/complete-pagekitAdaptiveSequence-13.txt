@@ -1,0 +1,1 @@
+No test suite bug in /home/ubuntu/fse19-data/pagekit_manual_30/extra_5/testpagekitAdaptiveSequence_0
