@@ -1,0 +1,381 @@
+Port app: 6000
+Port db: 6432
+Production: yes
+Container name: phoenixMosa
+5dcc7d2a48879afb32e79f915d0d10d6d0e563ab72abdb4f860cf3c09816d1ae
+The script starts the chromedriver process on port 11524 and the express server for collecting coverage reports on port 9008
+Waiting for application server to start...
+Starting chromedriver on port 11524
+Starting express server on port 9008
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 11524
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+* Current directory:  /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_0.txt
+
+Project name: phoenix
+Session file name: phoenixMosa
+Database port for remote connection: 6432
+Application port for remote connection: 6000
+Chromedriver port: 11524
+Project folder: /home/ubuntu/workspace/fse2019/phoenix
+Express server port: 9008
+Test suite counter: 0
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_10.txt
+
+Project name: phoenix
+Session file name: phoenixMosa
+Database port for remote connection: 6432
+Application port for remote connection: 6000
+Chromedriver port: 11524
+Project folder: /home/ubuntu/workspace/fse2019/phoenix
+Express server port: 9008
+Test suite counter: 1
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_11.txt
+
+Project name: phoenix
+Session file name: phoenixMosa
+Database port for remote connection: 6432
+Application port for remote connection: 6000
+Chromedriver port: 11524
+Project folder: /home/ubuntu/workspace/fse2019/phoenix
+Express server port: 9008
+Test suite counter: 2
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_12.txt
+
+Project name: phoenix
+Session file name: phoenixMosa
+Database port for remote connection: 6432
+Application port for remote connection: 6000
+Chromedriver port: 11524
+Project folder: /home/ubuntu/workspace/fse2019/phoenix
+Express server port: 9008
+Test suite counter: 3
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_13.txt
+
+Project name: phoenix
+Session file name: phoenixMosa
+Database port for remote connection: 6432
+Application port for remote connection: 6000
+Chromedriver port: 11524
+Project folder: /home/ubuntu/workspace/fse2019/phoenix
+Express server port: 9008
+Test suite counter: 4
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_14.txt
+
+Project name: phoenix
+Session file name: phoenixMosa
+Database port for remote connection: 6432
+Application port for remote connection: 6000
+Chromedriver port: 11524
+Project folder: /home/ubuntu/workspace/fse2019/phoenix
+Express server port: 9008
+Test suite counter: 5
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_1.txt
+
+Project name: phoenix
+Session file name: phoenixMosa
+Database port for remote connection: 6432
+Application port for remote connection: 6000
+Chromedriver port: 11524
+Project folder: /home/ubuntu/workspace/fse2019/phoenix
+Express server port: 9008
+Test suite counter: 6
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_2.txt
+
+Project name: phoenix
+Session file name: phoenixMosa
+Database port for remote connection: 6432
+Application port for remote connection: 6000
+Chromedriver port: 11524
+Project folder: /home/ubuntu/workspace/fse2019/phoenix
+Express server port: 9008
+Test suite counter: 7
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_3.txt
+
+Project name: phoenix
+Session file name: phoenixMosa
+Database port for remote connection: 6432
+Application port for remote connection: 6000
+Chromedriver port: 11524
+Project folder: /home/ubuntu/workspace/fse2019/phoenix
+Express server port: 9008
+Test suite counter: 8
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_4.txt
+
+Project name: phoenix
+Session file name: phoenixMosa
+Database port for remote connection: 6432
+Application port for remote connection: 6000
+Chromedriver port: 11524
+Project folder: /home/ubuntu/workspace/fse2019/phoenix
+Express server port: 9008
+Test suite counter: 9
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_5.txt
+
+Project name: phoenix
+Session file name: phoenixMosa
+Database port for remote connection: 6432
+Application port for remote connection: 6000
+Chromedriver port: 11524
+Project folder: /home/ubuntu/workspace/fse2019/phoenix
+Express server port: 9008
+Test suite counter: 10
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 1 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_6.txt
+
+Project name: phoenix
+Session file name: phoenixMosa
+Database port for remote connection: 6432
+Application port for remote connection: 6000
+Chromedriver port: 11524
+Project folder: /home/ubuntu/workspace/fse2019/phoenix
+Express server port: 9008
+Test suite counter: 11
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_7.txt
+
+Project name: phoenix
+Session file name: phoenixMosa
+Database port for remote connection: 6432
+Application port for remote connection: 6000
+Chromedriver port: 11524
+Project folder: /home/ubuntu/workspace/fse2019/phoenix
+Express server port: 9008
+Test suite counter: 12
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_8.txt
+
+Project name: phoenix
+Session file name: phoenixMosa
+Database port for remote connection: 6432
+Application port for remote connection: 6000
+Chromedriver port: 11524
+Project folder: /home/ubuntu/workspace/fse2019/phoenix
+Express server port: 9008
+Test suite counter: 13
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_9.txt
+
+Project name: phoenix
+Session file name: phoenixMosa
+Database port for remote connection: 6432
+Application port for remote connection: 6000
+Chromedriver port: 11524
+Project folder: /home/ubuntu/workspace/fse2019/phoenix
+Express server port: 9008
+Test suite counter: 14
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_0.txt
+
+Project name: phoenix
+Session file name: phoenixMosa
+Database port for remote connection: 6432
+Application port for remote connection: 6000
+Chromedriver port: 11524
+Project folder: /home/ubuntu/workspace/fse2019/phoenix
+Express server port: 9008
+Test suite counter: 15
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_10.txt
+
+Project name: phoenix
+Session file name: phoenixMosa
+Database port for remote connection: 6432
+Application port for remote connection: 6000
+Chromedriver port: 11524
+Project folder: /home/ubuntu/workspace/fse2019/phoenix
+Express server port: 9008
+Test suite counter: 16
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_11.txt
+
+Project name: phoenix
+Session file name: phoenixMosa
+Database port for remote connection: 6432
+Application port for remote connection: 6000
+Chromedriver port: 11524
+Project folder: /home/ubuntu/workspace/fse2019/phoenix
+Express server port: 9008
+Test suite counter: 17
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_12.txt
+
+Project name: phoenix
+Session file name: phoenixMosa
+Database port for remote connection: 6432
+Application port for remote connection: 6000
+Chromedriver port: 11524
+Project folder: /home/ubuntu/workspace/fse2019/phoenix
+Express server port: 9008
+Test suite counter: 18
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_13.txt
+
+Project name: phoenix
+Session file name: phoenixMosa
+Database port for remote connection: 6432
+Application port for remote connection: 6000
+Chromedriver port: 11524
+Project folder: /home/ubuntu/workspace/fse2019/phoenix
+Express server port: 9008
+Test suite counter: 19
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_14.txt
+
+Project name: phoenix
+Session file name: phoenixMosa
+Database port for remote connection: 6432
+Application port for remote connection: 6000
+Chromedriver port: 11524
+Project folder: /home/ubuntu/workspace/fse2019/phoenix
+Express server port: 9008
+Test suite counter: 20
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_1.txt
+
+Project name: phoenix
+Session file name: phoenixMosa
+Database port for remote connection: 6432
+Application port for remote connection: 6000
+Chromedriver port: 11524
+Project folder: /home/ubuntu/workspace/fse2019/phoenix
+Express server port: 9008
+Test suite counter: 21
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_2.txt
+
+Project name: phoenix
+Session file name: phoenixMosa
+Database port for remote connection: 6432
+Application port for remote connection: 6000
+Chromedriver port: 11524
+Project folder: /home/ubuntu/workspace/fse2019/phoenix
+Express server port: 9008
+Test suite counter: 22
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_3.txt
+
+Project name: phoenix
+Session file name: phoenixMosa
+Database port for remote connection: 6432
+Application port for remote connection: 6000
+Chromedriver port: 11524
+Project folder: /home/ubuntu/workspace/fse2019/phoenix
+Express server port: 9008
+Test suite counter: 23
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_4.txt
+
+Project name: phoenix
+Session file name: phoenixMosa
+Database port for remote connection: 6432
+Application port for remote connection: 6000
+Chromedriver port: 11524
+Project folder: /home/ubuntu/workspace/fse2019/phoenix
+Express server port: 9008
+Test suite counter: 24
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_5.txt
+
+Project name: phoenix
+Session file name: phoenixMosa
+Database port for remote connection: 6432
+Application port for remote connection: 6000
+Chromedriver port: 11524
+Project folder: /home/ubuntu/workspace/fse2019/phoenix
+Express server port: 9008
+Test suite counter: 25
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_6.txt
+
+Project name: phoenix
+Session file name: phoenixMosa
+Database port for remote connection: 6432
+Application port for remote connection: 6000
+Chromedriver port: 11524
+Project folder: /home/ubuntu/workspace/fse2019/phoenix
+Express server port: 9008
+Test suite counter: 26
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_7.txt
+
+Project name: phoenix
+Session file name: phoenixMosa
+Database port for remote connection: 6432
+Application port for remote connection: 6000
+Chromedriver port: 11524
+Project folder: /home/ubuntu/workspace/fse2019/phoenix
+Express server port: 9008
+Test suite counter: 27
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_8.txt
+
+Project name: phoenix
+Session file name: phoenixMosa
+Database port for remote connection: 6432
+Application port for remote connection: 6000
+Chromedriver port: 11524
+Project folder: /home/ubuntu/workspace/fse2019/phoenix
+Express server port: 9008
+Test suite counter: 28
+
+Express server listening on port 9008
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_9.txt
+
+Project name: phoenix
+Session file name: phoenixMosa
+Database port for remote connection: 6432
+Application port for remote connection: 6000
+Chromedriver port: 11524
+Project folder: /home/ubuntu/workspace/fse2019/phoenix
+Express server port: 9008
+Test suite counter: 29
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+Stopping container
+phoenixMosa
+phoenixMosa
+Stopping chromedriver process listening on port 11524
+Finding children processes of chromedriver and killing them
+Stopping express server listening on port 9008
+Finding children processes of express and killing them
+Total time to run code coverage for all test suites: 0 hours, 2 minutes and 15 seconds elapsed.

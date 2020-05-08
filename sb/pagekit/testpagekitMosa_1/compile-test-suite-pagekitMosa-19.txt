@@ -1,0 +1,638 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------< [0;36mpageobjects:pagekit[0;1m >-------------------------[m
+[[1;34mINFO[m] [1mBuilding pagekit 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mpagekit[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/ubuntu/workspace/fse2019/pagekit/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mpagekit[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:compile[m [1m(default-compile)[m @ [36mpagekit[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;33mWARNING[m] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[[1;34mINFO[m] Compiling 146 source files to /home/ubuntu/workspace/fse2019/pagekit/target/classes
+[[1;34mINFO[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/po_utils/JavascriptActions.java: /home/ubuntu/workspace/fse2019/pagekit/src/main/java/po_utils/JavascriptActions.java uses unchecked or unsafe operations.
+[[1;34mINFO[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/po_utils/JavascriptActions.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[93,38] cannot find symbol
+  symbol:   method goToEditUserDashboardPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[95,38] cannot find symbol
+  symbol:   method goToUserEditUserPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[97,38] cannot find symbol
+  symbol:   method goToAnonymousUsersPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[100,38] cannot find symbol
+  symbol:   method goToAddRoleAnonymousPage(custom_classes.UserRoles)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[102,38] cannot find symbol
+  symbol:   method addRoleAddRolePage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[104,38] cannot find symbol
+  symbol:   method goToHomeAnonymousPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[108,38] cannot find symbol
+  symbol:   method deletePagekitDashboardPage(custom_classes.Id)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[110,38] cannot find symbol
+  symbol:   method cancelDeleteWidgetPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[112,38] cannot find symbol
+  symbol:   method goToDashBoardMenuDashboardPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[114,38] cannot find symbol
+  symbol:   method goToUsersDashBoardMenuPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[116,38] cannot find symbol
+  symbol:   method add_userUsersPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[118,38] cannot find symbol
+  symbol:   method goToUsersAddUserPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[120,38] cannot find symbol
+  symbol:   method add_userUsersPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[122,38] cannot find symbol
+  symbol:   method goToPermissionsAddUserPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[124,38] cannot find symbol
+  symbol:   method goToPermissionsPermissionsPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[126,38] cannot find symbol
+  symbol:   method goToAnonymousPermissionsPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[128,38] cannot find symbol
+  symbol:   method goToHomeAnonymousPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[130,38] cannot find symbol
+  symbol:   method goToDashBoardMenuDashboardPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[132,38] cannot find symbol
+  symbol:   method goToDashboardDashBoardMenuPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[134,38] cannot find symbol
+  symbol:   method goToDashBoardMenuDashboardPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[136,38] cannot find symbol
+  symbol:   method goToUsersDashBoardMenuPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[138,38] cannot find symbol
+  symbol:   method goToPermissionsUsersPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[140,38] cannot find symbol
+  symbol:   method goToPermissionsPermissionsPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[142,38] cannot find symbol
+  symbol:   method goToPermissionsPermissionsPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[144,38] cannot find symbol
+  symbol:   method goToAnonymousPermissionsPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[146,38] cannot find symbol
+  symbol:   method goToHomeAnonymousPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[148,38] cannot find symbol
+  symbol:   method goToEditUserDashboardPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[150,38] cannot find symbol
+  symbol:   method goToUserEditUserPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[152,38] cannot find symbol
+  symbol:   method goToPermissionsUsersPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[154,38] cannot find symbol
+  symbol:   method goToAnonymousPermissionsPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[157,38] cannot find symbol
+  symbol:   method deleteUserRoleAnonymousPage(custom_classes.UserRoles)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[159,38] cannot find symbol
+  symbol:   method goToAnonymousDeleteRolePage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[162,38] cannot find symbol
+  symbol:   method goToEditRoleAnonymousPage(custom_classes.UserRoles,custom_classes.UserRoles)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[164,38] cannot find symbol
+  symbol:   method editRoleEditRolePage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[167,38] cannot find symbol
+  symbol:   method goToAddRoleAnonymousPage(custom_classes.UserRoles)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[169,38] cannot find symbol
+  symbol:   method cancelAddRolePage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[173,38] cannot find symbol
+  symbol:   method goToEditRoleAnonymousPage(custom_classes.UserRoles,custom_classes.UserRoles)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[175,38] cannot find symbol
+  symbol:   method goToAnonymousEditRolePage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[177,38] cannot find symbol
+  symbol:   method goToHomeAnonymousPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[179,38] cannot find symbol
+  symbol:   method deletePagekitDashboardPage(custom_classes.Id)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[181,38] cannot find symbol
+  symbol:   method okDeleteWidgetPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[183,38] cannot find symbol
+  symbol:   method goToEditUserDashboardPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[185,38] cannot find symbol
+  symbol:   method goToRolesEditUserPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[216,38] cannot find symbol
+  symbol:   method goToEditUserDashboardPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[218,38] cannot find symbol
+  symbol:   method goToUsersEditUserPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[220,38] cannot find symbol
+  symbol:   method add_userUsersPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[227,38] cannot find symbol
+  symbol:   method addUserAddUserPage(custom_classes.Username,custom_classes.Name,custom_classes.Email,custom_classes.UserPassword,custom_classes.UserStatus)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[230,38] cannot find symbol
+  symbol:   method goToUserAddUserPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[232,38] cannot find symbol
+  symbol:   method add_userUsersPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[234,38] cannot find symbol
+  symbol:   method goToRolesAddUserPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[236,38] cannot find symbol
+  symbol:   method goToAdministratorAnonymousPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[238,38] cannot find symbol
+  symbol:   method goToAdministratorAdministratorPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[240,38] cannot find symbol
+  symbol:   method goToAnonymousAdministratorPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[242,38] cannot find symbol
+  symbol:   method goToAdministratorAnonymousPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[244,38] cannot find symbol
+  symbol:   method goToAdministratorAdministratorPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[246,38] cannot find symbol
+  symbol:   method goToAnonymousAdministratorPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[248,38] cannot find symbol
+  symbol:   method goToAdministratorAnonymousPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[250,38] cannot find symbol
+  symbol:   method goToAnonymousAdministratorPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[252,38] cannot find symbol
+  symbol:   method goToAdministratorAnonymousPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[254,38] cannot find symbol
+  symbol:   method goToAnonymousAdministratorPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[256,38] cannot find symbol
+  symbol:   method goToHomeAnonymousPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[258,38] cannot find symbol
+  symbol:   method goToDashBoardMenuDashboardPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[260,38] cannot find symbol
+  symbol:   method goToUsersDashBoardMenuPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[262,38] cannot find symbol
+  symbol:   method goToAnonymousUsersPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[304,38] cannot find symbol
+  symbol:   method goToEditUserDashboardPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[306,38] cannot find symbol
+  symbol:   method goToUserEditUserPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[308,38] cannot find symbol
+  symbol:   method add_userUsersPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[315,38] cannot find symbol
+  symbol:   method addUserAddUserPage(custom_classes.Username,custom_classes.Name,custom_classes.Email,custom_classes.UserPassword,custom_classes.UserStatus)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[318,38] cannot find symbol
+  symbol:   method goToUserAddUserPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[322,38] cannot find symbol
+  symbol:   method goToEditUsersPage(custom_classes.Id)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[324,38] cannot find symbol
+  symbol:   method goToRolesEditUserPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[327,38] cannot find symbol
+  symbol:   method goToAddRoleAnonymousPage(custom_classes.UserRoles)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[329,38] cannot find symbol
+  symbol:   method addRoleAddRolePage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[331,38] cannot find symbol
+  symbol:   method goToHomeAnonymousPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[333,38] cannot find symbol
+  symbol:   method goToEditComponentLocationDashboardPage(custom_classes.Id)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[336,33] cannot find symbol
+  symbol:   method formEditLocationPage(custom_classes.WidgetLocation,custom_classes.WidgetUnit)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[338,38] cannot find symbol
+  symbol:   method goToDashBoardMenuDashboardPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[340,38] cannot find symbol
+  symbol:   method goToUsersDashBoardMenuPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[342,38] cannot find symbol
+  symbol:   method goToPermissionsUsersPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[344,38] cannot find symbol
+  symbol:   method goToPermissionsPermissionsPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[346,38] cannot find symbol
+  symbol:   method goToUsersPermissionsPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[348,38] cannot find symbol
+  symbol:   method goToAnonymousUsersPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[390,38] cannot find symbol
+  symbol:   method goToEditComponentLocationDashboardPage(custom_classes.Id)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[395,33] cannot find symbol
+  symbol:   method formEditLocationPage(custom_classes.WidgetLocation,custom_classes.WidgetUnit)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[397,38] cannot find symbol
+  symbol:   method goToDashBoardMenuDashboardPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[399,38] cannot find symbol
+  symbol:   method goToDashboardDashBoardMenuPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[401,38] cannot find symbol
+  symbol:   method goToDashBoardMenuDashboardPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[403,38] cannot find symbol
+  symbol:   method goToDashboardDashBoardMenuPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[405,38] cannot find symbol
+  symbol:   method goToDashBoardMenuDashboardPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[407,38] cannot find symbol
+  symbol:   method goToUsersDashBoardMenuPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[409,38] cannot find symbol
+  symbol:   method goToPermissionsUsersPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[411,38] cannot find symbol
+  symbol:   method goToPermissionsPermissionsPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[413,38] cannot find symbol
+  symbol:   method goToUsersPermissionsPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[415,38] cannot find symbol
+  symbol:   method goToAnonymousUsersPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[417,38] cannot find symbol
+  symbol:   method goToAdministratorAnonymousPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[419,38] cannot find symbol
+  symbol:   method goToAdministratorAdministratorPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[421,38] cannot find symbol
+  symbol:   method goToAdministratorAdministratorPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[423,38] cannot find symbol
+  symbol:   method goToAdministratorAdministratorPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[425,38] cannot find symbol
+  symbol:   method goToAnonymousAdministratorPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[427,38] cannot find symbol
+  symbol:   method goToHomeAnonymousPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;34mINFO[m] 100 errors 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  3.976 s
+[[1;34mINFO[m] Finished at: 2020-05-08T02:59:27Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile[m [1m(default-compile)[m on project [36mpagekit[m: [1;31mCompilation failure[m: Compilation failure: 
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[93,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToEditUserDashboardPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[95,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToUserEditUserPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[97,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAnonymousUsersPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[100,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAddRoleAnonymousPage(custom_classes.UserRoles)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[102,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method addRoleAddRolePage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[104,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToHomeAnonymousPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[108,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method deletePagekitDashboardPage(custom_classes.Id)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[110,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method cancelDeleteWidgetPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[112,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToDashBoardMenuDashboardPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[114,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToUsersDashBoardMenuPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[116,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method add_userUsersPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[118,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToUsersAddUserPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[120,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method add_userUsersPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[122,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToPermissionsAddUserPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[124,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToPermissionsPermissionsPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[126,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAnonymousPermissionsPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[128,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToHomeAnonymousPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[130,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToDashBoardMenuDashboardPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[132,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToDashboardDashBoardMenuPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[134,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToDashBoardMenuDashboardPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[136,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToUsersDashBoardMenuPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[138,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToPermissionsUsersPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[140,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToPermissionsPermissionsPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[142,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToPermissionsPermissionsPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[144,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAnonymousPermissionsPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[146,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToHomeAnonymousPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[148,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToEditUserDashboardPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[150,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToUserEditUserPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[152,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToPermissionsUsersPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[154,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAnonymousPermissionsPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[157,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method deleteUserRoleAnonymousPage(custom_classes.UserRoles)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[159,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAnonymousDeleteRolePage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[162,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToEditRoleAnonymousPage(custom_classes.UserRoles,custom_classes.UserRoles)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[164,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method editRoleEditRolePage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[167,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAddRoleAnonymousPage(custom_classes.UserRoles)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[169,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method cancelAddRolePage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[173,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToEditRoleAnonymousPage(custom_classes.UserRoles,custom_classes.UserRoles)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[175,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAnonymousEditRolePage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[177,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToHomeAnonymousPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[179,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method deletePagekitDashboardPage(custom_classes.Id)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[181,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method okDeleteWidgetPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[183,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToEditUserDashboardPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[185,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToRolesEditUserPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[216,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToEditUserDashboardPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[218,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToUsersEditUserPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[220,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method add_userUsersPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[227,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method addUserAddUserPage(custom_classes.Username,custom_classes.Name,custom_classes.Email,custom_classes.UserPassword,custom_classes.UserStatus)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[230,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToUserAddUserPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[232,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method add_userUsersPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[234,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToRolesAddUserPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[236,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAdministratorAnonymousPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[238,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAdministratorAdministratorPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[240,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAnonymousAdministratorPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[242,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAdministratorAnonymousPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[244,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAdministratorAdministratorPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[246,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAnonymousAdministratorPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[248,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAdministratorAnonymousPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[250,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAnonymousAdministratorPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[252,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAdministratorAnonymousPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[254,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAnonymousAdministratorPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[256,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToHomeAnonymousPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[258,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToDashBoardMenuDashboardPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[260,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToUsersDashBoardMenuPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[262,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAnonymousUsersPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[304,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToEditUserDashboardPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[306,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToUserEditUserPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[308,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method add_userUsersPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[315,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method addUserAddUserPage(custom_classes.Username,custom_classes.Name,custom_classes.Email,custom_classes.UserPassword,custom_classes.UserStatus)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[318,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToUserAddUserPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[322,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToEditUsersPage(custom_classes.Id)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[324,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToRolesEditUserPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[327,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAddRoleAnonymousPage(custom_classes.UserRoles)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[329,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method addRoleAddRolePage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[331,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToHomeAnonymousPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[333,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToEditComponentLocationDashboardPage(custom_classes.Id)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[336,33] cannot find symbol
+[[1;31mERROR[m]   symbol:   method formEditLocationPage(custom_classes.WidgetLocation,custom_classes.WidgetUnit)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[338,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToDashBoardMenuDashboardPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[340,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToUsersDashBoardMenuPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[342,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToPermissionsUsersPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[344,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToPermissionsPermissionsPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[346,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToUsersPermissionsPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[348,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAnonymousUsersPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[390,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToEditComponentLocationDashboardPage(custom_classes.Id)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[395,33] cannot find symbol
+[[1;31mERROR[m]   symbol:   method formEditLocationPage(custom_classes.WidgetLocation,custom_classes.WidgetUnit)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[397,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToDashBoardMenuDashboardPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[399,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToDashboardDashBoardMenuPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[401,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToDashBoardMenuDashboardPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[403,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToDashboardDashBoardMenuPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[405,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToDashBoardMenuDashboardPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[407,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToUsersDashBoardMenuPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[409,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToPermissionsUsersPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[411,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToPermissionsPermissionsPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[413,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToUsersPermissionsPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[415,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAnonymousUsersPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[417,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAdministratorAnonymousPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[419,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAdministratorAdministratorPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[421,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAdministratorAdministratorPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[423,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAdministratorAdministratorPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[425,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAnonymousAdministratorPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java:[427,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToHomeAnonymousPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

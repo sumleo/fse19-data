@@ -1,0 +1,361 @@
+cp: cannot stat '/home/ubuntu/fse19-data/sb/dimeshift/errorsdimeshiftMosa_6.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/dimeshift/errorsdimeshiftMosa_6.txt/modify-test-suite-dimeshiftMosa-0.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/dimeshift/errorsdimeshiftMosa_6.txt/compile-test-suite-dimeshiftMosa-0.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/dimeshift/errorsdimeshiftMosa_6.txt/compile-test-suite-dimeshiftMosa-0.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/dimeshift/errorsdimeshiftMosa_6.txt/code-coverage-dimeshiftMosa-0.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/dimeshift/errorsdimeshiftMosa_6.txt/code-coverage-dimeshiftMosa-0.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/dimeshift/errorsdimeshiftMosa_6.txt/complete-dimeshiftMosa-0.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/dimeshift/logsdimeshiftMosa_6.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/dimeshift/logsdimeshiftMosa_6.txt/modify-test-suite-dimeshiftMosa-1.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/dimeshift/logsdimeshiftMosa_6.txt/compile-test-suite-dimeshiftMosa-1.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/dimeshift/logsdimeshiftMosa_6.txt/compile-test-suite-dimeshiftMosa-1.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/dimeshift/logsdimeshiftMosa_6.txt/code-coverage-dimeshiftMosa-1.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/dimeshift/logsdimeshiftMosa_6.txt/code-coverage-dimeshiftMosa-1.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/dimeshift/logsdimeshiftMosa_6.txt/complete-dimeshiftMosa-1.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+May 08, 2020 3:13:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Fri May 08 03:14:50 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:16:38 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.id: input_login
+
+
+test0: run 1 failed with sleep timeout 0.
+Fri May 08 03:16:39 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:18:05 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.id: transactions_container
+
+
+test0: run 2 failed with sleep timeout 250.
+Fri May 08 03:18:06 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:18:19 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.id: transactions_container
+
+
+test0: run 3 failed with sleep timeout 500.
+test0: giving up after 3 failures.
+May 08, 2020 3:18:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Fri May 08 03:19:49 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:21:37 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //*[@class="filter_menu"]
+
+
+test0: run 1 failed with sleep timeout 0.
+Fri May 08 03:21:37 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:23:01 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.id: transactions_container
+
+
+test0: run 2 failed with sleep timeout 250.
+Fri May 08 03:23:02 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:24:33 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.id: transactions_container
+
+
+test0: run 3 failed with sleep timeout 500.
+test0: giving up after 3 failures.
+May 08, 2020 3:24:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Fri May 08 03:26:00 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:26:31 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //*[@class="filter_menu"]
+
+
+test0: run 1 failed with sleep timeout 0.
+Fri May 08 03:26:32 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:26:40 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.id: transactions_container
+
+
+test0: run 2 failed with sleep timeout 250.
+Fri May 08 03:26:40 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:26:48 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.id: transactions_container
+
+
+test0: run 3 failed with sleep timeout 500.
+test0: giving up after 3 failures.
+May 08, 2020 3:27:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Fri May 08 03:27:00 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:27:27 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //*[@class="filter_menu"]
+
+
+test0: run 1 failed with sleep timeout 0.
+Fri May 08 03:27:28 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:27:41 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.id: transactions_container
+
+
+test0: run 2 failed with sleep timeout 250.
+Fri May 08 03:27:42 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:28:00 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.id: transactions_container
+
+
+test0: run 3 failed with sleep timeout 500.
+test0: giving up after 3 failures.
+May 08, 2020 3:28:10 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Fri May 08 03:28:11 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:28:38 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //*[@class="filter_menu"]
+
+
+test0: run 1 failed with sleep timeout 0.
+Fri May 08 03:28:39 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+Fri May 08 03:28:46 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:28:52 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.id: transactions_container
+
+
+test1: run 1 failed with sleep timeout 0.
+Fri May 08 03:28:53 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:29:00 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.id: transactions_container
+
+
+test1: run 2 failed with sleep timeout 250.
+Fri May 08 03:29:00 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:29:08 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.id: transactions_container
+
+
+test1: run 3 failed with sleep timeout 500.
+test1: giving up after 3 failures.
+May 08, 2020 3:29:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Fri May 08 03:29:20 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:29:47 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //*[@class="filter_menu"]
+
+
+test0: run 1 failed with sleep timeout 0.
+Fri May 08 03:29:47 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:29:57 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.id: transactions_container
+
+
+test0: run 2 failed with sleep timeout 250.
+Fri May 08 03:29:57 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:30:09 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.id: transactions_container
+
+
+test0: run 3 failed with sleep timeout 500.
+test0: giving up after 3 failures.
+May 08, 2020 3:30:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Fri May 08 03:31:35 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:33:18 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //*[@class="filter_menu"]
+
+
+test0: run 1 failed with sleep timeout 0.
+Fri May 08 03:33:18 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:34:42 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.id: transactions_container
+
+
+test0: run 2 failed with sleep timeout 250.
+Fri May 08 03:34:43 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:36:09 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.id: transactions_container
+
+
+test0: run 3 failed with sleep timeout 500.
+test0: giving up after 3 failures.
+May 08, 2020 3:36:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Fri May 08 03:37:36 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:38:08 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //*[@class="filter_menu"]
+
+
+test0: run 1 failed with sleep timeout 0.
+Fri May 08 03:38:08 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:38:20 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.id: transactions_container
+
+
+test0: run 2 failed with sleep timeout 250.
+Fri May 08 03:38:20 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:38:35 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.id: transactions_container
+
+
+test0: run 3 failed with sleep timeout 500.
+test0: giving up after 3 failures.
+May 08, 2020 3:38:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Fri May 08 03:40:01 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:41:43 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //*[@class="filter_menu"]
+
+
+test0: run 1 failed with sleep timeout 0.
+Fri May 08 03:41:44 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:43:13 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.id: transactions_container
+
+
+test0: run 2 failed with sleep timeout 250.
+Fri May 08 03:43:13 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:44:39 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.id: transactions_container
+
+
+test0: run 3 failed with sleep timeout 500.
+test0: giving up after 3 failures.
+May 08, 2020 3:44:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Fri May 08 03:46:05 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:47:52 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //*[@class="filter_menu"]
+
+
+test0: run 1 failed with sleep timeout 0.
+Fri May 08 03:47:53 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+Fri May 08 03:49:29 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+test1: run 1 failed with sleep timeout 0.
+Fri May 08 03:50:51 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:51:02 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.id: transactions_container
+
+
+test1: run 2 failed with sleep timeout 250.
+Fri May 08 03:51:02 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:51:15 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.id: transactions_container
+
+
+test1: run 3 failed with sleep timeout 500.
+test1: giving up after 3 failures.
+May 08, 2020 3:51:35 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Fri May 08 03:51:37 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:52:03 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //*[@class="filter_menu"]
+
+
+test0: run 1 failed with sleep timeout 0.
+Fri May 08 03:52:05 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:52:50 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.id: transactions_container
+
+
+test0: run 2 failed with sleep timeout 250.
+Fri May 08 03:52:52 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:54:07 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.id: transactions_container
+
+
+test0: run 3 failed with sleep timeout 500.
+test0: giving up after 3 failures.
+May 08, 2020 3:54:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Fri May 08 03:55:36 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:56:48 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //*[@class="filter_menu"]
+
+
+test0: run 1 failed with sleep timeout 0.
+Fri May 08 03:56:49 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:58:16 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.id: transactions_container
+
+
+test0: run 2 failed with sleep timeout 250.
+Fri May 08 03:58:17 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 3:59:40 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.id: transactions_container
+
+
+test0: run 3 failed with sleep timeout 500.
+test0: giving up after 3 failures.
+May 08, 2020 3:59:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Fri May 08 04:01:13 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 4:02:55 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //*[@class="filter_menu"]
+
+
+test0: run 1 failed with sleep timeout 0.
+Fri May 08 04:02:55 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+Fri May 08 04:03:12 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 4:03:19 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.id: transactions_container
+
+
+test1: run 1 failed with sleep timeout 0.
+Fri May 08 04:03:20 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 4:03:28 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.id: transactions_container
+
+
+test1: run 2 failed with sleep timeout 250.
+Fri May 08 04:03:28 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 4:03:39 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.id: transactions_container
+
+
+test1: run 3 failed with sleep timeout 500.
+test1: giving up after 3 failures.
+May 08, 2020 4:03:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Fri May 08 04:03:50 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 4:04:17 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.xpath: //*[@class="filter_menu"]
+
+
+test0: run 1 failed with sleep timeout 0.
+Fri May 08 04:04:17 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 4:04:27 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.id: transactions_container
+
+
+test0: run 2 failed with sleep timeout 250.
+Fri May 08 04:04:28 UTC 2020 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+May 08, 2020 4:04:42 AM po_utils.PageObjectLogging logInfo
+INFO: waitForElementBeingPresentOnPage timeout exception: unable to locate the element By.id: transactions_container
+
+
+test0: run 3 failed with sleep timeout 500.
+test0: giving up after 3 failures.
+
+Usage:
+ kill [options] <pid> [...]
+
+Options:
+ <pid> [...]            send signal to every <pid> listed
+ -<signal>, -s, --signal <signal>
+                        specify the <signal> to be sent
+ -l, --list=[<signal>]  list all signal names, or convert one to a name
+ -L, --table            list all signal names in a nice table
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see kill(1).
+
+Usage:
+ kill [options] <pid> [...]
+
+Options:
+ <pid> [...]            send signal to every <pid> listed
+ -<signal>, -s, --signal <signal>
+                        specify the <signal> to be sent
+ -l, --list=[<signal>]  list all signal names, or convert one to a name
+ -L, --table            list all signal names in a nice table
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see kill(1).
+./run.sh: line 131: 72063 Killed                  chromedriver --port=$chromedriver_port
+./run.sh: line 273: 72065 Killed                  node . $express_server_port  (wd: ~/workspace/code-coverage-server/express-istanbul)

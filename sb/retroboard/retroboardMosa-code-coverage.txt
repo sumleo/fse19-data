@@ -1,0 +1,200 @@
+Port app: 4003
+Production: yes
+Container name: retroboardMosa
+c81ed371ffcbeadaf76f13ccae51a217b5cc1ee971e61b966a47eef78d60c699
+The script starts the chromedriver process on port 9527 and the express server for collecting coverage reports on port 7011
+Waiting for application server to start...
+Starting chromedriver on port 9527
+Starting express server on port 7011
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9527
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+* Current directory:  /home/ubuntu/fse19-data/sb/retroboard/testretroboardMosa_0
+
+Project name: retroboard
+Session file name: retroboardMosa
+Database port for remote connection: 0
+Application port for remote connection: 4003
+Chromedriver port: 9527
+Project folder: /home/ubuntu/workspace/fse2019/retroboard
+Express server port: 7011
+Test suite counter: 0
+
+Express server listening on port 7011
+Total time to run code coverage for test suite: 		0 hours, 1 minutes and 20 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/retroboard/testretroboardMosa_1
+
+Project name: retroboard
+Session file name: retroboardMosa
+Database port for remote connection: 0
+Application port for remote connection: 4003
+Chromedriver port: 9527
+Project folder: /home/ubuntu/workspace/fse2019/retroboard
+Express server port: 7011
+Test suite counter: 1
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 51 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/retroboard/testretroboardMosa_10
+
+Project name: retroboard
+Session file name: retroboardMosa
+Database port for remote connection: 0
+Application port for remote connection: 4003
+Chromedriver port: 9527
+Project folder: /home/ubuntu/workspace/fse2019/retroboard
+Express server port: 7011
+Test suite counter: 2
+
+Total time to run code coverage for test suite: 		0 hours, 1 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/retroboard/testretroboardMosa_11
+
+Project name: retroboard
+Session file name: retroboardMosa
+Database port for remote connection: 0
+Application port for remote connection: 4003
+Chromedriver port: 9527
+Project folder: /home/ubuntu/workspace/fse2019/retroboard
+Express server port: 7011
+Test suite counter: 3
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 57 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/retroboard/testretroboardMosa_12
+
+Project name: retroboard
+Session file name: retroboardMosa
+Database port for remote connection: 0
+Application port for remote connection: 4003
+Chromedriver port: 9527
+Project folder: /home/ubuntu/workspace/fse2019/retroboard
+Express server port: 7011
+Test suite counter: 4
+
+Total time to run code coverage for test suite: 		0 hours, 1 minutes and 5 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/retroboard/testretroboardMosa_13
+
+Project name: retroboard
+Session file name: retroboardMosa
+Database port for remote connection: 0
+Application port for remote connection: 4003
+Chromedriver port: 9527
+Project folder: /home/ubuntu/workspace/fse2019/retroboard
+Express server port: 7011
+Test suite counter: 5
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 59 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/retroboard/testretroboardMosa_14
+
+Project name: retroboard
+Session file name: retroboardMosa
+Database port for remote connection: 0
+Application port for remote connection: 4003
+Chromedriver port: 9527
+Project folder: /home/ubuntu/workspace/fse2019/retroboard
+Express server port: 7011
+Test suite counter: 6
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 54 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/retroboard/testretroboardMosa_2
+
+Project name: retroboard
+Session file name: retroboardMosa
+Database port for remote connection: 0
+Application port for remote connection: 4003
+Chromedriver port: 9527
+Project folder: /home/ubuntu/workspace/fse2019/retroboard
+Express server port: 7011
+Test suite counter: 7
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 58 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/retroboard/testretroboardMosa_3
+
+Project name: retroboard
+Session file name: retroboardMosa
+Database port for remote connection: 0
+Application port for remote connection: 4003
+Chromedriver port: 9527
+Project folder: /home/ubuntu/workspace/fse2019/retroboard
+Express server port: 7011
+Test suite counter: 8
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 57 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/retroboard/testretroboardMosa_4
+
+Project name: retroboard
+Session file name: retroboardMosa
+Database port for remote connection: 0
+Application port for remote connection: 4003
+Chromedriver port: 9527
+Project folder: /home/ubuntu/workspace/fse2019/retroboard
+Express server port: 7011
+Test suite counter: 9
+
+Total time to run code coverage for test suite: 		0 hours, 1 minutes and 11 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/retroboard/testretroboardMosa_5
+
+Project name: retroboard
+Session file name: retroboardMosa
+Database port for remote connection: 0
+Application port for remote connection: 4003
+Chromedriver port: 9527
+Project folder: /home/ubuntu/workspace/fse2019/retroboard
+Express server port: 7011
+Test suite counter: 10
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 57 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/retroboard/testretroboardMosa_6
+
+Project name: retroboard
+Session file name: retroboardMosa
+Database port for remote connection: 0
+Application port for remote connection: 4003
+Chromedriver port: 9527
+Project folder: /home/ubuntu/workspace/fse2019/retroboard
+Express server port: 7011
+Test suite counter: 11
+
+Total time to run code coverage for test suite: 		0 hours, 1 minutes and 5 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/retroboard/testretroboardMosa_7
+
+Project name: retroboard
+Session file name: retroboardMosa
+Database port for remote connection: 0
+Application port for remote connection: 4003
+Chromedriver port: 9527
+Project folder: /home/ubuntu/workspace/fse2019/retroboard
+Express server port: 7011
+Test suite counter: 12
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 56 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/retroboard/testretroboardMosa_8
+
+Project name: retroboard
+Session file name: retroboardMosa
+Database port for remote connection: 0
+Application port for remote connection: 4003
+Chromedriver port: 9527
+Project folder: /home/ubuntu/workspace/fse2019/retroboard
+Express server port: 7011
+Test suite counter: 13
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 57 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/retroboard/testretroboardMosa_9
+
+Project name: retroboard
+Session file name: retroboardMosa
+Database port for remote connection: 0
+Application port for remote connection: 4003
+Chromedriver port: 9527
+Project folder: /home/ubuntu/workspace/fse2019/retroboard
+Express server port: 7011
+Test suite counter: 14
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 56 seconds elapsed.
+Stopping container
+retroboardMosa
+retroboardMosa
+Stopping chromedriver process listening on port 9527
+Finding children processes of chromedriver and killing them
+Stopping express server listening on port 7011
+Finding children processes of express and killing them
+Total time to run code coverage for all test suites: 0 hours, 17 minutes and 15 seconds elapsed.

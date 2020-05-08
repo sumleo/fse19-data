@@ -1,0 +1,302 @@
+cp: cannot stat '/home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_0.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_0.txt/modify-test-suite-phoenixMosa-0.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_0.txt/compile-test-suite-phoenixMosa-0.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_0.txt/compile-test-suite-phoenixMosa-0.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_0.txt/code-coverage-phoenixMosa-0.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_0.txt/code-coverage-phoenixMosa-0.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_0.txt/complete-phoenixMosa-0.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_10.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_10.txt/modify-test-suite-phoenixMosa-1.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_10.txt/compile-test-suite-phoenixMosa-1.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_10.txt/compile-test-suite-phoenixMosa-1.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_10.txt/code-coverage-phoenixMosa-1.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_10.txt/code-coverage-phoenixMosa-1.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_10.txt/complete-phoenixMosa-1.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_11.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_11.txt/modify-test-suite-phoenixMosa-2.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_11.txt/compile-test-suite-phoenixMosa-2.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_11.txt/compile-test-suite-phoenixMosa-2.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_11.txt/code-coverage-phoenixMosa-2.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_11.txt/code-coverage-phoenixMosa-2.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_11.txt/complete-phoenixMosa-2.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_12.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_12.txt/modify-test-suite-phoenixMosa-3.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_12.txt/compile-test-suite-phoenixMosa-3.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_12.txt/compile-test-suite-phoenixMosa-3.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_12.txt/code-coverage-phoenixMosa-3.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_12.txt/code-coverage-phoenixMosa-3.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_12.txt/complete-phoenixMosa-3.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_13.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_13.txt/modify-test-suite-phoenixMosa-4.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_13.txt/compile-test-suite-phoenixMosa-4.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_13.txt/compile-test-suite-phoenixMosa-4.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_13.txt/code-coverage-phoenixMosa-4.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_13.txt/code-coverage-phoenixMosa-4.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_13.txt/complete-phoenixMosa-4.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_14.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_14.txt/modify-test-suite-phoenixMosa-5.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_14.txt/compile-test-suite-phoenixMosa-5.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_14.txt/compile-test-suite-phoenixMosa-5.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_14.txt/code-coverage-phoenixMosa-5.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_14.txt/code-coverage-phoenixMosa-5.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_14.txt/complete-phoenixMosa-5.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_1.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_1.txt/modify-test-suite-phoenixMosa-6.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_1.txt/compile-test-suite-phoenixMosa-6.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_1.txt/compile-test-suite-phoenixMosa-6.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_1.txt/code-coverage-phoenixMosa-6.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_1.txt/code-coverage-phoenixMosa-6.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_1.txt/complete-phoenixMosa-6.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_2.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_2.txt/modify-test-suite-phoenixMosa-7.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_2.txt/compile-test-suite-phoenixMosa-7.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_2.txt/compile-test-suite-phoenixMosa-7.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_2.txt/code-coverage-phoenixMosa-7.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_2.txt/code-coverage-phoenixMosa-7.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_2.txt/complete-phoenixMosa-7.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_3.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_3.txt/modify-test-suite-phoenixMosa-8.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_3.txt/compile-test-suite-phoenixMosa-8.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_3.txt/compile-test-suite-phoenixMosa-8.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_3.txt/code-coverage-phoenixMosa-8.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_3.txt/code-coverage-phoenixMosa-8.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_3.txt/complete-phoenixMosa-8.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_4.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_4.txt/modify-test-suite-phoenixMosa-9.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_4.txt/compile-test-suite-phoenixMosa-9.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_4.txt/compile-test-suite-phoenixMosa-9.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_4.txt/code-coverage-phoenixMosa-9.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_4.txt/code-coverage-phoenixMosa-9.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_4.txt/complete-phoenixMosa-9.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_5.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_5.txt/modify-test-suite-phoenixMosa-10.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_5.txt/compile-test-suite-phoenixMosa-10.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_5.txt/compile-test-suite-phoenixMosa-10.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_5.txt/code-coverage-phoenixMosa-10.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_5.txt/code-coverage-phoenixMosa-10.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_5.txt/complete-phoenixMosa-10.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_6.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_6.txt/modify-test-suite-phoenixMosa-11.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_6.txt/compile-test-suite-phoenixMosa-11.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_6.txt/compile-test-suite-phoenixMosa-11.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_6.txt/code-coverage-phoenixMosa-11.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_6.txt/code-coverage-phoenixMosa-11.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_6.txt/complete-phoenixMosa-11.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_7.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_7.txt/modify-test-suite-phoenixMosa-12.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_7.txt/compile-test-suite-phoenixMosa-12.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_7.txt/compile-test-suite-phoenixMosa-12.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_7.txt/code-coverage-phoenixMosa-12.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_7.txt/code-coverage-phoenixMosa-12.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_7.txt/complete-phoenixMosa-12.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_8.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_8.txt/modify-test-suite-phoenixMosa-13.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_8.txt/compile-test-suite-phoenixMosa-13.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_8.txt/compile-test-suite-phoenixMosa-13.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_8.txt/code-coverage-phoenixMosa-13.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_8.txt/code-coverage-phoenixMosa-13.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_8.txt/complete-phoenixMosa-13.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_9.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_9.txt/modify-test-suite-phoenixMosa-14.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_9.txt/compile-test-suite-phoenixMosa-14.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_9.txt/compile-test-suite-phoenixMosa-14.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_9.txt/code-coverage-phoenixMosa-14.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_9.txt/code-coverage-phoenixMosa-14.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/phoenix/errorsphoenixMosa_9.txt/complete-phoenixMosa-14.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_0.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_0.txt/modify-test-suite-phoenixMosa-15.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_0.txt/compile-test-suite-phoenixMosa-15.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_0.txt/compile-test-suite-phoenixMosa-15.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_0.txt/code-coverage-phoenixMosa-15.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_0.txt/code-coverage-phoenixMosa-15.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_0.txt/complete-phoenixMosa-15.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_10.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_10.txt/modify-test-suite-phoenixMosa-16.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_10.txt/compile-test-suite-phoenixMosa-16.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_10.txt/compile-test-suite-phoenixMosa-16.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_10.txt/code-coverage-phoenixMosa-16.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_10.txt/code-coverage-phoenixMosa-16.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_10.txt/complete-phoenixMosa-16.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_11.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_11.txt/modify-test-suite-phoenixMosa-17.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_11.txt/compile-test-suite-phoenixMosa-17.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_11.txt/compile-test-suite-phoenixMosa-17.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_11.txt/code-coverage-phoenixMosa-17.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_11.txt/code-coverage-phoenixMosa-17.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_11.txt/complete-phoenixMosa-17.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_12.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_12.txt/modify-test-suite-phoenixMosa-18.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_12.txt/compile-test-suite-phoenixMosa-18.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_12.txt/compile-test-suite-phoenixMosa-18.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_12.txt/code-coverage-phoenixMosa-18.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_12.txt/code-coverage-phoenixMosa-18.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_12.txt/complete-phoenixMosa-18.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_13.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_13.txt/modify-test-suite-phoenixMosa-19.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_13.txt/compile-test-suite-phoenixMosa-19.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_13.txt/compile-test-suite-phoenixMosa-19.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_13.txt/code-coverage-phoenixMosa-19.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_13.txt/code-coverage-phoenixMosa-19.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_13.txt/complete-phoenixMosa-19.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_14.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_14.txt/modify-test-suite-phoenixMosa-20.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_14.txt/compile-test-suite-phoenixMosa-20.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_14.txt/compile-test-suite-phoenixMosa-20.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_14.txt/code-coverage-phoenixMosa-20.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_14.txt/code-coverage-phoenixMosa-20.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_14.txt/complete-phoenixMosa-20.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_1.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_1.txt/modify-test-suite-phoenixMosa-21.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_1.txt/compile-test-suite-phoenixMosa-21.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_1.txt/compile-test-suite-phoenixMosa-21.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_1.txt/code-coverage-phoenixMosa-21.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_1.txt/code-coverage-phoenixMosa-21.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_1.txt/complete-phoenixMosa-21.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_2.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_2.txt/modify-test-suite-phoenixMosa-22.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_2.txt/compile-test-suite-phoenixMosa-22.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_2.txt/compile-test-suite-phoenixMosa-22.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_2.txt/code-coverage-phoenixMosa-22.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_2.txt/code-coverage-phoenixMosa-22.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_2.txt/complete-phoenixMosa-22.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_3.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_3.txt/modify-test-suite-phoenixMosa-23.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_3.txt/compile-test-suite-phoenixMosa-23.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_3.txt/compile-test-suite-phoenixMosa-23.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_3.txt/code-coverage-phoenixMosa-23.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_3.txt/code-coverage-phoenixMosa-23.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_3.txt/complete-phoenixMosa-23.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_4.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_4.txt/modify-test-suite-phoenixMosa-24.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_4.txt/compile-test-suite-phoenixMosa-24.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_4.txt/compile-test-suite-phoenixMosa-24.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_4.txt/code-coverage-phoenixMosa-24.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_4.txt/code-coverage-phoenixMosa-24.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_4.txt/complete-phoenixMosa-24.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_5.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_5.txt/modify-test-suite-phoenixMosa-25.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_5.txt/compile-test-suite-phoenixMosa-25.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_5.txt/compile-test-suite-phoenixMosa-25.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_5.txt/code-coverage-phoenixMosa-25.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_5.txt/code-coverage-phoenixMosa-25.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_5.txt/complete-phoenixMosa-25.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_6.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_6.txt/modify-test-suite-phoenixMosa-26.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_6.txt/compile-test-suite-phoenixMosa-26.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_6.txt/compile-test-suite-phoenixMosa-26.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_6.txt/code-coverage-phoenixMosa-26.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_6.txt/code-coverage-phoenixMosa-26.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_6.txt/complete-phoenixMosa-26.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_7.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_7.txt/modify-test-suite-phoenixMosa-27.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_7.txt/compile-test-suite-phoenixMosa-27.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_7.txt/compile-test-suite-phoenixMosa-27.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_7.txt/code-coverage-phoenixMosa-27.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_7.txt/code-coverage-phoenixMosa-27.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_7.txt/complete-phoenixMosa-27.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_8.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_8.txt/modify-test-suite-phoenixMosa-28.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_8.txt/compile-test-suite-phoenixMosa-28.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_8.txt/compile-test-suite-phoenixMosa-28.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_8.txt/code-coverage-phoenixMosa-28.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_8.txt/code-coverage-phoenixMosa-28.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_8.txt/complete-phoenixMosa-28.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_9.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_9.txt/modify-test-suite-phoenixMosa-29.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_9.txt/compile-test-suite-phoenixMosa-29.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_9.txt/compile-test-suite-phoenixMosa-29.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_9.txt/code-coverage-phoenixMosa-29.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_9.txt/code-coverage-phoenixMosa-29.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/phoenix/logsphoenixMosa_9.txt/complete-phoenixMosa-29.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+
+Usage:
+ kill [options] <pid> [...]
+
+Options:
+ <pid> [...]            send signal to every <pid> listed
+ -<signal>, -s, --signal <signal>
+                        specify the <signal> to be sent
+ -l, --list=[<signal>]  list all signal names, or convert one to a name
+ -L, --table            list all signal names in a nice table
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see kill(1).
+
+Usage:
+ kill [options] <pid> [...]
+
+Options:
+ <pid> [...]            send signal to every <pid> listed
+ -<signal>, -s, --signal <signal>
+                        specify the <signal> to be sent
+ -l, --list=[<signal>]  list all signal names, or convert one to a name
+ -L, --table            list all signal names in a nice table
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see kill(1).
+./run.sh: line 131: 78123 Killed                  chromedriver --port=$chromedriver_port
+./run.sh: line 275: 78125 Killed                  node . $express_server_port  (wd: ~/workspace/code-coverage-server/express-istanbul)

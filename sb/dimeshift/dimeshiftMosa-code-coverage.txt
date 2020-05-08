@@ -1,0 +1,241 @@
+Port app: 3000
+Port db: 3306
+Production: yes
+Container name: dimeshiftMosa
+ddb36a12003306612fb014524ad1167a842e8fdc728205eb947052d7e07dbc80
+The script starts the chromedriver process on port 9515 and the express server for collecting coverage reports on port 6969
+Waiting for application server to start...
+Starting chromedriver on port 9515
+Starting express server on port 6969
+* Current directory:  /home/ubuntu/fse19-data/sb/dimeshift/errorsdimeshiftMosa_6.txt
+Starting ChromeDriver 2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926) on port 9515
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+
+Project name: dimeshift
+Session file name: dimeshiftMosa
+Database port for remote connection: 3306
+Application port for remote connection: 3000
+Chromedriver port: 9515
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 6969
+Test suite counter: 0
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/dimeshift/logsdimeshiftMosa_6.txt
+
+Project name: dimeshift
+Session file name: dimeshiftMosa
+Database port for remote connection: 3306
+Application port for remote connection: 3000
+Chromedriver port: 9515
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 6969
+Test suite counter: 1
+
+Total time to run code coverage for test suite: 		0 hours, 0 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_0
+
+Project name: dimeshift
+Session file name: dimeshiftMosa
+Database port for remote connection: 3306
+Application port for remote connection: 3000
+Chromedriver port: 9515
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 6969
+Test suite counter: 2
+
+Express server listening on port 6969
+Test suite bug found in /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_0.
+Repeat execution of test suite /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_0 or change it with another one.
+Total time to run code coverage for test suite: 		0 hours, 5 minutes and 13 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_1
+
+Project name: dimeshift
+Session file name: dimeshiftMosa
+Database port for remote connection: 3306
+Application port for remote connection: 3000
+Chromedriver port: 9515
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 6969
+Test suite counter: 3
+
+Test suite bug found in /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_1.
+Repeat execution of test suite /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_1 or change it with another one.
+Total time to run code coverage for test suite: 		0 hours, 6 minutes and 13 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_10
+
+Project name: dimeshift
+Session file name: dimeshiftMosa
+Database port for remote connection: 3306
+Application port for remote connection: 3000
+Chromedriver port: 9515
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 6969
+Test suite counter: 4
+
+Test suite bug found in /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_10.
+Repeat execution of test suite /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_10 or change it with another one.
+Total time to run code coverage for test suite: 		0 hours, 2 minutes and 16 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_11
+
+Project name: dimeshift
+Session file name: dimeshiftMosa
+Database port for remote connection: 3306
+Application port for remote connection: 3000
+Chromedriver port: 9515
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 6969
+Test suite counter: 5
+
+Test suite bug found in /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_11.
+Repeat execution of test suite /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_11 or change it with another one.
+Total time to run code coverage for test suite: 		0 hours, 1 minutes and 11 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_12
+
+Project name: dimeshift
+Session file name: dimeshiftMosa
+Database port for remote connection: 3306
+Application port for remote connection: 3000
+Chromedriver port: 9515
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 6969
+Test suite counter: 6
+
+Test suite bug found in /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_12.
+Repeat execution of test suite /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_12 or change it with another one.
+Total time to run code coverage for test suite: 		0 hours, 1 minutes and 8 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_13
+
+Project name: dimeshift
+Session file name: dimeshiftMosa
+Database port for remote connection: 3306
+Application port for remote connection: 3000
+Chromedriver port: 9515
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 6969
+Test suite counter: 7
+
+Test suite bug found in /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_13.
+Repeat execution of test suite /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_13 or change it with another one.
+Total time to run code coverage for test suite: 		0 hours, 1 minutes and 2 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_14
+
+Project name: dimeshift
+Session file name: dimeshiftMosa
+Database port for remote connection: 3306
+Application port for remote connection: 3000
+Chromedriver port: 9515
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 6969
+Test suite counter: 8
+
+Test suite bug found in /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_14.
+Repeat execution of test suite /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_14 or change it with another one.
+Total time to run code coverage for test suite: 		0 hours, 6 minutes and 0 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_2
+
+Project name: dimeshift
+Session file name: dimeshiftMosa
+Database port for remote connection: 3306
+Application port for remote connection: 3000
+Chromedriver port: 9515
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 6969
+Test suite counter: 9
+
+Test suite bug found in /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_2.
+Repeat execution of test suite /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_2 or change it with another one.
+Total time to run code coverage for test suite: 		0 hours, 2 minutes and 25 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_3
+
+Project name: dimeshift
+Session file name: dimeshiftMosa
+Database port for remote connection: 3306
+Application port for remote connection: 3000
+Chromedriver port: 9515
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 6969
+Test suite counter: 10
+
+Test suite bug found in /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_3.
+Repeat execution of test suite /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_3 or change it with another one.
+Total time to run code coverage for test suite: 		0 hours, 6 minutes and 4 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_4
+
+Project name: dimeshift
+Session file name: dimeshiftMosa
+Database port for remote connection: 3306
+Application port for remote connection: 3000
+Chromedriver port: 9515
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 6969
+Test suite counter: 11
+
+Test suite bug found in /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_4.
+Repeat execution of test suite /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_4 or change it with another one.
+Total time to run code coverage for test suite: 		0 hours, 6 minutes and 36 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_5
+
+Project name: dimeshift
+Session file name: dimeshiftMosa
+Database port for remote connection: 3306
+Application port for remote connection: 3000
+Chromedriver port: 9515
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 6969
+Test suite counter: 12
+
+Test suite bug found in /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_5.
+Repeat execution of test suite /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_5 or change it with another one.
+Total time to run code coverage for test suite: 		0 hours, 2 minutes and 52 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_7
+
+Project name: dimeshift
+Session file name: dimeshiftMosa
+Database port for remote connection: 3306
+Application port for remote connection: 3000
+Chromedriver port: 9515
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 6969
+Test suite counter: 13
+
+Test suite bug found in /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_7.
+Repeat execution of test suite /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_7 or change it with another one.
+Total time to run code coverage for test suite: 		0 hours, 5 minutes and 33 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_8
+
+Project name: dimeshift
+Session file name: dimeshiftMosa
+Database port for remote connection: 3306
+Application port for remote connection: 3000
+Chromedriver port: 9515
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 6969
+Test suite counter: 14
+
+Test suite bug found in /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_8.
+Repeat execution of test suite /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_8 or change it with another one.
+Total time to run code coverage for test suite: 		0 hours, 3 minutes and 58 seconds elapsed.
+* Current directory:  /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_9
+
+Project name: dimeshift
+Session file name: dimeshiftMosa
+Database port for remote connection: 3306
+Application port for remote connection: 3000
+Chromedriver port: 9515
+Project folder: /home/ubuntu/workspace/fse2019/dimeshift
+Express server port: 6969
+Test suite counter: 15
+
+Test suite bug found in /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_9.
+Repeat execution of test suite /home/ubuntu/fse19-data/sb/dimeshift/testdimeshiftMosa_9 or change it with another one.
+Total time to run code coverage for test suite: 		0 hours, 1 minutes and 4 seconds elapsed.
+Stopping container
+dimeshiftMosa
+dimeshiftMosa
+Stopping chromedriver process listening on port 9515
+Finding children processes of chromedriver and killing them
+Stopping express server listening on port 6969
+Finding children processes of express and killing them
+Total time to run code coverage for all test suites: 0 hours, 53 minutes and 47 seconds elapsed.

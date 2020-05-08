@@ -1,0 +1,11 @@
+Name: Statements Percentage: 31.62% Fraction: 879/2780
+Name: Branches Percentage: 26.67% Fraction: 288/1080
+Name: Functions Percentage: 31.14% Fraction: 175/562
+Name: Lines Percentage: 31.74% Fraction: 878/2766
+PARSE_BUGS_HERE
+SEVERE->http://localhost:35729/livereload.js - Failed to load resource: net::ERR_CONNECTION_REFUSED
+SEVERE->https://www.google.com/jsapi - Failed to load resource: net::ERR_CONNECTION_REFUSED
+SEVERE->http://localhost:3000/scripts/app/views/charts/balance.js 2:865 Uncaught ReferenceError: google is not defined
+WARNING->http://localhost:3000/scripts/app/template_manager.js 4:1451 "Timer 'template_manager.js | Fetch pages/wallets/view from server' already exists"
+SEVERE->http://localhost:3000/scripts/app/views/charts/balance.js 2:865 Uncaught ReferenceError: google is not defined
+WARNING->http://localhost:3000/scripts/app/template_manager.js 4:1622 "Timer 'template_manager.js | Fetch pages/wallets/view from server' does not exist"

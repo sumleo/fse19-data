@@ -1,0 +1,1 @@
+No test suite bug in /home/ubuntu/fse19-data/sb/retroboard/testretroboardMosa_10

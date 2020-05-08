@@ -1,0 +1,17 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------< [0;36mpageobjects:pagekit[0;1m >-------------------------[m
+[[1;34mINFO[m] [1mBuilding pagekit 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-support/maven-metadata.xml
+Progress (1): 2.2/3.9 kBProgress (1): 3.9 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-support/maven-metadata.xml (3.9 kB at 2.2 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:1.6.0:java[m [1m(default-cli)[m @ [36mpagekit[0;1m ---[m
+[CodeCoverage]: modifying evosuite test suite /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java...
+[CodeCoverage]: evosuite test suite /home/ubuntu/workspace/fse2019/pagekit/src/main/java/main/ClassUnderTestApogen_ESTest.java modified successfully!
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.662 s
+[[1;34mINFO[m] Finished at: 2020-05-08T02:59:14Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

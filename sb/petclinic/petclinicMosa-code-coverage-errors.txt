@@ -1,0 +1,283 @@
+cp: cannot stat '/home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_0.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_0.txt/modify-test-suite-petclinicMosa-0.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_0.txt/compile-test-suite-petclinicMosa-0.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_0.txt/compile-test-suite-petclinicMosa-0.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_0.txt/code-coverage-petclinicMosa-0.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_0.txt/code-coverage-petclinicMosa-0.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_0.txt/complete-petclinicMosa-0.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_10.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_10.txt/modify-test-suite-petclinicMosa-1.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_10.txt/compile-test-suite-petclinicMosa-1.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_10.txt/compile-test-suite-petclinicMosa-1.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_10.txt/code-coverage-petclinicMosa-1.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_10.txt/code-coverage-petclinicMosa-1.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_10.txt/complete-petclinicMosa-1.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_11.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_11.txt/modify-test-suite-petclinicMosa-2.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_11.txt/compile-test-suite-petclinicMosa-2.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_11.txt/compile-test-suite-petclinicMosa-2.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_11.txt/code-coverage-petclinicMosa-2.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_11.txt/code-coverage-petclinicMosa-2.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_11.txt/complete-petclinicMosa-2.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_12.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_12.txt/modify-test-suite-petclinicMosa-3.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_12.txt/compile-test-suite-petclinicMosa-3.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_12.txt/compile-test-suite-petclinicMosa-3.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_12.txt/code-coverage-petclinicMosa-3.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_12.txt/code-coverage-petclinicMosa-3.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_12.txt/complete-petclinicMosa-3.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_13.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_13.txt/modify-test-suite-petclinicMosa-4.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_13.txt/compile-test-suite-petclinicMosa-4.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_13.txt/compile-test-suite-petclinicMosa-4.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_13.txt/code-coverage-petclinicMosa-4.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_13.txt/code-coverage-petclinicMosa-4.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_13.txt/complete-petclinicMosa-4.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_1.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_1.txt/modify-test-suite-petclinicMosa-5.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_1.txt/compile-test-suite-petclinicMosa-5.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_1.txt/compile-test-suite-petclinicMosa-5.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_1.txt/code-coverage-petclinicMosa-5.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_1.txt/code-coverage-petclinicMosa-5.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_1.txt/complete-petclinicMosa-5.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_2.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_2.txt/modify-test-suite-petclinicMosa-6.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_2.txt/compile-test-suite-petclinicMosa-6.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_2.txt/compile-test-suite-petclinicMosa-6.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_2.txt/code-coverage-petclinicMosa-6.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_2.txt/code-coverage-petclinicMosa-6.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_2.txt/complete-petclinicMosa-6.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_3.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_3.txt/modify-test-suite-petclinicMosa-7.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_3.txt/compile-test-suite-petclinicMosa-7.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_3.txt/compile-test-suite-petclinicMosa-7.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_3.txt/code-coverage-petclinicMosa-7.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_3.txt/code-coverage-petclinicMosa-7.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_3.txt/complete-petclinicMosa-7.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_4.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_4.txt/modify-test-suite-petclinicMosa-8.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_4.txt/compile-test-suite-petclinicMosa-8.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_4.txt/compile-test-suite-petclinicMosa-8.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_4.txt/code-coverage-petclinicMosa-8.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_4.txt/code-coverage-petclinicMosa-8.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_4.txt/complete-petclinicMosa-8.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_5.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_5.txt/modify-test-suite-petclinicMosa-9.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_5.txt/compile-test-suite-petclinicMosa-9.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_5.txt/compile-test-suite-petclinicMosa-9.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_5.txt/code-coverage-petclinicMosa-9.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_5.txt/code-coverage-petclinicMosa-9.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_5.txt/complete-petclinicMosa-9.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_6.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_6.txt/modify-test-suite-petclinicMosa-10.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_6.txt/compile-test-suite-petclinicMosa-10.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_6.txt/compile-test-suite-petclinicMosa-10.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_6.txt/code-coverage-petclinicMosa-10.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_6.txt/code-coverage-petclinicMosa-10.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_6.txt/complete-petclinicMosa-10.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_7.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_7.txt/modify-test-suite-petclinicMosa-11.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_7.txt/compile-test-suite-petclinicMosa-11.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_7.txt/compile-test-suite-petclinicMosa-11.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_7.txt/code-coverage-petclinicMosa-11.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_7.txt/code-coverage-petclinicMosa-11.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_7.txt/complete-petclinicMosa-11.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_8.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_8.txt/modify-test-suite-petclinicMosa-12.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_8.txt/compile-test-suite-petclinicMosa-12.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_8.txt/compile-test-suite-petclinicMosa-12.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_8.txt/code-coverage-petclinicMosa-12.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_8.txt/code-coverage-petclinicMosa-12.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_8.txt/complete-petclinicMosa-12.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_9.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_9.txt/modify-test-suite-petclinicMosa-13.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_9.txt/compile-test-suite-petclinicMosa-13.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_9.txt/compile-test-suite-petclinicMosa-13.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_9.txt/code-coverage-petclinicMosa-13.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_9.txt/code-coverage-petclinicMosa-13.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/petclinic/errorspetclinicMosa_9.txt/complete-petclinicMosa-13.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_0.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_0.txt/modify-test-suite-petclinicMosa-14.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_0.txt/compile-test-suite-petclinicMosa-14.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_0.txt/compile-test-suite-petclinicMosa-14.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_0.txt/code-coverage-petclinicMosa-14.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_0.txt/code-coverage-petclinicMosa-14.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_0.txt/complete-petclinicMosa-14.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_10.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_10.txt/modify-test-suite-petclinicMosa-15.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_10.txt/compile-test-suite-petclinicMosa-15.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_10.txt/compile-test-suite-petclinicMosa-15.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_10.txt/code-coverage-petclinicMosa-15.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_10.txt/code-coverage-petclinicMosa-15.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_10.txt/complete-petclinicMosa-15.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_11.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_11.txt/modify-test-suite-petclinicMosa-16.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_11.txt/compile-test-suite-petclinicMosa-16.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_11.txt/compile-test-suite-petclinicMosa-16.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_11.txt/code-coverage-petclinicMosa-16.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_11.txt/code-coverage-petclinicMosa-16.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_11.txt/complete-petclinicMosa-16.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_12.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_12.txt/modify-test-suite-petclinicMosa-17.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_12.txt/compile-test-suite-petclinicMosa-17.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_12.txt/compile-test-suite-petclinicMosa-17.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_12.txt/code-coverage-petclinicMosa-17.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_12.txt/code-coverage-petclinicMosa-17.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_12.txt/complete-petclinicMosa-17.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_13.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_13.txt/modify-test-suite-petclinicMosa-18.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_13.txt/compile-test-suite-petclinicMosa-18.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_13.txt/compile-test-suite-petclinicMosa-18.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_13.txt/code-coverage-petclinicMosa-18.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_13.txt/code-coverage-petclinicMosa-18.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_13.txt/complete-petclinicMosa-18.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_1.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_1.txt/modify-test-suite-petclinicMosa-19.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_1.txt/compile-test-suite-petclinicMosa-19.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_1.txt/compile-test-suite-petclinicMosa-19.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_1.txt/code-coverage-petclinicMosa-19.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_1.txt/code-coverage-petclinicMosa-19.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_1.txt/complete-petclinicMosa-19.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_2.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_2.txt/modify-test-suite-petclinicMosa-20.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_2.txt/compile-test-suite-petclinicMosa-20.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_2.txt/compile-test-suite-petclinicMosa-20.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_2.txt/code-coverage-petclinicMosa-20.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_2.txt/code-coverage-petclinicMosa-20.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_2.txt/complete-petclinicMosa-20.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_3.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_3.txt/modify-test-suite-petclinicMosa-21.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_3.txt/compile-test-suite-petclinicMosa-21.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_3.txt/compile-test-suite-petclinicMosa-21.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_3.txt/code-coverage-petclinicMosa-21.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_3.txt/code-coverage-petclinicMosa-21.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_3.txt/complete-petclinicMosa-21.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_4.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_4.txt/modify-test-suite-petclinicMosa-22.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_4.txt/compile-test-suite-petclinicMosa-22.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_4.txt/compile-test-suite-petclinicMosa-22.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_4.txt/code-coverage-petclinicMosa-22.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_4.txt/code-coverage-petclinicMosa-22.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_4.txt/complete-petclinicMosa-22.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_5.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_5.txt/modify-test-suite-petclinicMosa-23.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_5.txt/compile-test-suite-petclinicMosa-23.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_5.txt/compile-test-suite-petclinicMosa-23.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_5.txt/code-coverage-petclinicMosa-23.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_5.txt/code-coverage-petclinicMosa-23.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_5.txt/complete-petclinicMosa-23.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_6.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_6.txt/modify-test-suite-petclinicMosa-24.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_6.txt/compile-test-suite-petclinicMosa-24.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_6.txt/compile-test-suite-petclinicMosa-24.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_6.txt/code-coverage-petclinicMosa-24.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_6.txt/code-coverage-petclinicMosa-24.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_6.txt/complete-petclinicMosa-24.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_7.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_7.txt/modify-test-suite-petclinicMosa-25.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_7.txt/compile-test-suite-petclinicMosa-25.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_7.txt/compile-test-suite-petclinicMosa-25.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_7.txt/code-coverage-petclinicMosa-25.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_7.txt/code-coverage-petclinicMosa-25.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_7.txt/complete-petclinicMosa-25.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_8.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_8.txt/modify-test-suite-petclinicMosa-26.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_8.txt/compile-test-suite-petclinicMosa-26.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_8.txt/compile-test-suite-petclinicMosa-26.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_8.txt/code-coverage-petclinicMosa-26.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_8.txt/code-coverage-petclinicMosa-26.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_8.txt/complete-petclinicMosa-26.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+cp: cannot stat '/home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_9.txt/main/*': Not a directory
+./run-test-suite.sh: line 136: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_9.txt/modify-test-suite-petclinicMosa-27.txt: Not a directory
+./run-test-suite.sh: line 140: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_9.txt/compile-test-suite-petclinicMosa-27.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_9.txt/compile-test-suite-petclinicMosa-27.txt: Not a directory
+./run-test-suite.sh: line 150: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_9.txt/code-coverage-petclinicMosa-27.txt: Not a directory
+grep: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_9.txt/code-coverage-petclinicMosa-27.txt: Not a directory
+./run-test-suite.sh: line 160: /home/ubuntu/fse19-data/sb/petclinic/logspetclinicMosa_9.txt/complete-petclinicMosa-27.txt: Not a directory
+rm: cannot remove 'ClassUnderTest*_ESTest_scaffolding.java': No such file or directory
+rm: cannot remove 'ClassUnderTest*_ESTest.java': No such file or directory
+
+Usage:
+ kill [options] <pid> [...]
+
+Options:
+ <pid> [...]            send signal to every <pid> listed
+ -<signal>, -s, --signal <signal>
+                        specify the <signal> to be sent
+ -l, --list=[<signal>]  list all signal names, or convert one to a name
+ -L, --table            list all signal names in a nice table
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see kill(1).
+
+Usage:
+ kill [options] <pid> [...]
+
+Options:
+ <pid> [...]            send signal to every <pid> listed
+ -<signal>, -s, --signal <signal>
+                        specify the <signal> to be sent
+ -l, --list=[<signal>]  list all signal names, or convert one to a name
+ -L, --table            list all signal names in a nice table
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see kill(1).
+./run.sh: line 131: 76590 Killed                  chromedriver --port=$chromedriver_port

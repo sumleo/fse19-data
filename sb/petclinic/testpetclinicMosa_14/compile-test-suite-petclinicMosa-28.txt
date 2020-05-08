@@ -1,0 +1,364 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36mpetclinic:pageobjects[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding pageobjects 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mpageobjects[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/ubuntu/workspace/fse2019/petclinic/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mpageobjects[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.7.0:compile[m [1m(default-compile)[m @ [36mpageobjects[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;33mWARNING[m] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[[1;34mINFO[m] Compiling 89 source files to /home/ubuntu/workspace/fse2019/petclinic/target/classes
+[[1;34mINFO[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/po_utils/JavascriptActions.java: /home/ubuntu/workspace/fse2019/petclinic/src/main/java/po_utils/JavascriptActions.java uses unchecked or unsafe operations.
+[[1;34mINFO[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/po_utils/JavascriptActions.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[44,52] constructor ClassUnderTestApogen in class main.ClassUnderTestApogen cannot be applied to given types;
+  required: org.openqa.selenium.WebDriver
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[45,28] cannot find symbol
+  symbol:   method goToNewOwnerIndexPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[51,28] cannot find symbol
+  symbol:   method submitOwnerFormNewOwnerPage(custom_classes.FirstNames,custom_classes.LastNames,custom_classes.Addresses,custom_classes.Cities,custom_classes.Telephones)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[52,28] cannot find symbol
+  symbol:   method goToOwnerInformationOwnersPage(custom_classes.FirstNames,custom_classes.LastNames)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[53,28] cannot find symbol
+  symbol:   method goToAddNewPetOwnerInformationPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[57,28] cannot find symbol
+  symbol:   method submitNewPetPage(custom_classes.PetNames,custom_classes.Dates,custom_classes.PetTypes)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[60,28] cannot find symbol
+  symbol:   method goToAddNewPetOwnerInformationPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[63,28] cannot find symbol
+  symbol:   method submitNewPetPage(custom_classes.PetNames,custom_classes.Dates,custom_classes.PetTypes)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[64,28] cannot find symbol
+  symbol:   method goToEditOwnerOwnerInformationPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[69,28] cannot find symbol
+  symbol:   method editOwnerEditOwnerPage(custom_classes.FirstNames,custom_classes.LastNames,custom_classes.Addresses,custom_classes.Cities,custom_classes.Telephones)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[70,28] cannot find symbol
+  symbol:   method goToAddNewPetOwnerInformationPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[71,28] cannot find symbol
+  symbol:   method submitNewPetPage(custom_classes.PetNames,custom_classes.Dates,custom_classes.PetTypes)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[72,28] cannot find symbol
+  symbol:   method goToAddNewPetOwnerInformationPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[74,28] cannot find symbol
+  symbol:   method submitNewPetPage(custom_classes.PetNames,custom_classes.Dates,custom_classes.PetTypes)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[75,28] cannot find symbol
+  symbol:   method goToIndexOwnerInformationPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[76,28] cannot find symbol
+  symbol:   method goToWelcomeIndexPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[77,28] cannot find symbol
+  symbol:   method goToNewOwnerWelcomePage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[79,28] cannot find symbol
+  symbol:   method submitOwnerFormNewOwnerPage(custom_classes.FirstNames,custom_classes.LastNames,custom_classes.Addresses,custom_classes.Cities,custom_classes.Telephones)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[101,52] constructor ClassUnderTestApogen in class main.ClassUnderTestApogen cannot be applied to given types;
+  required: org.openqa.selenium.WebDriver
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[102,28] cannot find symbol
+  symbol:   method goToNewOwnerIndexPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[108,28] cannot find symbol
+  symbol:   method submitOwnerFormNewOwnerPage(custom_classes.FirstNames,custom_classes.LastNames,custom_classes.Addresses,custom_classes.Cities,custom_classes.Telephones)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[109,28] cannot find symbol
+  symbol:   method goToOwnerInformationOwnersPage(custom_classes.FirstNames,custom_classes.LastNames)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[114,28] cannot find symbol
+  symbol:   method goToAddNewPetOwnerInformationPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[117,28] cannot find symbol
+  symbol:   method submitNewPetPage(custom_classes.PetNames,custom_classes.Dates,custom_classes.PetTypes)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[119,28] cannot find symbol
+  symbol:   method goToAddNewPetOwnerInformationPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[122,28] cannot find symbol
+  symbol:   method submitNewPetPage(custom_classes.PetNames,custom_classes.Dates,custom_classes.PetTypes)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[123,28] cannot find symbol
+  symbol:   method goToAddNewPetOwnerInformationPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[127,28] cannot find symbol
+  symbol:   method submitNewPetPage(custom_classes.PetNames,custom_classes.Dates,custom_classes.PetTypes)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[129,28] cannot find symbol
+  symbol:   method goToEditPetThroghEditLinkOwnerInformationPage(custom_classes.PetNames)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[133,28] cannot find symbol
+  symbol:   method submitNewPetPage(custom_classes.PetNames,custom_classes.Dates,custom_classes.PetTypes)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[135,28] cannot find symbol
+  symbol:   method goToEditPetThroughNameOwnerInformationPage(custom_classes.PetNames)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[138,28] cannot find symbol
+  symbol:   method submitNewPetPage(custom_classes.PetNames,custom_classes.Dates,custom_classes.PetTypes)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[139,28] cannot find symbol
+  symbol:   method goToAddNewPetOwnerInformationPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[141,28] cannot find symbol
+  symbol:   method submitNewPetPage(custom_classes.PetNames,custom_classes.Dates,custom_classes.PetTypes)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[142,28] cannot find symbol
+  symbol:   method goToAddNewPetOwnerInformationPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[145,28] cannot find symbol
+  symbol:   method submitNewPetPage(custom_classes.PetNames,custom_classes.Dates,custom_classes.PetTypes)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[147,28] cannot find symbol
+  symbol:   method goToVisitsOwnerInformationPage(custom_classes.PetNames)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[149,28] cannot find symbol
+  symbol:   method formVisitsPage(custom_classes.Dates,custom_classes.VisitDescriptions)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[150,28] cannot find symbol
+  symbol:   method goToIndexOwnerInformationPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[151,28] cannot find symbol
+  symbol:   method goToWelcomeIndexPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[152,28] cannot find symbol
+  symbol:   method goToOwnersWelcomePage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[167,52] constructor ClassUnderTestApogen in class main.ClassUnderTestApogen cannot be applied to given types;
+  required: org.openqa.selenium.WebDriver
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[168,28] cannot find symbol
+  symbol:   method goToVetsIndexPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[169,28] cannot find symbol
+  symbol:   method goToIndexVetsPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[170,28] cannot find symbol
+  symbol:   method goToWelcomeIndexPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[171,28] cannot find symbol
+  symbol:   method goToIndexWelcomePage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[172,28] cannot find symbol
+  symbol:   method goToOwnersIndexPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[186,52] constructor ClassUnderTestApogen in class main.ClassUnderTestApogen cannot be applied to given types;
+  required: org.openqa.selenium.WebDriver
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[187,28] cannot find symbol
+  symbol:   method goToNewOwnerIndexPage()
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[193,28] cannot find symbol
+  symbol:   method submitOwnerFormNewOwnerPage(custom_classes.FirstNames,custom_classes.LastNames,custom_classes.Addresses,custom_classes.Cities,custom_classes.Telephones)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[194,28] cannot find symbol
+  symbol:   method searchFilterOwnersPage(custom_classes.FirstNames,custom_classes.LastNames)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[196,28] cannot find symbol
+  symbol:   method searchFilterOwnersPage(custom_classes.FirstNames,custom_classes.LastNames)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[198,28] cannot find symbol
+  symbol:   method goToOwnerInformationOwnersPage(custom_classes.FirstNames,custom_classes.LastNames)
+  location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;34mINFO[m] 53 errors 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  6.929 s
+[[1;34mINFO[m] Finished at: 2020-05-08T03:51:31Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile[m [1m(default-compile)[m on project [36mpageobjects[m: [1;31mCompilation failure[m: Compilation failure: 
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[44,52] constructor ClassUnderTestApogen in class main.ClassUnderTestApogen cannot be applied to given types;
+[[1;31mERROR[m]   required: org.openqa.selenium.WebDriver
+[[1;31mERROR[m]   found: no arguments
+[[1;31mERROR[m]   reason: actual and formal argument lists differ in length
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[45,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToNewOwnerIndexPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[51,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method submitOwnerFormNewOwnerPage(custom_classes.FirstNames,custom_classes.LastNames,custom_classes.Addresses,custom_classes.Cities,custom_classes.Telephones)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[52,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToOwnerInformationOwnersPage(custom_classes.FirstNames,custom_classes.LastNames)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[53,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAddNewPetOwnerInformationPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[57,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method submitNewPetPage(custom_classes.PetNames,custom_classes.Dates,custom_classes.PetTypes)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[60,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAddNewPetOwnerInformationPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[63,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method submitNewPetPage(custom_classes.PetNames,custom_classes.Dates,custom_classes.PetTypes)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[64,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToEditOwnerOwnerInformationPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[69,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method editOwnerEditOwnerPage(custom_classes.FirstNames,custom_classes.LastNames,custom_classes.Addresses,custom_classes.Cities,custom_classes.Telephones)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[70,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAddNewPetOwnerInformationPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[71,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method submitNewPetPage(custom_classes.PetNames,custom_classes.Dates,custom_classes.PetTypes)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[72,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAddNewPetOwnerInformationPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[74,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method submitNewPetPage(custom_classes.PetNames,custom_classes.Dates,custom_classes.PetTypes)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[75,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToIndexOwnerInformationPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[76,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToWelcomeIndexPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[77,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToNewOwnerWelcomePage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[79,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method submitOwnerFormNewOwnerPage(custom_classes.FirstNames,custom_classes.LastNames,custom_classes.Addresses,custom_classes.Cities,custom_classes.Telephones)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[101,52] constructor ClassUnderTestApogen in class main.ClassUnderTestApogen cannot be applied to given types;
+[[1;31mERROR[m]   required: org.openqa.selenium.WebDriver
+[[1;31mERROR[m]   found: no arguments
+[[1;31mERROR[m]   reason: actual and formal argument lists differ in length
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[102,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToNewOwnerIndexPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[108,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method submitOwnerFormNewOwnerPage(custom_classes.FirstNames,custom_classes.LastNames,custom_classes.Addresses,custom_classes.Cities,custom_classes.Telephones)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[109,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToOwnerInformationOwnersPage(custom_classes.FirstNames,custom_classes.LastNames)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[114,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAddNewPetOwnerInformationPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[117,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method submitNewPetPage(custom_classes.PetNames,custom_classes.Dates,custom_classes.PetTypes)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[119,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAddNewPetOwnerInformationPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[122,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method submitNewPetPage(custom_classes.PetNames,custom_classes.Dates,custom_classes.PetTypes)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[123,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAddNewPetOwnerInformationPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[127,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method submitNewPetPage(custom_classes.PetNames,custom_classes.Dates,custom_classes.PetTypes)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[129,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToEditPetThroghEditLinkOwnerInformationPage(custom_classes.PetNames)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[133,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method submitNewPetPage(custom_classes.PetNames,custom_classes.Dates,custom_classes.PetTypes)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[135,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToEditPetThroughNameOwnerInformationPage(custom_classes.PetNames)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[138,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method submitNewPetPage(custom_classes.PetNames,custom_classes.Dates,custom_classes.PetTypes)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[139,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAddNewPetOwnerInformationPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[141,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method submitNewPetPage(custom_classes.PetNames,custom_classes.Dates,custom_classes.PetTypes)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[142,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToAddNewPetOwnerInformationPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[145,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method submitNewPetPage(custom_classes.PetNames,custom_classes.Dates,custom_classes.PetTypes)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[147,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToVisitsOwnerInformationPage(custom_classes.PetNames)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[149,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method formVisitsPage(custom_classes.Dates,custom_classes.VisitDescriptions)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[150,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToIndexOwnerInformationPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[151,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToWelcomeIndexPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[152,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToOwnersWelcomePage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[167,52] constructor ClassUnderTestApogen in class main.ClassUnderTestApogen cannot be applied to given types;
+[[1;31mERROR[m]   required: org.openqa.selenium.WebDriver
+[[1;31mERROR[m]   found: no arguments
+[[1;31mERROR[m]   reason: actual and formal argument lists differ in length
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[168,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToVetsIndexPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[169,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToIndexVetsPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[170,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToWelcomeIndexPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[171,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToIndexWelcomePage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[172,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToOwnersIndexPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[186,52] constructor ClassUnderTestApogen in class main.ClassUnderTestApogen cannot be applied to given types;
+[[1;31mERROR[m]   required: org.openqa.selenium.WebDriver
+[[1;31mERROR[m]   found: no arguments
+[[1;31mERROR[m]   reason: actual and formal argument lists differ in length
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[187,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToNewOwnerIndexPage()
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[193,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method submitOwnerFormNewOwnerPage(custom_classes.FirstNames,custom_classes.LastNames,custom_classes.Addresses,custom_classes.Cities,custom_classes.Telephones)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[194,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method searchFilterOwnersPage(custom_classes.FirstNames,custom_classes.LastNames)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[196,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method searchFilterOwnersPage(custom_classes.FirstNames,custom_classes.LastNames)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] /home/ubuntu/workspace/fse2019/petclinic/src/main/java/main/ClassUnderTestApogen_ESTest.java:[198,28] cannot find symbol
+[[1;31mERROR[m]   symbol:   method goToOwnerInformationOwnersPage(custom_classes.FirstNames,custom_classes.LastNames)
+[[1;31mERROR[m]   location: variable classUnderTestApogen0 of type main.ClassUnderTestApogen
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
